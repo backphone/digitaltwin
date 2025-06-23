@@ -1,0 +1,35 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Virtual environments ===
+env/
+venv*/
+lib/
+lib64/
+bin/
+include/
+pyvenv.cfg
+
+# === Logs and metadata ===
+logs/
+*.log
+*.metadata
+
+# === FAISS index and feedback ===
+faiss_index/
+feedback_faiss/
+feedback_chunks/
+
+# === Uploaded or extracted documents ===
+documents/
+uploaded_docs/
+redacted_emails/
+original_emails_fulltext/
+
+# === OS & Editor files ===
+.DS_Store
+*.swp
+*~
