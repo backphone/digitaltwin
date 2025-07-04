@@ -1,6 +1,0 @@
-windows 7/8: 
-
-
-1)Click Windows Start button and in to the search field type: turn windows features on or off; 
-In case of you are using Windows 8, and don't have Windows Start button, you may press Windows + F on keyboard, then key in " turn windows features on or off" in search bar.
-2)Click on " turn windows features on or off " in search results, find Telnet Client in the list, check the box and click OK .

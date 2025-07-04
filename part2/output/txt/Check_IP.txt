@@ -1,7 +1,0 @@
-For windows 7/8:
-
-1)Click on Windows Start button, and type cmd in the search box, Enter;
-2) in the new command window, type command ipconfig, Enter;
-3) verify the ipv4 address in the output
-
-Please refer to attached example.

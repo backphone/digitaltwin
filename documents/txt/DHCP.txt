@@ -1,6 +1,0 @@
-ip dhcp pool NAME
-network x.x.x.x y.y.y.y
-default-router x.x.x.x
-dns-server x.x.x.x
-exit
-ip dhcp excluded-address x.x.x.x

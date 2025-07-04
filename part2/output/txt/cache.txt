@@ -1,9 +1,0 @@
-1. Open Internet Explorer.
-2. From the Tools menu choose Internet Options. (If you don't see this, press the Alt key to show the menu bar.)
-3. On the General tab, under Browsing history, click Delete.
-4. Un-check the Preserve Favorites website data box.
-5. Check the Temporary Internet files, Cookies, and History boxes.
-6. The Form data, Passwords, and in Private Filtering data boxes may be left un-checked.
-7. Click Delete.
-8. When finished, click OK to return to your Internet Explorer window.
-9. Close the Internet Explorer window and reopen

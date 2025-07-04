@@ -1,25 +1,0 @@
-•
-
-Network detail info
-
-On the Communication PC and on Amos Laptop carry out following operation in order to check the network settings
-of the vessel
-Type “cmd” in the search bar (A); then click on cmd application (B)
-Windows 7
-B
-
-A
-
-Type in the black window: ipconfig/all
-
-then enter
-
-Windows XP
-
-Made a screen shot of the whole result page and send to us
-
-As shown below Just press the “stamp” key to make a screen shot, then press ctrl+v
-in a blank word document to copy the picture
-*The ”stamp” key is usually located on top in the right corner
-
-

@@ -1,9 +1,0 @@
-When you look closer to the power switch unit, there is another spare BUC power cable. But this cable is for another radio type (Codan). One end of this cable is located at the power switch unit. Then this cable runs through the black power ring and then it goes up to the BUC, where it is hanging, not connected, labeled as BUC (Codan).
-
-1. Please disconnect current NJRC power cable from the power switch unit and connect BUC(Codan) cable instead. 2. Then measure the DC voltage on the other end (cable hanging on BUC side). If you manage to measure the DC voltage while BUC (codan) cable is in use, that will indicate that BUC(NJRC) cable or the its power ring section is broken. 3. If this is the case, then power ring needs to be replaced.
-
-There is a chance to use the BUC (Codan) cable, only thing that needs to be done is to replace the connector on the radio side, because the military plug for Codan radio is smaller and will not fit to the NJRC radio. When you look closer on the NJRC military plug, there are very small letters linked to each power pin. Those are labeled as A and B. Pin A is the + and pin B is the - pole. If you don’t manage to disassemble those military plugs to get them swapped, you can cut the cable and just interconnect good cable (BUC-Codan cable) with NJRC military plug (you can solder those wires or use some terminal strip to get wires interconnected. Then later the whole power ring can be replaced when you are back in port. The power ring has 3 pair of channels for the power and sometimes it might happen that one channel fails, while other channels still can be used.
-
-I know that this is quite complicated procedure, but some skilled electricians have done this procedure before and made the system temporary working, before our technician managed to get on board.
-
-Please let me know if you think you can follow this procedure or if you have any other questions.
