@@ -1,0 +1,12 @@
+Display name:		VESTBY, Lars
+Recipient display name:	VESTBY, Lars
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Address type:		EX
+Recipient type:		To
+
+Display name:		Team RCS MGMT
+Recipient display name:	Team RCS MGMT
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=48c22aea2d8946d2b26532d839c16add-Team RCS MG
+Address type:		EX
+Recipient type:		To
+

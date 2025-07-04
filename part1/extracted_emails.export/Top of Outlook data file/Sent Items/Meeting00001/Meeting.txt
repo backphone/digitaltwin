@@ -1,0 +1,21 @@
+Message:
+Client submit time:			Jun 03, 2025 23:54:57.663600300 UTC
+Delivery time:				Jun 03, 2025 23:54:00.000000000 UTC
+Creation time:				Jun 03, 2025 23:54:56.032604300 UTC
+Modification time:			Jun 03, 2025 23:55:02.706445300 UTC
+Size:					10722
+Flags:					0x00000001 (Read)
+Conversation topic:			UTM 2.line traning for RCS
+Subject:				Accepted: UTM 2.line traning for RCS
+Sender name:				SI, Guanglin
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1433996c772d414ca7c8f9553a66ded3-c4ba675a-2f
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1433996c772d414ca7c8f9553a66ded3-c4ba675a-2f
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Reminder time:				Jun 05, 2025 08:30:00.000000000 UTC
+Is private:				no
+
+Meeting:

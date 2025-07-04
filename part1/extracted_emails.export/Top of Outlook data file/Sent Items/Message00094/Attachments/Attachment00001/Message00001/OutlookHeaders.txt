@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 13, 2025 12:24:14.000000000 UTC
+Delivery time:				Jun 13, 2025 12:24:19.524298700 UTC
+Creation time:				Jun 18, 2025 00:16:30.358448700 UTC
+Modification time:			Jun 18, 2025 00:16:35.994291700 UTC
+Size:					689264
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Recap Process and materials available - Network Solution design changes become payable from June 1st 2025
+Subject:				RE: Recap Process and materials available - Network Solution design changes become payable from June 1st 2025
+Sender name:				VESTBY, Lars
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Sent representing name:			VESTBY, Lars
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

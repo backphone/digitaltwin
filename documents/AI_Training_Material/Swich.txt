@@ -1,0 +1,14 @@
+sh mac address
+sh vlan
+sh interface
+sh interface vlan1
+
+Vlan 1 is the default vlan for all ports. (no shutdown)
+
+enable secrect xxxxxx
+line console 0
+password xxxxxx
+login
+line vty 0 4
+password xxxxxx
+login

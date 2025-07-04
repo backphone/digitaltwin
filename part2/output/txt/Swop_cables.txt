@@ -1,0 +1,12 @@
+
+1. Turn off the ACU and iDirect modem. 
+2. Go inside the dome and unplug cables from rotary #1 TX and rotary #2 RX ports on Intellian Power Switch Unit. (see picture: intellian power switch unit ) 
+3. Switch these cables, so TX cable will be connected into port rotary #2 RX and RX cable will be connected into port rotary #1 TX 
+4. Unplug RX and TX cables from rotary joint (see picture: rotary joint) 
+5. Unscrew 4 screws from rotary joint (see picture : rotary joint_screws) 
+6. Rotate rotary joint by 180 degrees horizontally. Don’t pull up the rotary joint, just rotate from side to side ! 
+7. After rotation port 1 on rotary joint will be near TX cable and port 2 will be near RX cable. 
+8. Please connect Tx cable to rotary joint port 1 and connect RX cable to rotary joint port 2. 
+9. Screw back 4 screws on rotary joint (see picture : rotary joint_screws) 
+10. Make sure all cables are connected properly and nothing is loose. 
+11. Turn on ACU and iDirect modem.

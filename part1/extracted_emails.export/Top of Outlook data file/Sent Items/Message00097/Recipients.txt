@@ -1,0 +1,6 @@
+Display name:		QIAN, Shengwei
+Recipient display name:	QIAN, Shengwei
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4e5c481d90c445f6b2d592a1efa7f3d7-834cb415-b7
+Address type:		EX
+Recipient type:		To
+

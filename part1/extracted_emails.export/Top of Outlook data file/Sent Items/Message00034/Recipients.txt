@@ -1,0 +1,6 @@
+Display name:		ServiceDesk
+Recipient display name:	ServiceDesk
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Address type:		EX
+Recipient type:		To
+

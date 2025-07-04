@@ -1,0 +1,39 @@
+Intellian to design and supply dual-parabolic reference user terminals for the Telesat Lightspeed network | Intelliantech
+Back to listing
+Press Release
+Intellian to design and supply dual-parabolic reference user terminals for the Telesat Lightspeed network
+Date
+08 March 2022
+OTTAWA, CANADA and SEOUL, KOREA, March 8, 2022
+–
+Telesat
+(NASDAQ and TSX: TSAT), one of the world’s largest and most innovative satellite operators, and
+Intellian
+, a leading provider of feature-rich, future-proof satellite communications solutions, today announced a contract award for Intellian to design and supply reference enterprise user terminals for the Telesat Lightspeed Low Earth Orbit (LEO) satellite network.
+Intellian’s innovative satellite terminal technology leverages the company’s non-geostationary satellite orbit (NGSO) modem integration expertise and satellite tracking algorithms and will provide Telesat’s most demanding customers with highly reliable, high throughput access to the Telesat Lightspeed network. Telesat will use early deliveries of Intellian terminals to support system development and performance testing, and during the Telesat Lightspeed Alpha and Beta Test phases, to demonstrate system capabilities to Telesat’s enterprise, telecom and government customers, including the Government of Canada. Telesat and Intellian are also discussing terminal development programs for other market segments.
+These high-performance user terminals feature dual-parabolic antennas in a true make-before-break configuration to achieve seamless handovers from one satellite to the next in the LEO constellation. The parabolic reflectors are optimized to provide the highest gain achievable with a 1m aperture, allowing high data rates and excellent link margin performance for Telesat’s end-user community. Long-term reliability and resilience, which are hallmarks of all Intellian products, particularly in extreme hot and cold environments, will enable worldwide deployment.
+“As a proven terminal provider for Telesat’s
+Phase 1 LEO demonstrations
+and with their extensive experience in deploying tracking antennas for NGSO networks, Intellian is the right partner to enable customer access to the Telesat Lightspeed network from anywhere in the world,” says Aneesh Dalvi, Telesat’s Director of LEO Landing Stations and User Terminals. “Intellian’s carrier-grade, dual-parabolic terminals will be an integral component of Telesat’s low-latency, high-performance Telesat Lightspeed ecosystem.”
+“We’re very pleased to be a technological cornerstone of such a significant venture,” adds Eric Sung, Intellian CEO. “This contract is another resounding affirmation of our position as a market leader, partnering to deliver unparalleled value to customers across a diverse range of markets. Our proven capabilities to design cutting-edge, high-performance and flexible solutions synonymous with our products make us an ideal partner for Telesat.”
+About Telesat
+Backed by a legacy of engineering excellence, reliability and industry-leading customer service, Telesat (NASDAQ and TSX: TSAT) is one of the largest and most successful global satellite operators. Telesat works collaboratively with its customers to deliver critical connectivity solutions that tackle the world’s most complex communications challenges, providing powerful advantages that improve their operations and drive profitable growth.
+Continuously innovating to meet the connectivity demands of the future, Telesat Lightspeed, the company’s Low Earth Orbit (LEO) satellite network, will be the first and only LEO network optimized to meet the rigorous requirements of telecom, government, maritime and aeronautical customers. Operating under its international priority Ka-band spectrum rights, Telesat Lightspeed will redefine global satellite connectivity with ubiquitous, affordable, high-capacity links with fibre-like speeds. For updates on Telesat, follow us on
+Twitter
+,
+LinkedIn
+, or visit
+www.telesat.com
+.
+About Intellian Technologies, Inc
+Intellian is driven by a passion for innovation and an agile responsiveness to customer needs. As the crucial link between satellite networks and millions of people on Earth, Intellian’s leading technology and antennas empower global connectivity across oceans and continents, organizations and communities. Strategic thinking, an obsession with quality and a proven ability to deliver enables Intellian to invent for the future, creating mutual success for partners and customers as the world’s connectivity needs evolve. For more information, follow
+@Intellian
+and visit
+intelliantech.com
+.
+Intellian Technologies Inc. is listed on the Korean Stock Exchange, KOSDAQ (189300:KS).
+Telesat Forward-Looking Statements Safe Harbor
+This news release contains statements that are not based on historical fact and are “forward-looking statements’’ within the meaning of the Private Securities Litigation Reform Act of 1995 and Canadian securities laws. When used herein, statements which are not historical in nature, or which contain the words “will,” or similar expressions, are forward-looking statements. Actual results may differ materially from the expectations expressed or implied in the forward-looking statements as a result of known and unknown risks and uncertainties.
+These forward-looking statements are based on Telesat Corporation’s current expectations and are subject to a number of risks, uncertainties and assumptions. These statements are not guarantees of future performance and are subject to risks, uncertainties and other factors, some of which are beyond Telesat Corporation’s control, are difficult to predict, and could cause actual results to differ materially from those expressed or forecasted in the forward-looking statements. Known risks and uncertainties include but are not limited to: risks associated with operating satellites and providing satellite services, including satellite construction or launch delays, launch failures, in-orbit failures or impaired satellite performance; the impact of COVID-19 on Telesat Canada’s business and the economic environment; the ability to deploy successfully an advanced global Low Earth Orbit (“LEO”) satellite constellation, and the timing of any such deployment; the availability of government and/or other funding for the LEO satellite constellation; the receipt of proceeds in relation to the re-allocation of C-band spectrum; volatility in exchange rates; the ability to expand Telesat Canada’s existing satellite utilization; and risks associated with domestic and foreign government regulation. The foregoing list of important factors is not exhaustive. Investors should review the other risk factors discussed in the non-offering prospectus of Telesat Corporation and Telesat Partnership dated November 16, 2021 on the website maintained by the Canadian securities regulatory authorities at the System for Electronic Document Analysis and Retrieval at
+www.sedar.com
+.

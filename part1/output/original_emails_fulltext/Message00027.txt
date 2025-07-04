@@ -1,0 +1,22 @@
+Hi,
+ 
+As we got lowest score about ABC strategy on voice@marlink survey, I’ll try to summarize it on a high level: 
+ 
+We at Marlink try to build a platform that is independent from any operators, E.g., Starlink, Inmarsat and etc., so that we can provide our own solution and also stay in control of it
+“Product” is only part of it, and many customers don’t have the resource to manage the complex system, especially with IT/OT involved, so we also need to provide “service”
+ 
+So, in the effort to archive that, we are lunching below:
+ Starlink SNG SCAP, so that we are not limited by the Starlink offerings, e.g. 1TB and etc.
+Inmarsat GX – wave service: basically, we treat Inmarsat the same as Intelsat and get nothing but only the satellite bandwidth from them. No FBB, No NSD, No VAS including voice. Thanks to that, we will have SNG Ka offering, just like the existing SNG (Ku) plan
+ “Professional services”: we will manage Xchange, vessel LAN, on customer’s behalf
+“Service management” : SM will provide consultancy service, e.g., periodic review, reporting and etc
+ 
+You can find the details in the recording, or feel free to raise questions about it next Wednesday.
+ 
+ 
+ 
+ 
+ 
+BR
+Guanglin
+ 

@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 05, 2025 07:33:43.633418900 UTC
+Delivery time:				Jun 05, 2025 07:33:00.000000000 UTC
+Creation time:				Jun 05, 2025 07:33:43.430039200 UTC
+Modification time:			Jun 05, 2025 07:33:49.801881200 UTC
+Size:					17367
+Flags:					0x00000001 (Read)
+Conversation topic:			10 July
+Subject:				10 July
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

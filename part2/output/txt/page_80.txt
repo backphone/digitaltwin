@@ -1,0 +1,88 @@
+i5- Satellite TV for boats yachts and commercial ships | Intelliantech
+i5
+One of a Kind
+53.5cm (21 inch) Reflector Ku-band Satellite TV System
+The i5 Satellite TV system is the world's first marine satellite antenna system purpose built for offshore cruising vessels 12m (35ft) to 18m (60ft) in length. With performance similar to most 60cm (24 inch) systems, the i5 delivers quality signal reception throughout many of the world's popular cruising destinations in a small, efficient form factor that matches the aesthetic of vessels in this size class.
+i5
+Key Features
+Specifications
+Downloads
+Accessories
+Related Products
+Where to Buy
+Key Features
+Standard All Americas Package
+i5 is standard equipped with All Americas LNB for extended cruising without swapping components along the way.
+New Size Category
+Only 21” system on the market today which performs like most 24” systems currently offered.
+Triple Sat Function
+Auto satellite switching function for three satellites.
+Automatic Skew Control
+The available i5P version is equipped with Automatic Skew Control, which allows for better satellite tracking on vessels operating over greater distances in regions served by Linear satellite transmissions.
+iQ²: Quick&Quiet℠ Technology
+iQ² Technology allows you to tune in quickly, maintain a solid signal lock, and enjoy your favorite TV programming in quiet comfort when alongside or out at sea
+The Wide Range Search (WRS) Algorithm locks onto the satellite signal 4-5 times faster than conventional approaches
+Dynamic Beam Tilting (DBT) technology uses intelligent, real-time beam analysis to ensure superior signal quality while reducing overall motor motion by up to 80%, eliminating intrusive background noise
+Multiple Receiver Capability
+Multiple receivers and TVs can be connected using a Multi-Switch or the Intellian MIM (Multi-Satellite Interface Module)
+Using the MIM a master receiver can be selected to control the target satellite
+In North America, when using Dish or Bell TV, a MIM is required, enabling automatic satellite switching from your remote control just like at home
+Specifications
+i-Series
+Radome Dimension
+61 cm x 62.7 cm (24" x 24.7")
+Reflector Diameter
+53.5cm (21")
+Antenna Weight
+17.3 kg (38 lbs)
+Min EIRP
+47 dBW
+Elevation Range
+'0˚  to +90˚
+Polarization
+Linear or Circular
+Auto Skew
+i5P
+WorldView Capable
+No
+i-Series
+Downloads
+i5
+Datasheet
+Download Latest
+i5P
+Datasheet
+Download Latest
+i5
+Image Library
+Download Latest
+i5, i5P
+User Manual
+Download Latest
+Accessories
+Dual TVRO Mediator
+Dual TVRO Mediators mitigate blockage in a dual satellite TV system, automatically switching between antennas.
+Learn More
+Intellian Multi Satellite Interface Module (MIM)
+The Intellian MIM enables auto switching of satellites when using Dish or Bell TV in North America.
+Learn More
+Matching Radome
+Matching radomes are used to maintain a symmetrical look onboard.
+Learn More
+Related Products
+View all Products
+i6
+Explore Product
+i9
+Explore Product
+i2
+Explore Product
+i3
+Explore Product
+i4
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

@@ -1,0 +1,18 @@
+Display name:		FERON, Luc
+Recipient display name:	FERON, Luc
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a9982828df524e039a79f7d102c73018-Luc Feron
+Address type:		EX
+Recipient type:		To
+
+Display name:		ARGANESE, Franck
+Recipient display name:	ARGANESE, Franck
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=48126b3a79214443b166aef9e16f872a-Franck Arga
+Address type:		EX
+Recipient type:		To
+
+Display name:		VESTBY, Lars
+Recipient display name:	VESTBY, Lars
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Address type:		EX
+Recipient type:		To
+

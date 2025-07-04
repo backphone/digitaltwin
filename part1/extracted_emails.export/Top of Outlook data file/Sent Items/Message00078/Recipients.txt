@@ -1,0 +1,24 @@
+Display name:		evela@transgas.com.pe
+Recipient display name:	evela@transgas.com.pe
+Email address:		evela@transgas.com.pe
+Address type:		SMTP
+Recipient type:		To
+
+Display name:		ServiceDesk
+Recipient display name:	ServiceDesk
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Address type:		EX
+Recipient type:		CC
+
+Display name:		DIAZ GARCIA, Ubaldo
+Recipient display name:	Ubaldo.Diaz@marlink.com
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f148566308fe4c039807156d32f38540-Ubaldo Diaz
+Address type:		EX
+Recipient type:		CC
+
+Display name:		mforton@transgas.com.pe
+Recipient display name:	mforton@transgas.com.pe
+Email address:		mforton@transgas.com.pe
+Address type:		SMTP
+Recipient type:		CC
+

@@ -1,0 +1,75 @@
+Received: from PA4PR01MB9305.eurprd01.prod.exchangelabs.com
+ (2603:10a6:102:2ad::19) by PA4PR01MB10404.eurprd01.prod.exchangelabs.com with
+ HTTPS; Fri, 9 May 2025 12:03:24 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=marlink.com;
+Received: from AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+ (2603:10a6:206:5::21) by PA4PR01MB9305.eurprd01.prod.exchangelabs.com
+ (2603:10a6:102:2ad::19) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8722.23; Fri, 9 May
+ 2025 12:03:21 +0000
+Received: from AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+ ([fe80::82cd:acfb:6db7:6f6f]) by AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+ ([fe80::82cd:acfb:6db7:6f6f%3]) with mapi id 15.20.8722.021; Fri, 9 May 2025
+ 12:03:21 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "VESTBY, Lars" <Lars.Vestby@marlink.com>
+To: Team RCS Global <Team.RCSGlobal@marlink.com>
+Subject: PRA - Privileged remote access -solution
+Thread-Topic: PRA - Privileged remote access -solution
+Thread-Index: AdvA12DQwspHC02/TzuJwEzJ43Q5vg==
+Date: Fri, 9 May 2025 12:03:21 +0000
+Message-ID:
+ <AM5PR01MB29785BF7964EA0A11874816DE68AA@AM5PR01MB2978.eurprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <AM5PR01MB29785BF7964EA0A11874816DE68AA@AM5PR01MB2978.eurprd01.prod.exchangelabs.com>
+msip_labels:
+ MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_ActionId=e8664cb6-8911-4e7b-85a1-51ce18e8fd1c;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_ContentBits=0;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Enabled=true;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Method=Standard;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Name=Standard
+ Not
+ Encrypted;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_SetDate=2025-05-09T08:33:56Z;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_SiteId=e64eed3b-130b-4001-b50d-f867ed318682;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Tag=10,
+ 3, 0, 1;
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource:
+ AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ 47084da9-a1e1-4b61-b3d3-08dd8ef17e7f
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ AM5PR01MB2978:EE_|PA4PR01MB9305:EE_|PA4PR01MB10404:EE_
+Return-Path: Lars.Vestby@marlink.com
+X-MS-Exchange-Organization-ExpirationStartTime: 09 May 2025 12:03:21.9225
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 47084da9-a1e1-4b61-b3d3-08dd8ef17e7f
+X-LD-Processed: e64eed3b-130b-4001-b50d-f867ed318682,ExtAddr
+X-Microsoft-Antispam: BCL:0;ARA:13230040|366016|8096899003|41050700001;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM5PR01MB2978.eurprd01.prod.exchangelabs.com;PTR:;CAT:NONE;SFS:(13230040)(366016)(8096899003)(41050700001);DIR:INT;
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Recipient-P2-Type: To
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 May 2025 12:03:21.6727
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: e64eed3b-130b-4001-b50d-f867ed318682
+X-MS-Exchange-CrossTenant-AuthSource: AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 47084da9-a1e1-4b61-b3d3-08dd8ef17e7f
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: 6t8i0MO5ceG6Rms/Fd7X0JX2BE/QZElEsjF0dygWKQQI+ruqcVXJt9Q8AfMjMyDvp+82P+5rxC09LqrMDfHBMw==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PA4PR01MB9305
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1861313
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8699.024
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	w3ndwrA8lwv7jQCpGVNrsmKQsXulQbwYPIFqN+Tew1LdFeX3uUFDVhjYYDHksK6ddKNHWa6R0ekU1T0Z/9ev92A93D0opPzuxtyCsAvvvYUq2Q05cvd7V8T5RcL7fKJWK1zglrPxS4LKuJ8BUFc264D7tMLZNbN6zO15lIIOIwOO7qktqfvDPvE0KFbjCxlUuwhC7/oO1w4+sudPGWqhl0I9sfmxeZPJF2YGrPDQ1kYYan9b7S+1+4Kmkx6Qnm3m4ofGg8rLDqWyotwB1z7DoGHpfQzlE+JLvk8nDYjjQ2hmEDkPrDNvtIVMFYzn8YUvGhpc/8T4Qny5BQxkna8ZZh0LEAUgQlaclpXpKTqDyILf9a0SwMIsFcFNZpEDpf9U2yK+fqbsLgGyUtBYfsP9IkwvMUIGmMlx4Op6MqY8DIuVNdpzKj/j+yoxIgBQ7DxXsvlLcZ40FVNDmcoLRn1HjpTDMZ6gyX8/rEtInCXtFjqRG+AYbUTpRBEtOSTjFFYhpepuvbcry7L23cs5GX+tG61qh0VPv86B7cwv15C5/GoJcIWTrJNHP1pNlNrJEudNyHuiDhWFAAYgnOgi7jBSrdcro3c90hcgCCngSTn7OHUES1yAxGg73yxWkHa/Q85fgGElYWsIeC9VYaUokN83jnZLxZHofJGYjMoOhzKo/DAR+Y9wJIudZR9wXsO+yYaACWnA5lvVXcsuYJhXrcyRzbW0kpfobObVV+CB6Y+xfWqwSYEvPnZNZWdBJxXdUT6+J573iOcIqu7TeSlHHWYMXgowKglCqfNroPCO9CFgA0Q=

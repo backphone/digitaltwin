@@ -1,0 +1,82 @@
+t240CK - Intellian 2.4m Marine Satellite TV | Intelliantech
+t240CK
+WorldView Antennas for Global Performance
+2.4m reflector sized antenna which offers simultaneous C-band and Ku-band reception
+The t240CK is the world’s first antenna capable of receiving both HD and SD satellite TV services on C-band and Ku-band simultaneously from the same satellite. Intellian’s multi-band and multi-polarization WorldView LNB enables users to seamlessly tune in to any satellite TV service around the globe by simply pushing a button each time the vessel crosses into a different satellite service region.
+t240CK
+Key Features
+Specifications
+Downloads
+Accessories
+Related Products
+Where to Buy
+Key Features
+Dual Band Reception
+Simultaneous C-band and Ku-band TV Reception from a single antenna where available.
+Hands-Free WorldView LNB
+WorldView LNB for global operation with any satellite TV provider.
+Remotely Accessible Antenna Control Unit
+Networkable with any onboard, Intellian communications system
+Remotely accessible and upgradable via the Aptus Web interface
+FiberLink Ready
+The Intellian FiberLink module connects the antenna to the below deck units with a single, lossless fiber optic cable, greatly simplifying shipboard installation. Ideal on larger vessels.
+Global Leader
+World’s first antenna capable of receiving satellite TV services on C-band and Ku-band simultaneously
+Intellian’s multi-band and multi-polarization WorldView LNB
+Seamlessly tune into any satellite TV service around the globe with the press of a button
+Fiber Ready
+Intellian FiberLink module can be used for long cable run installation environments
+Enables a single fiber cable connection from the antenna to the below deck units
+Fiber optic cable can be run up to 2km without signal loss, greatly simplifying shipboard installation
+Specifications
+New t-Series
+Radome Dimension
+330 cm x 352 cm (130" x 139")
+Reflector Diameter
+240cm (94.5")
+Antenna Weight
+630 kg (1,389 lbs)
+Min EIRP
+C-band: 31 dBW Ku-band: 35 dBW
+Elevation Range
+-15˚  to +120˚
+Polarization
+C-band: Linear or Circular Ku-band: Linear & Circular
+Auto Skew
+Yes
+WorldView Capable
+Yes
+New t-Series
+Downloads
+t240CK
+Datasheet
+Download Latest
+t240CK
+Image Library
+Download Latest
+t240CK
+User Manual
+Download Latest
+Accessories
+Dual TVRO Mediator
+Dual TVRO Mediators mitigate blockage in a dual satellite TV system, automatically switching between antennas.
+Learn More
+Intellian Multi Satellite Interface Module (MIM)
+The Intellian MIM enables auto switching of satellites when using Dish or Bell TV in North America.
+Learn More
+TVRO FiberLink Module
+The TVRO Fiber Link system allows longer cable runs on larger vessels with zero signal loss.
+Learn More
+Related Products
+View all Products
+v240C
+Explorer Product
+v240M 2
+Explorer Product
+v240MT 2
+Explorer Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

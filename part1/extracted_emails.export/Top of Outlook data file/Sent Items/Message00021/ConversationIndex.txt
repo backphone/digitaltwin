@@ -1,0 +1,86 @@
+Conversation index:
+Header block:
+	Filetime:	Dec 31, 1830 07:22:59.822182400 UTC
+	GUID:		bc2e4631-a46b-df43-b1f1-182f8de703b9
+Child block: 1
+	Filetime:	Nov 17, 1865 03:59:57.525196800 UTC
+	Random number:	2
+	Sequence count:	0
+Child block: 2
+	Filetime:	May 22, 1898 16:31:39.744460800 UTC
+	Random number:	9
+	Sequence count:	0
+Child block: 3
+	Filetime:	Sep 27, 1919 19:59:03.689011200 UTC
+	Random number:	11
+	Sequence count:	0
+Child block: 4
+	Filetime:	Feb 05, 1975 06:25:00.855091200 UTC
+	Random number:	0
+	Sequence count:	0
+Child block: 5
+	Filetime:	Oct 20, 2007 09:15:00.879769600 UTC
+	Random number:	0
+	Sequence count:	0
+Child block: 6
+	Filetime:	Sep 26, 2037 10:03:18.839091200 UTC
+	Random number:	0
+	Sequence count:	0
+Child block: 7
+	Filetime:	Nov 16, 2045 05:25:32.177408000 UTC
+	Random number:	3
+	Sequence count:	0
+Child block: 8
+	Filetime:	Jan 03, 2080 13:21:04.300646400 UTC
+	Random number:	8
+	Sequence count:	0
+Child block: 9
+	Filetime:	Mar 11, 2132 02:25:49.549158400 UTC
+	Random number:	13
+	Sequence count:	0
+Child block: 10
+	Filetime:	Oct 09, 2166 11:46:02.239385600 UTC
+	Random number:	4
+	Sequence count:	0
+Child block: 11
+	Filetime:	Oct 01, 2195 13:22:32.725094400 UTC
+	Random number:	15
+	Sequence count:	15
+Child block: 12
+	Filetime:	Dec 15, 2249 18:21:00.263424000 UTC
+	Random number:	0
+	Sequence count:	0
+Child block: 13
+	Filetime:	Jun 28, 2259 13:37:17.487308800 UTC
+	Random number:	1
+	Sequence count:	8
+Child block: 14
+	Filetime:	May 19, 2285 03:10:35.461836800 UTC
+	Random number:	13
+	Sequence count:	0
+Child block: 15
+	Filetime:	May 05, 2296 08:49:46.231398400 UTC
+	Random number:	0
+	Sequence count:	0
+Child block: 16
+	Filetime:	Sep 15, 2322 18:44:46.148198400 UTC
+	Random number:	8
+	Sequence count:	0
+Child block: 17
+	Filetime:	Jul 10, 2332 22:06:10.229657600 UTC
+	Random number:	8
+	Sequence count:	0
+Child block: 18
+	Filetime:	Jan 16, 2333 12:46:11.360972800 UTC
+	Random number:	8
+	Sequence count:	0
+Child block: 19
+	Filetime:	Apr 05, 2360 07:33:06.772377600 UTC
+	Random number:	12
+	Sequence count:	0
+Child block: 20
+	Filetime:	Feb 18, 2363 14:35:08.075622400 UTC
+	Random number:	11
+	Sequence count:	0
+
+

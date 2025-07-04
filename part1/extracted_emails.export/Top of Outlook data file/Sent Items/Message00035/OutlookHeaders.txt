@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 01, 2025 04:26:53.340785700 UTC
+Delivery time:				Jun 01, 2025 04:26:00.000000000 UTC
+Creation time:				Jun 01, 2025 04:26:45.062861300 UTC
+Modification time:			Jun 01, 2025 04:28:02.231713000 UTC
+Size:					3112244
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Ticket [1799125] - 
+Subject:				Ticket [1799125] - 
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

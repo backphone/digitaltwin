@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 17, 2025 00:10:17.304967100 UTC
+Delivery time:				Jun 17, 2025 00:10:00.000000000 UTC
+Creation time:				Jun 17, 2025 00:10:16.041246700 UTC
+Modification time:			Jun 17, 2025 00:10:27.885958300 UTC
+Size:					47817
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			DNS Whitelist Update During Deployment
+Subject:				FW: DNS Whitelist Update During Deployment
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

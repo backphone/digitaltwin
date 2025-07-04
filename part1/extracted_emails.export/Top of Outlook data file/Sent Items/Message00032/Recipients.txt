@@ -1,0 +1,6 @@
+Display name:		HORVATH, Michal
+Recipient display name:	HORVATH, Michal
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a0ba6f16c5af4c8b92c203015daf092c-Michal Horv
+Address type:		EX
+Recipient type:		To
+

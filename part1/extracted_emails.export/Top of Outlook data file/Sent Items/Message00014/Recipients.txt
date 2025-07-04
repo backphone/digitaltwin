@@ -1,0 +1,18 @@
+Display name:		ARGANESE, Franck
+Recipient display name:	ARGANESE, Franck
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=48126b3a79214443b166aef9e16f872a-Franck Arga
+Address type:		EX
+Recipient type:		To
+
+Display name:		HORVATH, Michal
+Recipient display name:	HORVATH, Michal
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a0ba6f16c5af4c8b92c203015daf092c-Michal Horv
+Address type:		EX
+Recipient type:		To
+
+Display name:		Team RCS MGMT
+Recipient display name:	Team RCS MGMT
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=48c22aea2d8946d2b26532d839c16add-Team RCS MG
+Address type:		EX
+Recipient type:		CC
+

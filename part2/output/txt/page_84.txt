@@ -1,0 +1,75 @@
+Intellian LP100 - Mil-Spec VSAT | Intelliantech
+LP100
+A Rugged, Lightweight, Man Portable, Quick Deployable Satellite Land Terminal
+Lightweight, man portable, flyaway antenna with a 1m reflector. Quick to deploy in under five minutes. Packed compact enough to fit in two backpacks for ease of deployment to theatre with automatic satellite acquisition to find the required satellite quickly and efficiently.
+LP100
+Key Features
+Product Video
+Specifications
+Related Products
+Where to Buy
+Key Features
+Portable Yet Stable Solution
+LP100 is lightweight, rugged, and portable. Supplied in either two hard cases or two soft casebacks, protecting the antenna system from harsh transport conditions in theater or air transport.
+Fail-Safe Operation with Manual Pointing
+Designed to offer fail-safe operation in event of an unpredictable environmental power failure on site. Manual pointing operation is also supported with the “P” button.
+Rapid Setup
+LP100 provides easy and quick deployment through modular assembly that can be completed in a few minutes. Requiring no tools, the antenna can be built in the dark as each reflector section is interchangeable.
+Dual Power Input AC/DC
+With the dual power input capability option, the LP100 can operate on AC power, or DC power from a vehicle.
+Product Video
+Learn about the Mil-Spec LP100 Land Series
+A quick video highlighting product features and capability.
+Watch the Video
+Land Portable Auto-Acquisition Satellite VSAT System
+Lightweight Man Portable Flyaway Antenna with a 1m reflector
+Designed for rapid deployment of high speed satellite communication networks for use in Defense, Disaster Recovery, Homeland Security, Law Enforcement, Emergency Response, Media, Telemedicine, Insurance, Remote office, Energy and Mining
+Quick to deploy in under five minutes and is packed compact enough for ease of transport.
+Automatic satellite Acquisition to find the required satellite efficiently
+The Intellian LP100 will Help Complete the Mission
+Designed to survive in the harshest of conditions while still delivering reliable communications.
+Highly portable with fast deployment ensures an in-theater operator can be online quickly
+Light weight for ease of deployment, man portable in two protective backpacks, yet rugged enough to withstand the harsh handling of a military environment.
+Can be managed using the Intellian Aptus platform, providing the ability to remotely manage and control the LP100 system through Aptus, using a simple one click process to provide system monitoring and support
+Specifications
+Mil-Spec VSAT
+Radome Dimension
+N/A
+Reflector Diameter
+105 cm (41.3 inch)
+Antenna Weight
+47 kg
+TX Frequency
+13.75 GHz ~ 14.5 GHz
+RX Frequency
+10.95 GHz~12.75 GHz
+TX Gain
+41.0 dBi
+RX Gain
+39.5 dBi
+G/T
+18.4 dB/K (min.)
+Mil-Spec VSAT
+LP100
+Datasheet
+Download Latest
+LP100
+Image library
+Download Latest
+Our Mil-Spec Specialists are here to help
+Need Military specialized satellite communications products?
+Our knowledgeable team can help you find the best connectivity solution for your business.
+Send Inquiry
+Related Products
+View all Products
+v100PM
+Explore Product
+GX100PM
+Explore Product
+X130D PM
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+We sell through a global network of authorized Intellian resellers. Regardless if you need fixed, COTM or COTP connectivity, our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs.
+Where to Buy

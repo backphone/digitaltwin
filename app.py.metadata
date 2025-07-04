@@ -1,0 +1,58 @@
+from flask import Flask, request, jsonify
+from langchain_community.vectorstores import FAISS
+from langchain_huggingface import HuggingFaceEmbeddings
+from openai import OpenAI
+import os
+import json
+import PyPDF2
+
+app = Flask(__name__)
+
+# ✅ Load FAISS vectorstore with metadata (source included)
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L3-v2")
+vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
+
+# ✅ Initialize OpenAI client (Use environment variable for safety)
+client = OpenAI(api_key="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")
+
+@app.route('/ask', methods=['POST'])
+def ask():
+    data = request.json
+    prompt = data.get("prompt", "")
+
+    # ✅ Retrieve top 3 relevant document chunks
+    retrieved_docs = vectorstore.similarity_search(prompt, k=3)
+
+    # ✅ Build context with explicit source references
+    context = ""
+    for doc in retrieved_docs:
+        source_info = doc.metadata.get('source', 'Unknown Source')
+        context += f"[Source: {source_info}]\n{doc.page_content}\n\n"
+    print("GPT Context:\n", context)
+
+
+    # ✅ GPT prompt with strict instruction to cite sources
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a technical support AI assistant. "
+                               "Use ONLY the knowledge provided below to answer. "
+                               "For every part of your answer, ALWAYS mention the [Source] "
+                               "from where the information came. If multiple sources apply, clearly cite them."
+                },
+                {"role": "system", "content": context},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        answer = response.choices[0].message.content
+    except Exception as e:
+        print(f"Error from OpenAI: {e}")
+        answer = "Failed to generate response due to an internal error."
+
+    return jsonify({"response": answer})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)

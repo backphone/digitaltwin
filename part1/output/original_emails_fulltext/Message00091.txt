@@ -1,0 +1,257 @@
+Hi team,
+ 
+Just a reminder, 
+that Bridgelink tickets should be sent to CCTS for troubleshooting, not bridgelink. 
+ 
+BR
+Guanglin
+ 
+From:
+ SI, Guanglin <Guanglin.Si@marlink.com> 
+Sent:
+ Wednesday, June 11, 2025 8:03 AM
+To:
+ VESTBY, Lars <Lars.Vestby@marlink.com>; Team RCS MGMT <Team.RCS_MGMT@marlink.com>
+Subject:
+ RE: TIER 3 BRIDGELINK SLA MAY 2025
+ 
+Hi Lars,
+ 
+All tickets were moved to CCTS by MITS, not RCS.
+ 
+1781066 : Ticket transfer from MITS to Telemar without going to CCTS.
+1684234 : Ticket transfer from MITS to Telemar without going to CCTS.
+1774533 : Ticket transfer from RCS to Telemar without going to CCTS.
+1781596 : Ticket transfer from MITS to Telemar without going to CCTS.
+1781038 : Ticket transfer from MITS to Telemar without going to CCTS.
+1781593 : Ticket transfer from MITS to Telemar without going to CCTS.
+1705160 : Ticket transfer from MITS to Telemar without going to CCTS.
+ 
+BR
+Guanglin
+ 
+From:
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+> 
+Sent:
+ Tuesday, June 10, 2025 11:19 PM
+To:
+ Team RCS MGMT <
+Team.RCS_MGMT@marlink.com
+>
+Subject:
+ FW: TIER 3 BRIDGELINK SLA MAY 2025
+ 
+Hi
+Can You inform your team that Bridgelink tickets should be sent to CCTS for troubleshooting if transfer to an higher team is needed.
+Not directly to Telemar.
+ 
+Br
+Lars 
+ 
+ 
+From:
+ FERON, Luc <
+Luc.Feron@marlink.com
+> 
+Sent:
+ Tuesday, June 10, 2025 5:13 PM
+To:
+ HAUGERUD, Eirik <
+Eirik.Haugerud@marlink.com
+>; HOLTRIN, Erik <
+erik.holtrin@marlink.com
+>; VESTBY, Lars <
+Lars.Vestby@marlink.com
+>
+Cc:
+ ARGANESE, Franck <
+Franck.Arganese@marlink.com
+>
+Subject:
+ RE: TIER 3 BRIDGELINK SLA MAY 2025
+ 
+Hi Eirik,
+ 
+Following analyse of the tickets for which Telemar worked for us in May, CCTS team is considering that they can manage directly today 7 tickets without Telemar help on the 9 invoiced. 
+1781066 : Ticket transfer from MITS to Telemar without going to CCTS.
+1684234 : Ticket transfer from MITS to Telemar without going to CCTS.
+1774533 : Ticket transfer from RCS to Telemar without going to CCTS.
+1781596 : Ticket transfer from MITS to Telemar without going to CCTS.
+1781038 : Ticket transfer from MITS to Telemar without going to CCTS.
+1781593 : Ticket transfer from MITS to Telemar without going to CCTS.
+1705160 : Ticket transfer from MITS to Telemar without going to CCTS.
+ 
+1626622 : Ticket transfer from CCTS to Telemar – Edge server KO – standard process
+1737779 : Ticket transfer from CCTS to Telemar – Edge server KO – standard process
+ 
+@Erik Holtrin
+, 
+@VESTBY, Lars
+,
+Can you please inform your team to send unresolved Bridgelink ticket to CCTS following connectivity trouble shooting ?
+CCTS is taking the responsibility to be between Maritime Ops and Telemar. 
+ 
+Many thanks 
+ 
+Kind regards,
+ 
+Luc Feron
+Director Competence Centers 
+Marlink SAS 
+CECS Aussaguel
+31450 Issus – France
+M +33 (0)6 71 04 65 04
+E  
+luc.feron@marlink.com
+www.marlink.com
+ 
+ 
+ 
+Digitally advancing your remote world by creating Possibilities. Anywhere.
+ 
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+De :
+ HAUGERUD, Eirik <
+Eirik.Haugerud@marlink.com
+> 
+Envoyé :
+ 03 June 2025 14:52
+À :
+ FERON, Luc <
+Luc.Feron@marlink.com
+>
+Objet :
+ FW: TIER 3 BRIDGELINK SLA MAY 2025
+ 
+Hi Luc,
+Fyi… more tickets to investigate.
+/Eirik
+ 
+From:
+ PANTI, Sonia <
+Sonia.Panti@telemargroup.com
+> 
+Sent:
+ Tuesday, June 3, 2025 2:39 PM
+To:
+ HAUGERUD, Eirik <
+Eirik.Haugerud@marlink.com
+>
+Cc:
+ IMPENS, Hendrik <
+Hendrik.Impens@telemargroup.com
+>; ROQUES, Matthieu <
+Matthieu.Roques@marlink.com
+>; AMBROSINO, Giuseppe <
+Giuseppe.Ambrosino@telemargroup.com
+>; TIZZANO, Loredana <
+Loredana.Tizzano@telemargroup.com
+>; Marlink SAS Accounts Payable <
+ap.sas@marlink.com
+>
+Subject:
+ R: TIER 3 BRIDGELINK SLA MAY 2025
+ 
+Hi,
+here’s attached the file.
+Thanks and regards.
+ 
+ 
+-----------------------------------------------------
+Sonia Panti
+Accounts Receivable
+T  +39 06 32 21 800
+E  
+sonia.panti@telemargroup.com
+E 
+customeraccounts.it@telemargroup.com
+www.telemargroup.com
+ 
+ 
+Digital Bridge Solution Excellence
+Possibilities. Anywhere.
+ 
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+ 
+ 
+Da:
+ HAUGERUD, Eirik <
+Eirik.Haugerud@marlink.com
+> 
+Inviato:
+ martedì 3 giugno 2025 11:50
+A:
+ PANTI, Sonia <
+Sonia.Panti@telemargroup.com
+>
+Cc:
+ IMPENS, Hendrik <
+Hendrik.Impens@telemargroup.com
+>; ROQUES, Matthieu <
+Matthieu.Roques@marlink.com
+>; AMBROSINO, Giuseppe <
+Giuseppe.Ambrosino@telemargroup.com
+>; TIZZANO, Loredana <
+Loredana.Tizzano@telemargroup.com
+>; Marlink SAS Accounts Payable <
+ap.sas@marlink.com
+>
+Oggetto:
+ RE: TIER 3 BRIDGELINK SLA MAY 2025
+ 
+Hi,
+As discussed last time could you please share the calculation report when the invoice sent.
+Thanks,
+Eirik
+ 
+From:
+ PANTI, Sonia <
+Sonia.Panti@telemargroup.com
+> 
+Sent:
+ Tuesday, June 3, 2025 10:12 AM
+To:
+ Marlink SAS Accounts Payable <
+ap.sas@marlink.com
+>
+Cc:
+ IMPENS, Hendrik <
+Hendrik.Impens@telemargroup.com
+>; ROQUES, Matthieu <
+Matthieu.Roques@marlink.com
+>; AMBROSINO, Giuseppe <
+Giuseppe.Ambrosino@telemargroup.com
+>; HAUGERUD, Eirik <
+Eirik.Haugerud@marlink.com
+>; TIZZANO, Loredana <
+Loredana.Tizzano@telemargroup.com
+>
+Subject:
+ TIER 3 BRIDGELINK SLA MAY 2025
+ 
+Dear All,
+here’s attached our invoice, as reported on subject.
+Thanks and regards.
+ 
+ 
+-----------------------------------------------------
+Sonia Panti
+Accounts Receivable
+T  +39 06 32 21 800
+E  
+sonia.panti@telemargroup.com
+E 
+customeraccounts.it@telemargroup.com
+www.telemargroup.com
+ 
+ 
+Digital Bridge Solution Excellence
+Possibilities. Anywhere.
+ 
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+ 

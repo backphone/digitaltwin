@@ -1,0 +1,6 @@
+Display name:		SURALINATHAN, Suresh
+Recipient display name:	SURALINATHAN, Suresh
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=18b3654d3d2f4e38a95c615f70dae010-Suresh Sura
+Address type:		EX
+Recipient type:		To
+

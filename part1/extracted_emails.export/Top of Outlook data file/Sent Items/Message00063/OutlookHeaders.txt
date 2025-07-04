@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 17, 2025 04:18:50.295968300 UTC
+Delivery time:				Jun 17, 2025 04:18:00.000000000 UTC
+Creation time:				Jun 17, 2025 04:18:48.905562200 UTC
+Modification time:			Jun 17, 2025 04:19:09.245888100 UTC
+Size:					701643
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Marlink Ticket [1811650] - IGM Amethyst ref:Request for V-SAT System Details – NSE Software Implementation on Vessel
+Subject:				Marlink Ticket [1811650] - IGM Amethyst ref:Request for V-SAT System Details – NSE Software Implementation on Vessel
+Sender name:				ServiceDesk
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Sent representing name:			ServiceDesk
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

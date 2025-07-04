@@ -1,0 +1,19 @@
+Message:
+Client submit time:			May 09, 2025 12:03:21.000000000 UTC
+Delivery time:				May 09, 2025 12:03:25.314083000 UTC
+Creation time:				May 28, 2025 00:23:37.960939100 UTC
+Modification time:			May 28, 2025 00:23:43.728138200 UTC
+Size:					53394
+Flags:					0x00000001 (Read)
+Conversation topic:			PRA - Privileged remote access -solution
+Subject:				PRA - Privileged remote access -solution
+Sender name:				VESTBY, Lars
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Sent representing name:			VESTBY, Lars
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

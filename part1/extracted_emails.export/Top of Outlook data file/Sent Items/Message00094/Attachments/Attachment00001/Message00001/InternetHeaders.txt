@@ -1,0 +1,87 @@
+Received: from AM8PR01MB7506.eurprd01.prod.exchangelabs.com
+ (2603:10a6:20b:246::19) by PA4PR01MB10404.eurprd01.prod.exchangelabs.com with
+ HTTPS; Fri, 13 Jun 2025 12:24:18 +0000
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=marlink.com;
+Received: from AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+ (2603:10a6:206:5::21) by AM8PR01MB7506.eurprd01.prod.exchangelabs.com
+ (2603:10a6:20b:246::19) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8835.19; Fri, 13 Jun
+ 2025 12:24:15 +0000
+Received: from AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+ ([fe80::82cd:acfb:6db7:6f6f]) by AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+ ([fe80::82cd:acfb:6db7:6f6f%4]) with mapi id 15.20.8835.019; Fri, 13 Jun 2025
+ 12:24:15 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: "VESTBY, Lars" <Lars.Vestby@marlink.com>
+To: Team RCS Global <Team.RCSGlobal@marlink.com>
+CC: "POTVIN, Coline" <Coline.Potvin@marlink.com>
+Subject: RE: Recap Process and materials available - Network Solution design
+ changes become payable from June 1st 2025
+Thread-Topic: Recap Process and materials available - Network Solution design
+ changes become payable from June 1st 2025
+Thread-Index: AQHbz9QVYcUq/8PoHEq9XhiX6g1wXLPxfD0AgA+duMA=
+Date: Fri, 13 Jun 2025 12:24:14 +0000
+Message-ID:
+ <AM5PR01MB29783EC8DDC24DF46A4E097EE677A@AM5PR01MB2978.eurprd01.prod.exchangelabs.com>
+References:
+ <AM7PR01MB6834A30E318E33382CAC8BBEFD842@AM7PR01MB6834.eurprd01.prod.exchangelabs.com>
+ <AM7PR01MB683455DB3058FFBEEC73C12BFD88A@AM7PR01MB6834.eurprd01.prod.exchangelabs.com>
+ <PAXPR01MB84004D2DB776770C57568944EF88A@PAXPR01MB8400.eurprd01.prod.exchangelabs.com>
+ <AM7PR01MB6834E577F24BD204BCB84109FD88A@AM7PR01MB6834.eurprd01.prod.exchangelabs.com>
+ <PR3PR01MB68426125794EA80B2DA23D8DFD67A@PR3PR01MB6842.eurprd01.prod.exchangelabs.com>
+ <HE1PR01MB298688342FA3C87CA6EB7F29E66DA@HE1PR01MB2986.eurprd01.prod.exchangelabs.com>
+In-Reply-To:
+ <HE1PR01MB298688342FA3C87CA6EB7F29E66DA@HE1PR01MB2986.eurprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+ <AM5PR01MB29783EC8DDC24DF46A4E097EE677A@AM5PR01MB2978.eurprd01.prod.exchangelabs.com>
+msip_labels:
+ MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_ActionId=2b2f6058-57cf-452a-b05f-ba6f1f7e0719;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_ContentBits=0;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Enabled=true;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Method=Standard;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Name=Standard
+ Not
+ Encrypted;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_SetDate=2025-04-25T13:59:34Z;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_SiteId=e64eed3b-130b-4001-b50d-f867ed318682;MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Tag=10,
+ 3, 0, 1;
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource:
+ AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-Network-Message-Id:
+ bb48d8d6-6a25-4d58-c033-08ddaa7535f2
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ AM5PR01MB2978:EE_|AM8PR01MB7506:EE_|PA4PR01MB10404:EE_
+Return-Path: Lars.Vestby@marlink.com
+X-MS-Exchange-Organization-ExpirationStartTime: 13 Jun 2025 12:24:15.1470
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: bb48d8d6-6a25-4d58-c033-08ddaa7535f2
+X-Microsoft-Antispam:
+ BCL:0;ARA:13230040|366016|13003099007|7053199007|8096899003|41050700001;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM5PR01MB2978.eurprd01.prod.exchangelabs.com;PTR:;CAT:NONE;SFS:(13230040)(366016)(13003099007)(7053199007)(8096899003)(41050700001);DIR:INT;
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Recipient-P2-Type: To
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Jun 2025 12:24:14.9130
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: e64eed3b-130b-4001-b50d-f867ed318682
+X-MS-Exchange-CrossTenant-AuthSource: AM5PR01MB2978.eurprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: bb48d8d6-6a25-4d58-c033-08ddaa7535f2
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: ag2iOlbON11zKwEgR8Iouv0li+Mddag9g7zZQSisJzYpfRHYbt0kXpoD4DWkR9Khnp5XDeyLVs4TwgiDyLEVKQ==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM8PR01MB7506
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.8509433
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.8835.006
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	9X42iygVMvYDzr3iAMI78+rC0Z5Mlhc/VIETvdHLWp5EuQzFHG7DAHttNUmK96Dp+u6GvjWQMoxDwvTQXZP9LtANIsLmnNfPr6FdkHbIUMAn4A3Vo0+WyUHCoGfTHVAOwAytMACOn2eEHmY9oJhxf2lPMr2wk6U9HazvaBrPFNAxeJi6wW+FJpIna8tRfJjpw0YiZJLbXT0Q6inQvmZEJiMoNvqrllUGan+452rzLu/y73NfL2m4yhMKulwj04CaG+xlrck77u/Q28p1Q5VxccZMgdccOPkV28YJ4fKbHs2bWRLuRo5Ghs3Mvn/d00l6HHHo68U/zacgWTtLJGNvF/9ZCugTtZO/JP1D8jWkWD46VoHe1ifmFIaAncTGWpx/Tsflh2WfEo6yT/XOMsEKeFmz6YUUlypNc/g3cyhlsVEAQKZpzMfNTYr8FvvvkIVf3jLu885UQEUd/+qKDYk8IMHrFJkHXj3w0j3bQDAUYu3QhRq71U9USam0GSrFD8jWeg+lvbNyfQ1S0Lk19SlYfnxkTGsxfwZKsEKrllSSPQ/eWFk3fkoggJJBu68yuUairoQTIGWNUBeWxn2/X6N1Gf0xI96dYO+DdxroFFSk+qXfGOUHVnCGP/jUyOfidmf0x2lHcMB4oWgxUomE8j8FRCWaEA+NxC2HwBv9duDEnGwA6q8SaY14vV3tzoLtAzbRZDLVqWpc5Uy4V6DuoG99eSnMENqOJashW+nA55eu9c8mseHt/DpBUBw9Ki/Peq8GOAERRd9mlrhJ5IWyDo7dTlGPkaPI3DKw3kutAK/EQhg=

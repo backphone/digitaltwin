@@ -1,0 +1,6 @@
+Display name:		Team RCS MGMT
+Recipient display name:	Team RCS MGMT
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=48c22aea2d8946d2b26532d839c16add-Team RCS MG
+Address type:		EX
+Recipient type:		To
+

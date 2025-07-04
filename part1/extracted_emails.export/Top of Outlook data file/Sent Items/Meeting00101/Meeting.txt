@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 23, 2025 00:04:03.250575700 UTC
+Delivery time:				Jun 23, 2025 00:04:03.789073600 UTC
+Creation time:				Jun 23, 2025 00:04:02.923091900 UTC
+Modification time:			Jun 23, 2025 00:04:04.913801000 UTC
+Size:					9718
+Flags:					0x00000001 (Read)
+Conversation topic:			Re-intro to "MonAI" features in MERITS
+Subject:				Accepted: Re-intro to "MonAI" features in MERITS
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Reminder time:				Jun 24, 2025 07:30:00.000000000 UTC
+
+Meeting:

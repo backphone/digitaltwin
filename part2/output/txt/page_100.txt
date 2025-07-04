@@ -1,0 +1,52 @@
+Telesat awards contract to Intellian to design and supply gateway antennas for the Telesat Lightspeed network | Intelliantech
+Back to listing
+Press Release
+Telesat awards contract to Intellian to design and supply gateway antennas for the Telesat Lightspeed network
+Date
+23 October 2024
+Global terrestrial infrastructure to be seamlessly integrated with the Telesat Lightspeed constellation to deliver unsurpassed resiliency for enterprise-class LEO connectivity
+Ottawa, Canada and Pyeongtaek, South Korea, October 23, 202
+4
+–
+Telesat
+(NASDAQ and TSX: TSAT), one of the world’s largest and most innovative satellite operators, and
+Intellian
+, a leading provider of feature-rich, future-proof satellite communications solutions, today announced a contract award for Intellian to design, supply, install, and integrate 127 Gateway Antenna Systems at  Landing Stations for the Telesat Lightspeed Low Earth Orbit (LEO) constellation.
+Intellian’s 4-meter Gateway Antenna System has been meticulously engineered to optimize tracking precision and high gain performance for LEO satellites and durability in all weather conditions. Built to withstand the harshest environments without the need for radomes, the Gateway Antenna System not only enhances RF efficiency, it also reduces long-term maintenance and energy costs.
+The Telesat Lightspeed Landing Stations play a crucial role in the delivery of Telesat’s enterprise-class services. Each Landing Station will be equipped with multiple Intellian Gateway Antennas, as well as baseband, network, and control systems. These stations will route customer data to Points-of-Presence for telecom networks, internet, and cloud services, and will also facilitate private interconnections for customer networks.
+Eric Sung, CEO at Intellian Technologies Inc said: "Our collaboration with Telesat has been exceptional, and the resulting Gateway Antenna Systems are a fascinating addition to our portfolio. Seeing how our heritage and experience in delivering innovative design solutions transitioned over to gateway antennas has been very rewarding. This evolution with Telesat solidifies the crucial role we play within the satellite communications ecosystem even more.”
+“Intellian has been a valued partner in flight operations and testing programs with Telesat’s LEO demonstration satellites; their proven performance and innovation makes Intellian an ideal partner for our advanced LEO satellite program,” said Aneesh Dalvi, Vice President for Telesat Lightspeed Systems Development. “Intellian’s engineering excellence and state-of-the-art manufacturing facilities were key drivers in this contract award. We have the right partner to ensure that our global terrestrial infrastructure is deployed and integrated with our space assets to deliver services globally in 2027.”
+########################
+About Telesat
+Backed by a legacy of engineering excellence, reliability and industry-leading customer service, Telesat (NASDAQ and TSX: TSAT) is one of the largest and most innovative global satellite operators. Telesat works collaboratively with its customers to deliver critical connectivity solutions that tackle the world’s most complex communications challenges, providing powerful advantages that improve their operations and drive profitable growth.
+Continuously innovating to meet the connectivity demands of the future, Telesat Lightspeed, the company’s state-of-the-art Low Earth Orbit (LEO) satellite network, has been optimized to meet the rigorous requirements of telecom, government, maritime and aeronautical customers. Telesat Lightspeed will redefine global satellite connectivity with ubiquitous, affordable, high-capacity links with fibre-like speeds. For updates on Telesat, follow us on
+X
+,
+LinkedIn
+, or visit
+www.telesat.com
+.
+About Intellian Technologies, Inc
+Intellian is driven by a passion for innovation and an agile responsiveness to customer needs. As the crucial link between satellite networks and millions of people on Earth, Intellian’s leading technology and antennas empower global connectivity across oceans and continents, organizations and communities. Strategic thinking, an obsession with quality and a proven ability to deliver enables Intellian to invent for the future, creating mutual success for partners and customers as the world’s connectivity needs evolve. For more information, follow
+@Intellian
+and visit
+intelliantech.com
+.
+Intellian Technologies Inc. is listed on the Korean Stock Exchange, KOSDAQ (189300:KS).
+Media Contacts:
+W2 Communications for Telesat
+telesat@w2comm.com
+Publicis Pro for Intellian
+intellian@publicispro.com
+Telesat Forward-Looking Statements Safe Harbor
+This news release contains statements that are not based on historical fact and are “forward-looking statements’’ within the meaning of the Private Securities Litigation Reform Act of 1995 and Canadian securities laws. When used herein, statements which are not historical in nature, or which contain the words “
+will
+,” “
+ensures
+” or similar expressions, are forward-looking statements. Actual results may differ materially from the expectations expressed or implied in the forward-looking statements as a result of known and unknown risks and uncertainties. All statements made in this press release are made only as of the date set forth at the beginning of this release. Telesat Corporation undertakes no obligation to update the information made in this release in the event facts or circumstances subsequently change after the date of this press release.
+These forward-looking statements are based on Telesat Corporation’s current expectations and are subject to a number of risks, uncertainties and assumptions. These statements are not guarantees of future performance and are subject to risks, uncertainties and other factors, some of which are beyond Telesat Corporation’s control, are difficult to predict, and could cause actual results to differ materially from those expressed or forecasted in the forward-looking statements. There are numerous risks and uncertainties associated with Telesat’s business and the Telesat Lightspeed constellation. Known risks and uncertainties include but are not limited to: inflation and rising interest rates; Telesat’s ability to meet the funding conditions of its funding agreements with the Government of Canada and Government of Quebec; technological hurdles, including our and our contractors’ development and deployment of the new technologies required to complete the constellation in time to meet our schedule, or at all; the availability of services and components from our and our contractors’ supply chains; competition; risks associated with domestic and foreign government regulation, including access to sufficient orbital spectrum to be able to deliver services effectively and access to sufficient geographic markets in which to sell those services; Telesat’s ability to develop significant commercial and operational capabilities; risks associated with operating satellites and providing satellite services, including satellite construction or launch delays, launch failures, in-orbit failures or impaired satellite performance; and volatility in exchange rates. The foregoing list of important factors is not exhaustive. Investors should review the other risk factors discussed in Telesat Corporation’s annual report on Form 20-F for the year ended December 31, 2023, that was filed on March 28, 2024, with the United States Securities and Exchange Commission (“SEC”) and the Canadian securities regulatory authorities at the System for Electronic Document Analysis and Retrieval (“SEDAR”), and may be accessed on the SEC’s website at
+https://www.sec.gov/
+and SEDAR’s website at
+https://www.sedarplus.ca/
+as well as our subsequent reports on Form 6-K filed with the SEC and also available on SEDAR.
+share

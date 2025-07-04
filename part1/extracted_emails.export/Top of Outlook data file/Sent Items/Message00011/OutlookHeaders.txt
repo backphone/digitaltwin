@@ -1,0 +1,19 @@
+Message:
+Client submit time:			May 26, 2025 01:47:57.723594800 UTC
+Delivery time:				May 26, 2025 01:47:00.000000000 UTC
+Creation time:				May 26, 2025 01:47:53.132413200 UTC
+Modification time:			May 26, 2025 01:48:19.669564000 UTC
+Size:					218136
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Customer Owned Starlink Terminal 
+Subject:				Customer Owned Starlink Terminal 
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

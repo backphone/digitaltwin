@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 18, 2025 08:26:13.604649500 UTC
+Delivery time:				Jun 18, 2025 08:26:00.000000000 UTC
+Creation time:				Jun 18, 2025 08:26:11.497451000 UTC
+Modification time:			Jun 18, 2025 08:26:18.702315400 UTC
+Size:					133928
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Mercury Sky
+Subject:				Mercury Sky
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

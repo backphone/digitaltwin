@@ -1,0 +1,12 @@
+Display name:		JACOBSEN, Thomas Busk
+Recipient display name:	JACOBSEN, Thomas Busk
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=59dedf3adad3416b9b5f0a72384433ef-Thomas Busk
+Address type:		EX
+Recipient type:		To
+
+Display name:		VESTBY, Lars
+Recipient display name:	VESTBY, Lars
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Address type:		EX
+Recipient type:		To
+

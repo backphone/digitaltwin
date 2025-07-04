@@ -1,0 +1,18 @@
+Conversation index:
+Header block:
+	Filetime:	May 15, 2025 13:46:24.768614400 UTC
+	GUID:		f6da533e-d8ec-4f53-8b90-7f4593c9e035
+Child block: 1
+	Filetime:	Jan 02, 2026 20:09:49.962444800 UTC
+	Random number:	9
+	Sequence count:	0
+Child block: 2
+	Filetime:	Oct 11, 2027 12:44:38.509568000 UTC
+	Random number:	4
+	Sequence count:	0
+Child block: 3
+	Filetime:	Jul 17, 2028 00:04:38.652518400 UTC
+	Random number:	14
+	Sequence count:	0
+
+

@@ -1,0 +1,12 @@
+Display name:		Team RCS Global
+Recipient display name:	Team RCS Global
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=675fbf80e3314189b2b4e9d4a465ff82-RCS Global2
+Address type:		EX
+Recipient type:		To
+
+Display name:		POTVIN, Coline
+Recipient display name:	POTVIN, Coline
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=029e644a0fe7442498ad406eef73d4f9-Coline Potv
+Address type:		EX
+Recipient type:		CC
+

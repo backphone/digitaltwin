@@ -1,0 +1,12 @@
+Display name:		LYNN, Htunn
+Recipient display name:	LYNN, Htunn
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=520c45e3e3f942d4ac557eac6cea7f6f-Htunn Lynn
+Address type:		EX
+Recipient type:		To
+
+Display name:		SOH, Leslie
+Recipient display name:	SOH, Leslie
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=287f68f451314f26b7055cdbad81bf44-Leslie Soh
+Address type:		EX
+Recipient type:		To
+

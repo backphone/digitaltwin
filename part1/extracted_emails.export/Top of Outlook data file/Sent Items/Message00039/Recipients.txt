@@ -1,0 +1,12 @@
+Display name:		FOO, Krys
+Recipient display name:	FOO, Krys
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b9a1abdc7b424914bec5f017e52f4ab3-Krys Foo
+Address type:		EX
+Recipient type:		To
+
+Display name:		TANG, Wei Perk (Wilson)
+Recipient display name:	TANG, Wei Perk (Wilson)
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c3f5e38e3ddb42fa8502c1d0903f8bba-Wei Perk Ta
+Address type:		EX
+Recipient type:		To
+

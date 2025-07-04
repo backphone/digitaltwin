@@ -1,0 +1,18 @@
+Display name:		HORVATH, Michal
+Recipient display name:	HORVATH, Michal
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a0ba6f16c5af4c8b92c203015daf092c-Michal Horv
+Address type:		EX
+Recipient type:		To
+
+Display name:		BAVOLAR, Rastislav
+Recipient display name:	BAVOLAR, Rastislav
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=512ee73833024f26a0c82e3f6573b098-Rastislav B
+Address type:		EX
+Recipient type:		To
+
+Display name:		SLEZAK, Tomas
+Recipient display name:	SLEZAK, Tomas
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4ccd2e4220ad400390d20b926974d86d-Tomas Sleza
+Address type:		EX
+Recipient type:		CC
+

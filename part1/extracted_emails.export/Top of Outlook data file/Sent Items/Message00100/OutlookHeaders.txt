@@ -1,0 +1,18 @@
+Message:
+Client submit time:			Jun 19, 2025 05:01:53.836540100 UTC
+Delivery time:				Jun 19, 2025 05:01:55.366309700 UTC
+Creation time:				Jun 19, 2025 05:00:34.242572800 UTC
+Modification time:			Jun 19, 2025 05:01:58.031792400 UTC
+Size:					46943
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			🎉 Happy Birthday, Guanglin Si! 🎂
+Subject:				Re: 🎉 Happy Birthday, Guanglin Si! 🎂
+Sender name:				SI, Guanglin
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1433996c772d414ca7c8f9553a66ded3-c4ba675a-2f
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1433996c772d414ca7c8f9553a66ded3-c4ba675a-2f
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is private:				no
+

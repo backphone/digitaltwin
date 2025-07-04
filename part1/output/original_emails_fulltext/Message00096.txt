@@ -1,0 +1,214 @@
+ 
+ 
+BR
+Guanglin
+ 
+From:
+ VESTBY, Lars <Lars.Vestby@marlink.com> 
+Sent:
+ Friday, June 13, 2025 8:24 PM
+To:
+ Team RCS Global <Team.RCSGlobal@marlink.com>
+Cc:
+ POTVIN, Coline <Coline.Potvin@marlink.com>
+Subject:
+ RE: Recap Process and materials available - Network Solution design changes become payable from June 1st 2025
+ 
+Hi All please see below change to the ticket handling from Coline regarding Network Solution design changes.
+ 
+In short:
+Stop informing using the script informing the customer that the change is chargeable.
+Just
+Register the change and process it or transfer the change to the correct team as before.
+Copy also in the KAM in the ticket so they can do the information part to their customer about the offer/pricing
+ 
+Br
+Lars
+ 
+ 
+From:
+ POTVIN, Coline 
+Coline.Potvin@marlink.com
+ 
+Sent:
+ Friday, June 13, 2025 11:44 AM
+To:
+ HORVATH, Michal 
+michal.horvath@marlink.com
+; VESTBY, Lars 
+Lars.Vestby@marlink.com
+; FERON, Luc 
+Luc.Feron@marlink.com
+; ARGANESE, Franck 
+Franck.Arganese@marlink.com
+; TSOTRAS, Antonios 
+Antonios.Tsotras@marlink.com
+; LABREGERE, Xavier 
+Xavier.Labregere@marlink.com
+; DYBVAND, Frode 
+frode.dybvand@marlink.com
+Cc:
+ HAUGERUD, Eirik 
+Eirik.Haugerud@marlink.com
+; SCHALKWIJK, Gerbrand 
+Gerbrand.Schalkwijk@marlink.com
+Subject:
+ Stop making reference to customers that Network Solution design changes become payable for now
+ 
+Hi all,
+ 
+In agreement with Management, it has been decided to stop making reference to customers that Network Solution design changes become payable from now.
+If you receive change requests, they will have to be forwarded to the respective KAM so they can inform their customer about the offer. So we go back to the approach we tried to implement in February. I will work on a communication for the KAMs. 
+ 
+In
+ 
+the meantime, please process the change for the customer as soon as possible.
+This will be done as transition period so we can maximize the amount of customers being informed about the offer by their KAM. 
+Thank you for your support and understanding in this important change for our organization and customers.
+ 
+As always, I am here to help if there is anything 
+😊
+ 
+Best regards
+Coline 
+-----------------------------------------------------
+Coline Potvin 
+Product Manager 
+M  +47 903 68 873
+E  
+coline.potvin@marlink.com
+www.marlink.com
+ 
+ 
+ 
+Digitally advancing your remote world by creating Possibilities. Anywhere.
+ 
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+ 
+From:
+ POTVIN, Coline <
+Coline.Potvin@marlink.com
+> 
+Sent:
+ Wednesday, May 28, 2025 3:26 PM
+To:
+ HORVATH, Michal <
+michal.horvath@marlink.com
+>; ARGANESE, Franck <
+Franck.Arganese@marlink.com
+>; VESTBY, Lars <
+Lars.Vestby@marlink.com
+>; FERON, Luc <
+Luc.Feron@marlink.com
+>; DYBVAND, Frode <
+frode.dybvand@marlink.com
+>
+Cc:
+ HOLTRIN, Erik <
+erik.holtrin@marlink.com
+>; KRCMA, Alexander <
+Alexander.Krcma@marlink.com
+>; VERMEULEN, Madelon <
+Madelon.Vermeulen@marlink.com
+>; BORD, Jean Antoine <
+JeanAntoine.Bord@marlink.com
+>
+Subject:
+ Recap Process and materials available - Network Solution design changes become payable from June 1st 2025
+Importance:
+ High
+ 
+Hi All,
+Keep recap about how to proceed as Network Solution design changes become 
+payable from June 1
+st
+:
+Reminder about change catalogue and repartition of tasks between your teams:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+What is needed from your teams? 
+Inform the customer with the script below when you receive a change request 
+part of the Network Solution design change catalogue:
+"The type of change you request is now part of our standard Network Solution Design service and is therefore chargeable. For more information, you can contact your KAM                             For ongoing flexibility and self-management, you continue to have the ability to perform this change at no cost via Portal P360, XChange Universal Remote Access, or locally on board."
+Log the change in the Merits Network change log 
+If fleet-wide changes: Contact CCTS 
+that will follow up with CSE for discussion with the customer and update of the NSD document
+ 
+Notes: 
+“
+Add or modify a WAN” as well as “XChange WiFi Design and related changes” are not possible through P360
+XChange upgrade to 5.6 remains free. 
+à
+ !From XChange 5.7 it will be chargeable or they will have to do it themselves.!
+ 
+Materials available:
+Free training available (given by CCTS) – Only free in June!
+📅
+ June 5 at 06:00 UTC
+📅
+ June 11 at 15:00 UTC
+📅
+ June 27 at 11:00 UTC
+Purpose of the training:
+ Enabling customers to independently manage Network Solution design changes 
+Prerequisites:
+ 
+Participants should have P360 access and basic familiarity with its interface.
+If customer interested:
+ 
+the customer can contact their KAM and/or send an email to:
+ 
+trainingservices@marlink.com
+with participant e-mail address, company name, master class type, master class date.
+ 
+XChange how to guides
+ 
+updated on P360
+ 
+Videos explaining steps by steps how to perform changes
+ via P360: 
+“Assign firewall filters” 
+& 
+“Create firewall filters with firewall rules”
+à
+ If a customer would like to access to it, please ask your team to send an email to:
+ 
+trainingservices@marlink.com
+ 
+with the Company name, Customer name and email address. 
+à
+ 
+Within max 24 hours, the customer will get an invitation to the Marlink Training Academy where the video is available. 
+      
+You can close the ticket once the email is forwarded to the Learning & Development team.
+ 
+Other documentation (see attachment):
+Copy of the notification content that was sent to Direct customers via CRM on April 30
+th
+ 
+Network Solution design slides and Q&A 
+List of customers for which the email notification has been confirmed delivered 
+(KAM name is also provided):
+ Network Solution design - List of customers for which the CRM notification has been delivered in April 25.xlsx
+ 
+If there is any question let me know 
+😊
+ 
+Thanks for your help,
+ 
+Best regards
+Coline 
+ 

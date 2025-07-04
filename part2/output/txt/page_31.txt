@@ -1,0 +1,72 @@
+X130D - XEO Series | Intelliantech
+X130D
+Ku/Ka Electronically Switchable Dual-band Multi-Orbit VSAT
+The Intellian X130D is a dual-band VSAT solution that electronically switches between Ku-band and Ka-band operation with a single command. It enables customers with the highest performance, versatility, and high bandwidth demand access to a wide range of service options. This dual band antenna offers seamless connectivity by eliminating the need for conversion kits, or hardware modifications required by conventional terminals.
+X130D
+Key Features
+Specifications
+Downloads
+Related products
+Where to Buy
+Key Features
+GEO/MEO/LEO tracking capability
+Based on Intellian proven antenna design and multi-orbit GEO, MEO, and LEO tracking capabilities, the X130D can operate on any commercial Ku-band and Ka-band (2.5 GHz wide Ka-band coverage) services, enabling access to the highest bandwidth packages worldwide. Optimized to deliver low latency and high speed connectivity, the terminal will allow customers the flexibility to access next-generation LEO services and existing GEO and MEO constellations.
+Antenna management platform
+AptusNX, provides a responsive web user interface to manage and control the antenna system regardless of device type. AptusNX includes an intelligent installation wizard to simplify system configuration so that users can become connected faster than ever before. The platform also includes a diagnostic function that enables accurate and enhanced antenna performance checks both onboard and remotely. This reduces the need for onboard service personnel and improves performance.
+All-in-One below deck terminal
+Only Intellian provides a below deck terminal fully integrated into a single 1U, 19” rack module, reducing installation time & cost. Antenna mediator and modem mediator included.
+High power delivery
+The X100D offers a wide range of power options enabling greater throughput; It supports RF configuration up to a 25W BUC in Ku-Band and a 20W Transceiver in Ka-Band, designed and built by Intellian.
+Compact dual-band, dual-pol solution
+Uses Ka-band for high volume/traffic and Ku-band for coverage gaps:
+- Seamlessly electronically switch between services to maximize bandwidth and network access
+- Uninterrupted by bad weather using Ku-band
+Compact form factor with single center feed design and Ka-band transceiver integration for simpler RF design
+Electronic switching function for Ku-Ka band switching and co & cross polarization switching with electrical RF switch
+Future proof: multi-orbit tracking
+Support on any commercial Ku-band and Ka-band operation provided predominantly by GEO satellites
+Dual antenna installation support for NGSO make-before-break HOs
+Supports wide Ka-band feed (2.5 GHz bandwidth) covering the MEO constellation
+GEO & MEO tracking system (program tracking and conical scanning)
+Embedded antenna & modem mediator ACU
+Embedded antenna mediator: easy dual-antenna setup for blockage mitigation and seamless connection
+Embedded modem mediator: connection up to 2 GSO modems
+Specifications
+XEO Series
+Radome Height x Diameter
+172.4 cm / 67.87” x 168.1 cm / 66.18”
+Reflector Diameter
+125 cm (49.2 inch)
+Antenna Weight
+180 kg / 396.83 Ibs
+TX Frequency
+(Ku-band) 13.75~14.5 GHz, (Ka-band) 27.5~30.0 GHz
+RX Frequency
+(Ku-band) 10.7~12.75 GHz, (Ka-band) 17.7~20.2 GHz
+TX Gain (excl. radome)
+(Ku-band) 42.7 dBi @ 14.0 GHz, (Ka-band) 48.5 dBi @ 28.8 GHz
+RX Gain (excl. radome)
+(Ku-band) 41.7 dBi @ 11.85 GHz, (Ka-band) 45.5 dBi @ 19.0 GHz
+G/T
+(Ku-band) >20.4 dB/K, (Ka-band) >21.0 dB/K
+XEO Series
+Downloads
+X130D
+Datasheet
+Download Latest
+X130D
+Image library
+Download Latest
+Related products
+View all Products
+X100D
+Explore Product
+X130D PM
+X130D PM
+X150D
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

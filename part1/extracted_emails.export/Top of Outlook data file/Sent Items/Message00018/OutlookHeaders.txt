@@ -1,0 +1,19 @@
+Message:
+Client submit time:			May 26, 2025 04:01:00.163536500 UTC
+Delivery time:				May 26, 2025 04:00:00.000000000 UTC
+Creation time:				May 26, 2025 04:00:58.674060700 UTC
+Modification time:			May 26, 2025 04:01:07.353188900 UTC
+Size:					95713
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Ticket R-119182 (subject: Marlink Ticket [1760872] - SC Serenity - Sealink Service ref:SC Serenity - XChange Report) has been updated
+Subject:				RE: Ticket R-119182 (subject: Marlink Ticket [1760872] - SC Serenity - Sealink Service ref:SC Serenity - XChange Report) has been updated
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

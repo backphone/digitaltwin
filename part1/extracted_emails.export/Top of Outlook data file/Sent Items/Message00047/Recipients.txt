@@ -1,0 +1,6 @@
+Display name:		CALHEIROS, Alexis
+Recipient display name:	CALHEIROS, Alexis
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=eec2d2ea6783423692c4f3443172d30c-Alexis Calh
+Address type:		EX
+Recipient type:		To
+

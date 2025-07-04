@@ -1,0 +1,158 @@
+Hi Thomas,
+ 
+Thanks for the prompt reply and clarification. 
+ 
+It’s my understanding too that PRA solution is supported by MNOC Bratislava. Just that the below description sounds IT related
+. 
+ 
+We still follow the current process then, and all PRA cases will be forwarded to MNOC. 
+@VESTBY, Lars
+ 
+Thanks.
+BR
+Guanglin
+ 
+From:
+ JACOBSEN, Thomas Busk <Thomas.Busk.Jacobsen@marlink.com> 
+Sent:
+ Friday, June 13, 2025 2:10 PM
+To:
+ SI, Guanglin <Guanglin.Si@marlink.com>; VESTBY, Lars <Lars.Vestby@marlink.com>
+Subject:
+ RE: Boskalis - Active on Marlink-managed BeyondTrust PRA platform
+ 
+Hi Guanglin
+How are you?
+I’ll let Lars clarify even further, but as below is related to BeyondTrust PRA solution, we agreed MNOC Bratislava to take ownership of such cases. My understanding is MITS primarily covers ITLink related topics, no? PRA is not ITLink related.
+ 
+Vennlig hilsen / Kind regards,
+Thomas
+ 
+ 
+From:
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+> 
+Sent:
+ 13 June 2025 02:37
+To:
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+>; JACOBSEN, Thomas Busk <
+Thomas.Busk.Jacobsen@marlink.com
+>
+Subject:
+ RE: Boskalis - Active on Marlink-managed BeyondTrust PRA platform
+ 
+Hi Thomas / Lars,
+ 
+The current process defined for RCS is to forward PRA cases to MNOC Bratislava. 
+ 
+Looking at the two items below, it seems they are more relevant to MITS. Does this mean a change of our process, or will MNOC take necessary actions and forward it to MITS when needed?
+ 
+#
+Description
+1
+Downloading a file goes only to the download folder. User want to choose where to download to on their machine.
+2
+User was able to create new jump items
+ 
+ 
+BR
+Guanglin
+ 
+From:
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+> 
+Sent:
+ Thursday, June 12, 2025 6:38 PM
+To:
+ Team RCS Global <
+Team.RCSGlobal@marlink.com
+>
+Cc:
+ JACOBSEN, Thomas Busk <
+Thomas.Busk.Jacobsen@marlink.com
+>
+Subject:
+ FW: Boskalis - Active on Marlink-managed BeyondTrust PRA platform
+ 
+Dear All
+Please familiarize yourself with the below.
+ 
+Br
+Lars
+ 
+From:
+ JACOBSEN, Thomas Busk <
+Thomas.Busk.Jacobsen@marlink.com
+> 
+Sent:
+ Thursday, June 12, 2025 11:21 AM
+To:
+ ServiceDesk <
+ServiceDesk@marlink.com
+>
+Cc:
+ HOLTRIN, Erik <
+erik.holtrin@marlink.com
+>; VESTBY, Lars <
+Lars.Vestby@marlink.com
+>; HORVATH, Michal <
+michal.horvath@marlink.com
+>; Digital CSE <
+digital.cse@marlink.com
+>; DOUILLERE, Samuel <
+Samuel.Douillere@marlink.com
+>; SCHINDLER, Adrian <
+ADRIAN.SCHINDLER@marlink.com
+>; NOGLIK, Kamil <
+Kamil.Noglik@marlink.com
+>; SCHALKWIJK, Gerbrand <
+Gerbrand.Schalkwijk@marlink.com
+>; AZAR, Nabil <
+Nabil.Azar@marlink.com
+>; MEYER, Stefan <
+Stefan.Meyer@marlink.com
+>
+Subject:
+ Boskalis - Active on Marlink-managed BeyondTrust PRA platform
+ 
+Hi Servicedesk
+Great news, Marlink is now officially providing PRA managed services for Boskalis via Bitsiel’s BeyondTrust platform!
+ 
+Since we consider remaining part of June a “hyper care” phase, we agreed with Boskalis to share a joint issue list: 
+ Marlink PRA MSP - Hyper care Issue list.xlsx
+. File should be accessible and editable for all Marlink users. 
+Note! A few named Bitsiel and Boskalis users have access to this file.
+ 
+As you can see, customer has started adding observations to this list. According to Bitsiel, the two items added as of writing this email can be addressed using the Support scripts provided as part of the training. I added the two observations below for your convenience:
+#
+Description
+1
+Downloading a file goes only to the download folder. User want to choose where to download to on their machine.
+2
+User was able to create new jump items
+ 
+Considering no “Owner” is explicitly added to the items in issue list, I assume Boskalis expects Marlink to resolve even if during hyper care phase, Boskalis still has two named users with temporary admin access to the BeyondTrust portal, for enabling quick resolution of minor things. I’ve asked them to fill “Owner” going forward.
+ 
+Also, Bitsiel has looked at the items in the list and is expecting Marlink Servicedesk to contact them for joint resolution, since this is a first for Marlink.
+ 
+I’ll remind Boskalis to include Marlink Servicedesk in any new observations/incidents going forward, to build the right habit at the start of the operational phase.
+ 
+Please reach out if anything unclear.
+ 
+Vennlig hilsen / Kind regards,
+Thomas
+ 
+-----------------------------------------------------
+Thomas Busk Jacobsen
+Digital Pre Sales 
+M:
+ +47 9575 8550
+ 
+Digitally advancing your remote world by creating Possibilities. Anywhere.
+ 
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 

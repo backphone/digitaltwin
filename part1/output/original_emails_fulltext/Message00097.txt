@@ -1,0 +1,12 @@
+Hi Shengwei,
+ 
+Just in case you are not aware of this, I understand from Suresh that AESM has been migrating from Skyfile to Dualog, since they demand the following features:
+ 
+Use their own company email domain
+Compatibility with all types of connectivity, such as 4G and Starlink, regardless of the provider
+ 
+Skyfile supports those too, but they are not included in the entry package, that most AESM vessels use. So we will need to upgrade their Skyfile package, if we want to keep them.
+ 
+Thanks.
+BR
+Guanglin

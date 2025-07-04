@@ -1,0 +1,50 @@
+Conversation index:
+Header block:
+	Filetime:	Jun 05, 2025 07:20:46.177894400 UTC
+	GUID:		606dacc2-7605-4795-ad54-8537c7fe6ea5
+Child block: 1
+	Filetime:	Feb 23, 2026 11:49:21.295155200 UTC
+	Random number:	14
+	Sequence count:	0
+Child block: 2
+	Filetime:	Mar 14, 2027 04:11:42.681088000 UTC
+	Random number:	7
+	Sequence count:	0
+Child block: 3
+	Filetime:	Aug 26, 2028 12:02:39.961088000 UTC
+	Random number:	12
+	Sequence count:	0
+Child block: 4
+	Filetime:	Aug 30, 2028 10:32:08.081817600 UTC
+	Random number:	10
+	Sequence count:	0
+Child block: 5
+	Filetime:	Nov 18, 2028 19:51:47.600998400 UTC
+	Random number:	2
+	Sequence count:	0
+Child block: 6
+	Filetime:	Apr 25, 2029 03:09:42.643097600 UTC
+	Random number:	12
+	Sequence count:	0
+Child block: 7
+	Filetime:	Feb 26, 2030 23:27:42.824652800 UTC
+	Random number:	15
+	Sequence count:	0
+Child block: 8
+	Filetime:	Jul 13, 2030 12:03:07.849932800 UTC
+	Random number:	4
+	Sequence count:	0
+Child block: 9
+	Filetime:	Feb 16, 2031 08:56:44.069273600 UTC
+	Random number:	1
+	Sequence count:	0
+Child block: 10
+	Filetime:	May 20, 2031 23:37:18.178304000 UTC
+	Random number:	4
+	Sequence count:	11
+Child block: 11
+	Filetime:	Jan 10, 2033 23:33:12.786944000 UTC
+	Random number:	5
+	Sequence count:	0
+
+

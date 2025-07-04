@@ -1,0 +1,6 @@
+Display name:		HARIS, Sabtu
+Recipient display name:	HARIS, Sabtu
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6d9be731bfcb45a9ab5fc9f540c5707b-b03eddc9-61
+Address type:		EX
+Recipient type:		To
+

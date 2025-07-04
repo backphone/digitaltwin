@@ -1,0 +1,5 @@
+Display name:		HR_SG
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=294b9d7232a8470bbf819f4bfba69d6e-HR_SG
+Address type:		EX
+Recipient type:		To
+

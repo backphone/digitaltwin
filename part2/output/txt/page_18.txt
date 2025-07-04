@@ -1,0 +1,50 @@
+Intellian and OneWeb Announce Innovative  Flat Panel Series for Global LEO Connectivity | Intelliantech
+Back to listing
+Press Release
+Intellian and OneWeb Announce Innovative  Flat Panel Series for Global LEO Connectivity
+Date
+19 September 2023
+Pyeongtaek, South Korea. 19 September 2023
+–
+Intellian Technologies Inc.
+, a global provider of resilient multi-constellation, feature-rich satellite user terminals and communications solutions, and
+OneWeb
+, the low Earth orbit (LEO) satellite communications company, have today announced a new product portfolio of Intellian Flat Panel user terminals for use on OneWeb’s network.
+Intellian’s
+Flat Panel Series
+is a suite of both Pro and Compact user terminals that deliver exceptional performance in sleek, small-footprint, and lightweight form factors. Designed for Land Fixed, Land Mobile, Maritime and Government markets, they’re a game-changer for customers globally requiring low profile, easy installation, high performance.
+Through the Pro and Compact Flat Panels, customers have a choice of four different user terminals to address their specific market needs and use cases. Both the Pro and Compact models come in two versatile configurations: a fixed enterprise terminal and a mobility terminal. These Flat Panel terminals are meticulously designed to meet the unique demands of end users, ensuring reliable connectivity everywhere in the world, on land and at sea.
+Based on active electronically scanned array (AESA) technology, coupled with proprietary antenna element design, custom vector-amplifier phased array chipset, and proprietary artificial intelligence software algorithms of beam forming and beam shaping, Intellian’s Flat Panel Series is redefining the flat panel product class across the industry. To support the frequent beam and satellite handovers required for OneWeb, Intellian’s flat panel architecture allows for highly reliable and accurate beam pointing with optimized tracking, and ultra-fast, sub milli-second satellite handovers, even at low elevation look angles as encountered in mobility markets.
+For commercial, private and government customers requiring fixed, land mobility or maritime installations, Intellian’s Flat Panel Series are ideal for all levels of connectivity needs including critical applications. The terminals enable connectivity to OneWeb’s network at OneWeb’s Committed Information Rates, even with severe platform motion.
+Intellian's global leadership in the maritime communications industry makes the Flat Panel Series, Pro and Compact user terminals for mobility highly anticipated additions to the OneWeb roadmap by customers looking for reliability and excellence in such challenging environments.
+Eric Sung
+, President and CEO at Intellian Technologies Inc, said:
+"Our evolution into flat panel user terminals has been an exceptionally exciting and intense development, that has not only stretched the boundaries of our own technological prowess but has also redefined the possibilities within the industry. With such a sleek, optimised SWAP form factor user terminal that doesn’t compromise on performance, our Flat Panel Series are unlike anything OneWeb’s customers have experienced to date. We’re proudly empowering their connectivity with these initial four flat panel user terminal series."
+First to market in Q1 2024 is the OW11FL, the Pro terminal designed specifically for fixed enterprise needs with demanding performance requirements such as business continuity, community broadband and government sectors.
+Shortly thereafter in 2024 Intellian will launch the OW11FM, another Pro terminal, this time tailored for mobility such as shipping, superyachts, transportation and rail. Maintaining this momentum into Q2 and Q3 2024 will be the launch of the OW9HM Compact terminal designed for mobility users including blue light services and leisure vessels, followed by the OW10HL version for fixed enterprise use such as cellular backhaul, NGOs and military. Intellian anticipates these will be the foundation for further variants that will allow OneWeb to customize solutions and address other use cases in the future.
+Massimiliano Ladovaz
+, CTO at OneWeb,
+said: "We are delighted to partner with Intellian once again to bring these AESA terminals to the market and add them to OneWeb’s comprehensive suite of terminal solutions. Intellian’s Flat Panel Series will cater to a range of diverse market segments and uses. By combining Intellian's industry-leading technology with OneWeb's fast, reliable, low-latency network capabilities, we will continue to provide customers with dependable and flexible connectivity solutions that meet their needs worldwide.”
+About Intellian Technologies, Inc.
+Intellian
+is driven by a passion for innovation and an agile responsiveness to customer needs. As the crucial link between satellite networks and millions of people on Earth, Intellian’s leading technology and antennas empower global connectivity across oceans and continents, organizations and communities. Strategic thinking, an obsession with quality and a proven ability to deliver enables Intellian to invent for the future, creating mutual success for partners and customers as the world’s connectivity needs evolve. For more information, follow
+@intellian
+and visit
+intelliantech.com
+. Intellian Technologies Inc. is listed on the Korean Stock Exchange, KOSDAQ (189300:KS)
+Intellian Media Enquiries
+Octopus Group
+intellian@octopusgrp.com
+About OneWeb
+OneWeb is a global communications network powered from space, headquartered in London, enabling connectivity for governments, businesses, and communities. It is implementing a constellation of Low Earth Orbit satellites with a global network of gateway stations and a range of user terminals to provide an affordable, fast, high-bandwidth and low-latency communications service, connected to the IoT future and a pathway to 5G. Find out more at
+http://www.oneweb.world
+OneWeb Media Enquiries
+UK, Europe, MENA, APAC
+Tabitha Aldrich-Smith
+Taldrich-smith@oneweb.net
+USA, Latin America, Canada
+Katie Dowd
+kdowd@oneweb.net
+FGS Global
+OneWeb-LON@fgsglobal.com
+share

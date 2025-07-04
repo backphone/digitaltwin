@@ -1,0 +1,6 @@
+Display name:		ONG, Sharon
+Recipient display name:	ONG, Sharon
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5e765def580f4387a14446fbd51f736f-Sharon Ong
+Address type:		EX
+Recipient type:		To
+

@@ -1,0 +1,42 @@
+Intellian PC controller:
+
+Can you perform the following procedure? 
+
+1.)Find Intellian PC controller application (it should be located on Marlink laptop`s desktop), and open it.
+2.)From the top left menu click and select: Communication Information.
+3.)In the middle of the screen find: Select Communication and choose Network (Serial is by default). 
+4.)Change IP address to: 10.224.23.146
+5.)Click connect tick box. 
+6.)Confirm any messages and type Username: intellian , Password: 12345678 
+7.)On the top left corner click: Monitor for Engineer.
+8.)Click DEBUG button on the bottom right corner. 
+9.)Click Start Save button and select location where you want to save debug files. Click Show Param
+10.)After 10 minutes click Reboot button on the left side of Intellian PC controller. During reboot process the DEBUG button might deactivate, if so, please activate it again.
+11.)Let the debug run for 15 minutes and click Stop Save button, bottom right 
+12.)Click DEBUG button to stop debugging.
+13.)Please send us two debug files from Intellian PC controller (V_Data_debug and V_Data_Log).
+
+
+
+with Aptus: 
+
+Sorry for not getting back to you earlier. Please check Antenna Control Unit settings by:
+
+1.	please locate the Marlink laptop and connect it to the HP switch port 4.
+2.	On the Marlink laptop desktop find and run application called Aptus.
+3.	In the Aptus Communication window select Network
+4.	Fill in IP address of the Antenna Control Unit: 10.224.26.210
+5.	Port remains 4002
+6.	Click Connect button and confirm pop up warning about increased data volume.
+7.	Login with ID: intellian
+8.	Password: 12345678
+9.	Go to Monitor tab and click Start DEBUG button,
+10.	then click Save Debug (Start) button, select the folder, where the output 
+of debugging will be saved. This will generate two text files.
+11.	Let it run for 10 minutes, then click Save Debug (Stop) and Stop DEBUG 
+buttons.
+12.	On the top row of icons click Backup, then click to PC, save the backup 
+files. This will generate another two files.
+13.	Please send us the files
+
+Thank you.
