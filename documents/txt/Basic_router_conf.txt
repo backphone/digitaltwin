@@ -1,0 +1,1227 @@
+C H A P T E R
+
+1
+
+Basic Router Configuration
+This chapter provides procedures for configuring the basic parameters of your Cisco router, including
+global parameter settings, routing protocols, interfaces, and command-line access. It also describes the
+default configuration on startup. Note that individual router models may not support every feature
+described throughout this guide. Features not supported by a particular router are indicated whenever
+possible.
+This chapter contains the following sections:
+•
+
+Interface Port Labels
+
+•
+
+Viewing the Default Configuration
+
+•
+
+Information Needed for Configuration
+
+•
+
+Configuring Basic Parameters
+
+•
+
+Configuring Static Routes
+
+•
+
+Configuring Dynamic Routes
+
+•
+
+Configuring Enhanced IGRP
+
+Each section includes a configuration example and verification steps, as available.
+For complete information on how to access global configuration mode, see the “Entering Global
+Configuration Mode” section in Appendix A, “Cisco IOS Basic Skills.” For more information on the
+commands used in the following tables, see the Cisco IOS Release 12.3 documentation set.
+
+Interface Port Labels
+Table 1 lists the interfaces supported for each router and their associated port labels on the equipment.
+Table 1
+
+Supported Interfaces and Associated Port Labels by Cisco Router
+
+Router
+
+Interface
+
+Port Label
+
+Cisco 1801
+
+Fast Ethernet LANs
+
+SWITCH and FE8–FE5 (top), FE x and
+FE4–FE1 (bottom)
+
+Fast Ethernet WANs
+
+FE0
+
+ATM WAN
+
+ADSLoPOTS
+
+Wireless LAN
+
+LEFT, RIGHT/PRIMARY
+
+BRI
+
+ISDN S/T
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-1
+
+Chapter 1
+
+Basic Router Configuration
+
+Viewing the Default Configuration
+
+Table 1
+
+Supported Interfaces and Associated Port Labels by Cisco Router (continued)
+
+Router
+
+Interface
+
+Port Label
+
+Cisco 1802
+
+Fast Ethernet LANs
+
+SWITCH and FE8–FE5 (top), FE x and
+FE4–FE1 (bottom)
+
+Fast Ethernet WANs
+
+FE0
+
+ATM WAN
+
+ADSLoISDN
+
+Wireless LAN
+
+LEFT, RIGHT/PRIMARY
+
+BRI
+
+ISDN S/T
+
+Fast Ethernet LANs
+
+SWITCH and FE8–FE5 (top), FE x and
+FE4–FE1 (bottom)
+
+Fast Ethernet WANs
+
+FE0
+
+ATM WAN
+
+G.SHDSL
+
+Wireless LAN
+
+LEFT, RIGHT/PRIMARY
+
+BRI
+
+ISDN S/T
+
+Fast Ethernet LANs
+
+SWITCH and FE9–FE6 (top), FE x and
+FE5–FE2 (bottom)
+
+Fast Ethernet WANs
+
+FE0–FE1
+
+Wireless LAN
+
+LEFT, RIGHT/PRIMARY
+
+USB
+
+1–0
+
+V.92
+
+MODEM
+
+Fast Ethernet LANs
+
+SWITCH and FE9–FE6 (top), FE x and
+FE5–FE2 (bottom)
+
+Fast Ethernet WANs
+
+FE0–FE1
+
+Wireless LAN
+
+LEFT, RIGHT/PRIMARY
+
+BRI
+
+ISDN S/T
+
+USB
+
+1–0
+
+Cisco 1803
+
+Cisco 1811
+
+Cisco 1812
+
+Viewing the Default Configuration
+When you first boot up your Cisco router, some basic configuration has already been performed. All of
+the LAN and WAN interfaces have been created, console and VTY ports are configured, and the inside
+interface for Network Address Translation has been assigned. Use the show running-config command
+to view the initial configuration, as shown in Example 1.
+
+Note
+
+If you are unable to view the initial configuration and you get a No Password Set error message, you
+must reset the initial password. For details, see the “Recovering a Lost Password” section in Chapter 14,
+“Troubleshooting”.
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-2
+
+OL-6426-02
+
+Chapter 1
+
+Basic Router Configuration
+Viewing the Default Configuration
+
+Example 1
+
+Cisco 1812 Default Configuration on Startup
+
+version 12.3
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router
+!
+boot-start-marker
+boot-end-marker
+!
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+no aaa new-model
+ip subnet-zero
+!
+ip cef
+!
+ip ips po max-events 100
+no ftp-server write-enable
+!
+interface BRI0
+no ip address
+shutdown
+!
+interface FastEthernet0
+no ip address
+shutdown
+duplex auto
+speed auto
+!
+interface FastEthernet1
+no ip address
+shutdown
+duplex auto
+speed auto
+!
+interface FastEthernet2
+no ip address
+shutdown
+!
+interface FastEthernet3
+no ip address
+shutdown
+!
+interface FastEthernet4
+no ip address
+shutdown
+!
+interface FastEthernet5
+no ip address
+shutdown
+!
+interface FastEthernet6
+no ip address
+shutdown
+!
+interface FastEthernet7
+no ip address
+shutdown
+!
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-3
+
+Chapter 1
+
+Basic Router Configuration
+
+Information Needed for Configuration
+
+interface FastEthernet8
+no ip address
+shutdown
+!
+interface FastEthernet9
+no ip address
+shutdown
+!
+interface Vlan1
+no ip address
+!
+ip classless
+!
+no ip http server
+no ip http secure-server
+!
+control-plane
+!
+line con 0
+line aux 0
+line vty 0 4
+!
+no scheduler allocate
+end
+
+Information Needed for Configuration
+You need to gather some or all of the following information, depending on your planned network
+scenario, prior to configuring your network
+•
+
+If you are setting up an Internet connection, gather the following information:
+– Point-to-Point Protocol (PPP) client name that is assigned as your login name
+– PPP authentication type: Challenge Handshake Authentication Protocol (CHAP) or Password
+
+Authentication Protocol (PAP)
+– PPP password to access your Internet service provider (ISP) account
+– DNS server IP address and default gateways
+•
+
+If you are setting up a connection to a corporate network, you and the network administrator must
+generate and share the following information for the WAN interfaces of the routers:
+– PPP authentication type: CHAP or PAP
+– PPP client name to access the router
+– PPP password to access the router
+
+•
+
+If you are setting up IP routing:
+– Generate the addressing scheme for your IP network.
+– Determine the IP routing parameter information, including IP address, and ATM permanent
+
+virtual circuits (PVCs). These PVC parameters are typically virtual path identifier (VPI), virtual
+circuit identifier (VCI), and traffic shaping parameters.
+– Determine the number of PVCs that your service provider has given you, along with their VPIs
+
+and VCIs.
+– For each PVC determine the type of AAL5 encapsulation supported. It can be one of the
+
+following:
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-4
+
+OL-6426-02
+
+Chapter 1
+
+Basic Router Configuration
+Configuring Basic Parameters
+
+AAL5SNAP—This can be either routed RFC 1483 or bridged RFC 1483. For routed RFC 1483,
+the service provider must provide you with a static IP address. For bridged RFC 1483, you may
+use DHCP to obtain your IP address, or you may obtain a static IP address from your service
+provider.
+AAL5MUX PPP—With this type of encapsulation, you need to determine the PPP-related
+configuration items.
+•
+
+If you plan to connect over an ADSL or G.SHDSL line:
+– Order the appropriate line from your public telephone service provider.
+
+For ADSL lines—Ensure that the ADSL signaling type is DMT (also called ANSI T1.413) or
+DMT Issue 2.
+For G.SHDSL lines—Verify that the G.SHDSL line conforms to the ITU G.991.2 standard and
+supports Annex A (North America) or Annex B (Europe).
+Once you have collected the appropriate information, you can perform a full configuration on
+your router, beginning with the tasks in the “Configuring Basic Parameters” section.
+
+Configuring Basic Parameters
+To configure the router, perform one or more of these tasks:
+•
+
+Configure Global Parameters
+
+•
+
+Configure Fast Ethernet LAN Interfaces
+
+•
+
+Configure WAN Interfaces
+
+•
+
+Configuring a Loopback Interface
+
+•
+
+Configuring Command-Line Access to the Router
+
+A configuration example is presented with each task to show the network configuration following
+completion of that task.
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-5
+
+Chapter 1
+
+Basic Router Configuration
+
+Configuring Basic Parameters
+
+Configure Global Parameters
+Perform these steps to configure selected global parameters for your router:
+
+Step 1
+
+Command
+
+Purpose
+
+configure terminal
+
+Enters global configuration mode, when using the
+console port.
+
+Example:
+
+If you are connecting to the router using a remote
+terminal, use the following:
+
+Router> enable
+Router# configure terminal
+Router(config)#
+
+Step 2
+
+hostname name
+
+telnet router name or address
+Login: login id
+Password: *********
+Router> enable
+
+Specifies the name for the router.
+
+Example:
+Router(config)# hostname Router
+Router(config)#
+
+Step 3
+
+enable secret password
+
+Specifies an encrypted password to prevent
+unauthorized access to the router.
+
+Example:
+Router(config)# enable secret cr1ny5ho
+Router(config)#
+
+Step 4
+
+no ip domain-lookup
+
+Disables the router from translating unfamiliar
+words (typos) into IP addresses.
+
+Example:
+Router(config)# no ip domain-lookup
+Router(config)#
+
+For complete information on the global parameter commands, see the Cisco IOS Release 12.3
+documentation set.
+
+Configure Fast Ethernet LAN Interfaces
+The Fast Ethernet LAN interfaces on your router are automatically configured as part of the default
+VLAN and as such, they are not configured with individual addresses. Access is afforded through the
+VLAN. You may assign the interfaces to other VLANs if desired. For more information about creating
+VLANs, see Chapter 5, “Configuring a LAN with DHCP and VLANs.”
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-6
+
+OL-6426-02
+
+Chapter 1
+
+Basic Router Configuration
+Configuring Basic Parameters
+
+Configure WAN Interfaces
+The Cisco 1811 and Cisco 1812 routers each have two Fast Ethernet interfaces for WAN connection. The
+Cisco 1801, Cisco 1802, and Cisco 1803 routers each have one ATM interface for WAN connection.
+Based on the router model you have, configure the WAN interface(s) using one of the following
+procedures:
+•
+
+Configure the Fast Ethernet WAN Interface
+
+•
+
+Configure the ATM WAN Interface
+
+Configure the Fast Ethernet WAN Interface
+This procedure applies only to the Cisco 1811 and Cisco 1812 router models. Perform these steps to
+configure the Fast Ethernet interfaces, beginning in global configuration mode.
+
+Step 1
+
+Command
+
+Purpose
+
+interface type number
+
+Enters the configuration mode for a Fast
+Ethernet WAN interface on the router.
+
+Example:
+
+Note
+
+Router(config)#interface fastethernet 0
+Router(config-int)#
+
+Step 2
+
+ip address ip-address mask
+
+Fast Ethernet WAN ports are numbered
+0–1 on the Cisco 1800 series routers.
+
+Sets the IP address and subnet mask for the
+specified Fast Ethernet interface.
+
+Example:
+Router(config-int)# ip address 192.1.12.2
+255.255.255.0
+Router(config-int)#
+
+Step 3
+
+no shutdown
+
+Enables the Ethernet interface, changing its
+state from administratively down to
+administratively up.
+
+Example:
+Router(config-int)# no shutdown
+Router(config-int)#
+
+Step 4
+
+exit
+
+Exits interface configuration mode and returns
+to global configuration mode.
+
+Example:
+Router(config-int)# exit
+Router(config)#
+
+Repeat these steps for the other Fast Ethernet WAN interface if desired.
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-7
+
+Chapter 1
+
+Basic Router Configuration
+
+Configuring Basic Parameters
+
+Configure the ATM WAN Interface
+This procedure applies only to the Cisco 1801, Cisco 1802, and Cisco 1803 models.
+Perform these steps to configure the ATM interface, beginning in global configuration mode:
+
+Step 1
+
+Command
+
+Purpose
+
+For the Cisco 1803 only:
+
+For routers using the G.SHDSL signaling, perform
+these commands. Ignore this step for routers using
+ADSL signaling.
+
+controller dsl 0
+mode atm
+exit
+Example:
+Router(config)# controller dsl 0
+Router(config-controller)# mode atm
+Router(config-controller)# exit
+Router(config)#
+
+Step 2
+
+interface type number
+
+Enters interface configuration mode.
+
+Example:
+Router(config)# interface atm0
+Router(config-int)#
+
+Step 3
+
+ip address ip-address mask
+
+Sets the IP address and subnet mask for the ATM
+interface.
+
+Example:
+Router(config-int)# ip address
+200.200.100.1 255.255.255.0
+Router(config-int)#
+
+Step 4
+
+no shutdown
+
+Enables the ATM 0 interface.
+
+Example:
+Router(config-int)# no shutdown
+Router(config-int)#
+
+Step 5
+
+exit
+
+Exits interface configuration mode and returns to
+global configuration mode.
+
+Example:
+Router(config-int)# exit
+Router(config)#
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-8
+
+OL-6426-02
+
+Chapter 1
+
+Basic Router Configuration
+Configuring Basic Parameters
+
+Configure the Wireless Interface
+The wireless interface enables connection to the router through a wireless LAN connection. For more
+information about configuring a wireless connection, see Chapter 9, “Configuring a Wireless LAN
+Connection” and the Cisco Access Router Wireless Configuration Guide.
+
+Configuring a Loopback Interface
+The loopback interface acts as a placeholder for the static IP address and provides default routing
+information.
+For complete information on the loopback commands, see the Cisco IOS Release 12.3
+documentation set.
+Perform these steps to configure a loopback interface:
+
+Step 1
+
+Command
+
+Purpose
+
+interface type number
+
+Enters interface configuration mode.
+
+Example:
+Router(config)# interface Loopback 0
+Router(config-int)#
+
+Step 2
+
+ip address ip-address mask
+
+Sets the IP address and subnet mask for the
+loopback interface.
+
+Example:
+Router(config-int)# ip address 10.108.1.1
+255.255.255.0
+Router(config-int)#
+
+Step 3
+
+exit
+
+Exits configuration mode for the loopback
+interface and returns to global configuration
+mode.
+
+Example:
+Router(config-int)# exit
+Router(config)#
+
+Configuration Example
+The loopback interface in this sample configuration is used to support Network Address Translation
+(NAT) on the virtual-template interface. This configuration example shows the loopback interface
+configured on the Fast Ethernet interface with an IP address of 200.200.100.1/24, which acts as a static
+IP address. The loopback interface points back to virtual-template1, which has a negotiated IP address.
+!
+interface loopback 0
+ip address 200.200.100.1 255.255.255.0 (static IP address)
+ip nat outside
+!
+interface Virtual-Template1
+ip unnumbered loopback0
+no ip directed-broadcast
+ip nat outside
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-9
+
+Chapter 1
+
+Basic Router Configuration
+
+Configuring Basic Parameters
+
+Verifying Your Configuration
+To verify that you have properly configured the loopback interface, enter the show interface loopback
+command. You should see verification output similar to the following example.
+Router# show interface loopback 0
+Loopback0 is up, line protocol is up
+Hardware is Loopback
+Internet address is 200.200.100.1/24
+MTU 1514 bytes, BW 8000000 Kbit, DLY 5000 usec,
+reliability 255/255, txload 1/255, rxload 1/255
+Encapsulation LOOPBACK, loopback not set
+Last input never, output never, output hang never
+Last clearing of "show interface" counters never
+Queueing strategy: fifo
+Output queue 0/0, 0 drops; input queue 0/75, 0 drops
+5 minute input rate 0 bits/sec, 0 packets/sec
+5 minute output rate 0 bits/sec, 0 packets/sec
+0 packets input, 0 bytes, 0 no buffer
+Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+0 packets output, 0 bytes, 0 underruns
+0 output errors, 0 collisions, 0 interface resets
+0 output buffer failures, 0 output buffers swapped out
+
+Another way to verify the loopback interface is to ping it:
+Router# ping 200.200.100.1
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 200.200.100.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+
+Configuring Command-Line Access to the Router
+Perform these steps to configure parameters to control access to the router, beginning in global
+configuration mode:
+
+Step 1
+
+Command
+
+Purpose
+
+line [aux | console | tty | vty] line-number
+
+Enters line configuration mode, and specifies the
+type of line.
+
+Example:
+
+This example specifies a console terminal for
+access.
+
+Router(config)# line console 0
+Router(config)#
+
+Step 2
+
+password password
+
+Specifies a unique password for the console
+terminal line.
+
+Example:
+Router(config)# password 5dr4Hepw3
+Router(config)#
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-10
+
+OL-6426-02
+
+Chapter 1
+
+Basic Router Configuration
+Configuring Basic Parameters
+
+Step 3
+
+Command
+
+Purpose
+
+login
+
+Enables password checking at terminal session
+login.
+
+Example:
+Router(config)# login
+Router(config)#
+
+Step 4
+
+exec-timeout minutes [seconds]
+Example:
+Router(config)# exec-timeout 5 30
+Router(config)#
+
+Step 5
+
+line [aux | console | tty | vty] line-number
+
+Sets the interval that the EXEC command
+interpreter waits until user input is detected. The
+default is 10 minutes. Optionally, add seconds to
+the interval value.
+This example shows a timeout of 5 minutes and
+30 seconds. Entering a timeout of 0 0 specifies
+never to time out.
+Specifies a virtual terminal for remote console
+access.
+
+Example:
+Router(config)# line vty 0 4
+Router(config)#
+
+Step 6
+
+password password
+
+Specifies a unique password for the virtual
+terminal line.
+
+Example:
+Router(config)# password aldf2ad1
+Router(config)#
+
+Step 7
+
+login
+
+Enables password checking at the virtual terminal
+session login.
+
+Example:
+Router(config)# login
+Router(config)#
+
+Step 8
+
+end
+
+Exits line configuration mode, and returns to
+privileged EXEC mode.
+
+Example:
+Router(config)# end
+Router#
+
+For complete information about the command line commands, see the Cisco IOS Release 12.3
+documentation set.
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-11
+
+Chapter 1
+
+Basic Router Configuration
+
+Configuring Static Routes
+
+Configuration Example
+The following configuration shows the command-line access commands.
+You do not need to input the commands marked “default.” These commands appear automatically in the
+configuration file generated when you use the show running-config command.
+!
+line con 0
+exec-timeout 10 0
+password 4youreyesonly
+login
+transport input none (default)
+stopbits 1 (default)
+line vty 0 4
+password secret
+login
+!
+
+Configuring Static Routes
+Static routes provide fixed routing paths through the network. They are manually configured on the
+router. If the network topology changes, the static route must be updated with a new route. Static routes
+are private routes, unless they are redistributed by a routing protocol. Configuring static routes on the
+Cisco 1800 series routers is optional.
+Perform these steps to configure static routes, beginning in global configuration mode:
+
+Step 1
+
+Command
+
+Purpose
+
+ip route prefix mask {ip-address | interface-type
+interface-number [ip-address]}
+
+Specifies the static route for the IP packets.
+
+Example:
+Router(config)# ip route 192.168.1.0
+255.255.0.0 10.10.10.2
+Router(config)#
+
+Step 2
+
+end
+
+For details about this command and additional
+parameters that can be set, see the Cisco IOS IP
+Command Reference, Volume 2 of 4: Routing
+Protocols.
+
+Exits router configuration mode, and enters
+privileged EXEC mode.
+
+Example:
+Router(config)# end
+Router#
+
+For complete information on the static routing commands, see the Cisco IOS Release 12.3
+documentation set. For more general information on static routing, see Appendix B, “Concepts.”
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-12
+
+OL-6426-02
+
+Chapter 1
+
+Basic Router Configuration
+Configuring Dynamic Routes
+
+Configuration Example
+In the following configuration example, the static route sends out all IP packets with a destination IP
+address of 192.168.1.0 and a subnet mask of 255.255.255.0 on the Fast Ethernet interface to another
+device with an IP address of 10.10.10.2. Specifically, the packets are sent to the configured PVC.
+You do not need to enter the commands marked “(default).” These commands appear automatically in
+the configuration file generated when you use the show running-config command.
+!
+ip classless (default)
+ip route 192.168.1.0 255.255.255.0 10.10.10.2!
+
+Verifying Your Configuration
+To verify that you have properly configured static routing, enter the show ip route command and look
+for static routes signified by the “S.”
+You should see verification output similar to the following example.
+Router# show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+E1 - OSPF external type 1, E2 - OSPF external type 2
+i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+ia - IS-IS inter area, * - candidate default, U - per-user static route
+o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+10.0.0.0/24 is subnetted, 1 subnets
+C
+10.108.1.0 is directly connected, Loopback0
+S* 0.0.0.0/0 is directly connected, FastEthernet0
+
+Configuring Dynamic Routes
+In dynamic routing, the network protocol adjusts the path automatically, based on network traffic or
+topology. Changes in dynamic routes are shared with other routers in the network.
+The Cisco routers can use IP routing protocols, such as Routing Information Protocol (RIP) or Enhanced
+Interior Gateway Routing Protocol (EIGRP), to learn routes dynamically. You can configure either of
+these routing protocols on your router.
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-13
+
+Chapter 1
+
+Basic Router Configuration
+
+Configuring Dynamic Routes
+
+Configuring RIP
+Perform these steps to configure the RIP routing protocol on the router, beginning in global
+configuration mode:
+
+Step 1
+
+Command
+
+Task
+
+router rip
+
+Enters router configuration mode, and enables RIP
+on the router.
+
+Example:
+Router> configure terminal
+Router(config)# router rip
+Router(config-router)#
+
+Step 2
+
+version {1 | 2}
+
+Specifies use of RIP version 1 or 2.
+
+Example:
+Router(config-router)# version 2
+Router(config-router)#
+
+Step 3
+
+network ip-address
+Example:
+
+Specifies a list of networks on which RIP is to be
+applied, using the address of the network of
+directly connected networks.
+
+Router(config-router)# network 192.168.1.1
+Router(config-router)# network 10.10.7.1
+Router(config-router)#
+
+Step 4
+
+no auto-summary
+Example:
+Router(config-router)# no auto-summary
+Router(config-router)#
+
+Step 5
+
+end
+
+Disables automatic summarization of subnet routes
+into network-level routes. This allows subprefix
+routing information to pass across classful network
+boundaries.
+
+Exits router configuration mode, and enters
+privileged EXEC mode.
+
+Example:
+Router(config-router)# end
+Router#
+
+For complete information on the dynamic routing commands, see the Cisco IOS Release 12.3
+documentation set. For more general information on RIP, see Appendix B, “Concepts.”
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-14
+
+OL-6426-02
+
+Chapter 1
+
+Basic Router Configuration
+Configuring Enhanced IGRP
+
+Configuration Example
+The following configuration example shows RIP version 2 enabled in IP network 10.0.0.0 and
+192.168.1.0.
+Execute the show running-config command from privileged EXEC mode to see this configuration.
+!
+router rip
+version 2
+network 10.0.0.0
+network 192.168.1.0
+no auto-summary
+!
+
+Verifying Your Configuration
+To verify that you have properly configured RIP, enter the show ip route command and look for RIP
+routes signified by “R.” You should see a verification output like the example shown below.
+Router# show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+E1 - OSPF external type 1, E2 - OSPF external type 2
+i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+ia - IS-IS inter area, * - candidate default, U - per-user static route
+o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+
+C
+R
+
+10.0.0.0/24 is subnetted, 1 subnets
+10.108.1.0 is directly connected, Loopback0
+3.0.0.0/8 [120/1] via 2.2.2.1, 00:00:02, Ethernet0/0
+
+Configuring Enhanced IGRP
+Perform these steps to configure Enhanced IGRP (EIGRP), beginning in global configuration mode:
+
+Step 1
+
+Command
+
+Purpose
+
+router eigrp as-number
+
+Enters router configuration mode, and enables
+EIGRP on the router. The autonomous-system
+number identifies the route to other EIGRP routers
+and is used to tag the EIGRP information.
+
+Example:
+Router(config)# router eigrp 109
+Router(config)#
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+OL-6426-02
+
+1-15
+
+Chapter 1
+
+Basic Router Configuration
+
+Configuring Enhanced IGRP
+
+Step 2
+
+Command
+
+Purpose
+
+network ip-address
+
+Specifies a list of networks on which EIGRP is to
+be applied, using the IP address of the network of
+directly connected networks.
+
+Example:
+Router(config)# network 192.145.1.0
+Router(config)# network 10.10.12.115
+Router(config)#
+
+Step 3
+
+end
+
+Exits router configuration mode, and enters
+privileged EXEC mode.
+
+Example:
+Router(config-router)# end
+Router#
+
+For complete information on the IP EIGRP commands, see the Cisco IOS Release 12.3 documentation
+set. For more general information on EIGRP concepts, see Appendix B, “Concepts.”
+
+Configuration Example
+The following configuration example shows the EIGRP routing protocol enabled in IP networks
+192.145.1.0 and 10.10.12.115. The EIGRP autonomous system number is assigned as 109.
+Execute the show running-config command from privileged EXEC mode to see this configuration.
+!
+router eigrp 109
+network 192.145.1.0
+network 10.10.12.115
+!
+
+Verifying Your Configuration
+To verify that you have properly configured IP EIGRP, enter the show ip route command, and look for
+EIGRP routes indicated by “D.” You should see verification output similar to the following example.
+Router# show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+E1 - OSPF external type 1, E2 - OSPF external type 2
+i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+ia - IS-IS inter area, * - candidate default, U - per-user static route
+o - ODR, P - periodic downloaded static route
+Gateway of last resort is not set
+
+C
+D
+
+10.0.0.0/24 is subnetted, 1 subnets
+10.108.1.0 is directly connected, Loopback0
+3.0.0.0/8 [90/409600] via 2.2.2.1, 00:00:02, Ethernet0/0
+
+Cisco 1800 Series Integrated Services Routers (Fixed) Software Configuration Guide
+
+1-16
+
+OL-6426-02
+
+

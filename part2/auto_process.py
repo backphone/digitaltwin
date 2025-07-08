@@ -1,81 +1,87 @@
-LOG_FILE = '/home/ubuntu/ai_env/logs/auto_training_log.txt'
-
 import os
-import shutil
-import subprocess
-from pathlib import Path
-from datetime import datetime
+import pickle
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
+from utils import load_file_content
 
-# Set the specific folder to scan
-UPLOAD_DIR = '/home/ubuntu/ai_env/documents/AI_Training_Material/'
-TXT_DIR = '/home/ubuntu/ai_env/documents/txt/'
-CHUNK_THRESHOLD = 100000  # characters
-DEFAULT_CHUNK_SIZE = 1000
+# 每次重新初始化 FAISS 索引和 metadata 列表
+index = faiss.IndexFlatL2(384)  # 或你实际的维度
+metadata = []
 
-def convert_pdf_pdftotext(pdf_path, output_txt_path):
-    """Use pdftotext for PDF conversion"""
+# 路径配置
+#DOC_DIR = "/home/ubuntu/ai_env/documents/AI_Training_Material"
+DOC_DIR = "/home/ubuntu/ai_env/documents/AI_Training_Material/test"
+INDEX_PATH = "/home/ubuntu/ai_env/faiss_index/index.faiss"
+META_PATH = "/home/ubuntu/ai_env/faiss_index/index.pkl"
+
+# 模型和索引初始化
+EMBED_MODEL = "all-MiniLM-L6-v2"
+embedder = SentenceTransformer(EMBED_MODEL)
+
+# 加载或新建索引和元数据
+def load_existing_index(index_path, meta_path):
+    if os.path.exists(index_path) and os.path.exists(meta_path):
+        print("🟡 Loading existing FAISS index and metadata...")
+        index = faiss.read_index(index_path)
+        with open(meta_path, "rb") as f:
+            metadata = pickle.load(f)
+            if isinstance(metadata, tuple):
+                metadata = list(metadata)
+        return index, metadata
+    else:
+        print("🟢 Creating new FAISS index...")
+        index = faiss.IndexFlatL2(384)
+        metadata = []
+        return index, metadata
+
+index, metadata = load_existing_index(INDEX_PATH, META_PATH)
+
+# 文本切分,smaller chunk size means higher granuity,
+def split_text(text, chunk_size=800, overlap=100):
+    chunks = []
+    start = 0
+    while start < len(text):
+        end = min(start + chunk_size, len(text))
+        chunks.append(text[start:end])
+        start += chunk_size - overlap
+    return chunks
+
+# 文件处理逻辑
+def process_file(filepath):
+    global metadata
+    print(f"🔍 Processing file: {filepath}")
     try:
-        subprocess.run(['pdftotext', pdf_path, output_txt_path], check=True)
-        print(f"Converted PDF: {pdf_path} -> {output_txt_path}")
-    except subprocess.CalledProcessError:
-        print(f"Failed to convert PDF: {pdf_path}")
+        content = load_file_content(filepath)
+        if not content.strip():
+            print(f"⚠️ Skipped (empty file)")
+            return
 
-def convert_docx_to_txt(docx_path, output_txt_path):
-    """Convert .docx to .txt"""
-    from docx import Document
-    try:
-        doc = Document(docx_path)
-        text = '\n'.join([para.text for para in doc.paragraphs])
-        with open(output_txt_path, 'w', encoding='utf-8') as f:
-            f.write(text)
-        print(f"Converted DOCX: {docx_path} -> {output_txt_path}")
+        chunks = split_text(content)
+        embeddings = embedder.encode(chunks)
+
+        for i, vec in enumerate(embeddings):
+            index.add(np.array([vec]))
+            metadata.append({
+                "source": f"{filepath} :: chunk {i+1}",
+                "text": chunks[i]  # ✅ 添加这一行
+        })
+
     except Exception as e:
-        print(f"Failed to convert DOCX: {docx_path} | Error: {e}")
+        print(f"❌ Error processing {filepath}: {e}")
 
-def process_uploaded_files():
-    os.makedirs(TXT_DIR, exist_ok=True)
-    for file in os.listdir(UPLOAD_DIR):
-        input_path = os.path.join(UPLOAD_DIR, file)
-        if os.path.isfile(input_path):
-            filename, ext = os.path.splitext(file)
-            ext = ext.lower()
+# 遍历文档目录
+for root, _, files in os.walk(DOC_DIR):
+    for file in files:
+        filepath = os.path.join(root, file)
+        process_file(filepath)
 
-            if ext == '.pdf':
-                output_txt = os.path.join(TXT_DIR, f"{filename}.txt")
-                convert_pdf_pdftotext(input_path, output_txt)
+# 保存索引和元数据
+faiss.write_index(index, INDEX_PATH)
+with open(META_PATH, "wb") as f:
+    pickle.dump(metadata, f)
 
-            elif ext == '.docx':
-                output_txt = os.path.join(TXT_DIR, f"{filename}.txt")
-                convert_docx_to_txt(input_path, output_txt)
+print("✅ Processing completed and index saved.")
 
-            elif ext == '.txt':
-                shutil.copy(input_path, TXT_DIR)
-                print(f"Copied TXT: {input_path} -> {TXT_DIR}")
-
-            else:
-                print(f"Skipped unsupported file: {input_path}")
-
-def auto_chunk_and_train():
-    """Adjust chunk size if large, then train (FAISS or others)"""
-    with open(LOG_FILE, 'a') as log:
-        for txt_file in Path(TXT_DIR).glob('*.txt'):
-            text = txt_file.read_text(encoding='utf-8', errors='ignore')
-            chunk_size = DEFAULT_CHUNK_SIZE
-            if len(text) > CHUNK_THRESHOLD:
-                chunk_size = 500  # Reduce chunk size for large files
-
-            log.write(f"{datetime.now()} | Trained on: {txt_file.name} | Size: {len(text)} chars | Chunk size: {chunk_size}\n")
-            print(f"✅ Training on: {txt_file.name} | Size: {len(text)} chars | Chunk size: {chunk_size}")
-
-            # TODO: Add FAISS/vector training here
-
-
-if __name__ == '__main__':
-    process_uploaded_files()
-    auto_chunk_and_train()
-    print(f"✅ Training Completed at {datetime.now()}")
-
-with open(LOG_FILE, 'a') as log:
-    log.write(f"{datetime.now()} | ✅ Training Completed\n")
-    print(f"✅ Training Completed at {datetime.now()}")
+print(f"🧠 Total chunks saved: {len(metadata)}")
 

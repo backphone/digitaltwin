@@ -1,0 +1,150 @@
+-- Step 1: Identify tickets created on 4th December with ResourceName = 'RCS'
+WITH TicketsCreatedOnDate AS (
+    SELECT
+        vp.ProblemID,
+        vp.CreatedDateTime AS TicketCreatedDateTime,
+        vp.ResourceName,
+        vp.CreatedByName
+    FROM
+        ViewProblem vp
+    WHERE
+        vp.CreatedDateTime >= '2024-12-01 00:00:00'
+        AND vp.CreatedDateTime < '2024-12-06 23:59:59'
+        AND vp.ResourceName = 'RCS'
+),
+
+-- Step 2: Get the first outgoing email per ProblemID
+FirstOutgoing AS (
+    SELECT
+        pa.ProblemID,
+        MIN(pa.CreatedDateTime) AS FirstOutgoingTimestamp
+    FROM
+        ViewProblemAction pa
+    WHERE
+        pa.ProblemActionType = 'Email outgoing'
+    GROUP BY
+        pa.ProblemID
+),
+
+-- Step 3: Identify first incoming, exceptional outgoing, and filter out tickets without an incoming email
+FirstActions AS (
+    SELECT
+        ta.ProblemID,
+
+        -- First incoming email timestamp, excluding exceptional outgoing cases
+        MIN(CASE 
+            WHEN pa.ProblemActionType IN ('Email incoming', 'Email Incoming Post Op') 
+                 AND CHARINDEX('from:servicedesk@marlink.com', 
+                      LOWER(REPLACE(REPLACE(REPLACE(CAST(pa.ProblemAction AS NVARCHAR(MAX)), CHAR(13), ''), CHAR(10), ''), ' ', ''))
+                 ) = 0 -- Ensure it's not an exceptional outgoing email
+        THEN pa.CreatedDateTime
+        END) AS IncomingTimestamp,
+
+        -- Merge first outgoing email timestamp (joined from FirstOutgoing)
+        fo.FirstOutgoingTimestamp AS OutgoingTimestamp,
+
+        -- Exceptional outgoing email logic: Incoming emails from servicedesk@marlink.com are treated as outgoing
+        MIN(CASE 
+            WHEN pa.ProblemActionType IN ('Email incoming', 'Email Incoming Post Op')
+                 AND CHARINDEX('from:servicedesk@marlink.com', 
+                      LOWER(REPLACE(REPLACE(REPLACE(CAST(pa.ProblemAction AS NVARCHAR(MAX)), CHAR(13), ''), CHAR(10), ''), ' ', ''))
+                 ) > 0
+                 AND (
+                     fo.FirstOutgoingTimestamp IS NULL
+                     OR pa.CreatedDateTime < fo.FirstOutgoingTimestamp
+                 )
+        THEN pa.CreatedDateTime
+        END) AS ExceptionalOutgoingTimestamp
+
+    FROM
+        TicketsCreatedOnDate ta
+    INNER JOIN
+        ViewProblemAction pa ON ta.ProblemID = pa.ProblemID
+    LEFT JOIN -- Changed back to LEFT JOIN to handle exceptional outgoing emails without regular outgoing emails
+        FirstOutgoing fo ON ta.ProblemID = fo.ProblemID
+    GROUP BY
+        ta.ProblemID, fo.FirstOutgoingTimestamp
+    HAVING
+        MIN(CASE 
+            WHEN pa.ProblemActionType IN ('Email incoming', 'Email Incoming Post Op') 
+                 AND CHARINDEX('from:servicedesk@marlink.com', 
+                      LOWER(REPLACE(REPLACE(REPLACE(CAST(pa.ProblemAction AS NVARCHAR(MAX)), CHAR(13), ''), CHAR(10), ''), ' ', ''))
+                 ) = 0 -- Ensure it's not an exceptional outgoing email
+        THEN pa.CreatedDateTime
+        END) IS NOT NULL -- Exclude tickets without a valid incoming email
+),
+
+-- Step 4: Filter valid cases. Ticket should have at least 1 outgoing/exceptional outoing email. 
+-- Tickets triggered by incoming emails from monit@marlink.com or no-reply@marlink.com (since we may not need to contact customers immediately in that case).
+
+FilteredActions AS (
+    SELECT
+        fa.*
+    FROM
+        FirstActions fa
+    WHERE
+        (fa.OutgoingTimestamp IS NOT NULL OR fa.ExceptionalOutgoingTimestamp IS NOT NULL) -- Ensure at least one valid outgoing
+        AND fa.ProblemID NOT IN (
+            SELECT pa.ProblemID
+            FROM ViewProblemAction pa
+            WHERE pa.ProblemActionType IN ('Email incoming', 'Email Incoming Post Op')
+              AND (
+                  LOWER(CAST(pa.ProblemAction AS NVARCHAR(MAX))) LIKE '%from:%monit@marlink.com%'
+                  OR LOWER(CAST(pa.ProblemAction AS NVARCHAR(MAX))) LIKE '%from:%no-reply@marlink.com%'
+              )
+        )
+)
+
+-- Final Output
+SELECT 
+    fa.ProblemID,
+    fa.IncomingTimestamp,
+    DATEPART(HOUR, fa.IncomingTimestamp) AS houroftheday,
+    fa.OutgoingTimestamp,
+    fa.ExceptionalOutgoingTimestamp,
+    vp.CreatedDateTime AS ProblemCreatedDateTime,
+
+    -- Determine the 1st response timestamp
+    CASE 
+        WHEN fa.ExceptionalOutgoingTimestamp IS NOT NULL 
+             AND (fa.OutgoingTimestamp IS NULL 
+                  OR fa.ExceptionalOutgoingTimestamp < fa.OutgoingTimestamp) 
+        THEN fa.ExceptionalOutgoingTimestamp
+        ELSE fa.OutgoingTimestamp
+    END AS [1stResponseTimestamp],
+
+    -- Calculate the 1st response delay, handling the case where outgoing is before incoming.
+    CASE
+        -- Case 1: Normal case, incoming email exists before the outgoing email
+        WHEN fa.IncomingTimestamp IS NOT NULL 
+             AND fa.IncomingTimestamp < 
+                 CASE 
+                     WHEN fa.ExceptionalOutgoingTimestamp IS NOT NULL 
+                          AND (fa.OutgoingTimestamp IS NULL 
+                               OR fa.ExceptionalOutgoingTimestamp < fa.OutgoingTimestamp) 
+                     THEN fa.ExceptionalOutgoingTimestamp
+                     ELSE fa.OutgoingTimestamp
+                 END
+        THEN DATEDIFF(MINUTE, fa.IncomingTimestamp, 
+                 CASE 
+                     WHEN fa.ExceptionalOutgoingTimestamp IS NOT NULL 
+                          AND (fa.OutgoingTimestamp IS NULL 
+                               OR fa.ExceptionalOutgoingTimestamp < fa.OutgoingTimestamp) 
+                     THEN fa.ExceptionalOutgoingTimestamp
+                     ELSE fa.OutgoingTimestamp
+                 END)
+
+        -- Case 2: Outgoing email happened before the first incoming email, use TicketCreatedDateTime instead
+        WHEN fa.OutgoingTimestamp IS NOT NULL 
+             AND (fa.IncomingTimestamp IS NULL OR fa.IncomingTimestamp > fa.OutgoingTimestamp)
+        THEN DATEDIFF(MINUTE, vp.CreatedDateTime, fa.OutgoingTimestamp)
+
+        ELSE NULL
+    END AS [1stResponseDelay]
+
+FROM 
+    FilteredActions fa
+INNER JOIN 
+    ViewProblem vp ON fa.ProblemID = vp.ProblemID
+ORDER BY 
+    fa.ProblemID;

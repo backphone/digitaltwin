@@ -1,0 +1,8 @@
+
+You may need to modify the Java security setting, in order to download the log file.
+
+Please refer to attached screenshot:
+1. Go to control panel on the PC, and open Java; 2. Under Security tab, set security the lowest level. 
+
+Depending on the java version,  your Java may show different configuration from the sent screenshot. That is fine. Just need to set it to the minimum level.
+

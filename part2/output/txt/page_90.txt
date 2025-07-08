@@ -1,0 +1,41 @@
+Intellian’s LP100 land terminal meets Korean military’s need for portable, swift-to-deploy communications | Intelliantech
+Back to listing
+Case Study
+Intellian’s LP100 land terminal meets Korean military’s need for portable, swift-to-deploy communications
+Date
+01 September 2020
+Location
+APAC - Military and Government
+Military and Government - LP100
+Customer: Korean Military
+Market Sector: Military & Government
+Required Features: Man-Portable & Rapid Deployment
+Challenges
+Reliable connectivity in a challengeable environment
+Man-portable antenna for ease of deployment in theater
+Quick installation and commissioning
+For network-centric operations to succeed on today’s digital battlefield, efficient, reliable, and real-time communication is crucial to deliver the right information to the right person at the right time. The antenna is one of the most important elements in the communication channel. Military applications combine the need for high performance and reliability with some of the harshest environmental conditions.
+The Korean military expects to deploy the system in a range of diverse situations, including emergencies, disaster recovery, SOC (Social Overhead Capital) projects in the domestic arena or abroad, and in defense applications. The requirements they asked for were basically the same requirements Intellian has developed for maritime applications; the same key qualities that have made Intellian a global leader in satellite communications.
+So, it was logical that when the need arose for an intelligent VSAT antenna, which could establish a stable data communication service yet be easily assembled and disassembled, stored, and moved without mechanical assistance, the Korean military looked to Intellian to provide the solution.
+Solutions
+Mil-spec man-portable land terminal, LP100 ‘Flyaway’
+Automatic acquisition to target the satellite
+Automatic and manual capability to stow the antenna ready for transport
+Intellian’s LP100 ‘flyaway’ land terminal can be carried in two airline-checkable backpacks and deployed in minutes with no tools required. Each reflector section is interchangeable, removing complexity and allowing the unit to be built in the dark, while the constructed antenna sits low to the ground – essential attributes for covert operations. From packed to connected within five minutes, the LP100 is ideal for portable and truly global communications.
+Satellite tracking is achieved with a single button press, as is stowing for transport, although both can be achieved manually if required. Capable of operating on AC or DC power (from a vehicle), the unit will switch automatically between power sources to ensure uninterrupted, stable operation even when power sources are unpredictable. Local and remote management and diagnostics are made simple through the built-in Aptus web interface.
+The Intellian LP100 is upgradable from Ku-band to Ka-band, for when the military and government prefer to use Ka-band frequencies. New Ka-band networks are built with smaller, steerable beams for high capacity density, which adds enhanced jamming resistance for platforms while supporting significant uplink data rates for programs such as military Intelligence, Surveillance, and Reconnaissance (ISR) and other data-rich applications.
+The Korean Military launched their first satellite which utilizes Ka-band, resulting in Intellian being selected as the sole vendor. The LP100 can be quickly and easily upgraded to Ka-band with few component changes in the field.
+Benefits
+Lightweight, rugged, and man-portable for soldiers to mobilize
+No tools required for ease of deployment
+With a modular antenna assembly that can be completed in a few minutes
+Future proof – Ka-band upgradable
+Fully compatible with all major service providers, the LP100 flyaway antenna can be swiftly converted between Ku- and Ka-band operation by swapping the central feed and RF assembly, an operation taking less than five minutes. The Korean military is one of the first organizations to take advantage of the stable, portable high-speed data communication facilitated by the LP100, but since the early stages of development, the LP100 flyaway has been focused on by the global defense markets and is currently being evaluated by the defense industries in the United States and Europe.
+Downloads
+PDF version
+Intellian Case Study Mil Gov Market LP100 Military
+Download Latest
+Request Information
+Contact Us
+For further detailed information on the Intellian products and solutions shown here, please submit your request using this convenient form.
+Find out more

@@ -1,0 +1,134 @@
+Hi Krys,
+ 
+Are you in contact with Fadi on this? Or, I can drop him a message. 
+ 
+BR
+Guanglin
+ 
+From:
+ FOO, Krys <Krys.Foo@marlink.com> 
+Sent:
+ Wednesday, May 7, 2025 12:34 PM
+To:
+ SI, Guanglin <Guanglin.Si@marlink.com>; TANG, Wei Perk (Wilson) <WeiPerk.Tang@marlink.com>
+Subject:
+ Re: 1 Edge Server
+ 
+Hi Guanglin,
+ 
+Definitely 1 box at least.
+We could reach out to SEKKYNEH, Fadi during June to get an internal issue approval. 
+ 
+ 
+-----------------------------------------------------
+Best Regards
+Krys Foo
+Customer Solutions Engineer
+We Design Communication and Digital Solutions for Your Vessels.
+Digitally advancing your remote world by creating Possibilities. Anywhere.
+For more information, visit 
+www.marlink.com
+ and follow us on 
+Facebook
+, 
+Twitter
+, 
+LinkedIn
+ and 
+YouTube
+.
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+ 
+From:
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+>
+Sent:
+ Wednesday, May 7, 2025 12:28 PM
+To:
+ FOO, Krys <
+Krys.Foo@marlink.com
+>; TANG, Wei Perk (Wilson) <
+WeiPerk.Tang@marlink.com
+>
+Subject:
+ RE: 1 Edge Server
+ 
+ 
+Hi Kyrs,
+ 
+Can we use 1 unit for both vsat and office internet? And who should we talk to for this request? 
+ 
+BR
+Guanglin
+ 
+From:
+ FOO, Krys <
+Krys.Foo@marlink.com
+> 
+Sent:
+ Wednesday, May 7, 2025 12:27 PM
+To:
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+>; TANG, Wei Perk (Wilson) <
+WeiPerk.Tang@marlink.com
+>
+Subject:
+ Re: 1 Edge Server
+ 
+Hi Guanglin,
+ 
+1Edge/XCNG is still pending to release. Soft launch is expected mid this month. 
+I believe Wilson will need to provide training, therefore we could plan for arrangements probably in June when things are more definitive.
+Ideally, we would like to have 2 boxes:
+Singapore Office VSAT connection - 1 Unit 
+Singapore Office Internet connection - 1 Unit
+ 
+Keep in mind that licensing distributed for internal use could be limited therefore we may not be able to get the box(es) as soon as we hope.
+ 
+ 
+-----------------------------------------------------
+Best Regards
+Krys Foo
+Customer Solutions Engineer
+We Design Communication and Digital Solutions for Your Vessels.
+Digitally advancing your remote world by creating Possibilities. Anywhere.
+For more information, visit 
+www.marlink.com
+ and follow us on 
+Facebook
+, 
+Twitter
+, 
+LinkedIn
+ and 
+YouTube
+.
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+ 
+From:
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+>
+Sent:
+ Wednesday, May 7, 2025 9:35 AM
+To:
+ TANG, Wei Perk (Wilson) <
+WeiPerk.Tang@marlink.com
+>; FOO, Krys <
+Krys.Foo@marlink.com
+>
+Subject:
+ 1 Edge Server
+ 
+ 
+Hi Krys / Wilson,
+ 
+Is there any plan to get a server here for demo and testing? What model? 
+ 
+BR
+Guanglin
+ 

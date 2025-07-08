@@ -1,0 +1,81 @@
+t100N - Satellite TV for offshore support vessels mega yachts and commercial ships | Intelliantech
+t100N
+Global satellite TV antenna system
+1m Reflector Ku-band global satellite TV system
+The t100N provides outstanding performance with a 1m reflector with the added benefits of all new hardware and pedestal based on our quality-proven VSAT NX terminals. Modular components are used throughout the new t-Series range, such as the main control unit and skew assembly. Sharing common modules across Intellian’s new t-Series antenna reduces the number of spare parts required.
+t100N
+Key Features
+Specifications
+Downloads
+Accessories
+Related Products
+Key Features
+Matching dome solution
+Matching dome solution for the highly popular 1m-class VSAT antenna family
+Television everywhere
+WorldView™ LNB module will automatically switch to the corresponding Ku-band local frequency and receive the signal without the need to switch the LNB.
+Wi-Fi connectivity
+The Wi-Fi function enables the ACU to be wirelessly connected. Any kind of wireless devices such as PCs, laptops and smartphones can be used to connect to the ACU to manage and control the antenna system.
+Unlimited azimuth range
+With Intellian’s unique rotary joint and slip ring solution, those onboard will enjoy uninterrupted TV services no matter the number of turns the vessel makes.
+Picture Perfect
+Ideal for larger yachts, luxury vessels and wherever symmetry and aesthetics are important on board
+A complementary system for the Intellian 1m VSAT antennas
+Matching TV and NX radomes
+Fully integrated solution
+With its Wi-Fi enabled ACU, users can connect wirelessly to the antenna using AptusNTV.
+AptusNTV offers users instant diagnostics, performance logging functions, and one touch updates of firmware and the satellite library
+Programmable WorldView™ Ku-band LNB
+DVB-S2 Digital TV receptions
+Specifications
+New t-Series
+Radome Dimension
+138 cm x 145.8 cm (54.33" x 57.4")
+Reflector Diameter
+105cm (41.3")
+Antenna Weight
+93.0 kg (205 lbs)
+Min EIRP
+41.5 dBW
+Elevation Range
+-15° to +110°
+Polarization
+Linear & Circular
+Auto Skew
+Yes
+WorldView Capable
+t100N
+New t-Series
+Downloads
+t100N
+Datasheet
+Download Latest
+t100N
+Image Library
+Download Latest
+Accessories
+New Dual TVRO Mediator
+The New Dual TVRO Mediators mitigate blockage in a dual satellite TV system, automatically switching between antennas.
+Learn More
+Intellian Multi Satellite Interface Module (MIM)
+The Intellian MIM enables auto switching of satellites when using Dish or Bell TV in North America.
+Learn More
+Related Products
+View all Products
+t85N
+t85N
+t130N
+t130N
+t150N
+t150N
+t240CK
+t240CK
+t360CK
+t360CK
+v100NX
+Explore Product
+GX100NX
+Explore Product
+GX100NX HP
+Explore Product
+View all Products

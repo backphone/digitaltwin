@@ -1,0 +1,25 @@
+True, auto-sensing ports eliminate the need to think about whether you're using cross over or straight through. But, as mentioned, it is probably safer to practice good networking rules.
+ 
+ 
+Note: The correct method to connect a router to a switch is by using a straight through cable. Switches and Hubs transmit on pins 3 & 6, where as pretty much any other NIC's and Router's transmit on pins 1 & 2.
+ 
+ 
+ 
+ 
+ 
+So :
+ 
+ 
+router to router....crossover
+ 
+ 
+PC to PC....crossover
+ 
+ 
+switch to switch.....crossover
+ 
+ 
+PC to router....crossover
+ 
+ 
+PC to switch, Router to switch, PC to Hub....straight-through

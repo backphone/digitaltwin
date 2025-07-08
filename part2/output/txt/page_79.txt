@@ -1,0 +1,85 @@
+i4 - Satellite TV for boats yachts and commercial ships | Intelliantech
+i4
+Power and Efficiency
+45cm (18inch) Reflector Ku-band Satellite TV System
+Power and efficiency make the i4 the most popular 45 cm (18 inch) Satellite TV system for pleasure boats, fishing boats, workboats, and commercial vessels approximately 12m (35ft) to 20 (60ft) in length. With Intellian’s proprietary iQ² technology, the i4 offers the most precise tracking capabilities and superior satellite signal  reception while the vessel is cruising at high speed or in rough sea conditions.
+i4
+Key Features
+Specifications
+Downloads
+Accessories
+Related Products
+Where to Buy
+Key Features
+iQ²: Quick&Quiet℠ Technology
+iQ² Technology allows you to tune in quickly, maintain a solid signal lock, and enjoy your favorite TV programming in quiet comfort reducing power consumption and wear and tear on the antenna.
+Works with All Providers
+Compatible with leading Ku-band satellite TV service providers around the world.
+Triple Sat Function
+Auto satellite switching function for three satellites.
+Automatic Skew Control
+The available i4P version is equipped with Automatic Skew Control, which allows for better satellite tracking on vessels operating over greater distances in areas served by Linear Satellite TV signals (Europe and South America).
+Constant and Seamless Entertainment
+Intellian's super-efficient 45cm (17.7 in) diameter antenna
+Always maintains the highest signal strength available to ensure crystal-clear TV reception
+Dynamic Beam Tilting (DBT) technology and Wide Range Search (WRS) algorithm for quick and quiet signal tracking
+Automatic Satellite Switching
+DISH (US) and Bell TV (Canada) users will benefit from using an Intellian MIM (Multi-Satellite Interface Module)
+The MIM is required to facilitate automatic switching between satellites for these services
+Allowing boaters to enjoy changing channels with automatic satellite switching just like a home system
+Specifications
+i-Series
+Radome Dimension
+50 cm x 54 cm (19.7" x 21.2")
+Reflector Diameter
+45cm (17.7")
+Antenna Weight
+11.6 kg (25.5 lbs)
+Min EIRP
+48 dBW
+Elevation Range
+0˚  to +90˚
+Polarization
+Linear or Circular
+Auto Skew
+i4P
+WorldView Capable
+No
+i-Series
+Downloads
+i4
+Datasheet
+Download Latest
+i4
+Image Library
+Download Latest
+i4
+User Manual
+Download Latest
+Accessories
+Dual TVRO Mediator
+Dual TVRO Mediators mitigate blockage in a dual satellite TV system, automatically switching between antennas.
+Learn More
+Intellian Multi Satellite Interface Module (MIM)
+The Intellian MIM enables auto switching of satellites when using Dish or Bell TV in North America.
+Learn More
+Matching Radome
+Matching radomes are used to maintain a symmetrical look onboard.
+Learn More
+Related Products
+View all Products
+i5
+Explore Product
+i6
+Explore Product
+i9
+Explore Product
+i2
+Explore Product
+i3
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

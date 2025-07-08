@@ -1,0 +1,99 @@
+Intellian GX60NX - GX Maritime Terminal | Intelliantech
+GX60NX 2/HP
+New 65cm Inmarsat GX Fleet Xpress Terminal
+Intellian GX60NX 2 is a 2.5GHz Ka- Wideband ready Global Xpress terminal with a 65cm diameter reflector. The GX60NX 2 is designed with a compact lightweight antenna enabling easy and convenient installation. The GX60NX 2 has a transceiver system and GX60NX features a BUC. The GX60NX 2 HP incorporates an upgraded 9W high-powered transceiver.
+The All-In-One GX BDT integrates the GX Modem and GX Mediator, making it simple and easy to install in an FX rack. The GX60NX 2’s new operation platform ensures quick configuration and activation with its smart operational software AptusNX.
+* Image used is GX60NX 2
+GX60NX 2/HP
+Key Features
+Compare Products
+Downloads
+Related Products
+Where to Buy
+Where to Buy
+Key Features
+Compact and lightweight
+Even though the weight is reduced dramatically, the terminal performance is not compromised.
+High power upgradable
+No need to replace the BDT and no additional components, high power BUC or transceiver can be easily installed.
+Future proof design
+Ready for operation on 2.5GHz Ka-wideband with a frequency tuned radome & reflector.
+New All in One integrated below deck terminal
+The all-new GX BDT integrates ACU, GX modem, power supply, 4-port switch and GX Mediator.
+Quick and easy deployment
+No internal shipping brackets
+Pre-slung lifting strap included as standard
+Easy mounting on the vessel
+Single coax cable design with external cable connection
+Quick and easy commissioning using AptusNX Install Wizard
+Compact high performance solution
+Rackmount 1U Single BDT including ACU, Modem, Mediator
+High power BUC or transceiver option in same form factor
+Lightweight and high RF performance
+Compare Products
+GX60NX                                                      GX60NX 2
+Radome Dimension
+93x86 cm (36.6x33.9 inch)
+93x86 cm (36.6x33.9 inch)
+Antenna Weight
+39 kg/ 86 lbs
+39 kg/ 86 lbs
+RX Frequency
+19.2~20.2GHz Ka-band
+17.7~20.2GHz Ka-band
+RX Gain
+40.5 dBi @ 19.7GHz (excl. radome)
+40.2 dBi @ 19.0GHz (excl. radome)
+Reflector Diameter
+65cm (25.6inch)
+65cm (25.6inch)
+TX Frequency
+29.0~30.0GHz Ka-band
+27.5~30.0GHz Ka-band
+TX Gain
+44.2 dBi @ 29.5 GHz (excl. radome)
+44.2 dBi @ 29.0 GHz (excl. radome)
+G/T
+16.2 dB/K (min.)
+15.5 dB/K (min.)
+Power
+5W/10W BUC
+4.5W/9W XCVR
+Downloads
+GX60NX
+Datasheet
+Download Latest
+GX60NX 2
+Datasheet
+Download Latest
+GX60NX
+Image library
+Download Latest
+GX60NX 2
+Image library
+Download Latest
+Related Products
+View all Products
+GX100NX 2
+Explore Product
+GX60NX HP
+Explore Product
+GX100NX HP
+Explore Product
+GX100PM
+Explore Product
+s6HD
+Explore Product
+FB250
+Explore Product
+FB500
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

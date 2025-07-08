@@ -1,0 +1,689 @@
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+Approval:
+Approved by
+
+Signature
+
+Document Manager
+
+SJ Kim /
+
+Global Support Director
+
+Charlie Snooke /
+
+HQ Support Manager
+
+Alvin Choi /
+
+Date
+
+Revision History:
+Version
+
+Date
+
+Summary of Changes
+
+Author
+
+1_0
+
+2016.02.12
+
+Initial Creation
+
+Hans Lee
+
+1_1
+
+2016.09.09
+
+LNB Local synchronization is added
+
+Hans Lee
+
+Intellian Technologies Inc.
+Page 1 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+Table of Contents
+1.
+
+Overview .................................................................................................................................. 3
+
+2.
+
+Problem Description ................................................................................................................. 4
+2.1
+
+ACU ................................................................................................................................ 4
+
+2.2
+
+Aptus .............................................................................................................................. 4
+
+3.
+
+Possible Cause ........................................................................................................................ 5
+
+4.
+
+Spare Parts .............................................................................................................................. 5
+
+5.
+
+4.1
+
+Module ............................................................................................................................ 5
+
+4.2
+
+Cable .............................................................................................................................. 5
+
+Preparation .............................................................................................................................. 6
+5.1
+
+6.
+
+5.1.1
+
+Verify the LNB by visual inspection. ....................................................................... 6
+
+5.1.2
+
+Check the Co&Cross Pol LNB setting on the Aptus. .............................................. 6
+
+Troubleshooting ....................................................................................................................... 7
+6.1
+
+Run the LNB/NBD Diagnosis test.................................................................................... 7
+
+6.2
+
+Check the LNB log messages ......................................................................................... 7
+
+6.3
+
+Check the LNB input voltage and corrective measure ..................................................... 8
+
+6.4
+
+6.5
+7.
+
+Check the Co&Cross Pol LNB Setting............................................................................. 6
+
+6.3.1
+
+Check the Co pol LNB voltage .............................................................................. 8
+
+6.3.2
+
+Check the Cross pol LNB voltage .......................................................................... 9
+
+Corrective measure....................................................................................................... 10
+6.4.1
+
+Replace the NBD ................................................................................................ 10
+
+6.4.2
+
+Replace the LNB ................................................................................................. 10
+
+6.4.3
+
+Replace RF cables .............................................................................................. 11
+
+Re-check the error with diagnosis test .......................................................................... 12
+
+Tips for Solving Problems....................................................................................................... 12
+7.1
+
+LNB swap test............................................................................................................... 12
+
+Intellian Technologies Inc.
+Page 2 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+1. Overview
+START
+
+OK
+
+ACU
+
+CODE 110: “LNB/NBD failed”
+
+Aptus
+
+“LNB/NBD failed” (RED Alarm)
+
+Check
+Status
+
+NG
+
+Check LNB Setting
+
+OK
+
+Refer to 5. Preparation
+
+Diagnosis
+TEST
+NG
+Check log message
+
+Refer to 6.3.2 Check the PLL NBD
+log message
+
+Conduct Replace
+Work
+
+Refer to 6.5 Corrective measure
+
+Diagnosis TEST
+
+END
+
+Intellian Technologies Inc.
+Page 3 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+2. Problem Description
+The LNB/NBD Error makes antenna tracking and VSAT service unavailable due to
+no RX signal from satellite. That error can be detected by Diagnosis test as
+LNB/NBD error (code 110).
+
+2.1
+
+ACU
+
+2.2
+
+Aptus
+
+ LNB/NBD is diagnosed as GOOD or BAD
+
+(Good)
+
+(BAD)
+
+Intellian Technologies Inc.
+Page 4 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+3. Possible Cause
+
+
+
+
+
+LNB (Cross pol LNB / Co pol LNB) error
+FSK / NBD board error
+Cable error between LNB & NBD
+Wrong setting of Local Frequency
+
+(LNB/NBD System Diagram)
+
+4. Spare Parts
+It is recommended to prepare the spare parts below which might be used for
+troubleshooting.
+
+4.1
+
+Module
+V1-1205 Intellian Global PLL LNB
+V3-5001 FSK & NBD Board Assembly for v100GX/ v100
+
+4.2
+
+Cable
+V3-6010 Internal Interface to Skew Cable for v100GX/ v100 (NJRC Mini 8W M&C)
+V3-8025 RF Cable from FSK Board to Conversion Bracket for v100GX/ v100/ v100PM
+
+Intellian Technologies Inc.
+Page 5 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+5. Preparation
+5.1
+
+Check the Co&Cross Pol LNB Setting
+
+5.1.1
+
+Verify the LNB by visual inspection.
+Two LNBs (Cross pol LNB, Co pol LNB) are installed on the v100 antenna as below.
+Co Pol LNB
+Cross Pol LNB
+
+Cross Pol LNB
+
+Co Pol LNB
+
+5.1.2
+
+Check the Co&Cross Pol LNB setting on the Aptus.
+Only one LNB of the two is operated by the RX polarization in use.
+
+(Using Cross Pol LNB)
+Cross – Pol
+Co – Pol
+
+:
+
+(Using Co Pol LNB)
+
+RX & TX are different Polarization
+ex) RX: V (H) & TX: H (V)
+:
+
+Current Voltage:
+
+RX & TX are the same Polarization
+ex) RX: V (H) & TX: V (H)
+NBD supplies 18V
+(The voltage varying according to a satellite)
+
+Intellian Technologies Inc.
+Page 6 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+6. Troubleshooting
+6.1
+
+Run the LNB/NBD Diagnosis test
+
+
+6.2
+
+In diagnostics menu, choose LNB/NBD test manually and perform the test.
+
+Check the LNB log messages
+Verify the suspicious parts according to the TEST result. The antenna log message
+is displayed.
+
+
+Message in normal condition
+
+
+
+Message at Cross pol LNB fail: Check and replace the Cross pol LNB.
+
+Intellian Technologies Inc.
+Page 7 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+
+
+Message at Co pol LNB fail : Check and replace Co pol LNB.
+
+
+
+Message at NBD Co and Cross Pol Fail : Check and replace the NBD.
+
+6.3
+
+Check the LNB input voltage and corrective measure
+The LNB input power from the FSK/NBD is supplied only for one LNB in operation
+at one time, not for both Co / Cross pol LNB at the same time.
+
+6.3.1
+
+Check the Co pol LNB voltage
+The LNB is set as below, you can check the condition of Co-pol LNB.
+
+(Using Co Pol LNB)
+
+Intellian Technologies Inc.
+Page 8 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+1. Check the Co-Pol LNB input cable.
+
+2. Check the existing NBD board by using RF TEST cable.
+
+(How to measure the NBD output voltage)
+
+6.3.2
+
+(How to measure the LNB input voltage)
+
+Check the Cross pol LNB voltage
+
+Intellian Technologies Inc.
+Page 9 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+6.4
+
+Corrective measure
+
+6.4.1
+
+Replace the NBD
+In case that voltage is not detected on the output port of the Cross or Co Pol NBD.
+ Check and Replace the NBD
+
+6.4.2
+
+Replace the LNB
+In case that voltage normally measured on the LNB input connector and the output
+port of NBD  Check and Replace the LNB
+After installing new LNB, desired local setting may not be applied. In that case, run
+the PLL LNB synchronization to check that the LO is changed.
+1. Select the chosen type of LNB Local setting as compatible with Sat info.
+2. Tick the checkbox ‘Edit Satellite’
+3. Select the type of LNB.
+
+Intellian Technologies Inc.
+Page 10 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+4. Change the local frequency within the selected type of LNB local
+Ex) LNB local 10250  9750
+
+Applied in ‘Edit Enable’ / Switch 10250 to 9750
+Click the button ‘Set Local Freq.(MHz)’ to verify LNB local is changed to
+9750
+
+6.4.3
+
+Replace RF cables
+In case that the voltage is measured normally on output port of NBD but is not
+measured on the LNB input connector  Check and replace RF cables between the
+NBD and the LNB.
+
+Intellian Technologies Inc.
+Page 11 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+6.5
+
+Re-check the error with diagnosis test
+After taking measure for each problem, re-check the LNB/NBD with the diagnosis
+Test. In diagnostics menu, choose LNB/NBD test manually and perform the test. If
+the LNB/NBD error is not resolved, goes to the 6.3 Check the log messages each
+LNB/NBD.
+
+7. Tips for Solving Problems
+7.1
+
+LNB swap test
+LNB/NBD diagnosis test can be conducted by swapping the Cross pol LNB and the
+Co pol LNB in defect of spare LNB for replacement or test.
+
+Cross Pol LNB
+
+Swap
+
+Co Pol LNB
+
+Example
+1. Antenna LNB/NBD test result check
+ NBD Cross pol Pass Check : Pass
+ NBD Co Pol Pass check : Fail
+2. Swap the Cross pol LNB and the Co pol LNB. Then run the LNB/NBD diagnosis
+test again.
+ NBD Cross pol Pass Check : Fail
+ NBD Co Pol Pass check : Pass
+3. In that case, the original Co Pol LNB is defective.
+Intellian Technologies Inc.
+Page 12 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+Troubleshooting Guide
+Related Product
+
+Symptom
+
+v100/v100GX
+
+LNB/NBD Error
+
+Possible Cause
+LNB, NBD/FSK unit,
+Cable between NBD/FSK unit and LNB
+
+Document Number: #2016P2-TG0909-02-V1_1
+
+Please contact your local TS team should you require any further information.
+
+APAC
+
+EMEA
+
+AMERICAS
+
+Headquarters/Innovation
+Center
+
+Rotterdam Office
+
+Irvine Office
+
+Intellian Technologies, Inc.
+348-5 Chungho-Ri, Jinwi-Myeon,
+Pyeongtaek-Si, Gyunggi-Do,
+17709 Korea
+
+Intellian B.V.
+Sheffieldstraat 18, 3047AP
+Rotterdam,
+The Netherlands
+
+Intellian Technologies USA, Inc.
+9004 Research Drive
+Irvine, CA 92618 U.S.A.
+
+T +82 31 379 1000
+F +82 31 377 6185
+SupportAPAC@intelliantech.com
+
+T +31 1 0820 8655
+F +31 1 0820 8656
+SupportEMEA@intelliantech.com
+
+T +1 949 727 4498
+F +1 949 271 4183
+SupportAMERICAS@intelliantech.com
+
+Intellian Technologies Inc.
+Page 13 / 13
+This document is proprietary to Intellian Technologies, Inc. and must be treated on a confidential basis. It may be used solely for the purposes intended by Intellian Technologies, Inc.
+Use or disclosure of this document, or the information contained herein, for any other purpose is not permitted without prior written authorization.
+
+

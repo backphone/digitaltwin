@@ -1,0 +1,2 @@
+Timestamp is based on email incoming time
+01:59 is considered as 01

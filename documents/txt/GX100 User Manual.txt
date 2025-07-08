@@ -1,0 +1,6126 @@
+GX100
+Installation and Operation Manual
+
+Marine Satellite Communication Antenna System
+
+Serial number of the product
+
+This serial number will be required for the all troubleshooting or service inquiries.
+
+© 2017 Intellian Technologies Inc. All rights reserved. Intellian and the Intellian
+logo are trademarks of Intellian Technologies, Inc., registered in the U.S. and other
+countries. The v-Series and the GX100 are trademarks of Intellian Technologies,
+Inc. Intellian may have patents, patent applications, trademarks, copyrights,
+or other intellectual property rights covering subject matter in this document.
+Except as expressly provided in any written license agreement from
+Intellian, the furnishing of this document does not give you any license to these
+patents, trademarks, copyrights, or other intellectual property. Global Xpress
+Service™ or GX™ is a trademark of Inmarsat PLC and refers to Inmarsat’s fixed
+and mobile, land, maritime and aero Inmarsat 5 Ka-band satellite services. All
+other logos, trademarks, and registered trademarks are the property of their
+respective owners. Information in this document is subject to change without
+notice. Every effort has been made to ensure that the information in this manual
+is accurate. Intellian is not responsible for printing or clerical errors.
+
+Doc. No. UM-P3-170321-V1.4
+
+INDEX
+
+INDEX
+
+INTRODUCTION
+
+11
+
+Intellian GX100 Introduction
+
+12
+
+Intellian GX100 Features
+
+13
+
+System Configuration
+
+14
+
+INSTALLING THE ANTENNA
+
+15
+
+System Package
+
+16
+
+Planning the Installation
+
+21
+
+Antenna Installation
+
+25
+
+INSTALLING THE ACU
+
+35
+
+Mounting the ACU
+
+36
+
+Gyrocompass Connection
+
+38
+
+PC to ACU Connection Setup
+
+40
+
+Wi-Fi Connection
+
+41
+
+Checking Modem Information
+
+43
+
+One-touch Commissioning
+
+44
+
+ACU Connector Guide
+
+45
+
+OPERATING THE ACU
+
+47
+
+Introduction
+
+48
+
+Normal Mode
+
+50
+
+Setup Mode
+
+55
+
+Installation Settings
+
+56
+
+Antenna Settings
+
+59
+
+Satellite Settings
+
+69
+
+System Settings
+
+76
+
+®
+
+Aptus
+
+81
+
+Introduction
+
+82
+
+Software Installation
+
+83
+
+PC to ACU Communication Setup
+
+84
+
+Toolbar Menus
+
+87
+
+System Property Status Dashboard
+
+90
+
+Work View Tabs
+
+94
+
+Aptus® WEB
+
+111
+
+Introduction
+
+112
+
+Main Page
+
+113
+
+Antenna Settings
+
+118
+
+Firmware & Configuration
+
+124
+
+Administration
+
+130
+
+TECHNICAL SPECIFICATION
+
+138
+
+WARRANTY
+
+139
+
+5
+
+CERTIFICATIONS
+C-Tick Declaration of Conformity (DoC)
+We, Intellian Technologies, Inc. located at 18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862,
+Korea, declare that the product described below to which this declaration relates is in conformity with the
+requirement of the Radio communications (Electromagnetic Compatibility) Standard 2008.
+Product Information:
+Product Name:
+
+Intellian GX100, 1m Ka-band Maritime Stabilized Antenna System
+
+Test Result:
+Standard
+
+AS/NZS CISPR 22
+CISPR 22
+EN 55022
+
+Test
+
+Test Report Number
+
+Result
+
+Conducted disturbance at AC main port
+
+SKT-EET-140040
+
+Pass
+
+Conducted disturbance at telecommunication port
+
+SKT-EET-140040
+
+Pass
+
+Radiated disturbance below 1GHz
+
+SKT-EET-140040
+
+Pass
+
+Radiated disturbance above 1GHz
+
+SKT-EET-140040
+
+Pass
+
+Supplementary Information:
+Notified Body Involved:
+(Testing Organization)
+
+SK Tech Co., Ltd.
+820-2, Wolmoon-ri, Wabu-up, Namyangju-si, Gyeonggi-do 482-905, Korea
+
+Technical/Compliance
+File Held by:
+
+Intellian Technologies, Inc.
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862, Korea
+
+Place and Date of issue:
+
+Gyeonggi-do, Korea on September 1, 2014
+
+Authority:
+
+Kevin Eom/
+Director,
+Research and Development
+
+Signature:
+
+Intellian Technologies USA, Inc.
+
+Intellian Technologies, Inc.
+
+US Headquarters
+9004 Research Drive
+Irvine, CA 92618 USA
+
+EMEA & APAC Headquarters
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-Si,
+Si,
+Gyeonggi-do 451-862, Korea
+Tel: +82 2 511 2244
+
+Tel: +1 949 727 4498
+
+Doc Number IT14-DC0901-05
+
+EMI Declaration of Conformity (DoC)
+We, Intellian Technologies, Inc. located at 18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862,
+Korea, declare that the product described below to which this declaration relates is in conformity with the
+essential requirements and other relevant requirements of the IEC60945 and IEC61000-4-2~6/11.
+Product Information:
+Product Name:
+
+Intellian GX100, 1m Ka-band Maritime Stabilized Antenna System
+
+Test Result:
+Standard
+
+Ref. Clause
+
+Test suite
+
+Result
+
+9.2
+
+Conducted Emissions at main port
+
+Pass
+
+9.3
+
+Radiated emissions below 30 MHz
+
+Pas s
+
+9.3
+
+Radiated emissions below 1 GHz
+
+Pa s s
+
+9.3
+
+Radiated emissions above 1 GHz
+
+Pass
+
+IEC61000-4-2
+
+10.9
+
+Electrostatic discharge (ESD)
+
+Pass
+
+IEC61000-4-3
+
+10.4
+
+Radiated immunity (RS)
+
+Pass
+
+IEC61000-4-4
+
+10.5
+
+EFT/Burst on AC power ports, and signal and control ports
+
+Pass
+
+IEC61000-4-5
+
+10.6
+
+Surge immunity on AC power ports
+
+Pass
+
+IEC61000-4-6
+
+10.3
+
+Injected current (CS) on AC and DC power ports, signal and
+control ports
+
+Pass
+
+IEC61000-4-11
+
+10.7
+
+Power supply short term variation on AC power ports
+
+Pass
+
+IEC61000-4-11
+
+10.8
+
+Power supply failure on AC and DC power ports
+
+Pass
+
+IEC60945
+
+Supplementary Information:
+Notified Body Involved:
+(Testing Organization)
+
+SK Tech Co., Ltd.
+820-2, Wolmoon-ri, Wabu-up, Namyangju-si, Gyeonggi-do 482-905, Korea
+
+Technical/Compliance
+File Held by:
+
+Intellian Technologies, Inc.
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862, Korea
+
+Place and Date of issue:
+
+Gyeonggi-do, Korea on September 1, 2014
+
+Authority:
+
+Kevin Eom/
+Director,
+Research and Development
+
+Signature:
+
+Intellian Technologies USA, Inc.
+
+Intellian Technologies, Inc.
+
+US Headquarters
+9004 Research Drive
+Irvine, CA 92618 USA
+
+EMEA & APAC Headquarters
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-Si,
+Si,
+Gyeonggi-do 451-862, Korea
+Tel: +82 2 511 2244
+
+Tel: +1 949 727 4498
+
+Doc Number IT14-DC0901-06
+
+CERTIFICATIONS
+FCC Part 15 Subpart B Declaration of Conformity (DoC)
+We, Intellian Technologies, Inc. located at 18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862,
+Korea, declare that the product described below to which this declaration relates is in conformity with the
+requirement of the FCC Part 15 Subpart B.
+Product Information:
+Product Name:
+
+Intellian GX100, 1m Ka-band Maritime Stabilized Antenna System
+
+Test Result:
+Standard
+
+Test
+
+Rule section
+
+AC power line conducted emission
+FCC Part 15
+Subpart B
+
+Radiation emissions below 1GHz
+Radiation emissions above 1GHz
+
+Section 15.107(a) ICES-003,
+Section 6.1, Table 2
+Section 15.109(a) ICES-003,
+Section 6.2, Table 5
+Section 15.109(a) ICES-003,
+Section 6.2.2, Table 7
+
+Test Report Number
+
+Result
+
+SKT-EFC-140043
+
+Pass
+
+SKT-EFC-140043
+
+Pass
+
+SKT-EFC-140043
+
+Pass
+
+Supplementary Information:
+Notified Body Involved:
+(Testing Organization)
+
+SK Tech Co., Ltd.
+820-2, Wolmoon-ri, Wabu-up, Namyangju-si, Gyeonggi-do 482-905, Korea
+
+Technical/Compliance
+File Held by:
+
+Intellian Technologies, Inc.
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862, Korea
+
+Place and Date of issue:
+
+Gyeonggi-do, Korea on September 1, 2014
+
+Authority:
+
+Kevin Eom/
+Director,
+Research and Development
+
+Signature:
+Date:
+
+Intellian Technologies USA, Inc.
+
+Intellian Technologies, Inc.
+
+US Headquarters
+9004 Research Drive
+Irvine, CA 92618 USA
+
+EMEA & APAC Headquarters
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-Si,
+Si,
+Gyeonggi-do 451-862, Korea
+Tel: +82 2 511 2244
+
+Tel: +1 949 727 4498
+
+September 01, 2014
+
+Doc Number IT14-DC0901-07
+
+R&TTE Declaration of Conformity (DoC)
+We, Intellian Technologies, Inc. located at 18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862,
+Korea, declare that the product(s) described in the below to which this declaration relates is in conformity with the
+essential requirements and other relevant requirements of the Radio and Telecommunications Terminal Equipment(R&TTE)
+Directive (1999/5/EC).
+Product Information:
+Intellian GX100, 1m Ka-band Maritime Stabilized Antenna System
+
+Product Name(s):
+
+To provide the presumption of conformity in accordance to Annex III(encompassing Annex II) of Directive 1999/5/EC,
+the following standards and normative documents are those to which the product’s conformance is declared,
+and by specific reference to the essential requirements of Article 3 of the Directive 1999/5/EC.
+1995/5/EC Article
+
+Standard(s) Applied in Full
+
+Test Report Number
+
+SAFETY (Art 3.1.a)
+
+IEC EN 60950-1: 2006+A11:2009+A12010+A12:2011
+IEC EN 60945: 2002
+ETSI EN 301 489-1 V1.9.2: 2011-09
+ETSI EN 301 489-17 V2.2.1: 2012-09
+ETSI EN 301 360 V1.2.1: 2006-02
+ETSI EN 301 459 V1.4.1: 2007-06
+ETSI EN 303 978 V1.1.2: 2013-02
+
+SKTSCE-121011-044-A1
+
+EMC (Art. 3.1.b)
+
+SPECTRUM (Art. 3.2)
+
+SKT-ECE-140074
+SKT-ECE-140076
+2014 03254752 ETSI1
+2014 03254752 ETSI3
+2014 03254752 ETSI2
+
+Supplementary Information:
+
+Technical/Compliance
+File Held by:
+
+SIEMC
+775 Montague Expressway, Milpitas, CA 95035
+Nemko USA, Inc.
+RF Part:
+2210 Faraday Avenue, Suite 150 Carlsbad, CA 92008 USA
+DT&C Co., Ltd.
+EMC Part
+42, Yurim-ro, 154beon-gil, Cheoin-gu, Yongin-si, Gyeonggi-do, Korea
+449-935
+SK Tech Co., Ltd.
+Safety Part:
+88, Geulgaeul-ro 81beon-gil, Wabu-eup, Namyangju-si, Gyeonggi-do
+472-905, Korea
+Intellian Technologies, Inc.
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-862, Korea
+
+Place and Date of issue:
+
+Gyeonggi-do, Korea on November 28, 2014
+
+Notified Body Involved:
+
+Test Facility:
+
+Authority:
+
+Kevin EOM/
+Director,
+Research and Development
+
+Signature: ____________________________
+
+Date:
+
+Intellian Technologies USA, Inc.
+
+Intellian Technologies, Inc.
+
+US Headquarters
+9004 Research Drive
+Irvine, CA 92618 USA
+Tel:
++1 949 727 4498
+
+EMEA & APAC Headquarters
+18-7, Jinwisandan-ro, Jinwi-myeon, Pyeongtaek-Si,
+Gyeonggi-do 451-862, Korea
+Tel: +82 2 511 2244
+
+November 28, 2014
+
+Doc Number IT14-DC1128-02
+
+INTRODUCTION
+
+INTRODUCTION
+
+Intellian GX100 Introduction
+Intellian GX100 Features
+System Configuration
+
+11
+
+GX100 – Marine Satellite Communication System
+
+Intellian GX100 Introduction
+Intellian GX100 (1.03m) is a Ka-band maritime stabilized antenna, a ready-to-use
+system for the super-fast, Global Xpress™ (GX) Ka-band broadband service from
+Inmarsat. The GX100 offers robust Ka-band RF performance optimized for Inmarsat
+GX service with all new GX ACU.
+The GX100 is built to meet or exceed the industry’s most stringent standards such
+as FCC, ETSI, and R&TTE. With its frequency tuned radome and newly designed
+reflector, the GX100 offers the maximized performance on a Ka-band Inmarsat
+Global Xpress system. The antenna’s 3-axis stabilized platform and advanced
+shock-resistant and vibration damping design of the Pedestal is fully optimized to
+withstand the demanding maritime conditions and to ensure reliable broadband
+communications. The unlimited azimuth range ensures continuous tracking without
+unwrapping the cables in the antenna and the low elevation angle (-20°) supports
+seamless signal reception at extremely high latitudes.
+The GX100 ACU combines the Global Xpress Modem internally with the antenna
+control unit, saving time and space during installation. The ACU also includes Wi-Fi
+to allow wireless connection using the dedicated Intellian Aptus software for system
+control and monitoring.
+The Aptus software automatically configures the antenna system, enabling true One
+Touch Commissioning.
+Equipped with Intellian’s next generation Antenna Control Software, ‘Aptus®’, the
+GX100 antenna can be remotely accessed, monitored and controlled through serial
+connection or secured TCP/IP network. Its graphic-based user interface provides
+easy-to-use operating environment. The GX100 also has an embedded webserver
+and secured web user interface called Aptus Web for remote management of the
+antenna on a web browser. Network connection can be easily setup through the front
+Management Ethernet Port on the ACU that supports automatic IP configuration.
+
+12
+
+INTRODUCTION
+
+Intellian GX100 Features
+Ka-band optimized reflector
+The GX100 carbon fiber reflector is designed and engineered to operate on the Ka-band
+while maximizing the RF performance. The reflector of the GX100 is designed to be extremely
+precise and very stable in all operating conditions.
+Frequency tuned radome
+To ensure efficient operations for Ka-band Inmarsat Global Xpress™ systems, the signal loss
+of the radome itself is minimized and the performance maximized with an optimized radome
+design that enhances the Ka-band system performance.
+Gyro-free satellite search capability
+Intellian’s new generation gyro-free satellite search function enables the GX100 to acquire
+and lock onto the satellite without requiring a separate input from the ship’s gyrocompass.
+Combined ACU-Global Xpress™ Core Module
+The all new GX ACU combines the Core Module internally with the antenna control unit,
+saving time and space during installation. The ACU also includes a Wi-Fi connection to
+allow wireless connectivity via the dedicated Intellian Aptus software for system control and
+monitoring. The Aptus software also helps automatically configure the antenna system
+during initial commissioning.
+Graphical and user-friendly antenna control software
+The GX100 provides a newly developed, graphic-based antenna remote control program
+with an additional Software Development Kit (SDK), allowing the NOC or service center to
+integrate antenna monitoring and control into its existing network management systems in
+an easier, user-friendly, and convenient manner.
+Dedicated Management Ethernet Port
+The GX100 has a Management Ethernet Port on the ACU front that enables direct and simple
+network connection between a PC and the ACU. The Management Port allows Internet
+access and quick access to Intellian's remote management solution, the Aptus Web.
+Wireless access via Wi-Fi
+The built-in Wi-Fi wireless network card enables the ACU to be wirelessly connected and can
+be turned on and off by a switch. Wireless devices such as PCs, laptops and smartphones
+can be used to connect to the ACU and monitor, enabling users to control and change the
+settings of Intellian antenna system wirelessly.
+Intelligent firmware upgrade
+Intellian GX100 provides easy and intelligent firmware upgrade methods. Firmware upgrades
+can be automatically initiated by plugging a firmware stored USB Memory Stick to the USB
+Port on the ACU front or by launching ‘Firmware Upgrade’ on the Aptus® or Aptus Web.
+Users can also manually select a firmware file on a local disk and complete the upgrade. The
+firmware can be rolled back to a previous version as the ACU’s built-in memory stores the
+current and previous firmware files.
+
+13
+
+GX100 – Marine Satellite Communication System
+
+System Configuration
+For your satellite communication system to work properly, the system will have to
+be connected with all of the provided components as shown in the figure below.
+A separate purchase of a satellite modem, ship’s gyrocompass, and Intellian Dual
+VSAT Mediator may be required.
+Basic system
+configuration
+
+AC 100 ~ 240V
+(50~60Hz, 4A)
+
+Ship’s Gyrocompass
+
+Antenna Tx
+
+(Not supplied)
+
+Antenna Rx
+NMEA
+Antenna Control Unit
+
+AC 100 ~ 240V
+
+(50~60Hz, 1A)
+
+PC
+Interface
+
+PC
+
+14
+
+INTRODUCTION
+
+INSTALLING THE ANTENNA
+System Package
+Antenna Unit
+ACU (Antenna Control Unit)
+Installation Kit
+
+Planning the Installation
+Selection of Antenna Installation Site
+Setting Block Zones
+System Cables
+Power Requirement
+Tools Required for Installation
+
+Antenna Installation
+Unpacking the Wooden Crate
+Antenna Dimensions
+Antenna Mounting Templates
+Position the Radome
+Mount the Radome
+RF Cable Connections
+Secure the RF Cables
+
+15
+
+GX100 – Marine Satellite Communication System
+
+System Package
+The package of Intellian GX100 consists of antenna unit, lifting straps, ACU and
+installation kit box.
+Antenna unit
+
+ACU
+
+Installation kit box
+
+16
+
+INSTALLING THE ANTENNA
+
+Antenna Unit
+The antenna unit includes an antenna pedestal inside a radome assembly unit. The
+pedestal consists of a satellite antenna main dish with RF components mounted
+on a stabilized pedestal. The radome protects the antenna pedestal assembly unit
+from the severe marine environment.
+
+Antenna unit
+
+17
+
+GX100 – Marine Satellite Communication System
+
+ACU (Antenna Control Unit)
+The digital VFD (Vacuum Fluorescent Display) allows for easy operation of the ACU,
+even in the dark.
+
+Antenna control unit
+
+Front panel
+
+Rear panel
+
+The functions of the ACU are as follows :
+• Setting the satellite
+• Editing satellite information
+• Setting the antenna parameter
+• Setting the antenna manual search
+• Setting the LNB local frequency
+• Setting block zones
+• Setting modem connections
+• Setting GPS and Gyrocompass
+• Display power status
+• Built-in real-time diagnostics function
+• Backup and restore the system settings
+• Set up the interface with a PC
+• Supports Wi-Fi ACU operation
+• Recording antenna activities and firmware upgrade through USB
+• Built-in web-based remote control management
+• Front and rear panel Management Ethernet port
+18
+
+INSTALLING THE ANTENNA
+
+Installation Kit
+Contains the items required for securing the antenna unit and ACU to the vessel.
+
+ACU box
+Description
+
+Q'ty
+
+Size
+
+Antenna Control Unit (ACU)
+
+1
+
+43.1 cm x 44.1 cm x 4.4 cm
+(17" x 17.3" x 1.7")
+
+User Manual
+
+1
+
+RF Hazard Sticker
+
+1
+
+Mounting Template
+
+1
+
+Wi-Fi Antenna
+
+1
+
+USB Flash Drive
+
+1
+
+Remarks
+Antenna Control Unit
+
+Radiation Safety Distance Label
+
+110mm
+
+19
+
+GX100 – Marine Satellite Communication System
+
+Components box
+
+20
+
+Description
+
+Q'ty
+
+Size
+
+Remarks
+
+ACU Bracket (Rack)
+
+2
+
+ACU-19inch Rack
+
+ACU Bracket (Table)
+
+2
+
+ACU-Table
+
+AC Power Cord (CEEE7/7)
+
+1
+
+1.5m
+
+ACU Power
+
+AC Power Cord (USA)
+
+1
+
+1.5m
+
+ACU Power
+
+AC Input Cable to Power Box
+
+1
+
+3m
+
+AC Power to Antenna Power Box
+
+PC Serial Cable
+
+1
+
+1.8m
+
+ACU to PC
+
+USB Cable (A-A)
+
+1
+
+1.8m
+
+ACU to PC
+
+Ethernet Cable (RJ45/LAN)
+
+1
+
+1.5m
+
+ACU to PC
+
+N to F Adaptor
+
+2
+
+Hex Bolt
+
+5
+
+M12 x 100L
+
+Flat Washer
+
+5
+
+M12
+
+Spring Washer
+
+5
+
+M12
+
+Hex Nut
+
+10
+
+M12
+
+Hex Head Wrench Bolt
+
+5
+
+M6 x 40L
+
+Spring Washer and Flat Washer
+
+5
+
+M6
+
+Sems Bolt
+
+2
+
+M4 x 8
+
+Self-Tapping Screw
+
+5
+
+M4 x 16
+
+Table Mount Bracket
+
+Flat Head Screw
+
+10
+
+M4 x 12L
+
+Rack Mount Bracket ACU
+
+Sems Bolt
+
+5
+
+M3 x 12L
+
+Table Mount Bracket ACU
+
+N(Male) to F(Female) Adaptor
+
+Antenna-Deck 4 Sets :
+Installation 1 Set : Spare
+
+Radome (Spare Bolts)
+
+INSTALLING THE ANTENNA
+
+Planning the Installation
+Selection of Antenna Installation Site
+Install the antenna in accordance with the following procedures to insure maximum
+performance of the antenna.
+The ideal antenna site has a clear view of the horizon or satellite all around. Please
+be sure there are no obstacles within 15º above the center of the antenna. Any
+obstacles can prevent the antenna from transmitting and receiving the satellite
+signal.
+Do not install the antenna near the radar especially on the same plane, as its energy
+levels may overload the antenna front-end circuits. It is recommended to position
+the antenna at least 4 feet (1.2 m) above or below the level of the radar and minimum
+of 15 feet (4.6 m) away from the high power short wave radars.
+The mounting platform should be rigid enough and not subjected to excessive
+vibration. The movement of the antenna can be minimized by installing at the
+center of the vessel. If these conditions can be only partially satisfied, find the best
+compromised installation site between the various considerations.
+
+Elevation limit
+of obstacles
+15°
+
+Antenna Unit
+
+Obstacle
+
+21
+
+GX100 – Marine Satellite Communication System
+
+Setting block zones
+The blockages around an antenna may interfere with the reception of the satellite
+signal. Therefore, It is required to set a block zone which notifies users that antenna
+cannot receive satellite signal due to blockages. You can create five block zones
+by inputting azimuth and elevation value with ACU. When the antenna is within the
+block zones, the ACU works as follows.
+1. “BLOCK” will be displayed on the ACU screen.
+2. Tracking continues as long as the signal level is greater than the predefined
+threshold value. When the signal level drops below the threshold value the
+antenna will wait and then re-target the satellite you targeted last. The amount
+of time the antenna waits before entering search mode is called the "Search
+Wait Time" and can be adjusted in the parameters settings. The antenna will
+continue to re-target the satellite until the satellite is re-acquired and tracking
+can be resumed.
+3. A transmit inhibit output from the ACU will disable/mute the modem transmission.
+RF Hazard Precautions
+The antenna is designed to be used with radiation transmit equipment manufactured
+by others. Exposure to RF radiation, including exposure associated with an improper
+use of the transmit equipment, may be hazardous to persons close to the above
+deck unit. Ensure safety of personnel who work on the system.
+During transmission, ensure to keep the minimum safety distance. The recommended
+minimum safety distance to the reflector on the focal line is about 25m, based on a
+radiation level of 5mW/ cm2 that applies under occupational/controlled environment.
+No hazard exists >20° below the antenna’s mounting plane.
+
+Safe access from radiation hazard
+22
+
+INSTALLING THE ANTENNA
+
+System Cables
+Before installing the system cables, you need to take the following points into
+consideration.
+1. All cables need to be well clamped and protected from physical damage
+and exposure to heat and humidity.
+2. Cable with an acute bend is not allowed.
+3. Where a cable passes through an exposed bulkhead or deck head,
+a watertight gland or swan neck tube should be used.
+• RF Cable (Customer Furnished)
+
+Due to the voltage losses across the length of the RF coax on L-Band, Intellian
+recommends the following 50 ohm coax cable types for standard system
+installations. For cables that run longer than 200 meters, please consult Intellian
+Technologies.
+Recommended
+RF cables
+
+Coaxial Cable
+Type
+
+Attenuation in
+dB/100M
+
+Attenuation in
+dB/M
+
+Recommended
+Cable Length
+
+LMR300
+
+30.3
+
+0.303
+
+35M
+
+LMR400
+
+19.6
+
+0.196
+
+60M
+
+LMR500
+
+15.9
+
+0.159
+
+80M
+
+LMR600
+
+12.8
+
+0.128
+
+100M
+
+LMR900
+
+8.6
+
+0.086
+
+150M
+
+LMR1200
+
+6.5
+
+0.065
+
+200M
+
+Power Requirement
+Intellian GX100 has been designed to work on a vessel’s power supply rated at
+100-240V AC.
+
+23
+
+GX100 – Marine Satellite Communication System
+
+Tools Required for Installation
+
+24
+
+11 mm Wrench
+
+Power Drill
+
+19 mm Wrench
+
+Phillips Head Screwdriver
+
+5 mm Allen/Hex key
+
+Flat Head Screwdriver
+
+5 mm Allen/Hex key
+(for Power drill)
+
+Head Screwdriver
+(for Power drill)
+
+INSTALLING THE ANTENNA
+
+Antenna Installation
+Unpacking the wooden crate of GX100
+
+Step 1.
+When uncrating the wooden crate, follow the procedures below.
+1. Locate one of the side panels designed for fork lift. Detach this side panel by removing
+the fixing screw (1EA) and clips (8EA).
+2. Remove the fixing screws (4EA) and clips (6EA) on the top panel. Detach the top panel
+by carefully pulling it as shown in the picture below.
+CAUTION : The side brackets at the edge of the top panel secure the side panels and top
+panel in position. When pulling the top panel, ensure that the top panel doesn't fall on the
+radome.
+3. Remove the fixing screws (5EA) from the remaining side panels, then detach the side
+panels with clips on.
+
+1
+
+Tips : Using a Flat-head
+screwdriver, remove the clip
+as shown in the picture.
+
+2
+
+3
+
+25
+
+GX100 – Marine Satellite Communication System
+
+Step 2.
+Remove tapping screws from the fixing bracket (A) and take out the ACU box and
+installation kit box from the pallet.
+
+A
+
+26
+
+INSTALLING THE ANTENNA
+
+Step 3.
+Using a 19mm wrench, remove 4 shipping bolts (B) that mount the antenna to the pallet.
+
+WARNING: When lifting the antenna by using the lifting strap, ensure to disassemble
+the antenna and the pallet.
+
+27
+
+GX100 – Marine Satellite Communication System
+
+Step 4.
+Open the radome hatch.
+
+Flat-Head Screwdriver
+(min 5mm)
+
+Step 5.
+
+Radome Hatch
+
+Open the top radome and remove the shipping restraints.
+A. Remove the shipping brackets securing the AZ axis and EL axis.
+
+2
+
+1
+
+1. Remove the AZ shipping bracket
+
+28
+
+2. Remove the EL shipping bracket
+
+INSTALLING THE ANTENNA
+
+B. Remove the shipping brackets securing the CL axis.
+
+Remove the shipping brackets
+
+C. Re-assemble the top radome and tighten the radome retention bolt (M6) to
+a torque setting of 3.5 N·m. To ensure security, apply Loctite #242 or equivalent.
+
+Antenna Dimensions
+The method of installation and mounting of antenna may vary with vessel design,
+but the following procedures are applicable in most situations and will result in a
+secure and effective installation. Confirm the height and diameter of the antenna
+before installing it.
+
+151.48 cm (59.64”)
+
+Radome dimensions
+
+138 cm (54.33”)
+29
+
+GX100 – Marine Satellite Communication System
+
+Antenna Mounting Templates
+The mounting holes must be in the exact same place as shown in the diagram
+below.
+
+Bow direction
+
+Cable entry
+
+Hatch
+
+BOW
+
+Radome bottom
+
+Radome Hatch
+
+ø44.5cm (17.5”)
+
+30
+
+INSTALLING THE ANTENNA
+
+4-ø13 Holes
+
+ø44.5cm (17.5”)
+
+24.75cm (9.74”)
+
+Antenna
+mounting hole
+pattern
+
+24.75cm (9.74”)
+ø44.5cm (17.5”)
+
+31
+
+GX100 – Marine Satellite Communication System
+
+Position the Radome
+The radome should be positioned with the BOW marker aligned as closely as
+possible to the ship’s centerline.
+
+Recommended size of the
+support pedestal
+
+Mounting plate
+Min. 1cm(0.4”)
+Max. 3cm(1.2”)
+
+Support pedestal
+Appr. ø25.4cm(10”)
+
+32
+
+Min 60cm(24”)
+Max 150cm(60”)
+
+INSTALLING THE ANTENNA
+
+Mounting the Radome
+Bolt the radome base directly to the support pedestal.
+Note: Make sure to use the Intellian supplied bolts from the accessory box when you
+mount the radome. Apply Loctite #262 or equivalent to the bolt thread, and fasten it
+to a torque setting of 110 N·m.
+
+Antenna unit
+
+M12 Hex bolt
+Deck
+M12 Flat washer
+M12 Spring washer
+M12 Hex nut
+M12 Hex nut
+19mm Wrench
+
+RF Cable Connections
+Ensure that the switch on the power box is off during the installation period. When
+all the cables have been installed, turn on the switch.
+
+Cable gland O-ring
+Shrinkage guide
+Rubber gland
+
+33
+
+GX100 – Marine Satellite Communication System
+
+Cable connections on
+power switch box
+
+Antenna
+power cable
+(From antenna)
+
+Antenna
+power cable
+(From ship's
+power)
+
+Rotary #2
+Rx cable
+(From antenna)
+
+ACU Rx cable
+(From ACU)
+Modem Tx cable
+(From modem)
+
+Rotary #1
+Tx cable
+(From antenna)
+
+NOTE:
+• Intellian recommends the following size of the input power cable for standard system
+installations.
+Cable Length
+
+Cable Cross Sectional Area
+
+AWG (American Wire Gauge) Size
+
+Up to 100m
+
+2.62mm
+
+2
+
+13
+
+Up to 200m
+
+4.17mm2
+
+11
+
+• After connection, seal the cable gland and tie the power cable securely in place.
+• The antenna power is supplied from the power switch box equipped with the circuit
+breakers, and the power switch box should be installed near the antenna.
+
+NOTE: Tightening torque
+
+34
+
+Connector Type
+
+Tightening Torque
+
+F Type
+
+1.0 N-m
+
+SMA
+
+0.6 N-m
+
+N Type
+
+1.5 N-m
+
+INSTALLING THE ACU
+Mounting the ACU
+19” Rack Mount Type
+Table Mount Type
+ACU Dimensions
+Selection of ACU Installation Site
+
+Gyrocompass Connection
+Connecting the System with a Gyrocompass
+Connecting the System without a Gyrocompass
+
+PC to ACU Communication Setup
+Wi-Fi Connection
+Checking Modem Information
+One-touch Commissioning
+ACU Connector Guide
+
+GX100 – Marine Satellite Communication System
+
+Mounting the ACU
+Intellian supplies two types of mounting methods (a) 19” Rack Mount Type and (b)
+Table Mount Type to mount the ACU.
+
+19" Rack mount type
+
+19” Rack Mount Type
+- The ACU should be installed using the two supplied Rack Mounting Brackets
+which allow for a side 19” rack mounting configuration.
+- Using the Flat Head screws supplied, attach the mounting brackets to the sides
+of the ACU.
+- Place the ACU in the location where it is going to be installed.
+- Connect the cables to the rear of the ACU.
+
+Table mount type
+
+Table Mount Type
+- The ACU should be installed using the two supplied Table Mounting Brackets
+which allow for a top or bottom mounting configuration.
+- Using the Sems Bolts supplied, attach the mounting brackets to the sides of the
+ACU.
+- Place the ACU in the location where it is going to be installed.
+- Using a pencil to mark the 4 hole positions (2 each side), and use the appropriate
+drill bit to screw down the brackets.
+- Connect the cables to the rear of the ACU.
+WARNING: Ensure that the cables connected to the ACU are long enough to prevent
+damage when the ACU is pulled out from the rack.
+36
+
+INSTALLING THE ACU
+
+ACU Dimensions
+
+Dimension of ACU
+
+47.5cm ( 18.7")
+45.5cm (17.9")
+
+44.0cm (17.3")
+
+20.0cm (7.9")
+
+3.2cm (1.3")
+
+13.0cm (5.1")
+
+43.1cm (17")
+
+4.4cm (1.7")
+
+46.6cm (18.4")
+48.5cm (19.1")
+
+Selection of ACU Installation Site
+The ACU should be installed below deck, in a location that is:
+• Dry, cool, and ventilated.
+• The front panel should be easy accessible to user.
+
+37
+
+GX100 – Marine Satellite Communication System
+
+Gyrocompass Connection
+Connecting the System with a Gyrocompass
+The ship’s gyrocompass provides true heading input to the antenna which easily
+allows the antenna to target and acquire the desired satellite. Intellian always
+recommends to connect a gyrocompass to the antenna through the gyrocompass
+interface on the ACU. If the ship’s gyrocompass output is other than NMEA 0183
+and NMEA 2000, a separate purchase of an NMEA converter is required.
+
+Recommended Cable
+• NMEA 0183 / NMEA 2000 Gyrocompass Cable (Customer supplied)
+• Connector Type: 2 conductors for NMEA 0183, 5 conductors for NMEA 2000
+• NMEA heading sentence: xx HDT (4800 Baud, 8, N,1)
+If there is no HDT sentence, then use HDM sentence instead.
+• NMEA 2000 heading PGN Number = 127250 (Vessel Heading)
+Gyrocompass connection
+
+Strip the cable for 5 mm (0.2")
+Do not solder the cable
+
+38
+
+INSTALLING THE ACU
+
+Connecting the System without a Gyrocompass
+For a vessel where the ship’s gyrocompass is not installed or is difficult to be
+connected, the Intellian Gyro-Free satellite search function will be automatically
+enabled to allow the antenna to lock onto the desired satellite without requiring an
+external heading input.
+The table below provides an example of the Gyro-Free satellite search algorithm.
+The Search 1 or Search 3 satellite search pattern will be triggered according to the
+existence of heading input and the setting of the heading device.
+Search 1: The antenna will search for the target satellite by turning its azimuth
+angle in CCW(Counter Clockwise) direction until the antenna receives
+the lock signal from the modem or the DVB(Digital Video Broadcasting)
+transponder of the target satellite is decoded by the antenna.
+Search 3: The antenna will search for the target satellite by turning its azimuth angle
+directly to the position calculated using the ship’s heading input and lock
+onto the satellite.
+Setting of Heading Device
+Existence of Heading Data
+
+No Device
+
+NMEA /
+NMEA 2000
+
+Ground Test
+
+With Heading Data
+
+Search 1
+
+Search 3
+
+Search 3
+
+Without Heading Data
+
+Search 1
+
+Search 1
+
+Search 3
+
+39
+
+GX100 – Marine Satellite Communication System
+
+PC to ACU Communication Setup
+You can establish data communication between a PC and the ACU using one
+of the following methods.
+TCP/IP Connection
+Management
+ethernet port
+
+Connection through Front Panel Management Port
+To connect the ACU to the PC through the Management Ethernet Port on the front
+ACU panel, the network should be configured by setting up the PC IP before the
+connection. This method requires separate IP configuration on a PC.
+1.
+Connect an Ethernet cable from a PC Ethernet port to the Management
+---------Port on the front of the ACU.
+2.
+Go to Control Panel > Network and Sharing Center > Change Adapter
+---------Settings. Right-click on the Local Area Connection and click Properties.
+3.
+Select TCP/ IPv4, and click Properties.
+4.
+Change the network settings on a PC;
+- Default IP: 192.168.1.5
+- Subnet Mask: 255.255.255.0
+- Gateway: 192.168.1.1
+5.
+Use the following IP address to access Intellian Aptus® or Aptus Web ------------ page.
+- Default IP: 192.168.1.2
+
+PC
+
+40
+
+Technical Specification
+
+Wi-Fi Connection
+Setup Wi-Fi Connection
+• Setting up the ACU in order to access Wi-Fi
+• Remote Access Confirmation
+
+Setting up the ACU in order to access Wi-Fi
+
+1. Turning on the Wi-Fi switch
+Turn on the switch on the back of the ACU, and 30 seconds after enabling the
+power supply, confirm if a red light appears on the switch.
+
+41
+
+GX100 – Marine Satellite Communication System
+
+2. Connect Wi-Fi in AP mode.
+After clicking on the Windows Wireless Connection icon, click on intellian-GX100
+(Default).
+3. Enter the Network Security Key.
+Key: intellian1234 (Default)
+
+4. You can confirm the logo and version data by accessing http://192.168.1.2
+
+Aptus Web v X.XX
+
+GX100
+
+Login intellian / 12345678
+
+Login by entering the ID / Password listed below.
+Username: intellian (Default)
+Password: 12345678 (Default)
+5. When you login, make sure that all the data within every page is being displayed
+correctly.
+42
+
+INSTALLING THE ACU
+
+Checking Modem Information
+After installation is complete, terminal activation requires a Provisioning Key and
+Terminal ID of the iDirect modem. Intellian provides this information in the form of
+package labels as well as displaying on the Aptus software.
+• Provisioning Key and Terminal ID Label
+PIK: XXXXXXXXX===
+TID: TID: INT-MAR-SCM-XXXXXXX
+
+NOTE: The PIK and TID information depends on the serial of the integrated modem
+and GX antenna model.
+
+• Label positions
+1
+
+ACU top cover
+
+4
+
+Aptus software display
+
+2
+
+ACU package box
+
+3
+
+User manual package
+
+43
+
+GX100 – Marine Satellite Communication System
+
+One-touch Commissioning
+Ensure to perform One-touch Commissioning after the first-time connection of the
+GX terminal and the ACU, after cable replacement or Ku-to-Ka conversion.
+Take the following steps for One-touch Commissioning.
+1. Connect an Ethernet cable from a PC Ethernet port to the Front Ethernet Port
+of the ACU. (See PC to ACU Communication Setup section for details.)
+2. Open a web browser on the PC and type the default IP address (192.168.1.1)
+to access the iDirect modem’s web page.
+3. Login to the iDirect modem page using ID: admin, PW: iDirect (or P@55w0rd!).
+4. Click “Commissioning” > “One Touch Commissioning”
+5. Click “Start” button and monitor the progress on the web page.
+
+6. Check that Commissioning is complete and “BUC Calibration done!” message
+is displayed.
+
+44
+
+INSTALLING THE ACU
+
+ACU Connector Guide
+• Console port
+5
+
+4
+9
+
+3
+8
+
+2
+7
+
+1
+
+1
+
+6
+
+2
+6
+
+3
+7
+
+4
+8
+
+5
+
+5
+
+9
+
+4
+9
+
+ACU console port:
+D-sub 9 pin male
+
+3
+8
+
+2
+7
+
+1
+6
+
+Supplied component:
+D-sub 9 pin female
+
+Pin
+
+Signal
+
+Pin
+
+Signal
+
+1
+
+NC
+
+6
+
+NC
+
+2
+
+Console RX(RS-232)
+
+7
+
+NC
+
+3
+
+Console TX(RS-232)
+
+8
+
+NC
+
+4
+
+NC
+
+9
+
+NC
+
+5
+
+GND
+
+Note: Use Cross Serial Cable for PC Interface. (Intellian supplied)
+
+• PC Interface
+5
+
+4
+9
+
+3
+8
+
+2
+7
+
+1
+
+1
+
+6
+
+2
+6
+
+3
+7
+
+4
+8
+
+5
+
+5
+
+4
+9
+
+9
+
+ACU PC Interface port:
+D-sub 9 pin male
+
+3
+8
+
+2
+7
+
+1
+6
+
+Supplied component:
+D-sub 9 pin female
+
+Pin
+
+Signal
+
+Pin
+
+Signal
+
+1
+
+GPS IN+(Spare)
+
+6
+
+GPS IN-(Spare)
+
+2
+
+PC RX(RS-232)
+
+7
+
+NC
+
+3
+
+PC TX(RS-232)
+
+8
+
+NC
+
+4
+
+NC
+
+9
+
+NC
+
+5
+
+GND
+
+Note: Use Cross Serial Cable for PC Interface. (Intellian supplied)
+
+45
+
+GX100 – Marine Satellite Communication System
+
+• NMEA 2000
+
+2
+
+1
+
+Pins
+
+1
+
+Connector threads
+
+4
+
+5
+
+ACU NMEA 2000 port :
+male
+
+3
+
+Connector threads
+
+Pin
+
+Signal
+
+1
+
+Shield
+
+Supplied component:
+female
+
+2
+
+NET-S, (Power supply positive, +V)
+
+3
+
+NET-C, (Power supply common, -V)
+
+4
+
+NET-H, (CAN-H)
+
+5
+
+NET-L, (CAN-L)
+
+• LAN
+
+ACU LAN port
+
+46
+
+Sockets
+
+5
+4
+
+3
+
+2
+
+Pin
+
+Signal
+
+Pin
+
+Signal
+
+1
+
+TX+
+
+6
+
+RX-
+
+2
+
+TX-
+
+7
+
+NC
+
+3
+
+RX+
+
+8
+
+NC
+
+4
+
+NC
+
+5
+
+NC
+
+OPERATING THE ACU
+Introduction
+Normal Mode
+Setup Mode
+Installation Settings
+Antenna Settings
+Manual Search
+Search Parameters
+Setup Antenna Parameters
+Setup Block Zone
+Antenna Diagnostic Test
+
+Satellite Settings
+Load Satellite
+Edit Satellite Information
+Add Satellite Information
+Check NID
+
+System Settings
+Set LNB Local Oscillator Frequency
+Set Location
+Management
+
+GX100 – Marine Satellite Communication System
+
+Introduction
+This section of the handbook describes how to setup your system after installing
+the ACU. It includes the following functions:
+
+Mode
+Normal Mode
+
+Function
+Startup
+Monitoring current antenna status
+Installation settings
+Selecting satellite
+Setting GPS and Gyrocompass
+Setting LNB Local Frequency
+Antenna settings
+Manual search
+Search parameters
+Search 1 (Gyro Free) Search Pattern
+Setup Antenna parameters
+
+Setup Mode
+
+Setup block zone
+Antenna Diagnostic Test
+Satellite settings
+Load Satellite
+Edit satellite information
+Add Satellite
+Check NID
+System settings
+Set LNB Local Oscillator Frequency
+Set Location
+Management
+
+NOTE: Many of the above functions will only be required after initial installation of
+your system.
+
+48
+
+OPERATING THE ACU
+
+LED Indicators:
+ACU POW, ANT ERR, CM POW, STATUS, TX, NET,
+RX1, RX2
+
+OK
+
+MENU
+
+Power
+switch
+
+ACU front keys
+
+PC : PC Cable (USB)
+DN : Firmware upgrade or Log data
+download (USB)
+Management port
+
+Touch key functions
+
+Arrow
+keys
+
+Function
+
+BACK
+
+Touch key
+
+Function
+
+MENU
+
+Enter SETUP mode
+
+BACK
+
+In SETUP mode, returns to previous menu or option or saves the
+adjusted settings.
+In Normal mode, returns to the first page of antenna current
+status.
+
+FUNCTION
+
+Saves the adjusted settings.
+
+Arrow keys
+
+Selects from the alternative options to increase or decrease the
+selected character to a desired value.
+
+OK
+
+Enter next step / menu
+
+49
+
+GX100 – Marine Satellite Communication System
+
+Normal Mode
+Startup
+With the system installed and power applied, the ACU screen will show the following
+sequence.
+Start up
+
+INTELLIAN TECHNOLOGIES INC.
+
+1. The data communication is being established between the antenna and the ACU.
+Initialize antenna info
+
+INITIALIZE - ANTENNA INFO
+INTELLIAN GX100
+2. The ACU receives antenna information.
+
+Initialize elevation &
+Cross level angle
+
+INITIALIZE - EL POSITION
+INTELLIAN GX100
+3. The elevation angle and cross level angle are initialized.
+
+Initialize azimuth angle
+
+INITIALIZE - AZIMUTH POSITION
+INTELLIAN GX100
+4. The azimuth angle is initialized.
+
+Initialize target satellite
+position
+
+INITIALIZE - SAT POSITION
+INTELLIAN GX100
+5. The antenna returns to the target satellite position.
+
+Search status
+
+SEARCH1
+
+062.6E I5_F1
+
+SIG:102
+
+AZ:254.3( 164.3) EL: 10.9
+6. The antenna is searching for the target satellite.
+Tracking status
+
+TRACKING 062.6E I5_F1
+AZ:254.3( 164.3) EL: 10.9
+7. The antenna has locked onto the satellite.
+
+50
+
+SIG:201
+Fn
+
+OPERATING THE ACU
+
+Monitoring Current Antenna Status
+When the ACU power is on, it displays the status of the antenna. The current status
+of the antenna is displayed as shown below.
+Current search status
+
+SEARCH1
+
+062.6E I5_F1
+
+SIG:102
+
+AZ:254.3( 164.3) EL: 10.9
+1. The antenna is searching for the target satellite.
+Current tracking status
+
+TRACKING 062.6E I5_F1
+
+SIG:201
+
+AZ:254.3( 164.3) EL: 10.9
+
+Fn
+
+2. The antenna has locked onto the target satellite.
+Current IF signal level SIG/ AGC is displayed. SIG will be displayed when NBD (Narrow band
+detection) mode for TRACKING SIGNAL is chosen to be used and AGC will be displayed
+when DVB mode of TRACKING SIGNAL is chosen to be used.
+The symbol “•” will be only displayed when the satellite signal is strong enough to locked
+onto.
+True azimuth [ 254.3] position of the antenna is the sum of ships heading 090.0
+[ HDG ] and antenna relative [ 164.3].
+
+NOTE: However, if the "GYRO TYPE" is set to "NONE" or "NMEA" but without
+receiving a proper input signal, "---.-" will be displayed at "True Azimuth"
+
+Save current satellite info
+
+SAVE CURRENT SAT INFO ?
+YES
+
+NO
+
+3. Touch FUNCTION key to save current satellite information or abort and return to the main
+display. "Fn" will be displayed only if the antenna is in tracking mode.
+
+51
+
+GX100 – Marine Satellite Communication System
+
+Current tracking status
+
+TRACKING 062.6E I5_F1
+
+SIG:201
+
+AZ:254.3( 164.3) EL: 10.9
+
+Fn
+
+4. Touch RIGHT arrow key to display NBD, GPS and ship’s heading information.
+Tracking & Heading
+information
+
+NBD
+
+F:1457000
+
+127.04E
+
+37.06N
+
+BW:1440
+
+SIG:201
+
+HDG:090.0
+
+L:18250 Fn
+
+5. NBD, GPS and ship’s heading information are shown.
+- NBD (Narrow Band Detection) IF tracking frequency: 1457000 KHz
+- Detected Band Width: 1440KHz
+- SIG (Signal Level ): 201
+- W (West)/E (East) Longitude: 127.04 ° E
+- N (North)/S (South) Latitude: 37.06° N
+- HDG (Ship’s Heading): 090.0 degree
+- LNB local oscillator (LO) frequency: 18250 MHz
+Antenna & ACU
+versions
+
+V3-11G-311
+
+ANT SERIAL
+
+1.00/1.00
+
+VP-T63
+
+ACU SERIAL
+
+1.00
+
+7. Touch RIGHT arrow key to display the below information.
+- Antenna part number, antenna serial number and PCU and Stabilizer firmware version.
+- ACU part number, ACU serial number, ACU firmware version.
+Touch BACK Key to return to the first page of the antenna current status.
+
+52
+
+OPERATING THE ACU
+
+Select
+USB
+functions
+
+[USB FUNCTION]
+
+SELECT USB FUNCTION
+UPGRADE FIRMWARE
+
+8.Touch RIGHT arrow key to display the USB FUNCTION*
+This menu will be displayed automatically if a USB flash drive is plugged into the USB port
+located in the front panel of the ACU.
+USB FUNCTION*
+
+• UPGRADE FIRMWARE: upgrade the system by using the firmware files
+(files format: *.FWP) from the specified folder in the USB flash drive.
+
+• COPY LOG DATA: Copy the up-to-date log data from the system to the USB flash drive.
+
+USB
+
+53
+
+GX100 – Marine Satellite Communication System
+
+Upgrade
+the
+system
+
+UPGRADE ?
+YES
+
+NO
+
+9. Touch OK key to upgrade firmware.
+Refer to the error messages below if any errors occur.
+UPGRADE FIRMWARE
+- FIRMWARE FILE NOT FOUND: the system cannot find the FWP file.
+- INVALID FIRMWARE: the file is not in a recognizable FWP format.
+- MORE THAN 1 FILE EXIST: there is more than 1 firmware file that exists from the
+specified folder in the USB flash drive.
+- CHECK USB CONNECTION: the USB flash drive is not connected.
+COPY LOG DATA
+- COPY LOG DATA TO USB [30%]: display the copy progress in percentages.
+- NOT ENOUGH SPACE IN USB: USB occupies no memory space.
+- CHECK USB CONNECTION: the USB flash drive is not connected.
+Real-time
+diagnostic
+result
+
+[DIAGNOSTIC]
+
+SENSOR BOX
+
+CODE109
+
+RESULTS : FAILED
+
+FN
+
+10. Touch RIGHT arrow key to display the real-time diagnostic result.
+The real-time diagnostic code will be displayed automatically if there is any error found
+during the system operation. However, this page will not be displayed if there is no error
+message.
+Erase
+error message
+
+ERASE DIAGNOSTIC ERROR LOG ?
+YES
+11. Touch FUNCTION key to erase diagnostic error message.
+
+54
+
+NO
+
+OPERATING THE ACU
+
+Setup Mode
+Enter the SETUP mode. Simply follow the instructions below.
+
+Searching / Tracking mode
+
+TRACKING 062.6E I5_F1
+
+SIG:201
+
+AZ:254.3( 164.3) EL: 10.9
+
+Fn
+
+1. While the antenna is in SEARCHING/TRACKING mode, touch MENU key to enter SETUP
+mode. * indicates the key pad lock function is on (Refer to KEY LOCK menu to setup the key
+pad lock function). When key pad lock function is activated touch MENU key or when “Fn”
+menu is activated touch FUNCTION key then ENTER PASSWORD menu will be displayed.
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+2. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode or
+touch RIGHT arrow key to move cursor to NO and touch OK key to abort and return to the
+main display.
+Exit setup mode
+
+EXIT SETUP MODE ?
+YES
+
+NO
+
+3. While the antenna is in SETUP mode, touch FUNCTION key as shortcut key to exit SETUP
+mode.
+
+55
+
+GX100 – Marine Satellite Communication System
+
+Installation Settings
+During the first installation, it is required to setup the installation settings.
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode
+Installation
+menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch arrow keys to move cursor to INSTALLATION menu and touch OK key to enter it.
+Select satellite
+
+SELECT SATELLITE
+[1]
+
+I5_F1
+
+62.60E
+
+3. Touch UP and DOWN arrow keys to select the satellite that you wish to track and touch
+OK key to load the selected satellite.
+Latitude & Longitude
+
+LATITUDE
+
+LONGITUDE
+
+37.00N
+
+126.53E
+
+4. Set the current LATITUDE and LONGITUDE
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase or decrease the value.
+Gyro type
+
+GYRO TYPE
+NMEA
+
+BOW OFFSET
+000
+
+5. Set the ship’s GYRO TYPE* & BOW OFFSET
+A search pattern 1 or 3 will be initiated according to which gyrocompass type is selected
+and the existence of the gyrocompass input. Ensure that the supported gyrocompass type is
+set correctly. If the ship’s gyrocompass output is Step-by-Step (SBS) or Synchro, a separate
+purchase of a gyro converter is required.
+A search pattern 1 will be initiated automatically if the gyro input does not exist and the
+gyro type is selected other than GROUND test.
+The BOW OFFSET is to offset the angle difference between the antenna’s bow and the ship’s
+bow (Range: 0 – 360°).
+NOTE: The bow offset will not be saved automatically if Search 1 pattern is initiated. In this case, the
+antenna will need to retarget the desired satellite using Search 1 every time if the antenna restarts.
+
+56
+
+OPERATING THE ACU
+
+Gyro search mode
+
+Setting of Heading Device
+Existence of Heading Data
+
+No
+Device
+
+NMEA/
+NMEA 2000
+
+Ground Test
+
+With Heading Data
+
+Search 1
+
+Search 3
+
+Search 3
+
+Without Heading Data
+
+Search 1
+
+Search 1
+
+Search 3
+
+GYRO TYPE*
+NO DEVICE
+NMEA
+NMEA 2000
+GROUND TEST
+
+LNB local frequency
+
+LOCAL FREQ.
+18250MHZ
+6. Set the LNB local oscillator frequency.
+Press LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Press UP and DOWN arrow keys to increase or decrease the value.
+
+57
+
+GX100 – Marine Satellite Communication System
+
+Load
+
+LOAD ?
+YES
+
+NO
+
+7. Touch BACK key to load the current setting or abort and return to the main display.
+Loading settings
+
+LOADING ...
+DO NOT TURN OFF !
+8. Setting is being loaded to the system.
+The ACU will restart the system automatically after uploading the setting.
+DO NOT TURN OFF ACU POWER while the data is being uploaded.
+
+Tracking status
+
+TRACKING 062.6E I5_F1
+AZ:254.3( 164.3) EL: 10.9
+9. Antenna has locked onto the target satellite.
+
+58
+
+SIG:201
+Fn
+
+OPERATING THE ACU
+
+Antenna Settings
+Manual Search
+Search the desired satellite manually.
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Antenna menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch OK key to enter ANTENNA menu.
+Manual search menu
+
++MANUAL SEARCH
+
++SEARCH PARAM
+
++SET PARAMETERS
+
++BLOCK ZONE
+
+3. Touch OK key to enter MANUAL SEARCH menu.
+Antenna movement
+
+STEP SIZE
+
+AZIMUTH
+
+ELEVATION
+
+# 00.2 #
+
+231.7
+
+48.3
+
+AGC
+301 Fn
+
+4. Current IF tracking signal level (AGC)/(SIG/dB scale) is displayed to assist you in manually
+peaking AZIMUTH (0°-360°) and ELEVATION (0°-90°) angle for best signal level.
+Touch UP or DOWN key to change the STEP SIZE when the cursor is underscored (Range:
+0.1~99.9). Touch LEFT and RIGHT arrow keys to increase or decrease the azimuth angles.
+Touch UP and DOWN arrow keys to increase or decrease the elevation angles.
+Touch FUNCTION key to save current settings or abort and return to the main display.
+Save
+
+SAVE CURRENT SAT INFO?
+YES
+
+NO
+
+5. If the current settings are able to locate the satellite, touch FUNCTION key to save “current
+satellite information”. This will help to reduce the satellite acquisition time after restarting
+the system. Touch LEFT arrow key to move cursor to YES and touch the OK key to save the
+settings.
+
+NOTE: If the gyrocompass type is not NMEA or the gyrocompass is not connected to
+
+the ACU, the information cannot be saved.
+
+59
+
+GX100 – Marine Satellite Communication System
+
+Search Parameters
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Antenna menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch OK key to enter ANTENNA menu.
+Manual search menu
+
++MANUAL SEARCH
+
++SEARCH PARAM
+
++SET PARAMETERS
+
++BLOCK ZONE
+
+3. Touch arrow keys to move cursor to SEARCH PARAM menu and touch OK key to enter it.
+Search param
+
+SEARCH WAIT TIME
+030
+
+Search 1 range
+
+SEARCH1 AZ
+400
+
+Search 3 range
+
+SEARCH3 AZ
+003
+
+INCREMENT STEP
+0.50
+SEARCH1 EL
+06
+SEARCH3 EL
+04
+
+4. Set SEARCH 1 and 3 AZ (Azimuth) range and EL (Elevation) range. SEARCH 2 is reserved
+for future use.
+
+A search pattern 1 or 3 will be initiated according to which gyrocompass type is
+selected and the existence of the gyrocompass input.
+Search 1: A search pattern 1 will automatically be initiated when the ship’s heading
+input does not exist or has failed. The antenna will go to the relative azimuth position
+0º at the calculated elevation and search in the azimuth CCW direction and search
+up +0.5º & down -0.5º with a total 6º(±3º) in elevation. The search cycle will repeat
+until the antenna receives the lock signal from the modem or the DVB transponder
+of the target satellite is decoded by the antenna. If the desired signal is found and
+above the predefined detect level, the ACU will enter to Search 3. However, the
+antenna will not initiate Search 3 pattern but go into TRACKING mode immediately
+if the desired signal is above the predefined tracking threshold level. If the detected
+signal is below the predefined tracking threshold level, the search 1 will repeat and
+start 3º away from the current position.
+
+60
+
+OPERATING THE ACU
+
+Search 1 (Gyro Free) Search Pattern
+
+Target satellite EL position
+
+3°
+2°
+1°
+0°
+-1°
+-2°
+-3°
+1
+
+5
+
+10
+
+15
+
+20
+
+25
+30
+Revolution (AZ direction)
+
+Search 1 antenna motion
+
+Target EL Angle 0°
+Turn 1
+
+Target EL Angle + 0.5°
+Turn 2
+
+Target EL Angle 0°
+Turn 3
+
+Target EL Angle - 0.5°
+Turn 4
+
+Search 3: A search pattern 3 will automatically be initiated when AGC/SIG falls
+below the current tracking level threshold value. If the desired signal is found and
+above the predefined tracking level, the ACU will terminate Search 3 and go into
+TRACKING mode. A search pattern will automatically be initiated when AGC/SIG
+falls below the current threshold setting (indicates that satellite signal has been
+lost). Search is conducted in a two-axis pattern consisting of alternate movements
+in azimuth (AZ) and elevation (EL) as forming expanding square indicated as below
+diagram.
+
+Search 3 pattern
+
+Azimuth (AZ) Range
+0.5˚
+
+Elevation
+(EL) Range
+
+61
+
+GX100 – Marine Satellite Communication System
+
+Setup Antenna Parameters
+These parameters should only be changed by an authorized Intellian service technician.
+Improper setting of these parameters will cause your system to perform improperly.
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Antenna menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch OK key to enter ANTENNA menu.
+Set parameters menu
+
++MANUAL SEARCH
+
++SEARCH PARAM
+
++SET PARAMETERS
+
++BLOCK ZONE
+
+3. Touch arrow keys to move cursor to SET PARAMETERS menu and touch OK key to enter it.
+
+NOTE: Setup parameters is only required after installation or repairs of your antenna system.
+
+These parameters should only be changed by an authorized service technician. Improper
+setting of these parameters will render your system inoperable.
+
+Set detect & tracking DVB
+
+DETECT DVB
+
+TRACKING DVB
+
+040
+
+020
+
+4. Set DETECT DVB and TRACKING DVB when DVB mode of TRACKING SIGNAL is chosen
+to be used (Range: 1-200).
+DETECT DVB is to set the satellite signal detection level and TRACKING DVB is to set the
+satellite signal tracking level.
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase and decrease the selected character.
+Touch OK key to set the parameter. Touch BACK key to select the parameter you wish to edit
+and touch BACK key again to save or abort and return to the main display.
+
+62
+
+OPERATING THE ACU
+
+Set detect & tracking NBD
+
+DETECT NBD
+
+TRACKING NBD
+
+040
+
+020
+
+6. Set DETECT NBD and TRACKING NBD when NBD (Narrow Band Detection) mode of
+TRACKING SIGNAL is chosen to be used (Range: 1-200).
+DETECT NBD is to set the satellite signal detection level and TRACKING NBD is to set the
+satellite signal tracking level.
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase and decrease the selected character.
+Touch OK key to set the parameter. Touch BACK key to select the parameter you wish to edit
+and touch BACK key again to save or abort and return to the main display.
+
+Peak Level
+
+Detect & tracking level
+
+Tracking Level
+TRACKING DVB/NDB
+Detect Level
+DETECT DVB/NDB
+Noise Level
+
+BOW & EL adjust
+
+BOW OFFSET
+
+EL.ADJUST
+
+000
+
++0.0
+
+7. Set BOW OFFSET and EL. ADJUST
+BOW OFFSET is to offset the angle difference between the antenna’s bow and the ship’s bow
+(Range: 0 – 360°) and EL. ADJUST is to offset the angle difference between the mechanical
+elevation angle and actual elevation angle (Range: ± 5°).
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase and decrease the selected character.
+Touch OK key to set the parameter. Touch BACK key to select the parameter you wish to edit
+and touch the BACK key again to save or abort and return to the main display.
+
+63
+
+GX100 – Marine Satellite Communication System
+
+Select operation
+process
+
+OPERATION
+SAVE
+8. Execute the command of the selected item from OPERATION*.
+OPERATION*
+
+• SAVE: save and execute the current settings.
+• IDLE ON/OFF: the motor brakes will be released while IDLE MODE is ON. The
+antenna will restart automatically if IDLE MODE is re-set from ON to OFF touch BACK
+key is pressed to exit SETUP mode.
+
+• REBOOT: the antenna will restart automatically if REBOOT ANTENNA is ON.
+
+64
+
+OPERATING THE ACU
+
+Setup Block Zone
+Up to 5 block zones can be programmed with relative azimuth and elevation sectors.
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Antenna menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch OK key to enter ANTENNA menu.
+Block zone menu
+
++MANUAL SEARCH
+
++SEARCH PARAM
+
++SET PARAMETERS
+
++BLOCK ZONE
+
+3. Touch RIGHT arrow key to move cursor to BLOCK ZONE menu and touch OK key to enter
+it. Up to 5 block zones is allowed to be programmed.
+Block zone 1
+
+ZONE 1 BLOCK
+ON
+
+Block zone range
+
+AZ.1 START
+000
+
+AZ.1 END
+000
+
+EL.1 LIMIT
+90
+
+4. Set ZONE 1 BLOCK
+Touch UP and DOWN arrow keys to select “ON” to setup the block zone for ZONE 1.
+Touch OK key to use ZONE 1 BLOCK and set zone 1 block range.
+Touch BACK key to select the parameter you wish to edit and touch BACK key again to save
+or abort and return to the main display.
+Set the AZ.1 START, AZ.1 END and EL.1 LIMIT while ZONE 1 BLOCK is ON.
+This is the clockwise of the two points. AZ.1 START is where the relative azimuth starts
+and AZ.1 END is where the relative azimuth ends (Range: 0- 360°). EL.1 Limit is where the
+elevation starts (Range 0- 90°).
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase and decrease the selected character.
+Touch OK key to set the parameter. Touch BACK key to select the parameter you wish to edit
+and touch BACK key again to save or abort and return to the main display.
+
+65
+
+GX100 – Marine Satellite Communication System
+
+Block zone 2
+
+ZONE 2 BLOCK
+OFF
+5. ZONE 2 to ZONE 5 BLOCK setting is same as ZONE 1 BLOCK.
+Touch OK key to set ZONE 2 BLOCK and set next parameter.
+
+Save
+
+SAVE ?
+YES
+
+NO
+
+6. Touch LEFT arrow key to move cursor to YES and touch OK key to save and execute the
+current settings. Or touch RIGHT arrow key to move cursor to NO and touch OK key to abort
+and return to the main display.
+
+66
+
+OPERATING THE ACU
+
+Antenna Diagnostic Test
+Refer to the diagnosis codes for the test results.
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Antenna menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch OK key to enter ANTENNA menu.
+Diagnostic menu
+
++DIAGNOSTIC
+
+3. Touch arrow keys to move cursor to DIAGNOSTIC menu and touch OK key to enter it.
+Full diagnostic test
+
+DIAGNOSTIC
+
+COMMUNICATION
+
+FULL TEST
+
+READY
+
+4. Touch UP and DOWN arrow keys to select a full diagnostic test or single diagnostic test
+and touch OK key to execute the selected diagnostic test.
+Menus for DIAGNOSTIC are FULL TEST and CODE 101 ~ CODE 116.
+Full diagnostic
+test result
+
+DIAGNOSTIC
+
+FULL TESTING
+-
+
+FULL TEST
+
+-
+
+5. A full diagnostic is successfully completed.
+Single diagnostic
+test result
+
+DIAGNOSTIC
+
+COMMUNICATION
+
+CODE 101
+
+RESULT : PASSED
+
+6. A single diagnostic test is successfully completed.
+
+67
+
+GX100 – Marine Satellite Communication System
+
+Diagnosis Code:
+CODE 101: The data communication between the antenna and the ACU is tested.
+CODE 102: The azimuth motor is tested.
+CODE 103: The elevation motor is tested.
+CODE 104: The cross-level motor is tested.
+CODE 105: The azimuth encoder is tested.
+CODE 106: The cross-level encoder is tested.
+CODE 107: The rate sensor is tested.
+CODE 108: The tilt sensor is tested.
+CODE 109: The sensor box motor is tested.
+CODE 110: The LNB/NBD is tested.
+CODE 111: The LNB pol motor is tested.
+CODE 112: The sub-reflector is tested. (Skip for v-Series communication products)
+CODE 113: The antenna power is tested.
+CODE 114: The ACU power is tested.
+CODE 115: The receiver power is tested.
+(Skip for v-Series communication products)
+CODE 116: The home sensor is tested.
+An example of test result: •2•••••••••-••-•
+
+•: test is passed
+
+2: test is failed (CODE102)
+–: test is skipped (TVRO products only)
+?: test is in process
+
+68
+
+OPERATING THE ACU
+
+Satellite Settings
+Load Satellite
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Satellite menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch RIGHT arrow key to move cursor to SATELLITE and touch OK key to enter it.
+Load sat menu
+
++LOAD SAT.
+
++EDIT SAT.
+
++ADD SAT.
+
++CHECK NID
+
+3. Touch OK key to enter LOAD SAT. menu.
+Load satellite
+
+LOAD SATELLITE
+[1]
+
+I5_F1
+
+62.60E
+
+4. Touch UP and DOWN arrow keys to select satellite that you wish to track.
+Touch OK key to load the selected satellite.
+Load
+
+LOAD ?
+YES
+
+NO
+
+5. Touch LEFT arrow key to move cursor to YES and touch OK key to load the selected
+satellite and execute the current settings. Or touch RIGHT arrow key to move cursor to NO
+and touch OK key to abort and return to the main display.
+
+69
+
+GX100 – Marine Satellite Communication System
+
+Edit Satellite Information
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Satellite menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch RIGHT arrow key to move cursor to SATELLITE and touch OK key to enter it.
+Edit sat menu
+
++LOAD SAT.
+
++EDIT SAT.
+
++ADD SAT.
+
++CHECK NID
+
+3. Touch RIGHT arrow key and OK key to enter EDIT SAT. menu.
+Edit satellite
+
+EDIT SATELLITE
+[1]
+
+I5_F1
+
+62.60E
+
+4. Touch UP and DOWN arrow keys to select the satellite that you wish to edit and touch
+OK key to edit the selected satellite.
+Edit longitude & name
+
+LONGITUDE
+
+EDIT NAME
+
+138.0E
+
+TELST_18
+
+5. Edit satellite orbit position, LONGITUDE and satellite NAME.
+
+70
+
+OPERATING THE ACU
+
+DVB verifiy method
+
+DVB VERIFY
+
+SKEW OFFSET
+
+AGC
+
++00.0
+
+6. Edit satellite DVB VERIFY* method and SKEW OFFSET.
+DVB VERIFY will be only activated and applied when DVB mode of TRACKING SIGNAL is
+chosen to be used. Touch UP and DOWN arrow keys to select DVB VERIFY and touch OK
+key to set the parameter.
+DVB VERIFY*
+AGC – use signal level for satellite tracking.
+DVB Lock – use DVB Lock for satellite tracking.
+DVB Decode – use DVB Decode for satellite tracking.
+DSS Decode – use DSS Decode for satellite tracking.
+Set LNB local frequency
+
+SELECT LOCAL
+11300MHZ
+
+TRACKING
+
+SIGNAL
+
+NBD
+
+7. Set SELECT LOCAL* frequency and TRACKING SIGNAL*.
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to select the LNB local frequency from the installed LNB.
+Touch OK key to set the parameter.
+SELECT LOCAL*
+The selectable LNB frequencies
+are depended on the installed LNB
+type.
+Set polarity
+
+RX POL
+LHCP
+
+TRACKING SIGNAL*
+NBD
+DVB
+
+TX POL
+RHCP
+
+8. Set RX POL and TX POL to select the polarity for both RX (receive) and TX (transmit).
+Touch UP and DOWN arrow keys to select LHCP or RHCP.
+Touch OK key to set the parameter.
+
+71
+
+GX100 – Marine Satellite Communication System
+
+Set DVB tracking
+frequency
+
+DVB FREQ.
+
+SYMBOL
+
+NID
+
+19707MHZ
+
+20000kSps
+
+0X2000
+
+9. Set DVB FREQUENCY, SYMBOL RATE and NID when DVB mode of TRACKING SIGNAL
+is chosen to be used.
+45,000 is the maximum allowed symbol rate value. NID (network ID) range is from 0 x 0000
+to 0 x FFFF (hexadecimal digit).
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase or decrease the value.
+Touch OK key to set the parameter.
+Set NBD tracking
+frequency
+
+NBD FREQ.
+
+BANDWIDTH
+
+1070.000MHZ
+
+01000KHZ
+
+10. Set NBD IF FREQUENCY and BANDWIDTH when NBD (Narrow Band Detection) mode of
+TRACKING SIGNAL is chosen to be used.
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase or decrease the value.
+Touch OK key to set the parameter.
+Save
+
+SAVE ?
+YES
+
+NO
+
+11. Touch LEFT arrow key to move cursor to YES and touch OK key to save and execute the
+current settings. Or touch RIGHT arrow key to move cursor to NO and touch OK key to abort
+and return to the main display.
+
+72
+
+OPERATING THE ACU
+
+Add Satellite Information
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+Satellite menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch RIGHT arrow key to move cursor to SATELLITE and touch OK key to enter it.
+Add sat menu
+
++LOAD SAT.
+
++EDIT SAT.
+
++ADD SAT.
+
++CHECK NID
+
+3. Touch DOWN arrow key and OK key to enter ADD SAT. menu.
+Set longitude & name
+
+LONGITUDE
+
+EDIT NAME
+
+000.00E
+
+SAT.00
+
+4. Set satellite LONGITUDE and satellite NAME.
+DVB verify method
+
+DVB VERIFY
+
+SKEW OFFSET
+
+DVB DECODE
+
++00.0
+
+5. Edit the satellite DVB VERIFY* and SKEW OFFSET.
+DVB VERIFY will be only activated and applied when DVB mode of TRACKING SIGNAL is
+chosen to be used. Touch UP and DOWN arrow keys to select DVB VERIFY and touch OK
+key to set the parameter.
+DVB VERIFY*
+AGC – use signal level for satellite tracking.
+DVB Lock – use DVB Lock for satellite tracking.
+DVB Decode – use DVB Decode for satellite tracking.
+DSS Decode – use DSS Decode for satellite tracking.
+
+73
+
+GX100 – Marine Satellite Communication System
+
+Set LNB local frequency
+
+SELECT LOCAL
+
+TRACKING SIGNAL
+
+18250MHZ
+
+NBD
+
+6. SELECT LOCAL* to set LNB local oscillator frequency and TRACKING SIGNAL*.
+The selectable LNB frequencies are depended on the installed LNB type.
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase or decrease the value.
+Touch OK key to set the parameter.
+SELECT LOCAL*
+The selectable LNB frequencies
+are dependent on the installed LNB
+type.
+
+Set polarity
+
+TRACKING SIGNAL*
+NBD
+DVB
+
+RX POL
+
+TX POL
+
+LHCP
+
+RHCP
+
+7. Set RX POL and TX POL
+To select the polarity for both RX (receive) and TX (transmit) polarization.
+Touch UP and DOWN arrow keys to select LHCP or RHCP.
+Touch OK key to set the parameter.
+Set DVB tracking
+frequency
+
+DVB FREQ.
+
+SYMBOL
+
+NID
+
+00000MHZ
+
+00000kSps
+
+0X0000
+
+8. Set DVB FREQUENCY, SYMBOL RATE and NID when DVB mode of TRACKING
+SIGNAL is chosen to be used.
+45,000 is the maximum allowed symbol rate value. NID (network ID) range is from 0 x 0000
+to 0 x FFFF (hexadecimal digit).
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase or decrease the value.
+Touch OK key to set the parameter.
+Sat NBD tracking
+frequency
+
+NBD FREQ.
+
+BANDWIDTH
+
+0000.000MHZ
+
+01.000MHZ
+
+9. Set NBD IF FREQUENCY and detection BANDWIDTH when NBD (Narrow band detection)
+mode of TRACKING SIGNAL is chosen to be used.
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase or decrease the value.
+Touch OK key to set the parameter.
+
+74
+
+OPERATING THE ACU
+
+Save
+
+SAVE ?
+YES
+
+NO
+
+10. Touch LEFT arrow key to move cursor to YES and touch OK key to save and execute the
+current settings. Or touch RIGHT arrow key to move cursor to NO and touch OK key to abort
+and return to the main display.
+
+Check NID
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and Touch OK key to enter SETUP mode.
+Satellite menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch RIGHT arrow key to move cursor to SATELLITE menu and touch OK key to enter it.
+Check NID menu
+
++LOAD SAT.
+
++EDIT SAT.
+
++ADD SAT.
+
++CHECK NID
+
+3. Touch DOWN arrow key and OK key to enter CHECK NID menu.
+NID verification
+
+[CHECK NID]
+PRESS OK
+
+F:19707 S:1000
+RECEIVED
+
+0X2000
+
+NID[0X0000]
+
+4. CHECK NID is to verify the NID (Network ID) of the current tracking transponder.
+Touch OK key to verify the NID [0 x 0000] only when “ PRESS OK” function is activated.
+“PRESS OK” function will only be activated when DVB Lock signal is confirmed by the
+antenna. However, “NO LOCK” message will be displayed if DVB Lock signal can’t be
+confirmed.
+
+75
+
+GX100 – Marine Satellite Communication System
+
+System Settings
+Set LNB Local Oscillator Frequency
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+System menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch DOWN arrow key to move cursor to SYSTEM and touch OK key to enter it.
+Set local frequency menu
+
++SET LOCAL
+
++SET LOCATION
+
++MANAGMENT
+3. Touch OK key to enter SET LOCAL menu to set the LNB local frequency.
+LNB info
+
+LOCAL FREQ.
+18250MHZ
+4. Set LNB local oscillator frequency.
+Touch BACK key and Touch LEFT and RIGHT arrow keys to select the parameter you wish to
+edit. Touch OK key to edit parameter. Or touch BACK key again to return to the main display.
+LNB LOCAL: The selectable LNB frequencies are depended on the installed LNB type.
+
+Save
+
+SAVE ?
+YES
+
+NO
+
+5. Touch LEFT arrow key to move cursor to YES and touch OK key to save current settings.
+Or move cursor to NO and touch OK key to abort and return to the main display.
+
+76
+
+OPERATING THE ACU
+
+Set Location
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+System menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch DOWN arrow key to move cursor to SYSTEM and touch OK key to enter it.
+Set location menu
+
++SET LOCAL
+
++SET LOCATION
+
++MANAGMENT
+3. Touch RIGHT arrow key to move cursor to SET LOCATION and touch OK key to enter it.
+Gyro type and
+Baud rate
+
+GYRO TYPE
+
+BAUD RATE
+4800
+
+NMEA
+
+4. Set the ship’s GYRO TYPE* and BAUD RATE
+A search pattern 1 or 3 will be initiated according to which gyrocompass type is selected and
+the existence of the gyrocompass input. Set the BAUD RATE as 4800, 9600, 19200 or 38400
+according to your device.
+A search pattern 1 will be initiated automatically if the gyrocompass input does not exist and
+the gyrocompass type is selected other than GROUND TEST.
+NOTE: The bow offset will not be saved automatically if Search 1 pattern is initiated.
+
+In this case, the antenna will need to re-target the desired satellite using Search 1
+every time if the antenna restarts.
+Gyro search type
+
+Setting of Heading Device
+Existence of Heading Data
+
+No Device
+
+NMEA /
+NMEA 2000
+
+Ground Test
+
+With Heading Data
+
+Search 1
+
+Search 3
+
+Search 3
+
+Without Heading Data
+
+Search 1
+
+Search 1
+
+Search 3
+
+GYRO TYPE*
+NO DEVICE
+NMEA
+NMEA 2000
+GROUND TEST
+
+77
+
+GX100 – Marine Satellite Communication System
+
+Latitude & longitude
+
+LATITUDE
+
+LONGITUDE
+
+37.00N
+
+126.50E
+
+5. Set the current LATITUDE and LONGITUDE.
+Touch LEFT and RIGHT arrow keys until the desired character is underscored (selected).
+Touch UP and DOWN arrow keys to increase or decrease the value.
+Touch the OK key to set the parameter.
+Heading
+
+HEADING
+090.0
+6. Entry of ship’s heading is not required when your system is connected to a NMEA(0813) or
+NMEA2000 Heading Gyrocompass output.
+Ensure that the supported gyrocompass type is set correctly. If the ship's gyrocompass
+output is other than NMEA and Synchro, a purchase of an NMEA converter is required.
+Save
+
+SAVE ?
+YES
+
+NO
+
+7. Touch LEFT arrow key to move cursor to YES and touch OK key to save current settings.
+Or move cursor to NO and touch OK key to abort and return to the main display.
+
+78
+
+OPERATING THE ACU
+
+Management
+
+Setup mode
+
+SETUP MODE ?
+YES
+
+NO
+
+1. Touch LEFT arrow key to move cursor to YES and touch OK key to enter SETUP mode.
+System menu
+
++ANTENNA
+
++SATELLITE
+
++SYSTEM
+
++INSTALLATION
+
+2. Touch DOWN arrow key to move cursor to SYSTEM menu and touch OK key to enter it.
+Backup and restore
+menu
+
++SET LOCAL
+
++SET LOCATION
+
++MANAGMENT
+3. Touch arrow keys to move cursor to MANAGEMENT menu and touch OK key to enter it.
+Select process type
+
+SELECT PROCESS TYPE
+BACKUP USER DATA
+4. Touch UP and DOWN arrow keys to SELECT PROCESS TYPE*
+Touch OK key to set the parameter and the processing message will be displayed.
+SELECT PROCESS TYPE*
+BACKUP USER DATA: To backup the antenna settings set by user to the ACU.
+RESTORE USER DATA: To restore the antenna by using the backup user data stored from the ACU.
+DEFAULT ACU-REMOTE P/W: to default ID and Password of the Web Server.
+UPGRADE FROM USB: to upgrade the system by using the firmware files from a specified folder
+in the USB flash drive.
+COPY LOG TO USB: to copy the antenna log data from the system to the USB flash drive.
+BACKUP TO USB: To backup the antenna settings to a specified folder in the USB flash drive.
+RESTORE FROM USB: To restore the antenna by using the backup user data from a specified
+folder in the USB flash drive.
+UPGRADE ACU-REMOTE: To upgrade the system using the Remote Access firmware file
+(ETSW-fs-XXX.bin) from a specified folder in the USB flash drive.
+
+NOTE: UPGRADE FROM USB, COPY LOG TO USB, BACKUP TO USB, RESTORE
+FROM USB and UPGRADE ACU-REMOTE options are displayed only if the USB flash
+drive is plugged into the USB port located in the front panel of the ACU.
+
+Processing
+
+BACK UP ANT INFO
+DO NOT TURN OFF!
+
+79
+
+GX100 – Marine Satellite Communication System
+
+80
+
+Aptus
+
+®
+
+OPERATING THE ACU
+
+Introduction
+Requirements
+
+Software Installation
+PC to ACU Communication Setup
+Starting Aptus®
+Establishing a data communication
+
+Toolbar Menus
+System Property Status Dashboard
+Work View Tabs
+Antenna - Basic Info.
+Antenna - Advanced Info.
+Satellite (Satellite View)
+Graph View
+Monitor
+Diagnostic/Modem
+GUI
+Work View functions
+
+81
+
+GX100 – Marine Satellite Communication System
+
+Introduction
+Intellian’s new VSAT Antenna PC Controller Software, Aptus® is a next-generation
+graphically based antenna remote control software. Aptus® allows users to easily
+and conveniently set up the antenna by using a personal computer.
+The minimum PC hardware and software requirements to install and run Aptus® are
+as follows:
+
+Requirements
+
+Hardware
+Hardware
+
+Requirements
+
+CPU
+
+Intel® Pentium® 4 or higher
+
+Memory
+
+512MB or higher
+DirectX9.0 or higher supported
+
+Video Card
+
+H/W acceleration supported
+Video Memory 128MB or higher
+
+HDD
+
+1GB or higher
+
+Operating System and Software
+
+82
+
+Software
+
+Requirements
+
+Operating System
+
+Windows XP SP or higher
+
+Framework
+
+Microsoft.Net Framework 3.5 Service Pack 1 or higher
+
+Aptus®
+
+Software Installation
+Double click the ‘Aptus for v-Series Setup.exe’ icon
+to install Aptus® directly
+onto your computer/ laptop. The InstallShield Wizard will guide you through the
+program setup process. The installation routine provides an icon on the desktop.
+
+Click the icon to start the software. In addition, Intellian also provides patch files
+for software upgrade.
+
+83
+
+GX100 – Marine Satellite Communication System
+
+PC to ACU Communication Setup
+Starting Aptus®
+Double-click the Aptus® desktop icon. The Communication Window will appear
+to establish the data communication between your PC and the ACU. Select your
+choice of connection method to access your ACU through either the Serial Port
+Communication or the Network Communication (TCP/IP).
+
+84
+
+Aptus®
+
+Establish a data
+communication
+
+Access ACU through Serial Communication
+1.
+Connect a 9 pin serial cable between the PC INTERFACE connector on
+the ACU and the 9 pin serial port on the PC. (Or you can use a USB cable
+to setup serial connection between a PC and the USB port on the ACU.)
+2.
+Select serial at communication type combo-box.
+3.
+The baud rate of the ACU is 57600.
+4.
+Select a COM port which is not occupied by other devices.
+5.
+Click the Connect button.
+Access ACU through Network Communication (TCP/IP)
+1.
+Turn off the wireless connection while using this method.
+2.
+Connect your PC to the Management Port. (See 'PC to ACU Communication
+Setup' section for other network connection methods.)
+3.
+Select Network at communication type combo-box.
+4.
+Enter in the ACU’s IP address (Factory default : 192.168.1.2)
+5.
+Enter in the ACU’s port number (Factory default : 4002)
+6.
+Click the Connect button then the Authentication window will appear.
+7.
+Login by using the username and password below:
+Username: intellian (Factory default)
+Password: 12345678 (Factory default)
+
+NOTE: If the remote access PC is located in the same network group with the ACU,
+the ACU can be accessed through the internal IP address. But, if the remote access
+PC is located outside of the network group, the ACU’s IP address should be changed
+to the IP address assigned by the network service provider.
+
+WARNING:
+- Do not plug a USB to the ACU while TCP/IP communication is in use.
+Doing so will disable current PC Software Control because the USB
+connection has higher priority than TCP/IP connection.
+- The amount of data will increase rapidly if Network Communication is in use.
+Intellian recommends using Aptus Web.
+
+85
+
+GX100 – Marine Satellite Communication System
+
+AutoUpdate
+Intellian Aptus® checks and notifies the latest version when it is started to maintain
+up to date software version by AutoUpdate function.
+
+1. When Aptus® is started, it automatically checks the latest software version from
+the server and runs AutoUpdate if new version is available.
+2. Current software version information is displayed.
+3. It notifies new software version information.
+4. When you click the “start” button, “File downloading…” message is displayed
+while downloading files from the server.
+
+5. When file downloading is finished, “installing…” message is displayed and Aptus
+patch runs. The installation starts by InstallShield.
+6.Click the “Finish” button when InstallShield installation is finished, then “Run
+the Aptus” message is displayed and Aptus runs and AutoUpdate is automatically
+finished.
+
+86
+
+Aptus®
+
+Toolbar Menus
+The toolbar menus at the top of the screen display command buttons of the most
+commonly used functions of the Aptus®. The toolbar menus consists of four main
+menus: Quick (for quick launch of functions), File (for file backup, restoring and
+loading), View, and Connection.
+
+1
+
+1
+
+Quick
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Setup: enters Setup mode.
+Restart: exits Setup mode and restarts the antenna.
+Reboot: reboots the antenna.
+Get Ant. Info: obtains the information stored in the antenna
+Save Satellite: saves the current bow offset only if the antenna is tracking
+onto the satellite. The satellite acquisition time can be reduced significantly
+after the antenna is restarted.
+
+2
+
+File
+
+Backup: backups the antenna information to ACU or PC.
+- Select ‘To ACU’ to backup the antenna information to ACU.
+The backup file (file format: *.ibf) will be stored on the ACU.
+- Select ‘To PC’ to backup the antenna information to a PC.
+The backup files (file format: *.rpt and *.ibf) will be generated
+on the PC.
+NOTE: Both *.rpt and *.ibf files contain antenna information. However, while *.ibf file can
+be used for restoring antenna information, *.rpt file is stored as plain-text for viewing
+purpose only. Users can open the *.rpt using text editors such as notepad software.
+
+Restore: restores the antenna by using the stored information in
+ACU or PC.
+- Select ‘From ACU’ to restore the antenna by using the stored
+information in ACU.
+- Select ‘From PC’ to restore the antenna by using the stored
+information in PC (file format: *.ibf).
+
+87
+
+GX100 – Marine Satellite Communication System
+
+Load Config. : loads the antenna configuration file (file format: *.cfg).
+The configuration file includes the antenna control parameters which are
+pre-loaded at the factory and should only be changed by an authorized service
+technician. Improper setting of these parameters will cause your system to
+perform improperly.
+
+3
+
+View
+
+• User Layout: displays the layout list that the user has previously stored by using
+Layout Manager. If you select a layout in this list, the selected layout will be
+constructed in Work View screen. The ‘Basic layout’ is provided by default.
+
+• Layout Manager: provides the user with add, delete, and save functionalities in
+order to manage the user’s layouts.
+- Selecting ‘Add current layout’ opens a pop up window. Type in a desired name
+of current layout and click Add, then the new name of the current layout will be
+saved to the list under User Layout menu.
+- When changes are made to the current layout, select ‘Save current layout’ option.
+The current layout will be saved with changes.
+- To remove a layout, select ‘Delete layout’ option. Select a desired layout to remove
+on the pop up window, then click ‘Delete’. Close the window by clicking on ‘Close’.
+The selected layout is removed from the User Layout list.
+
+• Default Layout: returns the current layout to the default layout.
+
+88
+
+Aptus®
+
+• Work View: displays a list of seven pre-constructed
+Work View Tabs (Satellite View, Antenna Basic View,
+Antenna Advanced View, Monitor View, Graph View,
+Diagnostic/Modem View and GUI View) and also
+provides the Activate / Close functionalities for each
+view tab. Activate the work view tab by ticking the
+checkbox next to it.
+
+4
+
+Connection
+
+• Communication: At any time, data communication channel can be reestablished between Serial and Network connection. Selecting Comm. Button
+will display Communication Window to connect to the ACU via Serial or Network
+communication.
+
+Utill
+
+• Firmware Uploader: provides the user with the latest firmware version and
+updates firmware by simple steps.
+
+5
+
+• File Manager: display the latest firmware and library file available on Aptus
+Server. Select a desired firmware and download to the local PC.
+
+• ACU Log Manager: displays the antenna log data in calendar view which is
+downloadable directly to a desired path.
+
+6
+
+Help
+
+• Setting: enables or disables Auto Update function and sets network connection
+time-out.
+• Help: 1) Report: provides e-mail contact to Intellian technical support team to let
+the user report problems at any time. 2) Information: displays the information of
+current Aptus® software version.
+
+89
+
+GX100 – Marine Satellite Communication System
+
+System Property Status Dashboard
+The property status dashboard on the left pane of the screen provides the antenna
+status, the availability of TX transmission, signal level, GPS and heading status,
+software information, product information and error status to be monitored quickly.
+1
+
+2
+
+3
+
+4
+5
+
+6
+
+7
+
+8
+1
+
+Antenna Status: Displays the status of the current mode of the antenna.
+- Search 1: A Search 1 pattern will automatically be initiated when the ship’s
+heading input does not exist or if it fails. The search cycle will repeat until the
+antenna receives the lock signal from the modem or until the DVB transponder
+of the target satellite is decoded by the antenna.
+- Search 2: Search 2 is reserved for future use.
+- Search 3: Search 3 pattern will automatically be initiated when AGC(DVB mode
+is in use) or SIG/dB (NBD mode is in use) falls below the current tracking level
+threshold value. Once the desired signal is found and above the predefined
+tracking threshold, the ACU will enter to tracking mode.
+
+90
+
+Aptus®
+
+- Tracking: Antenna is tracking the target satellite.
+- Initialize: Antenna or ACU is initializing.
+- Setup: Antenna is in SETUP mode.
+2
+
+TX Enable
+Displays the status of TX transmit. If the circle next to the TX Enable shows “Blue”,
+it means the antenna TX function is enabled. If the circle shows “Red”, it means
+the antenna TX function is disabled. The TX function will be enabled only if all five
+factors (Enable Mode, Blockage, Pointing, Modem Lock, and LNB Rotate) listed
+below show a “Blue” circle. However, if the “Use TX Mute” function in the ‘ACU
+System’ Work Tab is disabled, the TX function will be enabled regardless the above
+factors.
+- Enable Mode: displays whether or not the antenna is in transmitting.
+- Blockage: displays whether or not the antenna is pointing in a predefined block
+zone(s). If the antenna is pointing in the block zone, the circle next to the Blockage
+will show “Gray”. If the antenna pointed outside the block zone, the circle next to
+the Blockage will show “Blue”.
+- Pointing: displays whether or not the antenna is pointing to the target satellite. If
+the antenna is mis-pointing to the target satellite, the circle next to the Pointing
+will show “Gray”. If the antenna is pointing to the target satellite, the circle next to
+the Pointing will show “Blue”.
+- Modem Lock: displays whether or not the modem is locked by receiving a
+confirmation signal from the satellite modem. If the modem is not locked, the
+circle next to the Modem Lock will show “Gray”. If the modem is locked, the circle
+next to the Modem Lock will show “Blue”.
+NOTE: If the Modem Lock shows “Gray”, check the cable connection between
+the antenna system and the satellite modem as well as settings on the modem.
+
+- LNB Rotate: displays whether or not the LNB is rotating. If the LNB is rotating, the
+circle next to the LNB Rotate will show “Gray”. If the LNB is not rotating, the circle
+next to the LNB Rotate will show “Blue”.
+
+91
+
+GX100 – Marine Satellite Communication System
+
+3
+
+Signal Level
+Shows “DVB” when DVB mode of tracking signal is in use and “NBD” when NBD
+mode of tracking signal is in use. The “Red” line indicates the signal “Detect Level
+Threshold” and the “Orange” line indicates the signal “Tracking Level Threshold”.
+If the signal level is higher than the tracking level threshold, the signal level bar will
+display “Blue” color. If the signal level is lower than the tracking level threshold, the
+signal level bar will display “Orange” color and the antenna will stay in searching
+mode.
+NOTE: If the signal level is not higher than the tracking threshold, decrease the detect
+and tracking level.
+
+92
+
+4
+
+GPS and Heading
+Displays the current GPS location from the Antenna and Ship’s heading information.
+The status light flashes green if the system receives a correct input of the GPS and
+Ship’s heading.
+
+5
+
+Voltage: Displays the antenna and the ACU voltage information.
+
+6
+
+Software Information: Displays the antenna and the ACU firmware versions, and the
+library version.
+
+7
+
+Product Information: Displays the antenna and ACU serial numbers, antenna model
+and ACU model.
+
+OPERATING THE ACU
+
+8
+
+Diagnostic Error Report
+The square button next to the Diagnostic Error Report turns red when the system
+receives an error. Click the button to see a Diagnostic Report.
+
+93
+
+GX100 – Marine Satellite Communication System
+
+Work View Tabs
+Aptus® provides seven Work View Tabs (Satellite View, Antenna Basic View,
+Antenna Advanced View, Monitor View, Graph View, Diagnostic/Modem and GUI
+to manage the Antenna and the Satellite configuration.
+
+How to modify the settings on Work View:
+
+1. Enter the Setup mode by clicking Setup icon.
+
+2. Tick the checkbox next to the “Set” button to modify the settings.
+3. Enter the desired value then press the Set button to save the settings.
+
+1. Antenna – Basic Info.
+This view tab provides information on the Antenna’s Current GPS location, Heading Device, Bow Information, Skew Information, and the Antenna’s Angle. This
+view tab uses the Antenna’s AZ and EL information as well as the Ship’s Heading
+information in order to provide a dynamic graphic user interface (UI).
+
+94
+
+Aptus®
+
+- GPS: displays and sets current antenna’s GPS.
+- Heading: displays and sets current ship’s heading information.
+		
+		
+· Heading Device: None / NMEA/ NMEA 2000/Ground Test.
+		
+The baud rate (4800/ 9600/ 19200/ 38400) must be set if NMEA is selected.
+- Bow Information: displays and sets current antenna’s bow.
+- Antenna Angle: displays and sets current antenna’s absolute and relative AZ
+(azimuth) position, EL (elevation) position and LNB Pol angle. You can move
+antenna azimuth and elevation position and LNB Pol angle by using the arrows or
+inputting a value to find the desired satellite manually.
+
+95
+
+GX100 – Marine Satellite Communication System
+
+2. Antenna – Advanced Info.
+This view provides information on the Tilt Sensor Bias, Conical Range, EL Adjust,
+Rate Sensor, Search Parameter and Block Zone.
+
+-Tilt Sensor Bias: This maintains the elevation and the cross level axes
+in order to keep the pedestal parallel to the horizon. Adjust the two
+solid-state tilt sensors to provide absolute cross-level tilt of the antenna and
+elevation feedback to eliminate long-term pointing drift (error). Tilt bias must be
+adjusted when the antenna control board or sensor box is replaced.
+If the bubble on the button level located on the sensor box is
+not centered, follow the steps below to adjust the tilt sensor bias.
+· Step 1. Enter Setup mode and press the “Ready” button to bring
+the elevation and cross-level to 0.
+· Step 2. Select “EL” from the drop down list and press Up and
+Down arrow keys to adjust the bubble until it is located in the
+center ring of the button level.
+· Step 3. Select “CL” from the drop down list and press Up and
+Down arrow keys to adjust the bubble until it is located in the
+center ring of the button level.
+96
+
+Aptus®
+
+· Step 4. Press the “Restart” icon to restart the antenna.
+- Rate Sensor: is used to calibrate the DC voltage output from the three rate sensors (azimuth, elevation, and cross-level). These are used to sense antenna motion
+that corresponds to the ship’s motion (roll, pitch, and yaw) for stabilizing the pedestal. The DC voltage output from each of the rate sensors may vary by an amount
+which is directly proportional to the direction and rate of motion induced on it.
+Before calibrating the rate sensors located in the Sensor box, make sure that the
+antenna is placed on a rigid and flat platform. During the calibration process, any
+motion of the antenna should be avoided as it can affect the antenna’s performance. Proceed with the following steps to perform the calibration.
+· Step 1. Enter Setup mode
+· Step 2. Press the “Idle Mode” button to release the elevation and
+cross level motor brakes while the antenna is in Setup mode.
+· Step 3. Check whether or not the bubble is located at the center
+of the button level. If not, move it to the center by following the
+previous instruction of Tilt Sensor Bias adjustment.
+· Step 4. Press the “Bias Check” button to calibrate the rate sensor.
+A blue circle will be displayed next to the Bias Check button if the
+calibration is completed. A red circle will be displayed if calibration
+failed. A green circle will be displayed during the calibration
+process.
+- Conical Range: The relative force of the motors controlling azimuth and elevation. Set the conical range while the antenna is in tracking mode.
+- EL Adjust: The elevation adjustment is to offset the angle difference between the
+mechanical elevation angle and actual elevation angle. If this value is not properly
+adjusted, the antenna may take longer time for satellite search or tracking.
+- Search Parameter:
+· Wait time: set the time-out for automatic initiation of a search after
+the signal level drops below the pre-defined threshold value.
+97
+
+GX100 – Marine Satellite Communication System
+
+· Search Step: set increment step size.
+· Type 1 & Type 3 (Search 1 & 3) Range: set Search 1 & 3 search
+range. Search 3 is conducted in a two-axis pattern consisting of
+alternate movements in azimuth and elevation as it forms an
+expanding square.
+· Type 2 (Search 2) Range: is reserved for future use.
+- Block Zone
+Displays current block zones by azimuth and elevation sectors. Up to 5 block
+zones can be programmed. Once the block zone is created, a blue shading area
+will be displayed in the Antenna UI view on the right.
+- Threshold Settings
+· DVB Detect Level: displays and sets signal detection threshold
+level when DVB tracking mode is in use.
+· DVB Tracking Level: displays and sets signal tracking threshold
+level when DVB tracking mode is in use.
+· NBD Detect Level: displays and sets signal detection threshold
+level when NBD tracking mode is in use.
+· NBD Tracking Level: displays and sets signal tracking threshold
+level when NBD tracking mode is in use.
+· TX Enable Threshold: displays and sets TX enable threshold.
+
+98
+
+Aptus®
+
+3. Satellite
+
+This view provides information on the Satellite’s Information, Tracking Common
+Information, DVB and NBD Tracking Transponder, LNB Local Frequency, and
+Satellite Library. This view shows a graphic UI of the current satellite that the
+antenna is pointing at and the satellites that are located at a 180° arc on the horizon with reference to the current position.
+NOTE: Based on the satellite EIRP footprint and the size of the antenna, you may not
+be able to track all the satellites visible in 180° arc.
+
+- Tracking Information of Current Satellite: displays the current satellite’s name,
+longitude position, and satellite skew of the satellite in the library.
+- Tracking Common Information: displays the current LNB local oscillator
+frequency that is in use and the corresponding voltage supplied. Selects the
+tracking mode (DVB / NBD) to be used and sets polarization (Horizontal / Vertical)
+for the RX pol and the TX pol.
+
+99
+
+GX100 – Marine Satellite Communication System
+
+- DVB / NBD: sets tracking transponder information for either DVB tracking mode
+(Verification Type, Frequency, Symbol rate, and NID) or NBD tracking mode
+(Frequency and bandwidth).
+NOTE: DVB and NBD parameter settings should only be changed by an authorized
+service technician. Improper setting of these parameters will render your system
+inoperable. Consult Intellian for changing antenna parameters.
+
+- LNB Local Frequency: Displays or sets LNB local frequency and its corresponding LNB voltage supplied. You may select pre-programmed LNB LO settings
+from the drop down list. This procedure is same for both the Intellian Global VSAT
+PLL LNB and any other LNB.
+- Tracking Information of Library: Selecting this option enables “Add Satellite”,
+“Edit Satellite”, and “Delete Satellite” buttons.
+· Eutelsat: Select 'ON' when the antenna is tracking an Eutelsat satellite.
+With this option enabled, a defined skew angle for each Eutelsat satellite
+is automatically applied without allowing a manual modification to the
+skew offset value.
+· Get Library From PC : opens the satellite library file (File format:*.ilf)
+from the PC.
+· Get Data From ACU: obtains the satellite information from the ACU.
+· Load Satellite: uploads the satellite information to the ACU.
+· Upload to ACU: uploads the satellite library to ACU.
+· Edit Satellite: edits the satellite information of the selected
+satellite. When Eutelsat satellite is selected, enable Eutelsat option.
+This applies defined skew angles for each Eutelsat satellite automatically
+and doesn't require manual modification.
+· Add Satellite: adds the satellite information as defined in the
+current settings.
+· Delete Satellite: deletes the selected satellite from the library.
+· Save to PC: saves the current library settings to PC.
+NOTE: It is required to click the "Save to PC" button after "Edit Satellite", “Add Satellite",
+or "Delete Satellite" button is clicked.
+
+100
+
+Aptus®
+
+4. Graph View
+This view provides information on Signal, Elevation (EL), Absolute AZ (Azimuth),
+Relative AZ, Heading, AZ and EL in Single or Multi graph formats.
+
+- Select Graph Item: shows the graphs of only the checked item(s) in a
+Single or Multi Graph View.
+- Single Graph View: shows Graph Views per each single Graph Item
+selected in ‘Select Graph Item’.
+- Multi Graph View: shows one large integrated Graph View of multiple
+Graph Items selected in ‘Select Graph Item’.
+- Start/Stop Save: the chosen item is saved within the data log. The data
+log which stores the information displayed in the graphs can be later
+used for a service technician to find out a cause of any possible problem
+to the antenna.
+- Clear All: clears everything drawn on the Graph View window.
+- Set Pos.: sets the current position as center value of each Graph Item.
+- Current Pos.: moves to the location according to values of each Graph Item.
+- Span: sets the Display Range(s) of each corresponding Graph Item.
+- Period: displays and sets the signal sampling rate.
+- Graph Column Count: makes all Graph Views show in either one or
+two-column format.
+101
+
+GX100 – Marine Satellite Communication System
+
+5. Monitor
+This view provides a UI which can monitor all data that has been received from the
+ACU.
+
+- Tracking: turns on or off the dish scan function. If the dish scan function
+is disabled, the antenna will stop adjusting the antenna pointing angle in
+order to optimize the receive signal level.
+- Rate Sensor Bias: is used to calibrate the DC voltage output from the
+three rate sensors (azimuth, elevation, and cross-level). These are used
+to sense antenna motion that corresponds to the ship’s motion ( roll,
+pitch, and yaw) for stabilizing the pedestal. You can find the same
+function in Antenna-Advanced View Tab.
+- Show Param: shows the current antenna parameters.
+- Check NID: verifies the NID (network ID) of the current tracking transponder.
+Press the NID button to obtain the NID only if the antenna is
+locked onto the desired satellite .
+- Debug (Start): starts the debug log of the antenna. The debug message
+will be displayed once the debug button is pressed.
+- Stop Debug: stops debug logging of the antenna.
+- Save Log (Start/Stop): starts or stops the logs of the antenna. This
+button will be enabled while viewing the debug log. The log message
+will be stopped or be saved into a *.txt file once the log button is pressed.
+(V_Date.txt.)
+- Save Debug (Start/Stop): starts or stops saving the debug log. This button is
+enabled once the Start Debug button is pressed.
+- Clear View: clears the debug message or log data in monitoring window.
+102
+
+Aptus®
+
+6. Diagnostic / Modem
+This view provides Antenna Diagnostic Testing and also provides functions to set
+up the interface between the ACU and the Intellian VSAT Mediator or the satellite
+modem.
+
+- Diagnostic : select to run a full diagnostic test or single diagnostic test.
+"Green" indicator is displayed for the test under progress.
+"Blue" indicates the test result as Pass while "Red" indicates the result as Fail.
+"Yellow" indicates the test has been skipped.
+· Serial Comm.: tests the data communication between the antenna
+and the ACU.
+· Motor AZ: tests the azimuth motor.
+· Motor EL: tests the elevation motor.
+· Motor CL: tests the cross-level motor.
+· Encoder AZ: tests the azimuth encoder.
+· Encoder CL: tests the cross-level encoder.
+· Rate sensor: tests the rate sensor.
+· Tilt Sensor: tests the tilt sensor.
+· Home sensor: tests the home sensor.
+· ACU power: tests the ACU power to see whether or not it is
+within the nominal operating range.
+
+103
+
+GX100 – Marine Satellite Communication System
+
+· Antenna power: tests the antenna power to see whether or not it
+is within the nominal operating range.
+· LNB/ NBD: tests the LNB and NBD (narrow band detector).
+· Sensor Box Limit: tests the sensor box motor .
+- SCM Information: displays the modem information.
+
+104
+
+Aptus®
+
+7. GUI
+This view shows a graphical representation of the current antenna position which
+allows you to easily identify whether or not the antenna is aligned properly to the
+target satellite or is in a block zone. In addition, this view shows the current
+satellite that the antenna is pointed towards and the satellites that are located at a
+180° arc on the horizon, according to the current position.
+
+NOTE: Based on the satellite EIRP footprint and the size of the antenna, you may not be
+able to track all the satellites visible in 180° arc.
+
+105
+
+GX100 – Marine Satellite Communication System
+
+8. Work View Functions
+The seven Work View Tabs displayed in the Work View can be arranged in
+customized layouts.
+- Layout Formatting
+· Each of the Work View Tabs can be separated from the rest of the Tabs.
+Click and hold the left mouse button on the Work View Tab’s
+header and then drag a desired Tab out. When a Work View Tab
+is separated from the rest of your Work View Tabs, again click
+and hold the left mouse button on the Work View Tab’s header to
+display a cross-shaped Navigator icon. While holding the mouse
+button, bring the selected Work View Tab closer to the Navigator
+icon and release the mouse button at your desired position (top,
+left, right or bottom arrow). This time, the selected Tab will be
+moved to the desired position.
+Move the selected Work View Tab to the top position of the
+Work View layout. (See example figure below where Antenna –
+Basic Info Tab is moved to the top)
+
+106
+
+Aptus®
+
+Move the selected Work View Tab to the bottom position of
+the Work View layout.
+
+Move the selected Work View Tab to the right position of
+the Work View layout.
+
+Move the selected Work View Tab to the left position of
+the Work View layout.
+
+Move the selected Work View Tab to the center position
+of the Work View layout.
+
+107
+
+GX100 – Marine Satellite Communication System
+
+You can also drag multiple Work View Tabs into a customized layout in the same
+manner. Click and hold left mouse button on each Work View Tab’s header and
+drag it onto a desired arrow on the Navigator icon. Then each Work View Tab can
+be placed to the desired positions as shown in the figure below.
+
+The Navigator will appear in each area your mouse pointer is located. To return to
+the default layout, select the Default Layout toolbar menu.
+- Horizontal or Vertical Tab Group
+The Work View Tabs can be also aligned horizontally or vertically. Without
+dragging them out, right-click the mouse button on a desired Tab header
+and select ‘New Horizontal Tab Group’ or ‘New Vertical Tab Group’
+option. Selecting ‘New Horizontal Tab Group’ will separate a selected Tab
+from the rest of other Tabs then arrange it in a horizontal format. Likewise,
+selecting ‘New Vertical Tab Group’ will separate a selected Tab from the
+rest of other Tabs then arrange it in a vertical format.
+- Closing the Work View Tab
+To close the Work View Tab, right-click the mouse button on a desired
+Tab header and select ‘Close’ option in the drop down list. To close all
+Work View Tabs except the selected Tab, select ‘Close All But This’
+option in the drop down list.
+
+108
+
+Aptus®
+
+- Zoom Tool
+Using the Zoom tool, you can easily select the magnification you want by
+using Zoom In and Zoom Out bar, and Fit in Work View button.
+
+Fit Work View Button: fits the current view to the Work View window size. The button toggles between the fit view and the previous view.
+
+Zoom In and Zoom Out Bar: zooms in and out to expand and reduce the View to
+the desired size. (The zoom changes in 10% increments.)
+
+View Switch Button: displays a list of the current views in a list. Choosing one of
+these views will display the selected view in the Work View window.
+
+View Name Button: displays the current Work View name.
+
+Close View Button: closes the current view.
+
+109
+
+GX100 – Marine Satellite Communication System
+
+110
+
+Aptus® WEB
+
+APTUS® WEB
+
+Introduction
+Main Page
+Page Login
+Top Menus
+Dash Board & Information
+
+Antenna Settings
+Ship Setting
+Antenna Position & Parameters
+Tracking Setting
+Modem Setting
+Diagnostic
+Library Setting
+
+Firmware & Configuration
+Antenna Firmware Upgrade
+Antenna Log
+Antenna Backup & Restore
+
+Administration
+Network Setting
+User Management
+iARM Upgrade
+iARM Save & Reboot
+Antenna Event Log
+
+111
+
+GX100 – Marine Satellite Communication System
+
+Introduction
+With embedded Remote Access (Aptus Web) function, the v-Series can be
+monitored, controlled, and diagnosed remotely from anywhere, anytime through
+the TCP/IP protocol. This not only can save time but also saves the cost generated
+from the hundreds of routine maintenance activities, such as operating firmware
+upgrades, tracking parameters resets, and system diagnostic.
+How to access Aptus Web:
+1. Connect an Ethernet Cable between your PC and the Management Ethernet Port.
+2. Enter the ACU's IP address (192.168.1.2) into your web browser's address bar to
+login into the ACU’s internal HTML page, if this system has not been changed from
+the ACU’s factory default.
+NOTE: Aptus Web can be displayed in Internet Explorer 7 or later and is also compatible
+with Firefox and Chrome web browser.
+
+112
+
+APTUS® WEB
+
+Main Page
+Page Login
+
+1. Choose either to Control & Monitor the ACU (Control & Monitoring) or Only
+Monitor the ACU (Monitoring Only).
+2. Log into the ACU by typing in User Name and Password information. If this
+system has not been changed from the factory default:
+• User Name: intellian
+• Password: 12345678
+
+WARNING: The Control & Monitoring Mode will be switched to the Monitoring
+Only Mode in the following cases;
+• If Aptus is connected using TCP/IP Communication while Aptus Web Control
+is in use.
+• If Control & Monitoring Mode is accessed while PC Software is running via
+TCP/IP Communication. In this case, the web page will display a pop-up
+message asking if you want to disconnect the PC Software network
+connection. If you select ‘No’, the Control & Monitoring Mode will be switched
+to the Monitoring Only Mode.
+
+113
+
+GX100 – Marine Satellite Communication System
+
+Top Menus
+Once you log in, the following information and menus are displayed.
+
+1
+
+No.
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+Item
+
+Description
+
+Signal Level
+
+Display current signal level.
+
+2
+
+Antenna
+status
+
+- Setup: Displays whether or not the antenna is in SETUP
+mode. The indicator shows “Blue” in the SETUP mode.
+- Initial: Antenna or ACU is initialized.
+- Search: Antenna is searching a target satellite.
+- Track: Antenna is tracking the target satellite.
+
+3
+
+TX Enable/
+TX Disable
+
+Displays whether or not the antenna is able to transmit the
+data
+
+4
+
+Restart
+
+Restart the antenna system.
+
+5
+
+Setup
+
+Enter SETUP mode.
+
+6
+
+Save Sat.
+
+Save current satellite settings.
+Bow offset will be adjusted and saved automatically.
+
+7
+
+Ant. Info
+
+Obtain current antenna information.
+
+8
+
+Account
+
+Shortcut to User Management menu. Change login ID and
+Password.
+
+9
+
+Logout
+
+Logout the ACU's internal HTML page.
+
+1
+
+114
+
+2
+
+APTUS® WEB
+
+Dash Board & Information
+On the left side of the page, Dash Board and Information menus are displayed
+as below to provide quick monitoring of the antenna status and settings. Other
+menus are displayed only in the Control & Monitoring mode and their functions will
+be described in the next sections.
+1
+
+2
+10
+
+3
+
+4
+
+15
+
+5
+6
+
+11
+
+7
+12
+
+8
+
+9
+
+13
+
+14
+
+115
+
+GX100 – Marine Satellite Communication System
+
+No.
+
+116
+
+Item
+
+Description
+
+1
+
+Dash Board
+
+Displays current antenna status to be quickly monitored.
+
+2
+
+Current Antenna
+Position /
+Target Antenna
+Position
+
+Displays current antenna position.
+- Relative Azimuth: displays antenna relative AZ angle.
+- Absolute Azimuth: displays antenna absolute AZ angle.
+- Elevation: displays antenna elevation angle.
+- LNB Pol Angle: displays LNB pol angle.
+- Heading: displays ship’s heading information
+
+3
+
+GPS
+
+Displays current GPS information.
+- Longitude (East / West)
+- Latitude (North / South)
+
+4
+
+Heading
+Device
+
+Displays current Heading Device: NONE, NMEA, NMEA 2000,
+Ground test If the ship’s gyrocompass input is other than NMEA
+separate purchase of NMEA Converter is required.
+- Heading: displays ship’s heading information.
+
+5
+
+BOW Offset
+
+Display current bow offset
+
+6
+
+DVB Information
+
+Displays DVB tracking mode’s current tracking information.
+- Frequency: displays tracking frequency.
+- Symbol rate: displays symbol rate.
+- NID: displays network ID.
+- Verify type: displays verification typ
+(AGC, DVB, DVB Decode)
+
+7
+
+NBD Information
+
+Displays NBD tracking mode’s current tracking information.
+- Frequency: displays tracking IF frequency.
+- Bandwidth: displays detection bandwidth.
+
+8
+
+Local Frequency
+Setting (MHz)
+
+Displays current LNB’s local frequency and voltage.
+
+9
+
+Satellite
+Information
+
+Displays current Antenna and ACU firmware versions and Satellite
+Library version installed in the system.
+- Antenna POL Version
+(It will display "v-----" if there is no Pol Control Board installed.)
+- Antenna Stabilizer Version
+- Antenna PCU Version
+- ACU Main Version
+- Library Version
+
+10
+
+Azimuth
+Animation
+
+Shows a graphical representation of the current antenna position
+to identify whether or not the antenna is aligned properly to the
+target satellite or is in a block zone.
+
+APTUS® WEB
+
+TX Enable
+
+Displays whether or not the antenna is able to transmit the data.
+The TX function will only be enabled (shows BLUE dot ) only if all of
+the factors listed below shows “BLUE” dot. Exception: If “Use TX
+Mute” is set as “NO”, the TX function will be enabled regardless of
+which factor listed below shows “gray” dot or “red” dot.
+- Enable Mode: antenna is not in SETUP mode.
+- Blockage: antenna is not facing the predefined block zone(s). Pointing: antenna is pointing to the target satellite.
+- Modem Lock: satellite modem is sending a logic input to the
+ACU to identify when the antenna tracks on the correct satellite.
+- LNB Rotate: LNB is not rotating.
+
+12
+
+Tracking
+Satellite
+
+Displays current tracking mode.
+- Satellite: displays satellite name.
+- Longitude: displays satellite orbit position.
+- Skew Offset: displays Skew offset.
+- Tracking Method: displays current tracking mode (DVB/ NBD).
+- RX Polarization: displays current RX polarization.
+- TX Polarization displays current TX polarization.
+
+13
+
+Antenna
+Information
+
+Displays the product information
+
+14
+
+SCM
+Information
+
+Displays the Modem information.
+
+Information
+
+- Control IP: Displays current IP that controls the ACU.
+- Current IP: Displays current IP address.
+- Refresh Rate: Displays screen refresh rate (default: 1 sec.)
+- Refresh Disable: Displays time out.
+The screen will not refresh once the time-out shows 0:00.
+Exception: If the Refresh Disable Time is set to “OFF” in the
+Network Setting page, then the clock will show “--:--“ and
+system will keep monitoring all activities regardless of timeout.
+- Wi-Fi : Displays Wifi on/off switch
+
+11
+
+15
+
+117
+
+GX100 – Marine Satellite Communication System
+
+Antenna Settings
+Ship Setting
+
+1
+2
+
+5
+
+3
+
+4
+
+No.
+
+Item
+
+Description
+
+1
+
+Ship Setting
+
+Set the ship information and block zone.
+
+2
+
+GPS
+
+Set GPS information.
+- Longitude (East/West)
+- Latitude (North/South)
+
+3
+
+Bow Offset
+
+Set Bow Offset if needed.
+
+4
+
+Heading Device
+
+Set ship’s heading device (NONE, NMEA, NMEA2000,
+Ground Test) and ship’s heading information
+
+Blockage
+
+Set the antenna’s block zones up to 5 by azimuth and
+elevation sectors. AZ. START is where the relative azimuth
+starts and AZ. END is where the relative azimuth ends
+(Range: 0 - 360°). EL. Limit is where the elevation starts
+(Range 0 - 90°).
+
+5
+
+WARNING: Enter the SETUP mode for configuration. Tick the checkbox before
+modifying the settings. After configuration, click ‘Set ...’ button to submit the settings.
+118
+
+APTUS® WEB
+
+Antenna Position & Parameters
+
+1
+
+8
+
+2
+
+3
+
+4
+
+5
+9
+
+6
+10
+
+7
+
+No.
+
+Item
+
+Description
+
+1
+
+Antenna Setting
+
+Set current antenna position and Search and Tracking
+parameters. These parameters should only be changed by
+an authorized service technician. Improper setting of these
+parameters will render your system inoperable.
+
+2
+
+Current Antenna Position/
+Target Antenna Position
+
+Display current antenna position.
+- Relative Azimuth: display antenna relative AZ angle.
+- Absolute Azimuth: display antenna absolute AZ angle.
+- Elevation: display antenna elevation angle.
+- Heading: display ship’s heading information.
+
+3
+
+Manual Movement
+
+Move antenna azimuth and elevation angles to find the
+desired satellite manually.
+
+4
+
+Elevation Adjust
+
+Adjust the elevation to offset the angle difference between
+the mechanical elevation angle and actual elevation angle.
+
+5
+
+Conical Range
+
+The relative force of the motors controlling azimuth and
+elevation. Set the conical range while the antenna is in
+tracking mode.
+
+6
+
+Idle Mode
+
+Release the elevation and cross level motor brakes while
+the antenna is in SETUP mode. The antenna can be
+moved manually during the mode.
+
+7
+
+Reboot
+
+Reboot the system.
+
+119
+
+GX100 – Marine Satellite Communication System
+
+DVB Detect and Tracking Level Threshold: display / set
+current detect level threshold and tracking level threshold
+when DVB tracking mode is chosen to be used.
+- NBD Detect and Tracking Level Threshold: display / set
+current detect level threshold and tracking level threshold
+when NBD tracking mode is chosen to be used.
+
+8
+
+Search & Tracking
+Parameter Setting
+
+- TX Enable Threshold: display / set TX enable threshold.
+- Wait time: set the time-out for automatic initiation of a
+search after the signal level drops below the pre-defined
+threshold value.
+- Search Step: set increment step size.
+- Search 1 & 3 Range: set Search 1 & 3 search range.
+Search is conducted in a two-axis pattern consisting of
+alternate movements in azimuth and elevation as forming
+expanding square.
+- Search 2 Range: is reserved for future use.
+
+9
+
+10
+
+Tilt Sensor Bias
+
+Adjust the two solid-state tilt sensors used to provide
+absolute cross-level tilt of the antenna and elevation
+feedback to eliminate long-term pointing drift (error). Tilt
+bias is required to be adjusted when the antenna control
+board or sensor box is replaced. Check to see whether or
+not the bubble is located at the center of the level vial.
+
+Rate Sensor Adjust
+
+Calibrate DC voltage output from the three rate
+sensors used to sense antenna motion in azimuth,
+elevation and cross-level axes. During the calibration
+process, the antenna should avoid any motion as it can
+affect the antenna’s performance.
+
+WARNING: Tick the checkbox before modifying the settings. After configuration, click
+'set...' button to submit the settings.
+120
+
+APTUS® WEB
+
+Tracking Setting
+
+3
+4
+
+2
+
+1
+
+5
+
+6
+
+No.
+
+Item
+
+Description
+
+1
+
+Tracking Setting
+
+Display or set current tracking mode and tracking
+frequency of the target satellite.
+
+2
+
+Local Frequency Setting
+(MHz)
+
+Display and set LNB’s local frequencies. Display
+current LNB local frequency which is in use and
+voltage.
+
+3
+
+Current Satellite Setting
+
+Display and set current satellite setting.
+
+Tracking Satellite
+
+Display and set current tracking mode.
+- Satellite: display and set satellite name.
+- Longitude: display and set satellite orbit position.
+- Skew Offset: display and set Skew offset.
+- Tracking Method: display and set current tracking
+mode (DVB/ NBD).
+- RX Polarization: display and set current RX
+polarization.
+- TX Polarization display and set current TX
+polarization.
+
+DVB Information
+
+Display and set DVB tracking mode’s tracking
+information.
+- Frequency: display and set tracking frequency.
+- Symbol rate: display and set symbol rate.
+- NID: display and set network ID.
+- Verify type: display and set verification type (AGC,
+DVB, DVB Decode)
+
+NBD Information
+
+Display and set NBD tracking mode’s tracking
+information.
+- Frequency: display and set tracking IF frequency.
+- Bandwidth: display and set detection bandwidth.
+
+4
+
+5
+
+6
+
+WARNING: Tick the checkbox before modifying the settings. After configuration, click
+'set...' button to submit the settings.
+121
+
+GX100 – Marine Satellite Communication System
+
+Diagnostic
+
+2
+
+3
+
+1
+
+No.
+1
+
+2
+
+Item
+
+Description
+
+Diagnostic
+
+Execute antenna diagnostic test.
+
+Diagnostic
+
+Select to run a full diagnostic test or single diagnostic test.
+- Serial Comm.: test the data communication between the
+antenna and the ACU.
+- Motor AZ: test the azimuth motor.
+- Motor EL: test the elevation motor.
+- Motor CL: test the cross-level motor.
+- Encoder AZ: test the azimuth encoder.
+- Encoder CL: test the cross-level encoder.
+- Rate Senor: test the rate sensor.
+- Tilt Sensor: test the tilt sensor.
+- Sensor Box Limit: test the sensor box motor.
+- LNB/NBD: test the LNB.
+- Antenna Power: test the antenna power.
+- ACU Power: test the ACU power.
+- Home Sensor: test the home sensor
+- Test ALL: test all devices.
+Select to view a graph of AZ Absolute, AZ Relative, EL and
+Heading data of the antenna.
+
+3
+
+122
+
+Graph
+
+- A Month: display all data within a month
+- A Week: display all data within a week
+- A Day: display all data in a day
+- Real-time: display data in real time. Press F5 button to refresh.
+- Data Num: set the maximum number of graph data set to be
+displayed.
+- View Graph: select to view the data graph.
+
+APTUS® WEB
+
+Library Setting
+
+4
+5
+
+2
+
+1
+
+3
+6
+
+7
+
+8
+
+No.
+
+Item
+
+Description
+
+Library Setting
+
+Display and set the satellite library information.
+
+2
+
+Library
+
+- Get Library from ACU: Obtain satellite information installed in the
+ACU.
+- Open Library from PC: open the satellite library file from the
+supplied Intellian CD or from the external hard drive/PC.
+(File format: *.ilf)
+- Upload Library to ACU: upload the satellite library file to ACU.
+- Save as Library to PC: save the current library setting to the PC.
+
+3
+
+Load Satellite
+
+Select the satellite that you wish to track and press Load Satellite
+button to load the selected satellite.
+
+4
+
+Selected
+Satellite Setting
+
+Displays selected satellite information.
+
+Tracking
+Satellite
+
+- Satellite: displays satellite name.
+- Longitude: displays satellite orbit position.
+- Skew offset: displays Skew offset.
+- Tracking method: displays current tracking mode (DVB/NBD)
+- RX polarization: displays current RX polarization.
+- TX polarization: displays current TX polarization.
+
+6
+
+DVB Information
+
+- Displays DVB tracking mode's tracking information.
+- Frequency: displays tracking frequency.
+- Symbol rate: displays symbol rate.
+- NID: displays network ID.
+- Verify type: displays verification type (AGC only, DVB lock, DVB
+decode, DSS decode)
+
+7
+
+NBD Information
+
+Displays NBD tracking mode's tracking information.
+- Frequency: displays tracking frequency.
+- Bandwidth: displays detection bandwidth.
+
+8
+
+Local Frequency
+Setting (MHz)
+
+Displays LNB local frequency (MHz) and voltage.
+
+1
+
+5
+
+123
+
+GX100 – Marine Satellite Communication System
+
+Firmware & Configuration
+Antenna Firmware Upgrade
+
+2
+
+1
+3
+
+4
+
+No.
+
+Item
+
+Description
+
+1
+
+Antenna Firmware
+Upgrade
+
+Upgrade antenna and ACU firmware version.
+
+2
+
+New Antenna
+Firmware
+
+Browse and select the firmware to upgrade. Clicking Start
+Upload button will start to upgrade the selected firmware.
+
+3
+
+Current Running
+Version
+
+Display current firmware version (Antenna STABILIZER,
+Antenna PCU, ACU main, Library)
+
+Live Rollback
+
+Display Previous/Latest Package version and rollback
+firmware to Previous or Latest version.
+During live rollback, the rollback status is displayed on the
+Top Menu bar. This helps users control and operate other
+functions while live rollback is in progress. Once the rollback
+is complete, the antenna reboots to apply the changes.
+
+4
+
+124
+
+APTUS® WEB
+
+Upgrade procedures:
+1. Select the upgrade package file.
+2. Click on “Start Upload” button to transfer the Firmware package file (“*.fwp”) to iARM
+module.
+3. After the package file is transferred, it’ll show “upgrade from vx.xx Version to vx.xx
+Version”.
+4. Click on “Start Update” button.
+
+Firmware upgrade
+status page
+
+5. It'll display information about the upgrade process status on full screen.
+
+125
+
+GX100 – Marine Satellite Communication System
+
+Upgrade process
+status page
+
+6. If the firmware is successfully upgraded, a message displays "The firmware
+update is completed."
+7. Click on "Back to main page" to go out of the screen.
+To verify the upgraded firmware version, go to Dash Board > Software Information.
+NOTE: To roll back to the previous firmware package version or latest package version,
+select Rollback Upgrade menu on the Antenna Firmware Upgrade page.
+
+126
+
+APTUS® WEB
+
+Antenna Log
+
+2
+
+3
+1
+4
+5
+
+No.
+
+Item
+
+Description
+
+1
+
+Antenna Log
+
+Displays antenna log data.
+
+2
+
+GPS Log Option
+
+Disable/Enable to save GPS information in the antenna log file.
+
+3
+
+Antenna Log
+Download
+
+Select file transfer protocol between HTTP Download or FTP
+Download. For the GX terminals, the default option is HTTP
+Download. Any log data within 3 months can be downloaded
+with HTTP Download option selected. Select the start and end
+date by manual input or mouse-scrolling on the calendar view.
+Select start download button to proceed.
+
+4
+
+Start Download
+
+Download the antenna log information.
+
+5
+
+Antenna
+Firmware Log
+
+Display log information of firmware upgrade.
+
+Log Download using FTP Protocol
+In case of using the FTP protocol and attempting to download the log for the first
+time, Java applications should be installed in your PC/ laptop. Following explains
+log download procedures using the FTP protocol.
+1. Select Download Method as FTP Download and click 'Start Download' button.
+2. To run Java applications you must have Java Runtime Environment(JRE) version
+6.0 and above installed in your PC/ laptop when you access the antenna log
+page for first time. Click “Run” button on the popup message “The application’s
+digital signature cannot be verified. Do you want to run the application?” to
+install the Applet.
+Refer to Appendix for Java Installation Instructions if the system does not display the popup message.
+127
+
+GX100 – Marine Satellite Communication System
+
+3. Select ‘Browse’ to browse the target directory of the antenna log file.
+4. Select log period for file download.
+Last 3 Months: download the antenna log information for the past three
+months.
+Last 1 Month: download the antenna log informaiton for the past one month.
+Last 1 week: download the antenna log information for the past one week.
+Last 1 Day: download the antenna log information for the past one day.
+5. Select ‘Download’to download the log file to the target directory according to the
+selected log period.
+
+NOTE: You can choose to Enable or Disable the GPS tracking function. Liability for
+information that is disclosed when GPS is enabled is solely the operators responsibility
+and it is up to the operator on whether or not to provide their GPS information to third
+parties. Any issues regarding safety and privacy when turning on the GPS function is
+solely up to the user. Intellian is not responsible for information that is disclosed when
+the GPS function is enabled.
+
+128
+
+APTUS® WEB
+
+Antenna Backup & Restore
+
+2
+3
+4
+
+1
+
+No.
+
+Item
+
+Description
+
+1
+
+Antenna Backup & Restore
+
+Enter Backup & Restore page. (Setup mode is
+required)
+
+2
+
+Target
+
+Backup antenna information to ACU/PC or
+restore antenna by using the saved information
+from ACU/PC.
+
+3
+
+Backup
+
+Backup antenna information.
+
+4
+
+Restore
+
+Restore antenna information.
+
+129
+
+GX100 – Marine Satellite Communication System
+
+Administration
+Network Setting
+
+2
+
+6
+
+7
+
+1
+3
+
+8
+4
+
+9
+5
+
+No.
+1
+
+Item
+
+Description
+
+Network Setting
+
+Enter network setting page.
+Modify ACU’s Internal IP address and press Submit button. Go
+to “Save & Reboot” page and press Save & Reboot button to
+validate the changes.
+
+2
+
+Modem Port
+Configuration
+
+- IP Address : Factory default(Primary:192.168.1.2)/
+(Secondary:10.10.1.1).
+- Subnet Mask : Factory default(255.255.255.0).
+- Gateway : Factory default(192.168.1.1).
+- DNS : Current default DNS Address is assigned to.
+- NAT Routing : Enable/Disable NAT routing.
+- TCP Modem Protocol Port : TCP port number for modem
+protocols using TCP as transport.
+- UDP Modem Protocol Port : UDP port number for modem
+protocols using UDP as transport.
+Modify Management Port’s network configuration and press
+Submit button. Go to “Save & Reboot” page and press Save &
+Reboot button to validate the changes.
+
+3
+
+130
+
+Management
+Interface
+Configuration
+
+- IP Address : ACU front network port /Factory
+/ default(192.168.2.1).
+- Subnet Mask : Factory default(255.255.255.0).
+- Lease Start Address : Lease IP address start range.
+- Lease End Address : Lease IP address end range.
+- Lease Time : Lease IP address update time.
+
+APTUS® WEB
+
+- SSID : The SSID is the network name shared among all devices in
+a wireless network. The SSID must be identical for all devices in the
+wireless network. It is case-sensitive and must not exceed 32 alphanumeric characters, which may be any keyboard character. Make
+sure this setting is the same for all devices in your wireless network.
+
+4
+
+Wi-Fi Access
+Point
+Configuration
+
+- Channel : Select an appropriate channel from the list provided to
+correspond with your network settings. All devices in your wireless
+network must use the same channel in order to function correctly.
+Try to avoid conflicts with other wireless networks by choosing a
+channel where the upper and lower three channels are not in use.
+- Authentication Type : Module supports an authentication mode
+that the 802.11 device uses when it authenticates and associates
+with an access point or IBSS cell.
+- Password : WiFi access password.
+- Max Stations : Setting max stations.
+
+- Disable SSID Broadcast : Select whether or not to broadcast
+the SSID in a wireless network. Select Disable to display the
+network name continuously or select Enable to hide it from the
+list.
+
+5
+
+6
+
+Network Service
+Configuration
+
+GX Local Forward to PC Port
+
+- Telnet Service : Enable or disable telnet login support.
+- HTTPS Port : HTTPS port number.
+To remotely access GX ACU from Intellian's Aptus PC Software,
+either HTTPS or SSH connection needs to be forwarded. It is
+recommended to forward less preferred protocol. If "HTTPS" is
+often used and Aptus PC software is also required, select "SSH
+to PC". If "SSH" is often used, select "Web to PC".
+Set the system log configuration.
+Antenna sends log messages according to emergency level.
+Enabling this function sends the message to your management
+server.
+- Management Server : Sys log function enable/disable
+
+7
+
+Sys Log
+Configuration
+
+- Server IP : Management server IP address
+- UDP Port : Management port
+- Message Type : Select message type (Intellian message level)
+to send to management server (Lower number indicates higher
+emergency).
+- Sys log Target Level : If you select this target level, the management
+server receives log message equal to or less than this level.
+
+131
+
+GX100 – Marine Satellite Communication System
+
+This menu is used when network administrator needs to
+authorize user connections via Web, SSH, PC Port, Telnet, Console using RADIUS server.
+8
+
+Radius
+Configuration
+
+- Client : Select to enable RADIUS authentication.
+- Server IP : RADIUS server IP Address
+- Timeout : Timeout value in seconds for the authentication
+process.
+- Server Secret : Pass-Phase. This should be matched between
+server and ACU.
+Setting refresh rate and refresh disable time.
+
+9
+
+132
+
+Browser
+Configuration
+
+- Refresh Rate : Set the browser refresh rate
+(Default 1 seconds. Range 1~99).
+- Refresh Disable Time : Set the browser idle time-out
+(Default:9 minutes. Range 0~9). To use this function, check the
+check box.
+
+APTUS® WEB
+
+User Management
+
+2
+
+1
+3
+
+No.
+1
+
+Item
+
+Description
+
+User
+Management
+
+Change login ID and Password to access the Aptus Web. This
+setting can be also accessed by ‘Account’ icon on the top menu.
+Change your login ID (user name) and password.
+- Change ID : Enter your current login ID (user name) and new
+login ID. Click the Submit button to validate the changes that are
+made to the login ID.
+
+2
+
+Change ID
+& Password
+
+- Change Password : Enter your current login password and new
+login password. Click the Submit button to validate the
+changes that are made to the login password.
+Note: New login password will be disallowed in the following cases.
+• Common dictionary words
+• Too short password
+• If not a combination of letters, numbers and special characters
+• Recently used password
+Change User Password Expire in days and Idle session time-out.
+
+3
+
+Change
+User Settings
+
+- Password Expire Time-out : Set password expire in days.
+- Idle Session Time-out : Set for Console and for Network
+time-out.
+
+133
+
+GX100 – Marine Satellite Communication System
+
+iARM Upgrade
+
+2
+
+3
+
+1
+4
+
+No.
+
+Item
+
+Description
+
+1
+
+iARM Upgrade
+
+Upgrade the firmware of iARM module.
+
+2
+
+New
+iARM Firmware
+
+Browse and select the firmware file to upload and click Start
+Upgrade button.
+
+3
+
+Bootstrap
+/Bootloader
+
+Displays current bootstrap and bootloader version.
+
+4
+
+Kernel
+/File System
+
+ACU has 3 storage parts sys0, sys1, Factory Default.
+Display kernel and file system version and current activated
+part Information.
+
+iARM firmware upgrade procedures:
+1. Click on “Browse” button to select the iARM firmware file (.tgz) that you
+wish to upgrade. In Auto Upgrade mode, check new firmware file automatically
+by clicking Check button.
+2. Click on “Start Update” button to update the iARM firmware. Wait until
+the page is loaded. In Auto Upgrade mode, click "Upgrade" button once new
+firmware file is detected.
+
+134
+
+APTUS® WEB
+
+Firmware upload in
+progress
+
+Firmware upgrade in
+progress
+
+3. This will inform you that the firmware is being uploaded.
+
+4. Do not turn off the ACU power if the firmware upgrade page is displayed.
+
+5. This will take around 2 minutes to complete the firmware upgrade. Once the
+upgrade is completed, the system will reboot automatically.
+
+135
+
+GX100 – Marine Satellite Communication System
+
+iARM Save & Reboot
+
+1
+2
+
+No.
+
+136
+
+Item
+
+Description
+
+1
+
+Save & Reboot
+
+Save the modified settings and reboot the system.
+Click Save & Reboot button.
+
+2
+
+Reboot without
+Saving
+
+Reboot the system without saving the modified settings.
+Click Reboot Only button.
+
+APTUS® WEB
+
+Antenna Event Log
+
+2
+
+3
+
+1
+
+No.
+1
+
+Item
+
+Description
+
+Antenna Event Log
+
+Displays user's log information (Data/Time, Login ID and IP)
+Set the Log message option.
+- Severity : Set urgency level.
+
+2
+
+Query Filter
+
+- Category : Set target that caused the message.
+- Time Frame : Set time limit that you want to show.
+- Sorting Order : Sorting based on date
+(descending or ascending).
+
+3
+
+Event Log
+
+Displays log information (Date/Time, Severity, Category, Log).
+- Save Event Log : Save log message to your PC.
+
+137
+
+GX100 – Marine Satellite Communication System
+
+Technical Specification
+Dimensions
+Satellite antenna unit
+
+138cm x 151.4cm (54.33” x 59.63”)
+
+Antenna dish diameter
+
+103cm (41”)
+
+Antenna control unit
+
+43.1cm x 44.1cm x 4.4cm (17” x 17.3” x 1.7”)
+
+Weight
+Satellite antenna unit
+
+128kg (282lbs)
+
+Antenna control unit
+
+4kg (8.8lbs)
+
+Antenna system
+Tx Frequency
+
+29.00~30GHz Ka-band
+
+Tx Gain
+
+47.7dBi @ Mid band
+
+Rx Frequency
+
+19.2~20.2GHz Ka-band
+
+Rx Gain
+
+43.7 dBi @ Mid band
+
+Polarized Feed
+
+Circular, Tx:RHCP Rx:LHCP
+
+Cross-pol Isolation
+
+Minimum 35 dB
+
+G/T
+
+20.1 dB/K (Typ.)
+
+Azimuth Range
+
+Unlimited
+
+Elevation Range
+
+-20° ~ +115°
+
+Cross-level Range
+
+±37°
+
+Stabilization Accuracy
+
+0.2° peak mis-pointing @ max ship motion condition
+
+Max Ship’s motion
+
+±25°roll, ±15° pitch, ±8°yaw@ 6 sec
+
+Turning rate
+
+Up to 10°/ sec 2
+
+BUC
+
+5W
+
+Power Consumption
+
+100 ~ 240 V AC, 50 ~ 60Hz, 4A
+
+Operating temperature range
+
+-25°C to 55°C
+
+Storage temperature range
+
+-40°C to 80°C
+
+Antenna Control Unit
+
+138
+
+Display
+
+2 Line 40 Character Graphic VFD Module
+
+PC Interface
+
+RS232C (57600 bps 8, N, 1)
+
+Modem Interface
+
+Integrated on the ACU
+
+Management Interface
+
+Ethernet / USB / Serial
+
+RF Interface
+
+TX, RX: N Type
+
+Gyrocompass Interface
+
+NMEA 2000 / NMEA 0183
+
+GPS Interface
+
+NMEA In / NMEA Out
+
+Ethernet Port
+
+RJ45, TCP / IP
+
+Power Consumption
+
+100 ~ 240 V AC, 50 ~ 60Hz, 1A
+
+Technical Specification
+
+Warranty
+This product is warranted by Intellian Technologies Inc., to be free from defects in
+materials and workmanship for a period of THREE (3) YEARS on parts and TWO (2)
+YEARS on labor performed at Intellian Technologies, Inc. service center from the
+purchased date of the product.
+Intellian Technologies, Inc. warranty does not apply to product that has been
+damaged and subjected to accident, abuse, misuse, non-authorized modification,
+incorrect and/ or non-authorized service, or to a product on which the serial number
+has been altered, mutilated or removed.
+It is required to present a copy of the purchase receipt issued by Intellian
+Technologies, Inc. that indicates the date of purchase for after-sales service under
+the warranty period. In case of failure to present the purchase receipt, the warranty
+period will begin 30 days after the manufacturing production date of the product
+purchased.
+Any product which is proven to be defective in materials or workmanship, Intellian
+Technologies, Inc. will (at its sole option) repair or replace during the warranty period
+in accordance with this warranty. All products returned to Intellian Technologies, Inc.
+under the warranty period must be accompanied by a return material authorization
+(RMA) number issued by the dealer/distributor from Intellian Technologies, Inc. and
+a copy of the purchase receipt as a proof of purchased date, prior to shipment.
+Alternatively, you may bring the product to an authorized Intellian Technologies, Inc.
+dealer/distributor for repair.
+Additional Terms and Conditions;
+The warranty(THREE (3) YEARS on parts and TWO (2) YEARS on labor) is effective only for products
+purchased since January 1st, 2017.
+
+139
+
+

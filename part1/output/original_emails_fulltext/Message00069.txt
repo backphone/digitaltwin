@@ -1,0 +1,38 @@
+Just to avoid any misunderstanding, this is regarding change request 
+during deployment or chang project
+.
+ 
+If it’s post deployment, then it’s considered as professional service, and we will follow Coline’s process. 
+ 
+BR
+Guanglin
+ 
+From:
+ SI, Guanglin <Guanglin.Si@marlink.com> 
+Sent:
+ Saturday, June 14, 2025 9:29 AM
+To:
+ FERON, Luc <Luc.Feron@marlink.com>; GRENON, Lucas <Lucas.Grenon@marlink.com>; VESTBY, Lars <Lars.Vestby@marlink.com>
+Cc:
+ Team RCS MGMT <Team.RCS_MGMT@marlink.com>
+Subject:
+ DNS Whitelist Update During Deployment
+ 
+Hi Gents,
+ 
+The below two tickets were created by change team, requesting for DNS whitelist updates, and there are confusions on which team should be responsible for such.
+ 
+1808597 Spirit of Sydney 
+1784092 Spirit of Singapore 
+ 
+In short, teams have different opinions:
+Change team: it’s under CCCS as in attached
+CCCS team: “CCCS is doing DNS white list setting only for Sealink+ Backup devices … we don't touch DNS settings on the XChange boxes”
+CSE: “This is FE job”
+ 
+RCS will complete 1808597 this time, just since it’s been pending for too long. But we need a clear guideline for future reference.
+ 
+Thanks.
+BR
+Guanglin
+ 

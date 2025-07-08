@@ -10,10 +10,14 @@ app = Flask(__name__)
 
 # ✅ Load FAISS vectorstore
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L3-v2")
+#result = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
+#vectorstore = result[0]
+
+#vectorstore, *_ = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
 vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
 
 # ✅ Initialize OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # ✅ Feedback log paths
 FEEDBACK_FILE = "logs/feedback.json"
@@ -69,15 +73,20 @@ def ask():
 
     context = "\n".join([doc.page_content for doc in retrieved_docs]) if retrieved_docs else "No relevant content found."
 
-    # GPT call
+    # GPT call with clearer instruction
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "You are an AI assistant. Use the knowledge below to answer."},
+                {
+                    "role": "system",
+                    "content": "You are a professional support assistant. Using the knowledge below, please answer the user's question clearly and fluently. Reorganize and rephrase if needed to ensure the answer is complete and natural.If the context is fragmented or from multiple files, summarize and rewrite it in a coherent and user-friendly way."
+                },
                 {"role": "system", "content": context},
                 {"role": "user", "content": prompt}
-            ]
+            ],
+            max_tokens=800,  # 或更大值，例如 1200
+            temperature=0.3
         )
         answer = response.choices[0].message.content
     except Exception as e:

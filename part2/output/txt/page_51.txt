@@ -1,0 +1,80 @@
+t85N - Satellite TV for offshore support vessels mega yachts and commercial ships | Intelliantech
+t85N
+Global satellite TV antenna system
+85cm Reflector Ku-band Global Satellite TV System
+The t85N provides outstanding performance in an 85cm reflector with the added benefits of all new hardware and pedestal based on our quality-proven VSAT NX terminals. Modular components are used throughout the new t-Series range, such as the main control unit and skew assembly. Sharing common modules across Intellian’s new t-Series antenna reduces the number of spare parts required.
+t85N
+Key Features
+Specifications
+Downloads
+Accessories
+Related Products
+Key Features
+Television wherever you are
+WorldView™ LNB module will automatically switch to the corresponding Ku-band local frequency and receive the signal without the need to switch the LNB.
+Unlimited azimuth range
+With Intellian’s unique rotary joint and slip ring solution, those onboard will enjoy uninterrupted TV services no matter the number of turns the vessel makes.
+Wi-Fi connectivity
+The Wi-Fi function enables the ACU to be wirelessly connected. Any kind of wireless devices such as PCs, laptops and smartphones can be used to connect to the ACU to manage and control the antenna system.
+New AptusNTV
+Intellian’s all new integrated M&C platform AptusNTV provides responsive web user interface. The simple seven-step installation wizard function configures the antenna system automatically for easier installation and operation.
+All new hardware structure
+Modular components are used throughout the new t-Series range
+Five cable configuration for easy installation
+Unlimited azimuth range eliminates the need to wait for the antenna to unwrap the cable length once reached
+Dual setup via external Mediator
+Fully integrated solution
+With its Wi-Fi enabled ACU, users can connect wirelessly to the antenna using AptusNTV.
+AptusNTV offers users instant diagnostics, performance logging functions, and one touch updates of firmware and the satellite library
+Programmable WorldView™ Ku-band LNB
+DVB-S2 Digital TV receptions
+Specifications
+New t-Series
+Radome Dimension
+113 cm x 123 cm (44.5" x 48.4")
+Reflector Diameter
+85cm (33.5")
+Antenna Weight
+79.0kg (174.2 lbs)
+Min EIRP
+43.0 dBW
+Elevation Range
+-15° to +110°
+Polarization
+Linear & Circular
+Auto Skew
+Yes
+WorldView™ Capable
+t85N
+New t-Series
+Downloads
+t85N
+Datasheet
+Download Latest
+t85N
+Image Library
+Download Latest
+Accessories
+New Dual TVRO Mediator
+The New Dual TVRO Mediators mitigate blockage in a dual satellite TV system, automatically switching between antennas.
+Learn More
+Intellian Multi Satellite Interface Module (MIM)
+The Intellian MIM enables auto switching of satellites when using Dish or Bell TV in North America.
+Learn More
+Related Products
+View all Products
+t100N
+t100N
+t130N
+t130N
+t150N
+t150N
+t240CK
+t240CK
+t360CK
+t360CK
+i9 / i9W
+Explore Product
+v85NX
+Explore Product
+View all Products

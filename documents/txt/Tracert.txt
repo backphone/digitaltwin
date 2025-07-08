@@ -1,0 +1,5 @@
+1. press windows Start button on the desktop (lower left corner)
+2. type "cmd" in the Run window;
+3. type command "tracert -d 8.8.8.8", then press Enter. Wait for it to complete, take a screenshot, and send it to us. 
+
+Please type above commands without quotation mark. 

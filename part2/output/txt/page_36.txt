@@ -1,0 +1,40 @@
+Intellian’s v100 connects Northwest Canadian logging operation for robust communication in all conditions | Intelliantech
+Back to listing
+Case Study
+Intellian’s v100 connects Northwest Canadian logging operation for robust communication in all conditions
+Date
+01 September 2020
+Location
+Global - Merchant
+Merchant Market - v100
+Customer: Galaxy Broadband Seacoast Electronic
+Market Sector: Commercial
+Required Features: KA Services in the North West Electronics High Bandwidth
+With a history stretching back to the 1930s, Canfor prides itself on being one of the world’s largest producers of sustainable lumber, pulp, and paper, in addition to being one of North America’s most preeminent sources of green energy production. The forest territory of Mackenzie, directly north of British Columbia, Alberta and Saskatchewan interior, is one of the company’s key working areas; and the scale of Canfor’s logging operations in this region is, to say the least, impressive.
+Canfor owns an ice-breaking, log-carrying vessel called the MV Williston Transporter which spends its working life on Mackenzie’s Williston Lake; a 164,000-hectare body of water which constitutes the largest man-made reservoir in North America. The vessel itself is, of necessity, a substantial craft; 360ft long and 110ft wide, it is capable of carrying a 5,000-tonne payload. It is tasked with traveling to the various logging sites and transporting logs a distance of 65km across Williston Lake. This journey takes an average of four-and-a-half hours one way during summer months, but the same process can take six hours or more in the winter, as ice begins to form on the lake surface.
+Challenges
+Requested Ka-band satellite services for maritime in the Northwest Territories of Canada
+Requested reliable connections to shore 24/7 for 10 months of the year
+Monitoring and coordinating 24/7 logging operations over long distances, for 10 months out of every year, in a broad range of weather conditions, can present many challenges. The safety and efficiency of Canfor’s industry in Mackenzie depends upon reliable, high-quality communications between the logging sites and the ship on Williston Lake. With this in mind, Canfor pledged to invest in the most trusted, robust and cost-effective broadband solution available.
+Solutions
+Intellian v100Ka tracking antenna
+Ease of integration with the modem edge technologies and high power transmission
+Canfor approached, the Canadian satellite service provider, Galaxy Broadband and one of the firm’s resellers, to discuss their requirements for a satellite solution that would include voice and data for the MV Williston Transporter on Williston Lake. Galaxy, in turn, contacted Intellian, the leading global provider of stabilized satellite antenna systems, to partner with them in setting up what was destined to become the first Ka-band marine system in North America.
+This partnership provided everything Canfor required. Galaxy’s fourth-generation SkyCARRIER IP-over-satellite service, which functions on an MCPC (Multi-Channel Per Carrier), offered 20Mbps burst speeds and multiple VoIP over satellite phone lines aboard the vessel while Intellian provided the stable, high performing v100Ka 1m VSAT platform. Live network tests confirmed Intellians reputation as one of the world’s best-performing and most accurate tracking Ka-band marine systems. After testing Intellian’s VSAT platform, the v100Ka was selected to connect the MV Williston Transporter to the network. The gain and optimized tracking performance of the Intellian v100 delivered a solid platform to provide reliable and consistent communication for a ship in this remote area.
+The v100Ka’s high-gain, highly efficient reflector and tuned radome ensure the best service quality available. In addition, the v100Ka supports a low elevation angle (-20°) capability to guarantee reliable connection at extremely high altitudes.
+In the event that support is required, Intellian's Aptus software allows shore-based staff to remotely troubleshoot, diagnose, and update terminals from shore without setting foot aboard the ship. This feature greatly reduces costly service visits and cuts downtime from days to minutes.
+Benefits
+Consistent business communications and logistics
+Reliable connections for business and crew welfare
+Canfor saw immediately improvement when they were able to maintain voice calls and deliver operational information to the ship seamlessly. Business and operations also received an additional boost. The outcome has been positive for the crew, the loggers on Mackenzie’s logging sites, and the business.
+Now that the antenna upgrade is complete, everyone on board the vessel has access to a true broadband experience. With burst speeds up to 20Mbps, facilitated by the Intellian v100Ka’s strong and consistent signal reception, the MV Williston Transporter’s ship-to-shore communications are more rapid and straightforward than they have ever been before. No more voice drop-out or packet loss as data travels back and forth along the information highway.
+Solution Partner:
+Galaxy Broadband
+Downloads
+PDF version
+Intellian Case Study Commercial Galaxy Broadband
+Download Latest
+Request Information
+Contact Us
+For further detailed information on the Intellian products and solutions shown here, please submit your request using this convenient form.
+Find out more

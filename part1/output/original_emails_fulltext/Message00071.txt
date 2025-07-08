@@ -1,0 +1,269 @@
+Hi Luc,
+ 
+Thanks for details, it’s important for us to sync on this. 
+ 
+The “local support” request is triggered by local customers, who require support in Asia time zone. By that, they mean support on both incident and change request. As we learnt during the meeting, post-deployment tickets have so far only involved change requests, thus, write access is essential. I believe Lars is working on that.
+ 
+Regarding training, the global RCS team attended a UTM session on 25th April hosted by Alexis, together with MNOC, and we are currently reviewing the material. Please advise if there has been any additional training specifically for MNOC. If the 25
+th
+ session was the only one provided to MNOC, then theoretically, both global RCS and MNOC would have a similar level of UTM knowledge. Based on that, I understand the local support arrangement means RCS SG will cover part of CCTS’s scope, not MNOC’s.
+ 
+This also aligns with the flowchart shared by the product team, which indicates that UTM issues don’t require routing through MNOC. 
+ 
+That said, I fully understand that MNOC generally has stronger technical expertise and is more focused on troubleshooting. It’s understandable if CCTS prefers MNOC to review UTM tickets first. In that case, we’ll just need to update the process chart accordingly to ensure clarity. Please note that the chart refers to global RCS, not just the SG team.
+ 
+Thanks.
+BR
+Guanglin
+ 
+ 
+From:
+ FERON, Luc <Luc.Feron@marlink.com> 
+Sent:
+ Friday, June 13, 2025 8:43 PM
+To:
+ SI, Guanglin <Guanglin.Si@marlink.com>; ARGANESE, Franck <Franck.Arganese@marlink.com>; VESTBY, Lars <Lars.Vestby@marlink.com>
+Subject:
+ RE: UTM Support 
+ 
+Hi Guanglin,
+ 
+Franck replied in the same way I replied to Lars yesterday. The context today, as far as we know, is that support is organized with RCS L1, MNOC L2 and CCTS L3. 
+For UTM, I ve been asked, due to specific needs in Asia region, to train local Network Delivery team member on deployment. This is ongoing.
+I ve been asked to train local support team at a reasonable level. We did understand at the level of MNOC. So, we invited you and your team to review the training provided to MNOC and to have access to the same tool. We ll also add some missing info related to Xchange config identified as not covered during the initial training.
+From our experience, following the past deployments, there was no issue with UTM. The only ones were linked to missing rules during deployment. This means change management for UTM.
+I did not understand that RCS will do change management. For sure, if it s the goal, RCS will need write access, on top of it, a training will be necessary to proceed changes, to update documentation accordingly, to maintain fleet policy ….
+ 
+This decision is out of my scope. 
+@VESTBY, Lars
+ , do you have more info on the organization Eirik would like to have in place locally?
+ 
+Kind regards,
+ 
+Luc Feron
+Director Competence Centers 
+Marlink SAS 
+CECS Aussaguel
+31450 Issus – France
+M +33 (0)6 71 04 65 04
+E  
+luc.feron@marlink.com
+www.marlink.com
+ 
+ 
+ 
+Digitally advancing your remote world by creating Possibilities. Anywhere.
+ 
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+De :
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+> 
+Envoyé :
+ 13 June 2025 08:54
+À :
+ ARGANESE, Franck <
+Franck.Arganese@marlink.com
+>; FERON, Luc <
+Luc.Feron@marlink.com
+>
+Cc :
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+>
+Objet :
+ RE: UTM Support 
+ 
+Hi Franck,
+ 
+Noted that Timothy shall not be involved in support activity. Since MNOC doesn’t have write access either, that means support won’t attend customers’ non-urgent request until 4 AM UTC. 
+I will inform KAM and SM about this, to ensure the correct expectation is set.
+ 
+Btw, our previous understanding is, MNOC shall be only involved in connectivity issue, and UTM cases will go to CCTS directly. Please let us know if that should be updated, and UTM cases shall go to MNOC too.
+ 
+ 
+BR
+Guanglin
+ 
+From:
+ ARGANESE, Franck <
+Franck.Arganese@marlink.com
+> 
+Sent:
+ Friday, June 13, 2025 2:16 PM
+To:
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+>; FERON, Luc <
+Luc.Feron@marlink.com
+>
+Cc:
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+>
+Subject:
+ RE: UTM Support 
+ 
+Hello Guanglin,
+ 
+This is normal: Timothy is to help us in deployment activity, not in the support activity. For support activities there’s RCS > MNOC 
+24/7
+ > CCTS On-Call Duty in case something is an urgent matter and can’t wait until 04:00 UTC. 
+ 
+Kind regards
+Franck Arganese
+Technical Support Manager
+Competence Centre 
+·
+ Technical Support
+ 
+M +33 6 82 60 79 27
+E  
+franck.arganese@marlink.com
+​​
+www.marlink.com
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+From:
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+> 
+Sent:
+ 13 June 2025 02:27
+To:
+ FERON, Luc <
+Luc.Feron@marlink.com
+>
+Cc:
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+>; ARGANESE, Franck <
+Franck.Arganese@marlink.com
+>
+Subject:
+ RE: UTM Support 
+ 
+Hi Luc,
+ 
+I understand from Lars that there are some challenges in granting the RCS team write access, and the plan is that only Timothy will have this access and will provide support to customers when required.
+ 
+Could you please confirm if the Network Delivery team has agreed to this arrangement? As far as I know, they are typically not involved in customer support after deployment.
+ 
+As understood from our meeting, the majority of UTM tickets are rule update requests. Since the Sales team has committed to providing customers with prompt local support, we may need to call the CCTS duty phone when Timothy is unavailable, if we don’t have write access.
+ 
+Thanks.
+BR
+Guanglin
+From:
+ SI, Guanglin <
+Guanglin.Si@marlink.com
+> 
+Sent:
+ Thursday, June 5, 2025 12:55 PM
+To:
+ FERON, Luc <
+Luc.Feron@marlink.com
+>; ARGANESE, Franck <
+Franck.Arganese@marlink.com
+>; VESTBY, Lars <
+Lars.Vestby@marlink.com
+>; SI, Guanglin <
+Guanglin.Si@marlink.com
+>
+Subject:
+ RE: UTM Support 
+ 
+Hi All,
+ 
+Please find the meeting minutes below. Feel free to add in if anything is missed.
+ 
+Understanding: 
+No major UTM post-deployment incidents reported so far. CCTS only received change requests.  
+Under normal circumstances, CCTS prepares VM and relevant XC/Fortigate configuration in advance, and hand them over to network delivery. 
+RCS SG is not required for deployment activities. Process details will be covered during the training.
+Once activated, RCS will follow the same checklist previously shared by Alexis, focusing on connectivity, XChange configuration, etc.
+Escalation path: Connectivity issues -> MNOC,  XC/UTM cases-> CCTS. For urgent cases, contact CCTS 24x7 on-duty
+ 
+Action items:
+Training/Follow-up sessions:
+By end of June:
+ RCS SG to review the training done by Alexis / 
+@SI, Guanglin
+1st week of July:
+  deployment training for Timothy. Selected RCS SG members will attend or review that for understanding./ 
+@FERON, Luc
+ 
+@VESTBY, Lars
+ to coordinate with network team on the training date
+2nd week of July:
+  arrange a sync session among local network, RCS, KAM and SM in SG  / 
+@SI, Guanglin
+  
+By end of July
+: Frank to arrange for a go through of 10 CCTS tickets transferred to CCTS, to demonstrate troubleshooting procedures, and explain about the mechanism between UTM and Xchange. / 
+@ARGANESE, Franck
+ P.S. 
+@SI, Guanglin
+ will try to gather a few examples and send in a question list, after the training
+ 
+Additional access: 
+Fortigate manager write access (for Guanglin, Lynn, Leslie) 
+@VESTBY, Lars
+ 
+Thanks.
+BR
+Guanglin
+ 
+From:
+ SI, Guanglin 
+Sent:
+ Thursday, June 5, 2025 3:27 PM
+To:
+ FERON, Luc <
+Luc.Feron@marlink.com
+>; ARGANESE, Franck <
+Franck.Arganese@marlink.com
+>
+Cc:
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+>
+Subject:
+ UTM Support 
+ 
+Hi Franck / Luc,
+ 
+For your preparation, I’d like to understand the below during our meeting. Talk to you soon.
+ 
+2 types of support involved:
+- Deployment
+- Post-deployment
+ 
+Deployment:
+- How many hours does it take to deploy 1 vessel?
+- How do CCTS and network delivery interact on this?
+ 
+Post-deployment:
+- What are the common issues? How urgent are they?
+- Possible to estimate how frequent a vessel encounters UTM issue? Or, how many UTM cases does CCTS get per week or month?
+ 
+Training:
+- Any documents, e.g., about deployment, activation and etc
+- I presume session from Hans will be about deployment. If so, is it necessary to arrange separate ones for post-deployment cases?
+- As informed by KAM, 4 deployments are planned in June, any chance for on-job training?
+ 
+Operation:
+- Any additional access that we shall get, on top of backoffice and URA? Our access to fortigate is read-only
+- If it's beyond RCS capacity, will there be an 24x7 escalation point? I understand that CCTS on-duty phone is not for this purpose 
+- Is it required to define a demarcation line?
+ 
+BR
+Guanglin
+ 

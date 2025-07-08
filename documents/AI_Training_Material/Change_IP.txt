@@ -1,0 +1,12 @@
+Change/check IP address of your PC:
+
+1)Click the Start button (in left down corner of the screen)
+2)In the search box, type network connections, then open it
+3)Right-click the connection we need to change, most frequently called Local Area Connection and then click Properties. 
+
+4)Click the Networking tab, click on Internet Protocol Version 4 (TCP/IPv4) and then click Properties. Click Use the following IP address, and then:
+-	in the IP address line, type:  192.168.55.10
+-	in the Subnet mask line, type: 255.255.255.0
+-	leave it blank in default gateway line and DNS
+
+5)Click OK button and next Close button.

@@ -1,0 +1,13 @@
+Hi,
+ 
+We received a few VSAT outage alerts at 01:07 AM today as below, and all of them turned out to be false. Vessels’ VSAT was either online or only offline for a brief period of time, much less than the defined 24 hrs threshold
+ 
+Can you please check why it happened?
+ 
+@VESTBY, Lars
+: FYI, as this may affect CMA monthly report. 
+ 
+ 
+BR
+Guanglin
+ 

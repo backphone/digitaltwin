@@ -1,0 +1,22 @@
+Leslie: presentation to/from other teams. observe the workload, show the power BI dashboard, dubai to introduce the local customers
+ 
+managed service: we do not warn customer about charges
+ 
+contracted 80 vessels in May-best month so far, and cyber/LEO migration exceed the budget
+ 
+3000 old antennas / with a large discount
+ 
+thrusday - only work on tickets, not postman
+ 
+merits outage - our contribution is seen / root cause analysis ongoing
+ 
+Boskalis PRA -  Always create ticket under Bitsel installation under Boskalis B.V. 159282. Not under vessels
+ 
+UTM - if in doubt, it goes to MNOC brat. if it's utm for sure, go to ccts (UTM rules updates)
+ 
+CMA tickets - need to be under the correct installations - penalty involved. But all create it correctly for all customers
+ 
+most relevant installation
+close properly - for good reasons
+created / escalated by SG
+ 
