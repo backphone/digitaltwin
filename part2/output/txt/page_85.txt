@@ -1,0 +1,52 @@
+mP130L - 1.25m mPOWER Ka-band Land Fixed User Terminal | Intelliantech
+mP130L
+1.25m mPOWER Ka-band land fixed user terminal
+The mP130L is the first user terminal capable of utilizing the mPOWER Medium Earth Orbit (MEO) satellite constellation. The mP130L is a 125 cm reflector dual parabolic antenna with 3 axis stabilization platform, which ensures seamless and uninterrupted connectivity during MEO handovers. This advanced design ensures optimal performance and reliable connectivity for a wide range of applications.
+mP130L
+Key Features
+Specifications
+Downloads
+Where to Buy
+Key Features
+Best-in-Class RF Performance
+The mP130L offers exceptional RF performance through its optimized design. Utilizing Intellian’s cutting-edge technology, the mP130L combines both transmission and receiver components in a single package for high efficiency and reliable performance. The advanced design ensures optimal performance, providing a best-in-class user experience.
+Quick and easy installation
+The mP130L is engineered for ease of installation and offers a variety of options to accommodate any installation environment. The Installation Wizard, included by default, provides a streamlined commissioning process through a step-by-step procedure. The mP130L also offers a selection of installation options tailored to specific power sources and site locations.
+Seamless connectivity
+The mP130L is a dual user terminal configuration to enable consistent satellite connection by ensuring seamless handovers with MEO satellites. The mP130's advanced tracking technology provides precise performance, allowing the secondary antenna to pick up a rising satellite before the primary antenna loses a falling one. This eliminates the "Keyhole problem" and ensures that the antenna will never lose tracking, even when a satellite is directly overhead.
+Undisrupted connectivity
+The antenna is specifically designed to prevent the keyhole effect which ensures a reliable connection with NGSO satellites. The antenna uses advanced technologies and techniques to achieve accurate pointing and tracking, such as motorized azimuth and elevation adjustments, and sophisticated signal processing algorithms. This ensures that the antenna beam is always aimed directly at the satellite, providing a consistent and high-quality signal even in challenging environments.
+O3B mPOWER constellation
+O3b mPOWER is SES's revolutionary new MEO constellation designed for the most demanding applications. Whether you're a mobility or telecom user, government agency, or enterprise, O3b mPOWER delivers thousands of managed services with speeds ranging from hundreds of Mbps to multiple Gbps per service – all without any contention.
+Reliable all-weather performance
+The antenna is designed for reliable all-weather performance and is pre-assembled at the factory to minimize installation procedures and costs. It is provided in a radome, which is designed to endure harsh environments and serves several purposes, such as preventing ice and freezing rain from accumulating on the antenna, protecting the antenna from debris and wind-induced rotational irregularities, and minimizing RF degradation. It is also designed to withstand strong winds, with an operational wind resistance of 56 km/h (34.8 mile/h) and a survival wind resistance of 120 km/h (74.6 mile/h).
+Specifications
+SES
+Radome Dimension HXD
+143.0x 150.0 cm (56.3” x 59.1” inches)
+Reflector Diameter
+125 cm / 49.2”
+Antenna Weight
+100.0 kg / 220.5 Ibs
+TX Frequency
+27.5 ~ 30.0 GHz
+RX Frequency
+17.7 ~ 20.2 GHz
+TX Gain
+49.0 dBi (w/o radome)
+RX Gain
+46.0 dBi (w/o radome)
+G/T
+21.4 dB/K (@19.0 GHz, EL 20 degrees)
+SES
+Downloads
+mP130L
+Datasheet
+Download Latest
+mP130L
+Image library
+Download Latest
+Where to Buy
+Intellian Authorized Resellers
+We sell through a global network of authorized Intellian resellers. Regardless if you need fixed, COTM or COTP connectivity, our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs.
+Where to Buy

@@ -1,0 +1,24 @@
+Can you try to go to \\Captain\InterChk\ESXP\ from a navigator (e.g. when you open
+'my documents' on your computer, in the address bar in the upper part of the screen,
+change the name into this and press 'Enter'). In case you are unsuccessful (which
+should be the case) you should go to the server Captain and ensure the corresponding
+Sophos folder is shared for the computer/user of the station you are trying to update.
+
+If the station you are trying to update is the server itself, the resource need for the
+update maybe located at SkyFile Mail\Antivirus.dir\ESPX\
+
+
+
+Good day, Captain
+
+Please follow the steps below:
+
+1. Login Captain server as administrator;
+
+2. Go to C:\SkyFile Mail\Antivirus.dir (the directory where anti virus was installed in), right click on  Antivirus.dir folder --> Properties--> under Sharing tab --> click Share button,  under the drop down list, select Everyone, then click on Share button.
+
+3. Still under Sharing tab, click on Advanced Sharing, under Share name, select  InterChk. If you don't find it, click on Add, then  type in InterChk under Share name, click on Apply then OK. 
+
+After above, please test again if you can reach \\Captain\InterChk\ESXP\ from other computers, and successfully, try to update antiviurs. 
+
+-------------------------------------------------------------------------------

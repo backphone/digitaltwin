@@ -1,0 +1,6 @@
+Display name:		SI, Guanglin
+Recipient display name:	SI, Guanglin
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1433996c772d414ca7c8f9553a66ded3-c4ba675a-2f
+Address type:		EX
+Recipient type:		To
+

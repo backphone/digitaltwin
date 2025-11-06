@@ -1,0 +1,5 @@
+Display name:		POTVIN, Coline
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=029e644a0fe7442498ad406eef73d4f9-Coline Potv
+Address type:		EX
+Recipient type:		To
+

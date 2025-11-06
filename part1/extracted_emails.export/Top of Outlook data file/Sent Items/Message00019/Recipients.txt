@@ -1,0 +1,6 @@
+Display name:		TSOTRAS, Antonios
+Recipient display name:	TSOTRAS, Antonios
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9ece939f60d440d1bb08331e0ff24236-Antonios Ts
+Address type:		EX
+Recipient type:		To
+

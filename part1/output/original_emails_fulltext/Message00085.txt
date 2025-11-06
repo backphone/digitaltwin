@@ -1,0 +1,81 @@
+ 
+ 
+BR
+Guanglin
+ 
+From:
+ SEVECEK, Adam <Adam.Sevecek@marlink.com> 
+Sent:
+ Friday, February 21, 2025 9:23 AM
+To:
+ ZAGAJEC, Lukas <Lukas.Zagajec@marlink.com>; Team RCS MGMT <Team.RCS_MGMT@marlink.com>; BAVOLAR, Rastislav <Rastislav.Bavolar@marlink.com>; SI, Guanglin <Guanglin.Si@marlink.com>; VELAZQUEZ, Juan <Juan.Velazquez@marlink.com>; VISSER, Wilko <Wilko.Visser@marlink.com>
+Cc:
+ Team RCS Athens <team.rcsathens@marlink.com>; THORESEN, Linn - Andrea <linn-andrea.thoresen@marlink.com>; HOLTRIN, Erik <erik.holtrin@marlink.com>; HORVATH, Michal <michal.horvath@marlink.com>
+Subject:
+ RE: NEW MERITS NT OP features
+ 
+Hi guys,
+ 
+Was below email shared with all RCS teams?
+I came across few tickets were RCS points out to higher RX BBP Error Ratio, but Newtec modem software version was older than 4.7.2.1 in which case this graph is irrelevant.
+ 
+Please share / send reminder regarding this as it seems to be confusing some people.
+ 
+Thank you and have a good day.
+Best Regards,
+Adam Sevecek
+ 
+From:
+ ZAGAJEC, Lukas <
+Lukas.Zagajec@marlink.com
+> 
+Sent:
+ Friday, January 17, 2025 10:49 AM
+To:
+ Team MNOC Bratislava <
+TeamMNOCBratislava@marlink.com
+>; NAMBIARMALIL JOHN, Joel <
+Joel.NambiarmalilJohn@marlink.com
+>
+Cc:
+ Team RCS MGMT <
+Team.RCS_MGMT@marlink.com
+>; Team RCS Athens <
+team.rcsathens@marlink.com
+>; THORESEN, Linn - Andrea <
+linn-andrea.thoresen@marlink.com
+>; HOLTRIN, Erik <
+erik.holtrin@marlink.com
+>
+Subject:
+ NEW MERITS NT OP features
+ 
+Hi guys,
+ 
+Few things implemented on NT OP page -> STATUS tab:
+RX BBP Error Ratio Stats:
+This feature is available 
+ONLY for modems with firmware release 4.7.2.1 and newer
+!
+With older versions -> it will show a lot of errors, but all are false, like example below:
+So it's important to check currently running modem software version.
+You can trust only if modem is running 4.7.2.1 (and higher, in the future).
+ 
+ 
+ 
+RX Link Margin:
+Definition: 
+Difference between the measured EsN0 and the required EsN0 to support the current MODCOD
+ 
+ 
+ 
+Latency from HUB:
+We are now able to measure two main latencies:
+Latency from HUB -> description is missing for now (will be added), but it's "Latency and packet loss measured from used teleport to remote"
+Latency from Eik-> Latency and packet loss measured from Eik teleport to remote
+So as you can see, latency for below example from the teleport is 600 ms, but from Eik -> it's hitting almost 1000 ms:
+ 
+IF you will have some questions, please feel free to ask.
+ 
+BR,
+Lukas

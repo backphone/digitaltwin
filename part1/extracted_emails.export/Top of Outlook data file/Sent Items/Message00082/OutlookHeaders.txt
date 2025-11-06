@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 13, 2025 00:27:24.398508000 UTC
+Delivery time:				Jun 13, 2025 00:27:00.000000000 UTC
+Creation time:				Jun 13, 2025 00:27:23.844059300 UTC
+Modification time:			Jun 13, 2025 00:27:31.117900500 UTC
+Size:					44492
+Flags:					0x00000001 (Read)
+Conversation topic:			UTM Support 
+Subject:				RE: UTM Support 
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

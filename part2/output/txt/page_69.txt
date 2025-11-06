@@ -1,0 +1,40 @@
+Intellian’s auto-switching, multi-band v240M enables continuous connectivity in harsh drill rig operations | Intelliantech
+Back to listing
+Case Study
+Intellian’s auto-switching, multi-band v240M enables continuous connectivity in harsh drill rig operations
+Date
+01 September 2020
+Location
+Global - Energy
+Energy - v240M Dual Band System
+CUSTOMER: Global Drilling Rig Company
+MARKET SECTOR: Energy
+REQUIRED FEATURES: Auto switching for efficient operation
+Challenges
+Global C-band coverage required during vessel transits between regions
+Procuring communications equipment and ensuring rapid delivery on-site
+The most obvious challenge is that offshore operations are found in some of the most remote areas of the planet, which means that environments are harsh. Extreme temperatures, corrosive saltwater, constant vibration and high winds are just some of the conditions in which satellite networks need to be deployed and run. These are very basic challenges that drill rig operators face on a daily bases.
+Additionally, reliable and constant connectivity is another major requirement. While an offshore network’s capabilities must go beyond enterprise reliability, even some industrial-grade wireless networks are not suited to an offshore operation, where all assets are constantly in motion. The customer needed the ability for Ku-band operation to switch automatically to a C-band network to ensure uninterrupted service, without having a field technician deployed for on-site support.
+In order to meet the operator's expedited project schedule with a short installation window to deploy systems onboard, the installation itself was also an issue.
+Solutions
+Intellian v240M Dual Band system + Mediator
+Automatic frequency band switching
+Best-in-class RF performance
+The Intellian v240M and MT antennas are the world’s first multi-orbit and multi-band antenna systems that  track Geostationary Earth Orbit (GEO) or Medium Earth Orbit (MEO) satellites. Intellian’s innovative antenna, with its unique frequency selection and orbital diversity capabilities, enables switching between different satellite frequency bands on virtually any satellite network. This provides dual-band and multi-orbit coverage, and high-speed network experience with the fastest, most reliable broadband connectivity.
+The v240M allows automatic frequency band switching without user intervention, enabling the operator to select the optimum solution for the geographic location and satellite service provider options.
+The upgraded design also assures improved RF performance enabling high-speed, high-quality connectivity for high-bandwidth users.
+Benefits
+Seamless, high-throughput data across the world for the drilling rigs to operate in different geographical regions without losing communications
+Ability to provide high-throughput data to multiple tenants and add a dedicated crew welfare network
+Streamlined installation and practical shipping logistics
+Reduce man hours on board means further reducing risks
+Oil and gas exploration operations often take place in the most remote locations, where no terrestrial network infrastructure is available, therefore broadband satellite communications are essential to support the industry and open opportunities for its expansion and growth.
+Intellian’s v240M antenna systems enhanced the operational connectivity capability by providing reliable, high-speed communications. This high-throughput connectivity transformed the offshore environment as well as improving the day to day lives of offshore workers.
+Downloads
+PDF version
+Intellian Case Study Energy ITC global
+Download Latest
+Request Information
+Contact Us
+For further detailed information on the Intellian products and solutions shown here, please submit your request using this convenient form.
+Find out more

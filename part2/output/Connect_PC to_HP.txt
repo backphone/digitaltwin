@@ -1,0 +1,16 @@
+Good day,
+
+In that case you can use any other computer. 
+
+Connect it to port 4 on HP 1810 switch with a causal Ethernet cable (connector RJ45).
+
+1)	Click the "Start" button (in left down corner of the screen), and then click on "Control Panel". 
+2)	In the search box, type "Network and Sharing Center", select "Network and Sharing Center" from search results. Click "View network connections". 
+3)	Right-click the connection we need to change, most frequently called "Local Area Connection" or "Ethernet" and then click "Properties". 
+4)	Click the "Networking tab". Under "his connection uses the following items", is a list of options. Click on "Internet Protocol Version 4 (TCP/IPv4)" and then click "Properties". Click "Use the following IP address", and then:
+-	in the IP address line, type: 10.224.128.158
+-	in the Subnet mask line, type: 255.255.255.240
+-	in the Default gateway line, type: 10.224.128.145
+5)	Click OK button and next Close button.
+
+

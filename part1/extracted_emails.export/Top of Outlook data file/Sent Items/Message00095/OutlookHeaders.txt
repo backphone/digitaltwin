@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 18, 2025 02:09:00.465395200 UTC
+Delivery time:				Jun 18, 2025 02:08:00.000000000 UTC
+Creation time:				Jun 18, 2025 02:08:58.567036900 UTC
+Modification time:			Jun 18, 2025 02:09:24.548498500 UTC
+Size:					608417
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Marlink Ticket [1812518] - STRIL EXPLORER MSS ref:Migration from ESAS to safetylink - Stril Explorer
+Subject:				Marlink Ticket [1812518] - STRIL EXPLORER MSS ref:Migration from ESAS to safetylink - Stril Explorer
+Sender name:				ServiceDesk
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Sent representing name:			ServiceDesk
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

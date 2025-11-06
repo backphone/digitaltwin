@@ -1,0 +1,15 @@
+
+
+1. Click on "Comm" icon on the top;
+2. Select "Network" under the drop down list;
+3. Under "Network Communication", IP should be 10.224.135.2, port: 4002, Name: User;
+4. Click on "Connect"
+5. A Login windown should popup; ID: intellian; Password: 12345678
+6. After login, you shall see "ACU Log Manager" on the top; click on it;
+7. A new window will pop up, click on "Connect" button. Please take note of the "Download path"
+8. At the bottom, select the period as "Last 1 week", click on "Download".
+
+The antenna logs will be downloaded to the "Download path" folder. Please zip the log files and send it to us. 
+
+
+

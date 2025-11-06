@@ -1,0 +1,24 @@
+Display name:		POTVIN, Coline
+Recipient display name:	POTVIN, Coline
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=029e644a0fe7442498ad406eef73d4f9-Coline Potv
+Address type:		EX
+Recipient type:		To
+
+Display name:		TSOTRAS, Antonios
+Recipient display name:	TSOTRAS, Antonios
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9ece939f60d440d1bb08331e0ff24236-Antonios Ts
+Address type:		EX
+Recipient type:		To
+
+Display name:		HORVATH, Michal
+Recipient display name:	HORVATH, Michal
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a0ba6f16c5af4c8b92c203015daf092c-Michal Horv
+Address type:		EX
+Recipient type:		CC
+
+Display name:		Team RCS MGMT
+Recipient display name:	Team RCS MGMT
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=48c22aea2d8946d2b26532d839c16add-Team RCS MG
+Address type:		EX
+Recipient type:		CC
+

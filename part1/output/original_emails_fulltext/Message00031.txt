@@ -1,0 +1,7 @@
+Let's go through this case later in office. Starlink is offline due to blockage country, and VSAT is offline too. IOP is not activated. Thus, rebooting XC won't help.
+ 
+ 
+ 
+BR
+Guanglin
+ 

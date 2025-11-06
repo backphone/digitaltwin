@@ -1,0 +1,12 @@
+Display name:		LERCHENMULLER, Katrin
+Recipient display name:	LERCHENMULLER, Katrin
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=user8ba1fea5
+Address type:		EX
+Recipient type:		To
+
+Display name:		BORDA, Shantal
+Recipient display name:	BORDA, Shantal
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6ffdc228e1bf41e88ecd978f165bb15c-Shantal Bor
+Address type:		EX
+Recipient type:		To
+

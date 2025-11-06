@@ -1,0 +1,11 @@
+Please retry the diagnosis but put it into setup mode first, as below. Do the diagnosis three times and send us the results.
+
+1. On Marlink PC, open again Intellian PC controller 
+2. Repeat steps 1-7 from previous procedure.
+3. On the left side of the menu under Restart click the Button that says Setup and click ok to confirm setup mode.
+4. On the left side, click on "Diagnosis, Search Parameters & Sensor adjust".
+5. On lower-right section, you will see Diagnosis menu. Click on "Test ALL" 
+check box. Then click on "Diagnosis" button.
+6. Antenna will run test. Once it is completed, click on Save Result, and save 
+the file on computer.
+7. Please send us the file, which is collected in step 5.

@@ -1,0 +1,3 @@
+C: Prepare and open Intellian PC controller application:
+
+1)	Download attached 'Intellian PC Controller_Engineer_3.04.zip' 2)	Extract the .zip package and open the extracted 'Intellian PC Controller_Engineer_3.04.exe' file (run the application, confirm any message you will see) 3)	In the top left corner select 'Communication Information' 4)	On the right side under 'Select Communication' choose 'Network' radio button 5)	Change IP to '10.166.0.82' 6)	Click 'Connect' tick box 7)	Confirm any messages and type, Username: intellian , Password: 12345678 , click 'OK' 8)	In the top left corner select 'Position (GPS, Heading, Bow) & Manual Search

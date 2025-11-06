@@ -1,0 +1,6 @@
+Display name:		ONG, Daven
+Recipient display name:	ONG, Daven
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=656721793cf44aa99e614204668da6b9-Daven Ong
+Address type:		EX
+Recipient type:		To
+

@@ -1,0 +1,66 @@
+X130D - XEO Series | Intelliantech
+X150D
+Ku/Ka Electronically Switchable Dual-band Multi-Orbit VSAT
+The Intellian X150D is a dual-band VSAT solution that electronically switches between Ku-band and Ka-band operation with a single command. It enables customers with the highest performance, versatility, and high bandwidth demand access to a wide range of service options. This dual band antenna offers seamless connectivity by eliminating the need for conversion kits, or hardware modifications required by conventional terminals.
+X150D
+Key Features
+Specifications
+Downloads
+Related products
+Where to Buy
+Key Features
+GEO/MEO/LEO tracking capability
+Based on proven antenna design and multi-orbit tracking capabilities, the X150D is future proof, providing optimal performance on both existing and new NGSO constellations.
+High power upgradable
+The X150D provides a wide range of options in terms of BUC power. The X150D supports up to 250W Ku-band, and 100W Ka-band.
+Fiber optic solution
+Fiber optic solution for the X150D is based on our extensive fiber optic experience, resulting in minimal signal loss regardless of cable length. It enables greater bandwidth capability compared to a coaxial cable connection between the ADU and the BDU. The fiber optic solution is ideal for high throughput installations and allows for quicker and easier installations.
+2.5GHz wide Ka-band support
+The X150D has a full range-optimized reflector and radome supporting high speed Ka-band services, which covers the entire commercial 2.5GHz Ka-band frequency range. X150D supports dual-polarization and can transmit and receive both LHCP and RHCP Ka-band circular polarization.
+IFL switch for Dual-Datacenter
+Integrated with IFL Switch, the X150D is ready for Dual-Datacenter setup on vessel for failover redundancy.
+When one of the datacenters fail due to unfavourable environmental conditions, power outages, technical issues or blocked by obstacles, the DDC system can be easily switched to the other datacenter by using the Intelligent Mediator to maintain the antenna operation and the network continuously.
+Versatile multi-orbit tracking
+Dual-band VSAT solution that electronically switches between Ku-band and Ka-band operation with a single command
+GEO/MEO/LEO tracking capability
+The X150D can operate on both SES Classic O3b constellation and the new mPOWER constellation
+Embedded mediator ACU
+The X150D is equipped with an embedded mediator in the ACU that enables simultaneous dual modem configurations and dual antenna configurations for blockage mitigation and make-before-break applications
+No external mediator is needed for connecting to maximum of 2 antennas and 2 modems
+Specifications
+XEO Series
+Radome Height x Diameter
+197 cm / 77.56” x 190 cm / 74.8”
+Reflector Diameter
+150 cm (59.06 inch)
+Antenna Weight
+365 kg / 804.7 Ibs
+TX Frequency
+(Ku-band) 13.75~14.5 GHz, (Ka-band) 27.5~30.0 GHz
+RX Frequency
+(Ku-band) 10.7~12.75 GHz, (Ka-band) 17.7~20.2 GHz
+TX Gain (excl. radome)
+(Ku-band) 10.7~12.75 GHz, (Ka-band) 17.7~20.2 GHz
+RX Gain (excl. radome)
+(Ku-band) 43 dBi @ 11.85 GHz, (Ka-band) 45.5 dBi @ 19.0 GHz
+G/T
+(Ku-band) 21.7 dB/K, (Ka-band) 21 dB/K
+XEO Series
+Downloads
+X150D
+Datasheet
+Download Latest
+X150D
+Image library
+Download Latest
+Related products
+View all Products
+X100D
+Explore Product
+X130D PM
+X130D PM
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

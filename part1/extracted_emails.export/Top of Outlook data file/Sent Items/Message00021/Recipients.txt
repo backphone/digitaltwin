@@ -1,0 +1,6 @@
+Display name:		Pierre.GEREAUME@marlink.com
+Recipient display name:	Pierre.GEREAUME@marlink.com
+Email address:		Pierre.GEREAUME@marlink.com
+Address type:		SMTP
+Recipient type:		To
+

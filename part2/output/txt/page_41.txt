@@ -1,0 +1,84 @@
+Intellian v130NX - NX Series - Maritime VSAT | Intelliantech
+v130NX
+All New 1.25m Ku- Ka- Dual-band & GEO/MEO/LEO Capable VSAT Antenna
+Intellian v130NX is the Ku-to Ka-band convertible maritime VSAT Antenna System with a 1.25m diameter reflector. The v130NX’s new control platform with highly efficient RF design delivers superior performance compared to other 1.3 meter class systems, enabling higher data rates and global operation. The v130NX’s new operation platform provides the efficiency of configuration and activation with its smart operational software AptusNX.
+v130NX
+Key Features
+Specifications
+Downloads
+Accessories
+Related Products
+Where to Buy
+Key Features
+Future-Proof Communication
+The v130NX is a Ku- to Ka-band convertible antenna system with a frequency-tuned reflector and radome for performance over both satellite bands.
+GEO/MEO/LEO Tracking
+The v130NX is designed with accurate satellite tracking performance with our proven tracking algorithm that covers GEO, MEO, and LEO constellations.
+Embedded Dual Antenna Mediator
+Intellian’s NX series fully supports dual antenna operations, without an additional mediator or RF splitters.
+AptusNX
+New integrated management and control software AptusNX provides a responsive web user interface, intelligent antenna diagnosis and reporting for efficient and preventative maintenance.
+Future Proof System
+Hardware designed to track NGSO satellites
+No additional Mediator needed to track NGSO satellite
+Ku- to Ka-band convertible
+Various BUC options available
+Simple Installation
+No need to open radome during antenna installation onboard
+Mounting from outside of radome
+Pre-hung lifting strap supplied as standard with all NX-series
+Radome removal not required during install with single cable external termination and dynamic motor braking
+Specifications
+NX Maritime VSAT
+Radome Dimension
+168.1x172.4 cm (66.2x67.9 inch)
+Reflector Diameter
+125 cm (49.2 inch)
+Antenna Weight
+150 kg/ 330.7 lbs
+TX Frequency
+13.75~14.5GHz Ku-band
+RX Frequency
+10.7~12.75GHz Ku-band
+TX Gain
+43.5 dBi @ 14.25 GHz (excl. radome)
+RX Gain
+42.0 dBi @ 19.7 GHz (excl. radome)
+G/T
+>21.0 dB/K (min.)
+NX Maritime VSAT
+Downloads
+v130NX
+Datasheet
+Download Latest
+v130NX
+Image library
+Download Latest
+Accessories
+Ka-band Upgrade Kit
+Ka-band conversion kits allow simple band conversion on NX series.
+Learn More
+FiberLink
+Fiber optic connection from antenna to below deck units eliminates any cable loss.
+Learn More
+Related Products
+View all Products
+v85NX
+Explore Product
+v100NX
+Explore Product
+v150NX
+Explore Product
+Iridium Certus C700
+Explore Product
+v45C
+Explore Product
+v60E
+Explore Product
+v60Ka 2
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

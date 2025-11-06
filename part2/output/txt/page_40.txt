@@ -1,0 +1,162 @@
+Intellian v100NX - NX Maritime VSAT | Intelliantech
+v100NX
+All New 1M Ku- Ka- Dual Band GEO/MEO/LEO VSAT Terminal
+Intellian v100NX is a Future proof Ku- to Ka-band convertible maritime VSAT antenna system supporting future 2.5Ghz Ka- Wideband networks with a tuned radome and reflector. The 100NX’s new operation platform enables GEO/MEO/LEO satellite tracking ensuring the antenna is ready for all future networks.
+v100NX
+Key Features
+Compare Products
+Downloads
+Accessories
+Related Products
+Where to Buy
+Key Features
+Future Proof GEO/MEO/LEO
+The v100NX is designed with accurate satellite tracking performance with our proven tracking algorithm that covers GEO, MEO, and LEO constellations.
+Quick and Easy Ku- to Ka-band Conversion
+The v100NX can be easily converted from Ku- to Ka-band operation by changing the center-mounted RF assembly.
+Higher RF Performance
+The v100NX is easily upgradeable to a high power BUC or transceiver system enabling higher throughput.
+AptusNX
+New integrated management and control software AptusNX provides a responsive web user interface, intelligent antenna diagnosis and reporting for efficient and preventative maintenance.
+Future Proof Design
+Ku-band high power upgradeable
+Ka-band convertible
+GX service upgradeable
+NGSO tracking performance
+Enhanced AptusNX
+Installation wizard provides step by step commissioning
+Accurate and fully automated diagnosis
+Enhanced remote monitoring and control
+User friendly dashboard
+Compare Products
+Category
+v100NX Ku
+v100NX Ka
+v100NX Ka XCVR
+v100NX Ku
+v100NX Ka
+v100NX Ka XCVR
+v100NX Ku
+v100NX Ka
+v100NX Ka XCVR
+Radome Dimension (HxD)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+145.8x137.9 cm (57.4x54.3 inch)
+Reflector Diameter
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+105 cm (41.3 inch)
+Antenna Weight
+113 kg/ 249 lbs
+113 kg / 249 lbs
+110 kg / 242 lbs
+113 kg/ 249 lbs
+113 kg / 249 lbs
+110 kg / 242 lbs
+113 kg/ 249 lbs
+113 kg / 249 lbs
+110 kg / 242 lbs
+TX Frequency
+13.75~14.5 GHz Ku-band
+29.0~30.0 GHz Ka-band
+27.5~30.0 GHz Ka-band
+13.75~14.5 GHz Ku-band
+29.0~30.0 GHz Ka-band
+27.5~30.0 GHz Ka-band
+13.75~14.5 GHz Ku-band
+29.0~30.0 GHz Ka-band
+27.5~30.0 GHz Ka-band
+RX Frequency
+10.7~12.75 GHz Ku-band
+19.2~20.2 GHz Ka-band
+17.7~20.2 GHz Ka-Band
+10.7~12.75 GHz Ku-band
+19.2~20.2 GHz Ka-band
+17.7~20.2 GHz Ka-Band
+10.7~12.75 GHz Ku-band
+19.2~20.2 GHz Ka-band
+17.7~20.2 GHz Ka-Band
+TX Gain
+42.0 dBi @ 14.25 GHz (excl. radome)
+48.2 dBi @ 29.5 GHz (excl. radome)
+48.0 dBi @ 29.0 GHz (excl. radome)
+42.0 dBi @ 14.25 GHz (excl. radome)
+48.2 dBi @ 29.5 GHz (excl. radome)
+48.0 dBi @ 29.0 GHz (excl. radome)
+42.0 dBi @ 14.25 GHz (excl. radome)
+48.2 dBi @ 29.5 GHz (excl. radome)
+48.0 dBi @ 29.0 GHz (excl. radome)
+RX Gain
+40.7 dBi @ 11.7 GHz (excl.radome)
+44.5 dBi @ 19.7 GHz (excl. radome)
+44.3 dBi @ 19.0 Ghz (excl. radome)
+40.7 dBi @ 11.7 GHz (excl.radome)
+44.5 dBi @ 19.7 GHz (excl. radome)
+44.3 dBi @ 19.0 Ghz (excl. radome)
+40.7 dBi @ 11.7 GHz (excl.radome)
+44.5 dBi @ 19.7 GHz (excl. radome)
+44.3 dBi @ 19.0 Ghz (excl. radome)
+G/T
+20.0 dB/K (min.)
+20.1 dB/K
+19.6 dB/K
+20.0 dB/K (min.)
+20.1 dB/K
+19.6 dB/K
+20.0 dB/K (min.)
+20.1 dB/K
+19.6 dB/K
+Downloads
+v100NX
+Datasheet
+Download Latest
+v100NX
+Chinese Datasheet
+Download Latest
+v100NX Ka
+Datasheet
+Download Latest
+v100NX Ka XCVR
+Datasheet
+Download Latest
+v100NX
+Image library
+Download Latest
+Accessories
+Ka-band Upgrade Kit
+Ka-band conversion kits allow simple band conversion on NX series.
+Learn More
+Related Products
+View all Products
+v85NX
+Explore Product
+v130NX
+Explore Product
+v150NX
+Explore Product
+v45C
+Explore Product
+v60E
+Explore Product
+v60Ka 2
+Explore Product
+Iridium Certus C700
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

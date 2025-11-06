@@ -1,0 +1,24 @@
+Display name:		ONG, Daven
+Recipient display name:	ONG, Daven
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=656721793cf44aa99e614204668da6b9-Daven Ong
+Address type:		EX
+Recipient type:		To
+
+Display name:		ONG, Sharon
+Recipient display name:	ONG, Sharon
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5e765def580f4387a14446fbd51f736f-Sharon Ong
+Address type:		EX
+Recipient type:		To
+
+Display name:		HA, Thi
+Recipient display name:	HA, Thi
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=34128a51ea7e4d0b95fc2711f7cad98f-Thi Ha
+Address type:		EX
+Recipient type:		To
+
+Display name:		LEE, Kong-Weng
+Recipient display name:	LEE, Kong-Weng
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7f92d07bec3743e7a15642afeb49fff2-Lee Kong We
+Address type:		EX
+Recipient type:		To
+

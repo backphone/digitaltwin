@@ -1,0 +1,20 @@
+ 
+Forti manager
+Forti analyzer
+ 
+ 
+Forti manager
+- device manager
+                - device groups: up error: means UTM is synced and connected to forti manager on shore. Otherwise, it means UTM is not connected, but it's still running on board; "config status": this means the config matches, not whether it's online; "policy package" : normally 1 customer 1 package
+ 
+To check on the UTM
+ 
+variable mapping: to check if the IPs match, especially for new deployments. Blank = take the default value
+ 
+ 
+Policy & Objects
+                - Policy packages (to view the submenu, need to go to tools, to turn it on)
+                
+                - firewall virtual: rules 1-10 are marlink default, can't be changed; LAN 1 is physical port, and vXC1 is virtual port; "security profiles" does additional checks; No. 9 is configure on cyberguard portal
+                questions: no need 2 rules? just outgoing/incoming
+ 

@@ -1,0 +1,28 @@
+SELECT 
+    problemID,
+    Indatetime,
+    createddatetime,
+    createdby,
+    createdbyname,
+    CEILING(CAST(DATEDIFF(MINUTE, Indatetime, createddatetime) AS FLOAT) / 60 * 10) / 10 AS time_difference_hours,
+    CASE 
+        WHEN DATEPART(MINUTE, Indatetime) >= 30 THEN DATEPART(HOUR, Indatetime) + 1
+        ELSE DATEPART(HOUR, Indatetime)
+    END AS rounded_hour,
+    CASE 
+        WHEN CEILING(CAST(DATEDIFF(MINUTE, Indatetime, createddatetime) AS FLOAT) / 60 * 10) / 10 > 1 THEN 'Breach'
+        ELSE 'In SLA'
+    END AS SLA_Flag
+FROM 
+    viewProblem
+WHERE 
+    TRY_CAST(GbmCompanyContext AS INT) = 828
+    AND createddatetime >= '2024-10-01' 
+    AND createddatetime < '2024-11-01'
+    AND createdby IN (
+        16530, 11339, 2748, 1171, 1938, 2389, 10733, 2382, 4787, 4783, 
+        4332, 19895, 19995, 19885, 19884, 2864, 15760, 4597, 15568, 
+        17104, 11614, 1181, 20908, 1182, 1715, 464, 11236, 1944, 20384, 
+        16537, 17972, 1623, 2433, 15657, 1356, 3238, 19888, 1794, 
+        20227, 20062, 19894, 15411, 2454, 19827, 21972, 21536
+    );

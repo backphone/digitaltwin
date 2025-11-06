@@ -1,0 +1,6 @@
+Display name:		Team RCS Singapore
+Recipient display name:	Team RCS Singapore
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=811357bd7bc947d9af3413345bc0376a-Team RCS Si
+Address type:		EX
+Recipient type:		To
+

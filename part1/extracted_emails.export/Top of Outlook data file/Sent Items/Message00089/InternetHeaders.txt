@@ -1,0 +1,25 @@
+From: "SI, Guanglin" <Guanglin.Si@marlink.com>
+Date: Wed, 11 Jun 2025 10:54:50 +0000
+Subject: SI, Guanglin left a comment in "Network Solution Design Service Process"
+Message-ID: CommentWord-4d5a8d7b-b737-4aad-bf8a-5d7fb2bdcd45-a720c6b5-3695-465b-af92-530cb224ee71-r0-SendEmail-UpdateActivity@odspnotify
+Sender: "SI, Guanglin" <Guanglin.Si@marlink.com>
+To: Coline.Potvin@marlink.com
+Reply-To: Guanglin.Si@marlink.com
+X-Crid: =?utf-8?q?4d5a8d7b-b737-4aad-bf8a-5d7fb2bdcd45-a720c6b5-3695-465b-af92-?=
+ =?utf-8?q?530cb224ee71-r0-SendEmail-UpdateActivity?=
+X-Tnid: e64eed3b-130b-4001-b50d-f867ed318682
+X-Usid: c4ba675a-2f72-47d5-92ce-23005ea1edd2
+Return-Path:
+X-TrustedPartner-TenantId: e64eed3b-130b-4001-b50d-f867ed318682
+X-TrustedPartner-OriginalUser: Guanglin.Si@marlink.com
+X-TrustedPartner-Scenario: CommentWord_NotifyUserUC
+X-TrustedPartner-CallerId: StayingAware
+MIME-Version: 1.0
+msip_labels: MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Enabled=true;
+ MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_SetDate=2025-06-11T10:54:50Z; MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Method=Standard;
+ MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_Name=Standard Not Encrypted;
+ MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_SiteId=e64eed3b-130b-4001-b50d-f867ed318682;
+ MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_ActionId=191af86e-ad8d-47e1-8949-9ac0ff1598c0;
+ MSIP_Label_049dbc74-13ad-4ea5-80a9-ed32155a34dd_ContentBits=0
+Content-Type: multipart/related; boundary="=-F0rUWpszCAYbuOP56A9ugA==";
+	type="text/html"

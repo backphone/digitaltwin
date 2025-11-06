@@ -1,0 +1,25 @@
+import pandas as pd
+import json
+
+def extract_body(text):
+    """Extracts the body of an email, skipping the first line if it looks like a subject."""
+    lines = text.strip().split('\n')
+    # 如果首行包含 subject/re/fwd/ticket，跳过首行
+    if lines and any(k in lines[0].lower() for k in ['subject:', 're:', 'fwd:', 'bsubject:', 'ticket', 'case']):
+        return '\n'.join(lines[1:]).strip()
+    return text.strip()
+
+df = pd.read_csv('data_cleaned.csv')
+with open('qa_pairs_bodyonly.jsonl', 'w', encoding='utf-8') as f:
+    for i, row in df.iterrows():
+        question = extract_body(str(row['CleanIncoming']))
+        answer = extract_body(str(row['CleanOutgoing']))
+        if not question or not answer:
+            continue
+        qa = {
+            "question": question,
+            "answer": answer
+        }
+        f.write(json.dumps(qa, ensure_ascii=False) + '\n')
+
+print("Q/A pairs (正文-only) generated to qa_pairs_bodyonly.jsonl")

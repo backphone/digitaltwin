@@ -1,0 +1,6 @@
+Display name:		LEE, Kong-Weng
+Recipient display name:	LEE, Kong-Weng
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7f92d07bec3743e7a15642afeb49fff2-Lee Kong We
+Address type:		EX
+Recipient type:		To
+

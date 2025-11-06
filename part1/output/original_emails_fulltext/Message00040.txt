@@ -1,0 +1,11 @@
+1. UTM case should go to CCTS
+2. networkchangelog : the requested change is chargable. for more info, you can contact KAM. Or, for self management, you can use P360
+3. CCTS position in SG
+4. Thursday/Friday this week will be PH in Dubai
+5. A new guy in Brat team, Lucas
+6. some guys forget to unassign themselves, we can work on those (update the operation doc)
+7. update existing mailgun, for the same outage, not creating a new one (update the operation doc)
+ 
+BR
+Guanglin
+ 

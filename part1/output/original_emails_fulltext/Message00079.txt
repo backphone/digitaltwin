@@ -1,0 +1,146 @@
+Hi,
+ 
+MNOC is already in contact with customer, and has sent instructions to vessel. 
+ 
+ 
+BR
+Guanglin
+ 
+From:
+ VESTBY, Lars <Lars.Vestby@marlink.com> 
+Sent:
+ Friday, June 13, 2025 2:56 AM
+To:
+ VISSER, Wilko <Wilko.Visser@marlink.com>; SI, Guanglin <Guanglin.Si@marlink.com>
+Cc:
+ HORVATH, Michal <michal.horvath@marlink.com>
+Subject:
+ FW: Marlink Ticketnot [1772280] - Safeen Prism- KU
+ 
+Hi
+Can You follow up on the progress on this one it is on MNOC
+Ref. escalation below.
+Anything that can be done?
+ 
+Br
+Lars
+ 
+From:
+ HARFOUCH, Roger <
+Roger.Harfouch@marlink.com
+> 
+Sent:
+ Thursday, June 12, 2025 8:15 PM
+To:
+ VESTBY, Lars <
+Lars.Vestby@marlink.com
+>
+Cc:
+ ZEROUALI, Badia <
+Badia.Zerouali@marlink.com
+>
+Subject:
+ FW: Marlink Ticketnot [1772280] - Safeen Prism- KU
+ 
+Lars, 
+ 
+One more on below – seems MNOC trying to contact the vessel, not sure if someone will be able to reply… can we drive a possible direct call to Captain, to drive straight forward troubleshooting, case is critical seems on this vessel as per escalation from operation team on shore
+ 
+Roger
+ 
+ 
+From:
+ 
+servicedesk=marlink.com@mg.marlink.com
+ <
+servicedesk=marlink.com@mg.marlink.com
+> 
+On Behalf Of 
+servicedesk@marlink.com
+Sent:
+ June 12, 2025 7:23 PM
+To:
+ 
+sandeep.varma@gfsmgmt.com
+; ServiceDesk <
+ServiceDesk@marlink.com
+>; ZEROUALI, Badia <
+Badia.Zerouali@marlink.com
+>; 
+pawan1802@yahoo.co.in
+Cc:
+ 
+julius.edward@globalfeeders.com
+; 
+sf.prism@gfsmgmt.com
+; 
+sreejesh.g@gfsmgmt.com
+; 
+abhiraj@gfsmgmt.com
+; 
+thoufeek.abdul@gfsmgmt.com
+; 
+servicedesk@globalfeeders.com
+; 
+vinod@gfsmgmt.com
+; HARFOUCH, Roger <
+Roger.Harfouch@marlink.com
+>
+Subject:
+ Marlink Ticket [1772280] - Safeen Prism- KU
+ 
+Ticket: #1772280
+Installation: Safeen Prism- KU - Intellian V100
+Customer: GFS SHIP MANAGEMENT FZE
+Action: Update
+Registered: {ts '2025-06-12 15:23:05'} UTC
+Category: Incident
+Reported by: Captain
+Description: VSAT is offline, no internet onboard
+State: - New ticket created - by Thales Trabbold on 24 Apr 2025
+--------------------------------------------------
+Dear Captain,
+We sincerely apologize, as it appears there was a miscommunication earlier.
+My colleague asked earlier to restart the antenna by turning antenna breaker off, can you please kindly verify if this has been done and if so, was the switch turned back on ?
+Additionally, could you advise whether the antenna performed the initialization process following the restart?
+  
+We kindly request that you measure the voltage on the RX ACU output (Rx path), and check all related connectors for any signs of damage or irregularities along the path.
+Awaiting your kind reply.
+ 
+Best regards,
+Boris Benyik 
+Support Engineer
+Marlink Maritime Customer Support
+Phone: +33 (0)1 70 48 53 16 (EMEA), +1 (310) 616-5562 (US), +1 844 208 0718 (US toll free), +65 31 58 3638 (Asia Pacific), +81 50 5050 7990 (Japan), 8000 3111270 (UAE), +55 21 3900 7754 (Brazil)
+Email: 
+servicedesk@marlink.com
+http://www.marlink.com
+Re: Marlink Ticket [1772280] - Safeen Prism- KU
+Imported:2025-06-12 15:07:36.287 Sent:Thu, 12 Jun 2025 15:06:39 GMT MessageID:11804928
+From: 
+sandeep.varma@gfsmgmt.com
+To: 
+ServiceDesk@marlink.com;Badia.Zerouali@marlink.com;pawan1802@yahoo.co.in
+;
+CC: 
+julius.edward@globalfeeders.com;sf.prism@gfsmgmt.com;sreejesh.g@gfsmgmt.com;abhiraj@gfsmgmt.com;thoufeek.abdul@gfsmgmt.com;servicedesk@globalfeeders.com;vinod@gfsmgmt.com;Roger.Harfouch@marlink.com
+;
+image001.png
+ | 
+image002.jpg
+ |
+Dear Badia / Boris ,
+ 
+Good day,
+ 
+Please note further to below mail we are still waiting for a revert  from the support team regarding the status . We are not sure whether the issue has been resolved or not since we are unable to communicate with the vessel. We had asked for the service engineer to start communicating in a common platform (Whatsapp) so that we can see and understand the progress and provide support as required.
+Vessel will be sailing from Jeddah soon and am not sure if issue can be rectified by the support team prior vessel departure. Vessel will be proceeding to Salalah , tentative ETA 17 June. 
+ 
+Best regards,
+Capt Sandeep Varma 
+Get 
+Outlook for Android
+ 
+**** CUSTOMER SURVEY ****
+We are continuously seeking opportunities to enhance our level of support and service to you. Based on feedback from our customers, we can act appropriately and implement adequate improvements. We invite you to give feedback through our customer survey, for which you will receive a separate invitation. Please be invited to click on the link in this invitation email and open the online survey provided by Qualtrics, a market research agency, Marlink has engaged to execute an independent research. The email will be transmitted from 
+noreply@qemailserver.com

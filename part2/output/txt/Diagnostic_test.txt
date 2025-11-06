@@ -1,0 +1,16 @@
+
+1. Press Menu (M) key on ACU front panel;
+2. Press LEFT key to move cursor to YES and press OK key to enter setup mode.
+3. Select "ANTENNA" menu, press OK key
+4. Press arrow keys to look for "DIAGONOSIS" (it's not on display initially) and press OK key to enter DIAGONOSIS menu
+5. Press DOWN arrow key to select "FULL TEST" option and press OK key to execute it
+
+Antenna will then go through a sequence of 15 tests. You will see on ACU display:
+
+Solid Dot: means test passed
+-: means test is not applicable and skipped
+? : means under progress
+Numbers: means a particular test has failed. For example, 2 means test number 2 failed
+
+Please wait for all tests to complete, and let us know the outcome of diagnostic test.
+

@@ -1,0 +1,74 @@
+Intellian X130D PM - Mil-Spec VSAT | Intelliantech
+X130D PM
+The world’s first and only 1.2 m class Ku/Ka electronically switchable, multi-orbit VSAT terminal designed for Military application
+The Intellian X130D PM electronically switches between Ku-band and Ka-band operation, dual-pol, allowing the choice of many services, and providing reliable connectivity even in the harshest sea environments.
+X130D PM
+Key Features
+Specifications
+Downloads
+Related Products
+Where to Buy
+Key Features
+GEO/MEO/LEO tracking capability
+The X130D PM can operate in all the GEO Ku/Ka services supporting full commercial 2.5 GHz wide Ka-band coverage, also future proof, providing optimal performance on not only GSO but also on both existing and new NGSO constellations. The X130D PM is designed to be ready for all GEO, MEO, and LEO constellations.
+High power upgradable
+The X130D PM provides a wide range of options in terms of BUC power. The Ku-band supporting up to 40W BUC, and Ka-band 20W XCVR. The high power option enables much higher throughput allowing global high bandwidth capability.
+Fiber optic solution
+Fiber optic option allows minimal signal loss regardless of cable length. It enables greater bandwidth capability compared to a coaxial cable connection between the ADU and the BDU. The fiber optic solution is ideal for high throughput installations and allows for quicker and easier installations.
+Military grade terminal
+The X130D PM is specially designed for use in military applications and complies with required specifications, including FCC, ETSI, MIL-STD-810H and MIL-STD-461G. The terminal is able to operate and survive in the harshest sea environment, providing reliable communications during military operations.
+Compact dual-band, dual-pol solution
+Uses Ka-band for high volume/traffic and Ku-band for coverage gaps:
+- electronically seamless switch between services to maximize bandwidth and network access
+- Uninterrupted by bad weather using Ku-band
+Compact form factor with single center feed design and Ka-band transceiver integration for simpler RF design
+Electronically switch function for Ku-Ka band switching and co & cross polarization switching with electrical RF switch
+Future proof: multi-orbit tracking
+Support on any commercial Ku-band and Ka-band operation provided predominantly by GEO satellites
+Dual antenna installation support for NGSO make-before-break HOs
+Supports wide Ka-band feed (2.5 GHz bandwidth) covering the MEO constellation
+GEO & MEO tracking system (program tracking and conical scanning)
+Embedded antenna & modem mediator ACU
+Embedded antenna mediator: easy dual-antenna setup for blockage mitigation and seamless connection
+Embedded modem mediator: connection up to 2 GSO modems
+Specifications
+Mil-Spec VSAT
+Radome Dimension
+168.1 x 172.4 cm (66.2 x 67.9 inch)
+Reflector Diameter
+125 cm (49.2 inch)
+Antenna Weight
+180 kg / 396.8 lbs
+TX Frequency
+(Ku-band) 13.75~14.5 GHz, (Ka-band) 27.5~30.0 GHz
+RX Frequency
+(Ku-band) 10.7~12.75 GHz, (Ka-band) 17.7~20.2 GHz
+TX Gain (excl. radome)
+(Ku-band) 42.7 dBi @ 14.0 GHz, (Ka-band) 48.5 dBi @ 28.8 GHz
+RX Gain (excl. radome)
+(Ku-band) 41.7 dBi @ 11.85 GHz, (Ka-band) 45.5 dBi @ 19.0 GHz
+G/T
+(Ku-band) >20.4 dB/K, (Ka-band) >21.0 dB/K
+Mil-Spec VSAT
+Downloads
+X130D PM
+Datasheet
+Download Latest
+X130D PM
+Image library
+Download Latest
+Our Mil-Spec specialists are here to help
+Need Military specialized satellite communications products?
+Our knowledgeable team can help you find the best connectivity solution for your business.
+Send Inquiry
+Related Products
+View all Products
+v100PM
+Explore Product
+LP100
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

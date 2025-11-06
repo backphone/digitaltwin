@@ -1,0 +1,171 @@
+Intellian Innovation - feature-rich, future-proof satellite communications and TV solutions | Intelliantech
+Networks
+Hybrid
+Connectivity
+Networks
+Overview
+The Future is Hybrid Connectivity
+LEO
+MEO
+GEO
+HEO
+Multi-band
+Different solutions for different needs
+Overview
+As the crucial link between satellite networks and millions of people on Earth, Intellian’s leading technology and antennas empower global connectivity across oceans and continents, organizations, and communities.
+Our antennas are at the heart of the satellite communication network. They facilitate seamless data transmission, ensuring high-speed internet, television broadcasting, and secure communications for maritime, land, and mobility applications. Intellian's commitment to excellence means our antennas are built to withstand the most challenging environments, providing uninterrupted connectivity regardless of location.
+How it all works and the role of Intellian in empowering connectivity.
+SATELLITES
+Communication and TV broadcast satellites in space are owned and managed by network operators, to provide services back on earth. Satellite constellations are deployed in either low Earth orbit (LEO approx. 500 to 2,000 km high), medium Earth orbit (MEO approx. 2,000 to 35,785 km high), geostationary (GEO 35,786 km) or highly elliptical orbit (HEO – approx. 40,000 km at apogee).
+The higher the orbit, the smaller the number of satellites required for global coverage.
+Satellite networks utilize different frequency bands of spectrum. The most commonly used are L-Band (1-2 GHz), C-Band (4-8 GHz), X-Band (8-12 GHz), Ku-Band (12-18 GHz) and Ka-Band (26.5-40 GHz). Each have their pros and cons, with network operators deciding on which frequency their network will utilize based on the customer needs.
+GROUND STATIONS
+Ground stations are large fixed antennas, that transmit signals to the satellites, which then amplify and redirect these signals back to Intellian user terminals located on land or sea.
+For a global network, ground stations are built around the world.
+LEO constellations need more ground stations than MEO or GEO because:
+Their proximity to Earth results in a smaller coverage area per satellite.
+They move rapidly across the sky, requiring frequent handovers between satellites and ground stations to maintain continuous coverage.
+LEO networks have large constellations of satellites, which in turn demands a denser network of ground stations to track and communicate with the satellites as they pass overhead.
+INTELLIAN TERMINALS
+Intellian is a global technology partner to more network operators than any other manufacturer: Eutelsat OneWeb, SES, Inmarsat, Iridium, Viasat and Telenor.
+Intellian's hardware enables satellite network connectivity. Hardware includes antennas, terminals, radomes, parabolic and flat panels, and below deck units.
+Manufactured by Intellian, our products are designed to be installed by customers on a vessel, a building or vehicle to connect to the satellite to empower internet services.
+The outdoor unit requires line of sight to the satellite, and an indoor or below deck unit which often houses the satellite modem and associated electronics, processing signals received from the outdoor unit, enables connectivity for end-users through terrestrial networks or devices.
+The Future is Hybrid Connectivity
+In today's rapidly evolving satcom landscape, hybrid connectivity has become essential. Intellian leads the way with the most diverse range of multi-orbit, multi-band products to help deliver unparalleled reliability and performance, allowing customers to leverage the strengths of various satellite networks anywhere in the world.
+Enhanced reliability through redundant connections
+Optimized performance by selecting the best available network signal or pricing
+Increased coverage by accessing multiple satellite constellations
+Improved flexibility to meet diverse communication needs
+Ku-band
+EUTELSAT ONEWEB SERIES
+Flat Panel Series:
+OW11FM | OW11FL | OW11FV | OW10HM | OW10HL |  OW10HV
+Parabolic Series:
+OW50M | OW50M H | OW50SL | OW70M | OW70M H | OW70L P-S | OW70L P-P | OW70R | OW130L
+Discover More
+L-Band
+IRIDIUM CERTUS SERIES
+C200M | C200L | C700 | C700 Winterized
+Discover More
+Previous
+Next
+EUTELSAT ONEWEB SERIES
+IRIDIUM CERTUS SERIES
+2.4M SERIES
+v240M 2 | v240MT 2 (kit)
+Discover More
+BLOCK SERIES
+ARC M4 Block 1 | v130NX PM Dual Ka
+Discover More
+NX SERIES
+v85NX Ka (kit) | v130NX Ka (kit)
+Discover More
+SES mPOWER SERIES
+mP85NX | mP130NX | mP240MT | mP85L | mP130L | mP240L
+Discover More
+XEO SERIES
+X100D | X130D | X130D PM | X150D
+Discover More
+Previous
+Next
+2.4M SERIES
+BLOCK SERIES
+NX SERIES
+SES mPOWER SERIES
+XEO SERIES
+2.4M SERIES
+v240C | v240K | v240M 2 | v240MT 2
+Discover More
+BLOCK SERIES
+ARC M4 Block 1 | v130NX PM Dual Ka
+Government
+E-SERIES
+v60E | v80E | v100E
+Discover More
+INMARSAT FB SERIES
+FLEET ONE | FB250 | FB500
+Discover More
+INMARSAT GX SERIES
+GX60NX 2 | GX60NX 2 HP | GX60NX 2 ADS | GX60NX 2 ADS HP | GX100NX 2 | GX100NX 2 HP | GX100NX 2 ADS | GX100NX 2 ADS HP
+Discover More
+NX SERIES
+v85NX | v100NX | v130NX | v150NX | v85NX Ka | v100NX Ka | v130NX Ka | v150NX Ka
+Discover More
+XEO SERIES
+X100D | X130D | X130D PM | X150D
+Discover More
+Previous
+Next
+2.4M SERIES
+BLOCK SERIES
+E-SERIES
+INMARSAT FB SERIES
+INMARSAT GX SERIES
+NX SERIES
+XEO SERIES
+BLOCK SERIES
+ARC M4 Block 1 | v130NX PM Dual Ka
+Discover More
+INMARSAT GX SERIES
+GX60NX 2 | GX60NX 2 HP | GX60NX 2 ADS | GX60NX 2 ADS HP | GX100NX 2 | GX100NX 2 HP | GX100NX 2 ADS | GX100NX 2 ADS HP
+Discover More
+Previous
+Next
+BLOCK SERIES
+INMARSAT GX SERIES
+Key features
+C-BAND
+2.4M Series:
+v240C
+v240MT 2
+v240M 2
+Key features
+L-BAND
+Inmarsat FB Series:
+FLEET ONE
+FB250
+FB500
+Iridium Certus Series:
+C200M
+C200L
+C700
+C700 Winterized
+Key features
+KA-BAND
+2.4M Series
+Inmarsat GX Series
+Block Series
+NX Series
+SES mPower Series
+XEO Series
+Key features
+KU-BAND
+2.4M Series
+Eutelsat OneWeb Series
+E-Series
+NX Series
+XEO Series
+Key features
+X-BAND
+Block Series:
+ARC M4 Block 1
+Key features
+MIL-KA
+Block Series:
+ARC M4 Block 1
+v130NX PM Dual Ka (Block 0)
+Different solutions for different needs
+We are pioneering the future of satellite communication with our state-of-the-art antenna solutions. All our antennas are designed in one of two ways – an ‘open network’ or a ‘closed network’ design.
+An open network antenna design offers flexibility and interoperability across multiple satellite networks and operators. These systems are built to support a variety of configurations and frequencies, making them versatile and widely applicable.
+2.4m Series
+E Series
+Government
+NX Series
+XEO Series
+A closed network antenna design is tailored for use within a specific, often proprietary network. These systems are typically optimized for a single operator or service provider, with tight integration and specific configuration settings that align with the operator’s network requirements.
+We collaborate closely with more network operators than any other manufacturer to provide seamless, reliable, and high-speed connectivity for their customers across the globe.
+Eutelsat OneWeb (OW Series)
+Iridium (Certus Series)
+Inmarsat (GX Series and FleetBroadband Series)
+SES (mPOWER Series)

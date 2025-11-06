@@ -1,0 +1,25 @@
+How to manage XChange Templates
+How to manage box user self-registration
+How to create a box user
+How to edit an existing box user
+How to manage an existing box user
+How to edit credit request settings
+How to manage box user credit
+How to create a box user group
+How to manage a box user group
+How to manage DNS filters
+How to assign a price matrix template
+How to assign a price matrix template to multiple boxes
+How to edit a price matrix template
+How to manage an existing price matrix
+How to create a machine account
+How to manage telephony settings
+How to relocate a box
+How to manage a remote task
+How to manage Interfaces
+How to create a VLAN
+How to create user access
+How to update an XChange Box
+How to edit user group permissions on LANs and VLANs
+How to assign a network to an interface (Port)
+How to delete a LAN

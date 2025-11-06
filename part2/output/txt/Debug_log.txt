@@ -1,0 +1,20 @@
+ 
+Connect Marlink laptop to Cisco router port FE WAN 4. Start the laptop, on the 
+desktop find Intellian PC Controller and ran it.
+1.	Click Communication Information on top left corner
+2.	Select Network Connection on the right side of the application
+3.	Type in IP address 10.224.44.162
+4.	Click Connect
+5.	Username: intellian
+6.	Password: 12345678
+7.	Click Monitor for Engineer on the top left corner
+8.	Click DEBUG button
+9.	Click START SAVE button and select folder, where debug log will be saved
+10.	Go to Diagnosis, Search Parameter & Sensor Adjust on the top left corner
+11.	Click SETUP button on the left side
+12.	From the Diagnosis select LNB/NBD and click Diagnosis button
+13.	If the dot turns blue, test passed. If it turns red, test failed.
+14.	After test go back to Monitor for Engineer
+15.	Click STOP SAVE button and then DEBUG.
+16.	Please send us debug files: two text files located in folder you selected 
+in step 

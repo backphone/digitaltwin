@@ -1,0 +1,41 @@
+Intellian’s compact, lightweight and affordable v60E antenna proves its value at sea | Intelliantech
+Back to listing
+Case Study
+Intellian’s compact, lightweight and affordable v60E antenna proves its value at sea.
+Date
+01 September 2020
+Location
+Global - Commercial Fishing
+Commercial Fishing - v60E
+Customer: Syntelix
+Market Sector: Fishing
+Required Features: Compact size, affordable, outstanding performance
+In the world of maritime satellite communications, the principles of supply and demand are more nuanced than might be consider at first glance. Hardware and software manufacturers need to stay closer to their customers and partners to be able to identify and properly address the requirements of a specific market. A recent demonstration on how particular demands of certain maritime communities can be precisely met with an appropriate new product was the case of the fast-growing international niche satellite communication solutions provider, Syntelix and its desire to serve fishing vessels with good coverage and outstanding speeds.
+Challenges
+Reliable but economical VSAT terminal development
+Compact, light-weight and affordable antenna with outstanding performance for smaller vessel operators
+Syntelix has rapidly made its name as a state-of-the-art supplier delivering fully integrated, end-to-end satellite technology. The firm’s dedicated maritime arm, USAIL, is primarily focused on providing satellite communication solutions for clients in the fishing industry and owners of mid-sized yachts, but its packages also promise unlimited internet access at sea for vessels including regional merchant ships, ferries, tugs and patrol boats.
+Syntelix is one of the latest companies to become an Intellian partner and is known for excellence in Engineering and Service delivery.
+The challenge for Intellian was to produce an antenna that, while keeping essential features, kept pricing within the budget of smaller-vessel operators who normally wouldn’t consider a VSAT system and match the outstanding RF performance of the higher-cost 65cm antennas within the Intellian portfolio.
+Solutions
+Intellian v60E terminals with AptusNX
+Ease of integration across all competitive modem brands
+Given the predominance of small and ‘mid-market’ vessels among its customer base, Syntelix/USAIL had been on the lookout for a lightweight, affordable, dependable and well-supported 65cm VSAT antenna system to serve their client base. Having successfully deployed Intellian VSAT and TVRO antennas before, the company was quick to respond to the news of Intellian’s new v60E Ku-band VSAT, becoming the first provider in Europe to conduct sea trials with the antenna.
+The v60E’s system weighs 42kg which is 18kg lighter than existing 65cm class VSAT antennas such as our v60G or v65. The lighter weight makes it suitable for smaller vessels and boats, as well as reducing freight and installation costs, lowering the total cost of ownership.
+In comparison with other 65cm antenna systems, the v60E’s RF design delivers higher levels of performance, with in-house designed reflector, feeder and RF components. Intellian design and manufacture highly efficient and affordable parabolic reflectors. In addition, world-class RF component design experts can provide the most powerful and efficient antennas ever.
+Benefits
+Able to provide cost effective end-to-end satellite communication solutions to Syntelix’s customers in the fishing industry and owners of mid-sized yachts delivering Internet services to ships that were not served before with broadband connectivity
+Able to integrate the system to Syntelix’s network with Intellian’s engineering, delivery and support teams
+To the satisfaction of all relevant parties, the v60E delivered excellent tracking and performance on the sea trials. Thanks to AptusNX, the installation and commission was simple and provided very robust monitoring capabilities on the dashboard during testing. The ease of integration with the iDirect Modem family and the imbedded management interface was a substantial value addition to the customer.
+Syntelix was able to integrate the system to their network thanks to the constant engineering engagement from Intellian and the support from the Solutions team. This has been highlighted as a key differentiator of Intellian business support, customer-facing philosophy, and partner engagement.
+Syntelix also encouraged Intellian to flip the Dual Modem Mediator functionality so that one system can enable two modems in the same band to automatically switch between two separate networks. “This solution can act as a back-up or a booster,” Carlos Derqui, co-founder and CEO of Syntelix, “giving users higher reliability plus all the benefits of regional coverage. It’s another indication that Intellian shares our business-friendly, customer-facing philosophy. From the beginning, the company has helped us to solve any problems we had, and the staff are always ready and willing to assist. We identified this quality very quickly: we’re a small company, and the human factor is very important.”
+Solution Partner:
+Syntelix
+Downloads
+PDF version
+Intellian Case Study Fishing Syntelix
+Download Latest
+Request Information
+Contact Us
+For further detailed information on the Intellian products and solutions shown here, please submit your request using this convenient form.
+Find out more

@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 17, 2025 00:54:18.822694800 UTC
+Delivery time:				Jun 17, 2025 00:54:00.000000000 UTC
+Creation time:				Jun 17, 2025 00:54:17.842793300 UTC
+Modification time:			Jun 17, 2025 00:54:22.798768500 UTC
+Size:					107698
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Level 2 Resource Required in Singapore 
+Subject:				RE: Level 2 Resource Required in Singapore 
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

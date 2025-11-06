@@ -1,0 +1,64 @@
+Intellian Land | Intelliantech
+Land Mobility
+CONNECT
+ACROSS CONTINENTS
+Land Mobility
+Overview
+Who we serve
+Benefits
+Recommended Solutions
+Related Products
+Where to Buy
+Overview
+Businesses and governments around the world rely on access to data at all times and in all locations. Satellite communication is the solution.
+Buses, cars, trucks, trains, first responder vehicles, government vehicles, and agricultural equipment are relying on greater connectivity capabilities than ever before. The speed and volume of data being transferred by these vehicles are increasing across terrestrial, wireless, and now satellite networks. The proliferation of 4G LTE and the upcoming expansion of 5G technology are driving a broader connectivity ecosystem.
+Combined with the advances in satellite ground infrastructure, the ability to have satellite terminals that can meet land mobility requirements is opening up new opportunities for service providers and creating new solutions for those who rely on connectivity while on the move.
+Trucks
+Satellite communications enable truckers to stay connected in remote areas, providing real-time tracking, fleet management, and emergency services. It ensures uninterrupted communication, enhancing safety and operational efficiency for long-haul trucking.
+Contact us
+Heavy Machinery
+Satellite communications enable real-time monitoring, remote data transfer, and preventative maintenance for heavy machinery in forestry, construction and agriculture, ensuring operational efficiency and connectivity in remote locations.
+Contact us
+Buses
+Buses and coaches can enjoy reliable connectivity for real-time tracking, passenger Wi-Fi, and fleet management. Satcom ensures uninterrupted service in remote areas, enhancing safety, operational efficiency, and passenger experience during travel.
+Contact us
+First Responders
+Our antennas empower first responder vehicles with seamless connectivity in remote areas, enabling real-time data, video, and voice communication. This enhances coordination, situational awareness, and rapid response for ambulances, fire trucks and police services.
+Contact us
+Government
+We can equip government vehicles with robust, reliable satellite connectivity for military operations, civil services, search and rescue missions, and head of state transport, ensuring real-time communication and enhanced mission effectiveness.
+Contact us
+Previous
+Next
+Trucks
+Heavy Machinery
+Buses
+First Responders
+Government
+Benefits
+Optimized LEO Performance
+Intellian’s innovative Flat Panel Series delivers the maximum throughput allowed on Eutelsat OneWeb's LEO network. Offering the highest link margin, performance is guaranteed with the OW11FV even over scan and at the lowest elevation angles, ensuring are met the highest demands of land mobile customers. The OW10HV's compact form factor making it the ideal connectivity solution for use cases that are SWaP constrained.
+Seamless Connectivity
+The OW11FV features Intellian’s advanced tracking technology, extended scan range, and blockage mitigation that improves connection reliability and availability even while in motion. The OW10HV features Intellian’s advanced tracking technology improving connection reliability and availability, even on rough roads and at the lowest elevation angles encountered in equatorial regions.
+Harsh Environment Performance
+Be it driving through death valley or across ice roads of the Arctic, vehicles go through harsh environments. The OW11FV and OW10HV is designed to ensure dependable performance in even the most demanding environments, operating in extremely low temperatures down to -40 °C and up to +55 °C (-40 °F to +131 °F).
+Simplified Installation
+The light design and optimal form factor of the OW11FV and OW10HV enables easy installation. Paired with Intellian’s Mobiile mount adapter kit, the UT is easily installed on vehicles of any size. Installation is further simplified through use of combined power and data over a single coaxial cable connecting the outdoor and CNX unit.
+Recommended Solutions
+Flat Panel Series
+Intellian’s Flat Panel Series is a suite of Enterprise and Compact user terminals that deliver exceptional performance in sleek, small-footprint, and lightweight form factors. Designed for Land Fixed, Land Mobile, Maritime and Government markets, they’re a game-changer for customers globally requiring low profile, easy installation, high performance, and high availability connectivity.
+Learn more here
+Why Satellite Connectivity Matters
+In rural areas, where building terrestrial infrastructure can be challenging and expensive, satellite connectivity emerges as a reliable and cost-effective solution. Satellite technology's wide coverage area ensures that mobility markets in even the most remote locations can enjoy continuous and robust connectivity, unleashing opportunities and improving quality of life.
+Learn more here
+Related Products
+View all Products
+OW10HV (Land mobility)
+Explore Product
+OW11FV (Land Mobility)
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

@@ -1,0 +1,6 @@
+Display name:		Team RCS Global
+Recipient display name:	Team RCS Global
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=675fbf80e3314189b2b4e9d4a465ff82-RCS Global2
+Address type:		EX
+Recipient type:		To
+

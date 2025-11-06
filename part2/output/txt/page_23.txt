@@ -1,0 +1,48 @@
+XEO Series - dual-band VSAT solution | Intelliantech
+XEO Series
+Electronically switchable
+and multi-orbit
+XEO Series
+Overview
+Product Range
+Key Features
+Market Sectors
+Product Portfolio
+Overview
+Dual-band electronically switching Ka to Ku maritime terminals
+The XEO Series is a dual-band VSAT solution that electronically switches between Ku-band and Ka-band operation with a single press of a button. It enables customers with the highest performance, versatility, and high bandwidth demands access to a wide range of service options.
+Product Range
+The world's first commercially available Ka/Ku-band electronically switchable, multi-orbit antennas
+Key Features
+Ku/Ka electronically switching dual-band, multi-orbit VSAT
+The dual-band capability of the XEO Series will ensure less redundancies and more resilience, enabling connectivity to any compatible satellite network service.
+Compact dual-band, dual-pol solution
+Uses Ka-band for high volume/traffic and Ku-band for coverage gaps:
+- Seamlessly electronically switch between services to maximize bandwidth and network access
+- Uninterrupted by bad weather using Ku-band
+Compact form factor with single center feed design and Ka-band transceiver integration for simpler RF design
+Electronic switching function for Ku-Ka band switching and co & cross polarization switching with electrical RF switch
+Future proof: multi-orbit tracking
+Support on any commercial Ku-band and Ka-band operation provided predominantly by GEO satellites
+Dual antenna installation support for NGSO make-before-break HOs
+Supports wide Ka-band feed (2.5 GHz bandwidth) covering the MEO constellation
+GEO & MEO tracking system (program tracking and conical scanning)
+Market Sectors
+Markets We Support
+Dual-band VSAT solution that electronically switches between Ku-band and Ka-band operation with a single press of a button.
+Explore our Markets
+Product Portfolio
+View all Products
+X100D
+Explore Product
+X130D
+Explore Product
+X130D PM
+Explore Product
+X150D
+Explore Product
+View all Products
+We’re here to help
+Need satellite communications for your vessel?
+Our knowledgeable team can help you find the best connectivity solution for your business.
+Find Out More

@@ -1,0 +1,46 @@
+Intellian Satellite Communications Accessories | Intelliantech
+Satellite Communication Accessories
+Accessories
+Satellite Communication Accessories
+Ka-Band Conversion Kit
+VSAT Fiber Link Module
+VSAT Spare Parts Kits
+Downloads
+Related Products
+Ka-Band Conversion Kit
+Intellian NX Series antenna systems can be field converted from Ku- to Ka-band operation by exchanging the center-mounted RF and Feed assembly using an available conversion kit.
+The Ka-band Conversion Kit enables shipboard personnel in the field to swap out the necessary components without removing the radome, all in as little as 20 minutes for the v150NX and smaller.
+Compatibility : v85NX, v100NX, v130NX, v150NX
+VSAT Fiber Link Module
+A single fiber connection between the antenna and below deck unit combines the TX and RX signals into one high-speed fiber optic cable. The advantages of fiber optic cable are that it is smaller than coaxial cable, more flexible, and provides zero signal loss up to 2km, making installation much easier.
+Compatibility : v100, v100GX, v100Ka, GX100, v130G, v240
+VSAT Spare Parts Kits
+Intellian supplies Spare Parts Kits complete with replacement motors, belts, and other critical antenna components to ensure that technicians have what they need on hand. All kits come neatly packed in a custom rugged case. Each part is individually wrapped and labeled with a part number and description.
+Compatibility : v-Series, NX series
+Downloads
+Fiber Link Module
+Data sheet
+Download Latest
+Related Products
+View all Products
+v85NX
+Explore Product
+v100NX
+Explore Product
+v130NX
+Explore Product
+v150NX
+Explore Product
+v60E
+Explore Product
+v60Ka 2
+Explore Product
+v240MT
+Explore Product
+v240M
+Explore Product
+v240K
+Explore Product
+v240C
+Explore Product
+View all Products

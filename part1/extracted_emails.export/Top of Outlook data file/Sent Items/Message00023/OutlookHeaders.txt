@@ -1,0 +1,19 @@
+Message:
+Client submit time:			May 26, 2025 08:08:49.503222400 UTC
+Delivery time:				May 26, 2025 08:08:00.000000000 UTC
+Creation time:				May 26, 2025 08:08:47.514485500 UTC
+Modification time:			May 26, 2025 08:09:01.880206600 UTC
+Size:					93348
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			MSS Terminal Ownership
+Subject:				RE: MSS Terminal Ownership
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

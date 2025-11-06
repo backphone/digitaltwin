@@ -1,0 +1,73 @@
+Hi guys, 
+FYI, below is available for another 1 day. 
+There could be a licensing issue if you have already trialed Power BI before. Then you won’t have any trial available to Power BI Pro features and may see a blank page in that case.
+We can sort that out with IT team later. 
+BR
+Guanglin
+From:
+ SI, Guanglin 
+Sent:
+ Sunday, May 11, 2025 8:33 AM
+To:
+ TSOTRAS, Antonios <antonios.tsotras@marlink.com>; Team RCS MGMT <Team.RCS_MGMT@marlink.com>
+Subject:
+ SLA Dashboards
+ 
+Hi Team,
+Below are the two dashboards. Please keep an eye on them to monitor the report accuracy.
+TTO  
+Dashboard link
+TTU  
+Dashboard link
+All timestamps are in UTC.
+TTO:
+This updates at 12 AM every day, and consists of two parts:
+A table listing all RCS tickets that violated TTO in the past 24 hours
+Default TTO is 120 mins,  except 60 mins on CMA and 30 mins on Boskalis. 
+Hourly average TTO trend across the last 24 hours
+ 
+This dashboard only monitors tickets created by RCS.
+ 
+Data on 9
+th
+ May, captured yesterday:
+ 
+Note:
+Time reference is based on the email received timestamp (InDateTime)
+Timestamps are rounded down to the hour (e.g., 01:59 AM is grouped under 1 AM). This setting can be adjusted later if needed.
+Full ticket list can be found on 
+Detailed ticket table
+, for cross checking.
+ 
+ 
+TTU 
+This report captures TTU every 4 hrs, 6 times a day, and it only checks on “in progress” & unassigned RCS tickets.
+Column charts show the longest delay since 
+the last ticket action
+. 
+E.g., at 12 AM UTC 10
+th
+ May, ticket 1782530 had the longest delay, of 16.2 hrs
+Similarly, 4 hrs later, at 4 AM, out of all RCS tickets, ticket 1760491 had the longest delay, of 4.3 hrs 
+The 3 delayed tickets are displayed underneath the chart, for cross checking
+This dashboard is a collection of 6 induvial reports, each refreshing at different hours, as indicated by “Snapshothour”. 
+ E.g., the 3
+st
+ one, Snapshot 8 means that report updates at 8 AM daily. So, if I check that at 4AM here, then I’m still seeing yesterday’s data, so 0.9 was what we left with 
+yesterday
+. But if Rasto checks that at 10AM, then that report should have already updated, so it will show what they start with 
+today
+ 
+This is the same logic that Merits dashboard uses. E.g., at 12 AM, 1782530 was on the top of our dashboard:
+ 
+Limitations:  
+Due to some licensing constraints, TTU dashboard only records the data for last 24 hrs, and we can’t backtrace further or adjust the time frame easily. 
+It’s known that above logic may underestimate TTU, since it only checks the last action, not the last customer incoming email. I have made another dashboard based on ticket Changelog  
+Dashboard link
+, which calculates how long the ticket has been in “In Progress” status, but for now, I suggest use the one above for consistency , as it aligns with how Merits works
+ 
+@TSOTRAS, Antonios
+ Your teams are not yet included in these dashboards, as they are under a different Merits Resource ID. If helpful, I can add your team in, or you can refer to my Wednesday email and set up your own version. I’m sure you’ll enjoy that.
+Thanks.
+BR
+Guanglin

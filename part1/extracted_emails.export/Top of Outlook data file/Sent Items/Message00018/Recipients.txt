@@ -1,0 +1,48 @@
+Display name:		LEE, Kong-Weng
+Recipient display name:	LEE, Kong-Weng
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7f92d07bec3743e7a15642afeb49fff2-Lee Kong We
+Address type:		EX
+Recipient type:		To
+
+Display name:		IT Service Desk
+Recipient display name:	IT Service Desk
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5fd6ce1d9ee940a2bd7f5cb6c18fd6fd-IT Service
+Address type:		EX
+Recipient type:		To
+
+Display name:		ServiceDesk
+Recipient display name:	ServiceDesk
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Address type:		EX
+Recipient type:		To
+
+Display name:		VESTBY, Lars
+Recipient display name:	VESTBY, Lars
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Address type:		EX
+Recipient type:		To
+
+Display name:		SEAH, Ristina
+Recipient display name:	SEAH, Ristina
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5f79a601251e4ea8bf406770ef6c3f5d-Ristina Sea
+Address type:		EX
+Recipient type:		CC
+
+Display name:		CHIA, Jay
+Recipient display name:	CHIA, Jay
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=791805f846d045628a7ec3179cf12d3d-c198ab6d-11
+Address type:		EX
+Recipient type:		CC
+
+Display name:		REIMUTH, Michael
+Recipient display name:	REIMUTH, Michael
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=38bb85718f4545cbaef1f9426819443b-Michael Rei
+Address type:		EX
+Recipient type:		CC
+
+Display name:		LAMBERT, Arthur
+Recipient display name:	LAMBERT, Arthur
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ed53dd7637824d0b94c8f2c6627d75d0-Arthur Lamb
+Address type:		EX
+Recipient type:		BCC
+

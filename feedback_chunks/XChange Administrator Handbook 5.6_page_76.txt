@@ -1,0 +1,33 @@
+XChange Administrator Handbook 5. 6 © Marlink ● Page 76/204  
+4.7.6  VPN  
+The embedded VPN client supports connection to shore -based ‘Open VPN’ and ‘GRE VPN’ servers. The 
+VPN client can be enabled and set up for any communication channel and broadband terminal 
+individually.  
+This provides fully flexible configuration capabilities. It is possible to link the whole vessel data 
+communication to the onshore VPN server, or just one User group such as machines or corporate 
+traffic.  
+The VPN channel can be defined as one -way (XChange > shore) or two -way (XChange <> shore) 
+communication.  
+The two -way option provides remote access to on -board network clients linked to the VPN channel.  
+4.7.6.1  Create a VPN Connection  
+To create a VPN channel , follow the same process as for communication channel creation described 
+above, and select the VPN type of your choice.  
+4.7.6.2  Set Up Open VPN Connection  
+• Set the VPN type to ‘Open VPN’  
+• Set the direction ‘One -Way’ or ‘Both -Way’  
+• Set the endpoint IP address of the shore -based VPN server  
+o The server on shore should always have a public static IP address to be accessible  
+• Select a data compression mode  
+• Set the keep -alive period  in seconds (how long should the VPN remain on if no traffic passes)  
+• Set the Protocol (TCP vs UDP)  
+• Set the endpoint port  
+• Optionally allow authorisation of unsecured connections (Not recommended)  
+o Select the minimal authorised TLS version  
+• Select one cryptographic cipher  
+o Blowfish 128 bit  
+o AES 128 bit / AES 256 bit  
+o Triple DES 192 bit  
+o None  (Not recommended)  
+• Upload the certificate file  
+o The certificate file must be created by the VPN server in advance  
+• Click ‘SAVE’

@@ -1,0 +1,6 @@
+ 
+No request from vessel
+ 
+CCTS should go to contact KAM/customer directly, if needed, not ask RCS to do that
+ 
+ 

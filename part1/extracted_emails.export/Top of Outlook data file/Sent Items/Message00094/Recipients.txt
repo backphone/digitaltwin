@@ -1,0 +1,18 @@
+Display name:		Team RCS Singapore
+Recipient display name:	Team RCS Singapore
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=811357bd7bc947d9af3413345bc0376a-Team RCS Si
+Address type:		EX
+Recipient type:		To
+
+Display name:		SOH, Leslie
+Recipient display name:	SOH, Leslie
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=287f68f451314f26b7055cdbad81bf44-Leslie Soh
+Address type:		EX
+Recipient type:		To
+
+Display name:		TONG, Zax
+Recipient display name:	TONG, Zax
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d8dafa4843974518b531aaf2d2e54e6a-Jia Sing To
+Address type:		EX
+Recipient type:		To
+

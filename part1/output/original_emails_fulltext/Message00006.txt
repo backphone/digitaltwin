@@ -1,0 +1,40 @@
+Hi Paul,
+ 
+Thanks for the update.
+ 
+It’s a dashboard to monitor RCS team workload, and to be used by the RCS managers. It’s approved by 
+@VESTBY, Lars
+, and Erik Holtrin and Ken are also aware of our work.
+ 
+BR
+Guanglin
+ 
+From:
+ IT Service Desk <ITServiceDesk@marlink.com> 
+Sent:
+ Thursday, May 22, 2025 10:19 PM
+To:
+ SI, Guanglin <Guanglin.Si@marlink.com>
+Subject:
+ Ticket R-118105 (subject: FW: Access to Database) has been updated
+ 
+Dear Guanglin Si,
+ 
+Paul Van Eijk has updated your Ticket with the following message:
+Hi Guanglin,
+ 
+It seems that there are solutions to achieve this, but we need so more info.
+ 
+- Is this a personal app or an app to be used by a team
+- If for a team; who approved this project
+ 
+Based on this information we can see how we can help out and ask follow up questions.
+ 
+Greetings Paul
+ 
+You can follow the status of the ticket and communicate with the support team through 
+R-118105
+Best regards,
+IT servicedesk
+Telephone: +31 70 300 1897
+Available on working days between 08:00 until 17:00 (GMT+1)

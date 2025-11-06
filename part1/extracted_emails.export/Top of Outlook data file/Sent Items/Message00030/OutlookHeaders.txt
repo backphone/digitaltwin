@@ -1,0 +1,19 @@
+Message:
+Client submit time:			May 31, 2025 00:28:24.202864400 UTC
+Delivery time:				May 31, 2025 00:28:00.000000000 UTC
+Creation time:				May 31, 2025 00:28:23.704864500 UTC
+Modification time:			May 31, 2025 00:28:29.469702500 UTC
+Size:					14435
+Flags:					0x00000001 (Read)
+Conversation topic:			KT Sat
+Subject:				KT Sat
+Sender name:				SI, Guanglin
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Sent representing name:			SI, Guanglin
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=1433996C772D414CA7C8F9553A66DED3-C4BA675A-2F
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

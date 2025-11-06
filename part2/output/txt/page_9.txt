@@ -1,0 +1,59 @@
+OW11FM - Enterprise Flat Panel for Maritime | Intelliantech
+OW11FM
+Enterprise Flat Panel for Maritime
+The OW11FM is the ideal Flat Panel user terminal for the Cruise, Energy, Merchant and Ferry markets, delivering low-latency, high-speed connectivity and reliability for critical communications, crew welfare, safety, route planning, and entertainment.
+For more details please visit the
+Eutelsat OneWeb website
+OW11FM
+Key Features
+Specifications
+Downloads
+Where to Buy
+Key Features
+Optimized Performance
+Utilizing Intellian’s innovative antenna design, the OW11FM delivers the maximum throughput allowed on
+the OneWeb network. Offering the highest link margin, performance is guaranteed even over scan and at the
+lowest elevation angles, ensuring are met the highest demands of maritime and land mobile customers.
+Seamless Connectivity
+The OW11FM features Intellian’s advanced tracking technology, extended scan range, and blockage mitigation that improves connection reliability and availability even while in motion. Delivering the best performance
+at scan, the innovative flat panel technology facilitates smooth reliable handovers, which ensure seamless and undisrupted connectivity.
+Harsh Environment Performance
+The OW11HM is designed to ensure dependable performance in even the most demanding environments,
+operating in extremely low temperatures down to -40 °C and up to +55 °C (-40 °F to +131 °F).
+Simplified Installation
+Lightweight and sleek design with a single coaxial cable for both power and encrypted data, connects the UT to the CNX. Embedded differential dual GNSS antennas enable automated True North calibration and Tilt Error compensation.
+Customer Network Exchange
+Intellian’s Customer Network Exchange (CNX) units are a critical component of the user terminal installation, providing both the power and data connectivity to the Flat Panel, and the connectivity to customer equipment and networks. For Enterprise Flat Panels there are three CNX variants offered for specific deployments: CNX-WIFI, CNX-RACK and CNX-MOBILITY.
+Learn more here.
+Easily Deployable System
+The lightweight design and optimal form factor of the OW11FM enables easy installation by a single person.
+Paired with Intellian’s Maritime mount adapter kit, the UT is easily installed on pole, mast and pedestal mounts commonly used in the Maritime market. Installation is further simplified through use of combined power and data over a single coaxial cable connecting the below deck CNX units. The use of Intellian’s mobile app for site survey, automated configuration, and monitoring further reduces the time required to get online.
+Specifications
+Eutelsat OneWeb
+Dimension
+97 x 50 x 13 cm (38.2” x 19.7” x 5.1”)
+Weight
+20.5 kg (45.1 lb)
+Operating Temp
+-40 °C to +55 °C (-40 °F to +131 °F)
+EIRP (DUAL CARRIER)
++36.6 dBW
+INGRESS
+1P66
+G/T
+10.7 dB/k
+Eutelsat OneWeb
+Downloads
+OW11FM
+Datasheet
+Download Latest
+OW11FM
+Image library
+Download Latest
+CNX
+Datasheet
+Download Latest
+Where to Buy
+Find an Authorized Eutelsat OneWeb Seller
+Regardless of your company size or industry – our partners can help you buy, build, implement, service, support and run the Eutelsat OneWeb total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

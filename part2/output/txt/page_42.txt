@@ -1,0 +1,100 @@
+Intellian v150NX - NX Series - Maritime VSAT | Intelliantech
+v150NX
+The World’s First & Only 1.5M Ku- to Ka-band Convertible VSAT Antenna
+The v150NX is the world’s first and only Ku- to Ka-band convertible GEO/MEO/LEO-ready VSAT antenna system. This dual-band antenna can operate on Ku- and Ka- bands simply by switching the RF module, available as a conversion kit. The high performance radome is optimized for operation in both Ku- and Ka-band, supporting current and future satellite constellations.
+v150NX
+Key Features
+Compare Products
+Downloads
+Accessories
+Related Products
+Where to Buy
+Key Features
+Future Proof for GEO/MEO/LEO Satellite Tracking
+Cooperating with satellite operators, MEO/LEO satellite tracking has already been proven with systems operating commercially.
+High Power BUC Option
+Supports up to a 200W Ku-band BUC or a 100W wideband Ka- BUC without the need for extra weight balancing and additional conversion components
+Fiber Optic Connection
+Regardless of cable run length, provides minimal signal loss and higher throughput performance.
+Air-conditioner Base Frame as an Available Option
+Cooling or Heating or both functions combined.
+Cooling recommended on higher BUC power options to maintain optimum system health.
+GEO/MEO/LEO Tracking
+Hardware designed for to be compatible with GEO/MEO/LEO satellite tracking
+Fast and accurate tracking performance
+Mediator embedded in ACU for Satellite handover in a MEO or LEO network
+The Highest Throughput
+High performance with a universal pedestal design
+Supports up to 200W (Ku-band) and 100W (Ka-band) BUCs
+Expected throughputs can be 600+Mbps for Downlink & 300+Mbps for uplink
+Compare Products
+v150NX                                    v150NX Ka
+Radome Dimension
+190x197 cm (74.8”x77.6”)
+190x197 cm (74.8”x77.6”)
+Reflector Diameter
+150cm (59.0”)
+150cm (59.0”)
+Antenna Weight
+270 kg / 595 Ibs
+260 kg / 573 Ibs
+TX Frequency
+13.75 ~ 14.5 GHz Ku-band
+27.5 ~ 30.0 GHz Ka-band
+RX Frequency
+10.7 ~ 12.75 GHz Ku-band
+17.7 ~ 20.2 GHz Ka-band
+TX Gain
+45.0 dBi @ 14.25GHz
+50.3 dBi @29.0GHz
+RX Gain
+43.5 dBi @ 11.7GHz
+47.0 dBi @19.0GHz
+G/T
+22.5 dB/K
+23.5 dB/K
+Downloads
+v150NX
+Datasheet
+Download Latest
+v150NX Ka
+Datasheet
+Download Latest
+v150NX
+Image library
+Download Latest
+v150NX Ka
+Image library
+Download Latest
+Accessories
+Ka-band Upgrade Kit
+Ka-band conversion kits allow simple band conversion on NX series.
+Learn More
+FiberLink
+Fiber optic connection from antenna to below deck units eliminates any cable loss.
+Learn More
+Related Products
+View all Products
+v85NX
+Explore Product
+v100NX
+Explore Product
+v130NX
+Explore Product
+v45C
+Explore Product
+v60E
+Explore Product
+v60Ka 2
+Explore Product
+Iridium Certus C700
+Explore Product
+v240M 2
+Explore Product
+v240MT 2
+Explore Product
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

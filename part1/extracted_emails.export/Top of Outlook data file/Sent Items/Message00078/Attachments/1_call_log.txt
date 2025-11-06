@@ -1,0 +1,1305 @@
+Call log:
+---------------------------------------
+ID:               8413
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       15:29:57 26 Apr 2024
+Stop time:        15:36:54 26 Apr 2024
+Duration:         417
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8412
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       15:14:23 25 Apr 2024
+Stop time:        15:17:42 25 Apr 2024
+Duration:         199
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8411
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       19:05:43 24 Apr 2024
+Stop time:        19:06:42 24 Apr 2024
+Duration:         59
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8410
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +51933438165
+Our Number:       870773946745
+Start time:       15:56:15 19 Apr 2024
+Stop time:        15:57:09 19 Apr 2024
+Duration:         54
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8409
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       17:10:46 11 Apr 2024
+Stop time:        17:10:48 11 Apr 2024
+Duration:         2
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8408
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       16:58:14 11 Apr 2024
+Stop time:        16:58:15 11 Apr 2024
+Duration:         1
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8407
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       16:57:31 11 Apr 2024
+Stop time:        16:57:32 11 Apr 2024
+Duration:         1
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8406
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +14098429295
+Our Number:       870773946745
+Start time:       16:07:18 26 Mar 2024
+Stop time:        16:09:54 26 Mar 2024
+Duration:         156
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8405
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +19546501541
+Our Number:       870773946745
+Start time:       22:02:18 25 Mar 2024
+Stop time:        22:02:18 25 Mar 2024
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8404
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: 
+Our Number:       870773946745
+Start time:       21:38:13 1 Mar 2024
+Stop time:        21:44:16 1 Mar 2024
+Duration:         363
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8403
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 0019546501541
+Start time:       01:29:36 6 Feb 2024
+Stop time:        01:36:34 6 Feb 2024
+Duration:         418
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8402
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +19546501541
+Our Number:       870773946745
+Start time:       01:23:30 6 Feb 2024
+Stop time:        01:24:34 6 Feb 2024
+Duration:         64
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8401
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +51998147132
+Our Number:       870773946745
+Start time:       14:48:07 5 Jan 2024
+Stop time:        14:48:07 5 Jan 2024
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8400
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +51940119692
+Our Number:       870773946745
+Start time:       16:34:18 3 Jan 2024
+Stop time:        16:35:11 3 Jan 2024
+Duration:         53
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8399
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +870773808542
+Our Number:       870773946745
+Start time:       13:41:18 5 Dec 2023
+Stop time:        13:52:38 5 Dec 2023
+Duration:         680
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8398
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       14:50:03 13 Oct 2023
+Stop time:        14:50:03 13 Oct 2023
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8397
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +13614466036
+Our Number:       870773946745
+Start time:       03:52:15 11 Oct 2023
+Stop time:        03:53:08 11 Oct 2023
+Duration:         53
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8396
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       17:54:03 9 Oct 2023
+Stop time:        17:54:05 9 Oct 2023
+Duration:         2
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8395
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +51934183443
+Our Number:       870773946745
+Start time:       17:29:44 9 Oct 2023
+Stop time:        17:29:44 9 Oct 2023
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8394
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       17:29:35 9 Oct 2023
+Stop time:        17:29:35 9 Oct 2023
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8393
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       17:24:24 9 Oct 2023
+Stop time:        17:24:24 9 Oct 2023
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8392
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       17:23:25 9 Oct 2023
+Stop time:        17:23:25 9 Oct 2023
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8391
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       16:32:47 9 Oct 2023
+Stop time:        16:36:10 9 Oct 2023
+Duration:         203
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8390
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         86288
+Transmitted:      26877
+Start time:       16:39:24 30 Mar 2023
+Stop time:        16:41:25 30 Mar 2023
+Duration:         121
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8389
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         84
+Transmitted:      0
+Start time:       16:39:24 30 Mar 2023
+Stop time:        16:41:13 30 Mar 2023
+Duration:         109
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8388
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 0019546102942
+Start time:       18:10:27 21 Jan 2023
+Stop time:        18:21:43 21 Jan 2023
+Duration:         676
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8387
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +31108906657
+Our Number:       870773946745
+Start time:       18:06:04 21 Jan 2023
+Stop time:        18:06:06 21 Jan 2023
+Duration:         2
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8386
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 0019546102942
+Start time:       17:49:41 21 Jan 2023
+Stop time:        17:57:19 21 Jan 2023
+Duration:         458
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8385
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         181623
+Transmitted:      137652
+Start time:       01:46:27 22 Dec 2022
+Stop time:        02:05:40 22 Dec 2022
+Duration:         1153
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8384
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         80
+Transmitted:      0
+Start time:       01:46:40 22 Dec 2022
+Stop time:        02:05:29 22 Dec 2022
+Duration:         1129
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8383
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         162251
+Transmitted:      108214
+Start time:       19:30:33 21 Dec 2022
+Stop time:        20:05:26 21 Dec 2022
+Duration:         2093
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8382
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         244
+Transmitted:      0
+Start time:       19:29:48 21 Dec 2022
+Stop time:        20:05:14 21 Dec 2022
+Duration:         2126
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8381
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       19:29:50 21 Dec 2022
+Stop time:        19:30:27 21 Dec 2022
+Duration:         37
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8380
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         171450
+Transmitted:      113498
+Start time:       15:52:11 21 Dec 2022
+Stop time:        16:25:48 21 Dec 2022
+Duration:         2017
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8379
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         204
+Transmitted:      0
+Start time:       15:50:41 21 Dec 2022
+Stop time:        16:25:37 21 Dec 2022
+Duration:         2096
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8378
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      812
+Start time:       15:51:26 21 Dec 2022
+Stop time:        15:52:01 21 Dec 2022
+Duration:         35
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8377
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       15:50:43 21 Dec 2022
+Stop time:        15:51:21 21 Dec 2022
+Duration:         38
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8376
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         159706
+Transmitted:      112709
+Start time:       15:45:31 17 Dec 2022
+Stop time:        16:12:53 17 Dec 2022
+Duration:         1642
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8375
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         208
+Transmitted:      0
+Start time:       15:44:46 17 Dec 2022
+Stop time:        16:12:41 17 Dec 2022
+Duration:         1675
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8374
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       15:44:48 17 Dec 2022
+Stop time:        15:45:24 17 Dec 2022
+Duration:         36
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8373
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         143500
+Transmitted:      96220
+Start time:       15:24:05 16 Dec 2022
+Stop time:        15:53:51 16 Dec 2022
+Duration:         1786
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8372
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         164
+Transmitted:      0
+Start time:       15:24:05 16 Dec 2022
+Stop time:        15:53:40 16 Dec 2022
+Duration:         1775
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8371
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         159545
+Transmitted:      241545
+Start time:       17:13:09 13 Dec 2022
+Stop time:        17:25:37 13 Dec 2022
+Duration:         748
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8370
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         124
+Transmitted:      0
+Start time:       17:12:22 13 Dec 2022
+Stop time:        17:25:26 13 Dec 2022
+Duration:         784
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8369
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       17:12:26 13 Dec 2022
+Stop time:        17:13:04 13 Dec 2022
+Duration:         38
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8368
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         164042
+Transmitted:      107181
+Start time:       20:04:39 12 Dec 2022
+Stop time:        20:19:44 12 Dec 2022
+Duration:         905
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8367
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       20:03:55 12 Dec 2022
+Stop time:        20:19:33 12 Dec 2022
+Duration:         938
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8366
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       20:03:57 12 Dec 2022
+Stop time:        20:04:32 12 Dec 2022
+Duration:         35
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8365
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         185545
+Transmitted:      169489
+Start time:       23:00:49 10 Dec 2022
+Stop time:        23:16:44 10 Dec 2022
+Duration:         955
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8364
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         340
+Transmitted:      0
+Start time:       23:00:43 10 Dec 2022
+Stop time:        23:16:33 10 Dec 2022
+Duration:         950
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8363
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       23:00:06 10 Dec 2022
+Stop time:        23:00:45 10 Dec 2022
+Duration:         39
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8362
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       23:00:01 10 Dec 2022
+Stop time:        23:00:43 10 Dec 2022
+Duration:         42
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8361
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         93841
+Transmitted:      31106
+Start time:       11:10:16 10 Dec 2022
+Stop time:        11:18:18 10 Dec 2022
+Duration:         482
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8360
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         124
+Transmitted:      0
+Start time:       11:10:35 10 Dec 2022
+Stop time:        11:18:07 10 Dec 2022
+Duration:         452
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8359
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         2442924
+Transmitted:      1010280
+Start time:       20:57:09 28 Oct 2022
+Stop time:        03:53:22 29 Oct 2022
+Duration:         24973
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8358
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         5244
+Transmitted:      0
+Start time:       20:57:05 28 Oct 2022
+Stop time:        03:53:11 29 Oct 2022
+Duration:         24966
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8357
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         254039
+Transmitted:      117602
+Start time:       15:36:27 21 Oct 2022
+Stop time:        15:49:14 21 Oct 2022
+Duration:         767
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8356
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         204
+Transmitted:      0
+Start time:       15:36:53 21 Oct 2022
+Stop time:        15:49:03 21 Oct 2022
+Duration:         730
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8355
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         1449974
+Transmitted:      194258
+Start time:       13:23:48 21 Oct 2022
+Stop time:        13:31:51 21 Oct 2022
+Duration:         483
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8354
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       13:23:48 21 Oct 2022
+Stop time:        13:31:39 21 Oct 2022
+Duration:         471
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8353
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 00511988855194
+Start time:       16:32:00 15 Oct 2022
+Stop time:        16:32:00 15 Oct 2022
+Duration:         0
+Cause:            Normal, unspecified 
+---------------------------------------
+ID:               8352
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 00517075971
+Start time:       16:25:44 15 Oct 2022
+Stop time:        16:25:44 15 Oct 2022
+Duration:         0
+Cause:            Network failure, code 127
+---------------------------------------
+ID:               8351
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         1612659
+Transmitted:      3691083
+Start time:       21:57:34 18 Jul 2022
+Stop time:        04:27:48 19 Jul 2022
+Duration:         23414
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8350
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         4720
+Transmitted:      0
+Start time:       21:57:28 18 Jul 2022
+Stop time:        04:27:37 19 Jul 2022
+Duration:         23409
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8349
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         89133
+Transmitted:      33925
+Start time:       16:45:12 18 Jul 2022
+Stop time:        16:46:39 18 Jul 2022
+Duration:         87
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8348
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         40
+Transmitted:      0
+Start time:       16:45:56 18 Jul 2022
+Stop time:        16:46:34 18 Jul 2022
+Duration:         38
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8347
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       16:45:14 18 Jul 2022
+Stop time:        16:45:48 18 Jul 2022
+Duration:         34
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8346
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         120377
+Transmitted:      87472
+Start time:       16:18:20 18 Jul 2022
+Stop time:        16:23:57 18 Jul 2022
+Duration:         337
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8345
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       16:18:20 18 Jul 2022
+Stop time:        16:23:44 18 Jul 2022
+Duration:         324
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8344
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       01:26:28 26 Jun 2022
+Stop time:        01:29:25 26 Jun 2022
+Duration:         177
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8343
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         9120
+Transmitted:      15713
+Start time:       01:26:23 26 Jun 2022
+Stop time:        01:29:14 26 Jun 2022
+Duration:         171
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8342
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 00573012006149
+Start time:       19:28:04 24 Jun 2022
+Stop time:        19:28:04 24 Jun 2022
+Duration:         0
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8341
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 00441992805501
+Start time:       15:26:25 24 Jun 2022
+Stop time:        15:32:09 24 Jun 2022
+Duration:         344
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8340
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 004401992805501
+Start time:       15:25:46 24 Jun 2022
+Stop time:        15:25:46 24 Jun 2022
+Duration:         0
+Cause:            Network failure, code 127
+---------------------------------------
+ID:               8339
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 001992805501
+Start time:       15:25:15 24 Jun 2022
+Stop time:        15:25:15 24 Jun 2022
+Duration:         0
+Cause:            Unassigned number
+---------------------------------------
+ID:               8338
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 0019543938750
+Start time:       15:39:47 22 Jun 2022
+Stop time:        15:46:18 22 Jun 2022
+Duration:         391
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8337
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 00573012006149
+Start time:       15:07:57 22 Jun 2022
+Stop time:        15:20:15 22 Jun 2022
+Duration:         738
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8336
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         3303585
+Transmitted:      967256
+Start time:       22:25:40 21 Jun 2022
+Stop time:        02:32:05 22 Jun 2022
+Duration:         14785
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8335
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       22:25:50 21 Jun 2022
+Stop time:        02:31:51 22 Jun 2022
+Duration:         14761
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8334
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         12859
+Transmitted:      10628
+Start time:       22:06:38 21 Jun 2022
+Stop time:        22:08:45 21 Jun 2022
+Duration:         127
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8333
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       22:07:02 21 Jun 2022
+Stop time:        22:08:34 21 Jun 2022
+Duration:         92
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8332
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       22:06:20 21 Jun 2022
+Stop time:        22:06:54 21 Jun 2022
+Duration:         34
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8331
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       22:06:19 21 Jun 2022
+Stop time:        22:06:26 21 Jun 2022
+Duration:         7
+Cause:            User authentication failed
+---------------------------------------
+ID:               8330
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         853464
+Transmitted:      4551320
+Start time:       20:15:19 21 Jun 2022
+Stop time:        21:40:39 21 Jun 2022
+Duration:         5120
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8329
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       20:16:02 21 Jun 2022
+Stop time:        21:40:28 21 Jun 2022
+Duration:         5066
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8328
+Direction:        Incoming
+Type:             CS VOICE
+Priority:         2
+Call type:        Speech
+Connected number: +19546102942
+Our Number:       870773946745
+Start time:       20:38:22 21 Jun 2022
+Stop time:        20:40:57 21 Jun 2022
+Duration:         155
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8327
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 0019546102942
+Start time:       20:28:37 21 Jun 2022
+Stop time:        20:32:13 21 Jun 2022
+Duration:         216
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8326
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       20:15:20 21 Jun 2022
+Stop time:        20:15:54 21 Jun 2022
+Duration:         34
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8325
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         3517836
+Transmitted:      1817014
+Start time:       18:07:46 21 Jun 2022
+Stop time:        20:14:11 21 Jun 2022
+Duration:         7585
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8324
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       18:07:51 21 Jun 2022
+Stop time:        20:14:00 21 Jun 2022
+Duration:         7569
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8323
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 00870773808541
+Start time:       18:57:10 21 Jun 2022
+Stop time:        18:57:10 21 Jun 2022
+Duration:         0
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8322
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 0019544227248
+Start time:       18:55:43 21 Jun 2022
+Stop time:        18:55:46 21 Jun 2022
+Duration:         3
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8321
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 00870773808541
+Start time:       18:41:01 21 Jun 2022
+Stop time:        18:41:01 21 Jun 2022
+Duration:         0
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8320
+Direction:        Outgoing
+Type:             CS VOICE
+Priority:         0
+Call type:        Speech
+Connected number: 0019544227248
+Start time:       18:38:40 21 Jun 2022
+Stop time:        18:38:48 21 Jun 2022
+Duration:         8
+Cause:            Normal call clearing
+---------------------------------------
+ID:               8319
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         8461654
+Transmitted:      4040130
+Start time:       13:00:06 21 Jun 2022
+Stop time:        17:14:48 21 Jun 2022
+Duration:         15282
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8318
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       13:00:50 21 Jun 2022
+Stop time:        17:14:37 21 Jun 2022
+Duration:         15227
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8317
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       13:00:08 21 Jun 2022
+Stop time:        13:00:41 21 Jun 2022
+Duration:         33
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8316
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         227370
+Transmitted:      434636
+Start time:       01:59:37 21 Jun 2022
+Stop time:        02:56:07 21 Jun 2022
+Duration:         3390
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8315
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       02:00:21 21 Jun 2022
+Stop time:        02:55:56 21 Jun 2022
+Duration:         3335
+Cause:            Normal deactivation
+---------------------------------------
+ID:               8314
+Direction:        Outgoing
+Type:             PS DATA
+APN:              vizada.bgan.inmarsat.com
+TrafficClass:     Background
+bitRateUp:        1024
+bitRateDown:      1024
+Received:         0
+Transmitted:      0
+Start time:       01:59:39 21 Jun 2022
+Stop time:        02:00:12 21 Jun 2022
+Duration:         33
+Cause:            Normal deactivation

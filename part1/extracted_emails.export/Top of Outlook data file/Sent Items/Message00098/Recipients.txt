@@ -1,0 +1,24 @@
+Display name:		NISHIHARA, Takashi
+Recipient display name:	NISHIHARA, Takashi
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fe073bc3f0414f819837b6025ba96f40-Nishihara T
+Address type:		EX
+Recipient type:		To
+
+Display name:		VISSER, Wilko
+Recipient display name:	VISSER, Wilko
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=aba7e059f0c64292aebeb2a9dbc3fcba-Wilko Visse
+Address type:		EX
+Recipient type:		To
+
+Display name:		VESTBY, Lars
+Recipient display name:	VESTBY, Lars
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Address type:		EX
+Recipient type:		CC
+
+Display name:		KONDOH, Ikuko
+Recipient display name:	KONDOH, Ikuko
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4d06d35dcfc94a1c846ae7b62c31dded-Ikuko Kondo
+Address type:		EX
+Recipient type:		CC
+

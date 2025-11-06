@@ -1,0 +1,3 @@
+a. press windows Start button on the desktop (lower left corner)
+b. type "cmd" in the search bar, and click on cmd.exe in the search result. A new black window shall pop up
+c. type command "ipconfig /all", then press Enter. Wait for it to complete, and take a screenshot

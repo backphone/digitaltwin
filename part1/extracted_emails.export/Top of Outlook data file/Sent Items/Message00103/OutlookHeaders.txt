@@ -1,0 +1,19 @@
+Message:
+Client submit time:			Jun 23, 2025 01:55:10.318588000 UTC
+Delivery time:				Jun 23, 2025 01:55:00.000000000 UTC
+Creation time:				Jun 23, 2025 01:55:09.170994000 UTC
+Modification time:			Jun 23, 2025 01:55:31.759274400 UTC
+Size:					91356
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			I2506-3848
+Subject:				I2506-3848
+Sender name:				ServiceDesk
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Sent representing name:			ServiceDesk
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

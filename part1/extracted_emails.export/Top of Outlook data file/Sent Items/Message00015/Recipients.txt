@@ -1,0 +1,6 @@
+Display name:		VELAZQUEZ, Juan
+Recipient display name:	VELAZQUEZ, Juan
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6d4bcfad2b6047028bc1bb84a5113403-Juan Velazq
+Address type:		EX
+Recipient type:		To
+

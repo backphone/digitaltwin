@@ -1,0 +1,45 @@
+Hi Pierre,
+ 
+Can you please resend the email? I just came back from leave, and the reset link has expired.
+ 
+Thanks.
+BR
+Guanglin
+From:
+ GEREAUME, Pierre <
+Pierre.GEREAUME@marlink.com
+> 
+Sent:
+ Monday, May 12, 2025 3:04 PM
+To:
+ STRMME, Espen Alexander <
+EspenAlexander.Stromme@marlink.com
+>; VESTBY, Lars <
+Lars.Vestby@marlink.com
+>; ORF, Frank <
+Frank.Orf@marlink.com
+>; FERRERO, Pierre <
+Pierre.FERRERO@marlink.com
+>
+Cc:
+ FEDOG, Julian <
+Julian.Fedog@marlink.com
+>; SCHINDLER, Adrian <
+ADRIAN.SCHINDLER@marlink.com
+>; HAUGERUD, Eirik <
+Eirik.Haugerud@marlink.com
+>
+Subject:
+ Re: RCS- Read only Forti Analyzer and Forti Manager access
+ 
+Dear RCS team, users shall receive the reset password email shortly (please see attached guide for account confirmation).
+ 
+Please let me know if any issue with the accounts, 
+ 
+ 
+ 
+Best regards,
+ 
+Pierre GEREAUME
+Marlink - SecOps Team Leader
+www.marlink.com

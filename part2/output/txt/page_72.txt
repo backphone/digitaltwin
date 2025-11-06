@@ -1,0 +1,88 @@
+Intellian FleetBroadband FB250 Terminal | Intelliantech
+FB250
+FB250 Inmarsat FleetBroadband maritime terminal
+Intellian FB250 is a maritime terminal designed for Inmarsat’s
+L-band network ELERA
+, which enables simultaneous voice and data connectivity up to 284 Kbps. It has been engineered as the perfect companion to the Intellian
+GX100NX
+and
+GX60NX
+Global Xpress terminals
+, which together deliver
+Fleet Xpress
+.
+FB250
+Key Features
+Specifications
+Downloads
+Related Products
+Where to Buy
+Key Features
+Simultaneous voice and data
+Various applications such as e-mails, SMS and calls are available by supporting simultaneous voice and data. FB250 also supports 505 emergency calling.
+Easy to install and simple configuration
+Simple and quick installation via AptusLX, an intuitive web-based platform to manage and control the antenna system. The FB250 comes with a three year global warranty.
+Complete FX solution
+Fleet Xpress combines the high data speeds of Global Xpress (Ka-band) with the proven reliability of FleetBroadband (L-band network ELERA) to offer unrivalled speed, continuous connectivity, and guaranteed performance for true global mobility. The FB250 combined with Intellian’s GX100NX or GX60NX is the ideal FX solution.
+All-in-one solution
+The FB250 offers a variety of features such as analog voice lines, a built-in firewall for data security, four LAN ports with PoE, a 3G/LTE WAN port to connect an external cellular modem, and soft PABX. These technical capabilities and GMDSS readiness of the FB250, makes it ideal for vessel operations, safety and crew welfare services.
+Keep connected with global coverage
+Connects to the I-4 fleet of Inmarsat’s L-band satellites for near global coverage
+Will also connect to the new I-6 Inmarsat satellites once available
+High-quality access to internet/intranets and email, with simultaneous voice and data
+Reliable backup out of band management solution for VSAT systems
+FB250 can be used as a Fleet Xpress solution when combined with an
+Intellian GX system
+Compact and reliable terminal design
+Compact FleetBroadband maritime terminal offering increased connectivity speeds
+Small and light weight terminal
+Built-in Inmarsat BRM module
+Efficient two axis helix terminal
+Unlimited azimuth range
+Single cable installation
+Ethernet over coax
+Specifications
+Inmarsat FleetBroadband Terminals
+Radome Dimension
+29.11 x 29.45 cm (11.5 x 11.6 inch)
+Reflector Diameter
+NA
+Terminal Weight
+4.9 kg / 10.8 lb
+TX Frequency
+1626.5 MHz ~ 1675.0 MHz
+RX Frequency
+1518.0 MHz ~ 1559.0 MHz
+TX Gain
+NA
+RX Gain
+NA
+G/T
+> -15.5 dB/K
+Inmarsat FleetBroadband Terminals
+Downloads
+FB250
+Datasheet
+Download Latest
+FB250
+Image library
+Download Latest
+Related Products
+View all Products
+FB500
+Explore Product
+Fleet One
+Explore Product
+GX60NX
+Explore Product
+GX100NX
+Explore Product
+View all Products
+We’re here to help
+Need satellite communications for your vessel?
+Our knowledgeable team can help you find the best connectivity solution for your business.
+Find Out More
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

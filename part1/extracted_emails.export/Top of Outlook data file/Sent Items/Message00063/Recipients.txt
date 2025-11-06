@@ -1,0 +1,18 @@
+Display name:		bevan.dcosta@intergulfmarine.com
+Recipient display name:	bevan.dcosta@intergulfmarine.com
+Email address:		bevan.dcosta@intergulfmarine.com
+Address type:		SMTP
+Recipient type:		To
+
+Display name:		rajesh.nair@intergulfmarine.com
+Recipient display name:	rajesh.nair@intergulfmarine.com
+Email address:		rajesh.nair@intergulfmarine.com
+Address type:		SMTP
+Recipient type:		CC
+
+Display name:		ServiceDesk
+Recipient display name:	ServiceDesk
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aa9cb6ffb9f4f9e89e3a10d536719a7-ServiceDesk
+Address type:		EX
+Recipient type:		CC
+

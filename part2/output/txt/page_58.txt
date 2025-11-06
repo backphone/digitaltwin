@@ -1,0 +1,136 @@
+Intellian v240M  - Maritime VSAT | Intelliantech
+v240M 2
+2.4m Dual-band Multi-orbit VSAT Antenna System
+The v240M 2 is the world’s first Dual-band and  Multi-orbit  antenna system that enables communication services on two different frequency bands with the capability to track Geostationary Earth Orbit (GEO) or Medium Earth Orbit (MEO) satellites.
+v240M 2
+Key Features
+Product Video
+Compare Products
+Downloads
+Accessories
+Related Products
+Where to Buy
+Key Features
+Automatic Frequency Band Switching
+It allows automatic switching between C- and Ku-band without user intervention and enables the operator to select the optimum solution for the geographic location.
+Best In-Class RF Performance
+The upgraded design assures consistent RF performance on C- and Ku-bands to enable high -speed, high-quality connectivity for high-bandwidth demanding users.
+Future Proof Design
+Ka-band upgrade kit will allow the addition of Ka-band communication including future NGSO networks and MEO operation can be enabled using the Intelligent Mediator.
+High Power BUC Support
+Various BUC options can be selected up to 400W in both C- and Ku-bands to allow user customization.
+Product Video
+Learn More About 2.4M Multi-Orbit Multi-Band Satellite Communication Solutions
+A quick video highlighting key features and strengths.
+Watch the Video
+Automatic Frequency Band Switching
+Automatic switching between C- and Ku-band without user intervention
+C-band circular and linear switchable feed
+Ku-band cross- and co-pol switchable feed
+Best In-Class RF Performance
+Consistent RF performance on both C and Ku-bands
+Enables high-speed, high-quality connectivity for users demanding the highest bandwidth
+High-power BUC options up to 400W in both C- and Ku-bands
+Compare Products
+Category
+v240M 2 C-band
+v240M 2 Ku-band
+v240M 2 C-band
+v240M 2 Ku-band
+v240M 2 C-band
+v240M 2 Ku-band
+Radome Dimension (HxD)
+431x391 cm (169.5x154.0 inch)
+431x391 cm (169.5x154.0 inch)
+431x391 cm (169.5x154.0 inch)
+431x391 cm (169.5x154.0 inch)
+431x391 cm (169.5x154.0 inch)
+431x391 cm (169.5x154.0 inch)
+Reflector Diameter
+240 cm (94.5 inch)
+240 cm (94.5 inch)
+240 cm (94.5 inch)
+240 cm (94.5 inch)
+240 cm (94.5 inch)
+240 cm (94.5 inch)
+Antenna Weight
+1,133 kg/ 2,498 lbs
+1,133 kg/ 2,498 lbs
+1,133 kg/ 2,498 lbs
+1,133 kg/ 2,498 lbs
+1,133 kg/ 2,498 lbs
+1,133 kg/ 2,498 lbs
+TX Frequency
+5.85~6.425 GHz
+13.75 GHz ~ 14.5 GHz
+5.85~6.425 GHz
+13.75 GHz ~ 14.5 GHz
+5.85~6.425 GHz
+13.75 GHz ~ 14.5 GHz
+RX Frequency
+3.625~4.2 GHz
+10.7 GHz ~ 12.75 GHz
+3.625~4.2 GHz
+10.7 GHz ~ 12.75 GHz
+3.625~4.2 GHz
+10.7 GHz ~ 12.75 GHz
+TX Gain
+42.0 dBi @ 6.14 GHz (excl. radome)
+48.6 dBi @ 14.25 GHz (excl. radome)
+42.0 dBi @ 6.14 GHz (excl. radome)
+48.6 dBi @ 14.25 GHz (excl. radome)
+42.0 dBi @ 6.14 GHz (excl. radome)
+48.6 dBi @ 14.25 GHz (excl. radome)
+RX Gain
+38.4 dBi @ 3.91 GHz (excl. radome)
+47.7 dBi @ 11.85 GHz (excl. radome)
+38.4 dBi @ 3.91 GHz (excl. radome)
+47.7 dBi @ 11.85 GHz (excl. radome)
+38.4 dBi @ 3.91 GHz (excl. radome)
+47.7 dBi @ 11.85 GHz (excl. radome)
+G/T
+19.0 dB/K @ 3.91 GHz (Incl. radome)
+28.0 dB/K @ 12.75 GHz (Incl. radome)
+19.0 dB/K @ 3.91 GHz (Incl. radome)
+28.0 dB/K @ 12.75 GHz (Incl. radome)
+19.0 dB/K @ 3.91 GHz (Incl. radome)
+28.0 dB/K @ 12.75 GHz (Incl. radome)
+Downloads
+v240M 2
+Datasheet
+Download Latest
+v240M 2
+Image library
+Download Latest
+Accessories
+FiberLink
+Fiber optic connection from antenna to below deck units eliminates any cable loss.
+Learn More
+Intelligent Mediator
+The Intelligent Mediator works with up to three v240 antennas and 4 modems to provide seamless switching between orbits and modems.
+Learn More
+Dual VSAT Mediator
+The dual VSAT mediator switches between two VSAT systems, avoiding signal loss due to blockage. The NX-series incorporates this function internally.
+Learn More
+Modem Mediator
+The Modem mediator enables automatic switching between different modems as part of an integrated communication system.
+Learn More
+Related Products
+View all Products
+v240MT 2
+Explore Product
+v240C
+Explore Product
+v240K
+Explore Product
+v150NX
+Explore Product
+t240CK
+Explore Product
+Mediators
+Explorer Mediators
+View all Products
+Where to Buy
+Find an Authorized Intellian Reseller
+Regardless of your vessel size, company size or industry – our partners can help you buy, build, implement, service, support and run the Intellian total solution that best fits your unique needs. Find a trusted professional to work with today.
+Where to Buy

@@ -1,0 +1,18 @@
+Display name:		HOLTRIN, Erik
+Recipient display name:	HOLTRIN, Erik
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4c48192bbfd34effa4d015edc669fe4d-Erik Holtri
+Address type:		EX
+Recipient type:		To
+
+Display name:		HORVATH, Michal
+Recipient display name:	HORVATH, Michal
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a0ba6f16c5af4c8b92c203015daf092c-Michal Horv
+Address type:		EX
+Recipient type:		To
+
+Display name:		VESTBY, Lars
+Recipient display name:	VESTBY, Lars
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Address type:		EX
+Recipient type:		CC
+

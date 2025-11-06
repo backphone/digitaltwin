@@ -1,0 +1,17 @@
+Thank you for your feedback. Please make sure that all coaxial cables connected to the iDirect modem and Intellian antenna control unit are not damaged and connected properly. Trace the black thin flexible cables connected to the antenna control unit until thick black cables, which go up to the antenna dome. Kindly check this connection as well.
+ 
+When cables have been inspected:
+1.     turn off the iDirect modem, on the antenna control unit press the M button to enter the setup mode and leave antenna control unit powered on.
+2.     Go up to the antenna dome and open the hatch door, located the TEST switch on the Main Control Unit, move it to the TEST position.
+3.     Move the antenna with hands in elevation to approximately 45° and carefully release. Antenna is stabilized and should hold the position. Report back whether antenna can or cannot hold the position.
+4.     Please repeat the last step several times, with random elevation angle.
+5.     Check the stability in cross-level axis. Tilt the cross-bar from horizontal position and check, if antenna can hold the position.
+6.     Check the condition and tension of belt, which drives the antenna in elevation, located on the right side panel.
+7.     Check the condition and tension of belt, which drives the antenna in cross-level. Belt is located in the center, where main pedestal and horizontal cross-bar meets.
+8.     Lastly, observe the antenna movement during initializing. Move the TEST switch back to Normal position and restart the antenna with power switch (right from the hatch door).
+a.     Sensor Box (on the right side panel, the box with bubble/spirit level) will drive backwards, find level and lift antenna up to 45 degrees in elevation.
+b.    Antenna will tilt over in cross level, then move back and stabilize the cross-bar.
+c.     Antenna starts moving in azimuth until it reaches a sensor (little green box at the base of the antenna) and stops when pointing towards the bow (or parallel with the bow/aft line, if the antenna is installed on starboard or port side).
+d.    Please report back anything unusual during the initialization.
+9.     Close the hatch door and turn on the iDirect modem.
+ 

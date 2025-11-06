@@ -1,0 +1,11 @@
+Hi guys,
+ 
+We have seen a few duplicate tickets, please check if there is any existing ticket, before creating a new one.
+ 
+Especially for “
+Traffic Monitor Notification Action Certus xxxx  has fired” on MSS or VSAT/starlink outage notification, 
+very often, there is already an incident ticket opened for those.
+ 
+BR
+Guanglin
+ 

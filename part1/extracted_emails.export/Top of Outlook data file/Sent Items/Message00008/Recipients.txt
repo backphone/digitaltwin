@@ -1,0 +1,24 @@
+Display name:		VELAZQUEZ, Juan
+Recipient display name:	VELAZQUEZ, Juan
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6d4bcfad2b6047028bc1bb84a5113403-Juan Velazq
+Address type:		EX
+Recipient type:		To
+
+Display name:		BAVOLAR, Rastislav
+Recipient display name:	BAVOLAR, Rastislav
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=512ee73833024f26a0c82e3f6573b098-Rastislav B
+Address type:		EX
+Recipient type:		To
+
+Display name:		ABDALLA, Moutaz
+Recipient display name:	ABDALLA, Moutaz
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b232499e3c34445292621d7a1029a6be-b4a48720-55
+Address type:		EX
+Recipient type:		To
+
+Display name:		VESTBY, Lars
+Recipient display name:	VESTBY, Lars
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6986f1c98e8640bca8f033f0f7101b34-1365a051-3e
+Address type:		EX
+Recipient type:		CC
+

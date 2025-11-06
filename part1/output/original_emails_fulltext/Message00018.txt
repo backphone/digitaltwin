@@ -1,0 +1,91 @@
+Hi Kong Weng,
+ 
+It’s been escalated to ITSD team for an update. 
+ 
+BR
+Guanglin
+ 
+From:
+ LEE, Kong-Weng <Kong-Weng.Lee@marlink.com> 
+Sent:
+ Monday, May 26, 2025 10:50 AM
+To:
+ IT Service Desk <ITServiceDesk@marlink.com>; ServiceDesk <ServiceDesk@marlink.com>; SI, Guanglin <Guanglin.Si@marlink.com>; VESTBY, Lars <Lars.Vestby@marlink.com>
+Cc:
+ SEAH, Ristina <ristina.seah@marlink.com>; CHIA, Jay <Jay.Chia@marlink.com>; REIMUTH, Michael <Michael.Reimuth@marlink.com>
+Subject:
+ RE: Ticket R-119182 (subject: Marlink Ticket [1760872] - SC Serenity - Sealink Service ref:SC Serenity - XChange Report) has been updated
+ 
+Dear support,
+What is ETR?
+ 
+@SI, Guanglin
+ 
+@VESTBY, Lars
+, this is another example of SLA down the drain.
+ 
+Thanks.
+-----------------------------------------------------
+Lee Kong 
+Weng, Ph.D.
+Service Manager Team Leader 
+M +65 96580793
+T +65 63207322 (Office)
+F +65 65322024
+E  
+kong-weng.lee@marlink.com
+16, Collyer Quay #34-01, Singapore 049318
+www.marlink.com
+ 
+ 
+ 
+ 
+Digitally advancing your remote world by creating Possibilities. Anywhere.
+ 
+This message and any attachments are confidential to the company and intended solely for the individual(s) or entity to which it is addressed. If you are not the intended recipient, do not read, copy or distribute the email or any attachments. Please notify the sender immediately by return e-mail.
+ 
+To contact the Marlink 24/7 Support 
+Phone: +33 1 70 48 53 16 (EMEA), +1 310 616 55 62 (US), +1 844 208 0718 (US toll free), +65 63 13 15 55 (Asia) 
+Email: 
+servicedesk@marlink.com
+ 
+ 
+ 
+ 
+From:
+ IT Service Desk <
+ITServiceDesk@marlink.com
+> 
+Sent:
+ Tuesday, 20 May 2025 3:36 pm
+To:
+ ServiceDesk <
+ServiceDesk@marlink.com
+>
+Cc:
+ LEE, Kong-Weng <
+Kong-Weng.Lee@marlink.com
+>; SEAH, Ristina <
+ristina.seah@marlink.com
+>
+Subject:
+ Ticket R-119182 (subject: Marlink Ticket [1760872] - SC Serenity - Sealink Service ref:SC Serenity - XChange Report) has been updated
+ 
+Dear Marlink Service Desk,
+Ticket R-119182 has been updated.
+Message from Juraj Pesta,
+: "
+Good day,
+ 
+dev team doesn't have an ETR yet unfortunately
+ 
+we have escalated this issue with them
+ 
+Best regards.
+ 
+"
+You can follow the status of the ticket and communicate with the support team through 
+R-119182
+Best regards,
+Marlink Business Application Support
+Available on working days between 08:00 until 17:00 (GMT+1)
