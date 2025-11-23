@@ -1,40 +1,70 @@
+import os
+from pathlib import Path
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
-import os
+from PyPDF2 import PdfReader
 
-# 文档目录和嵌入模型
-DOC_DIR = "/home/ubuntu/ai_env/documents/AI_Training_Material/test"
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L3-v2")
+# ========== CONFIG ==========
+DOC_DIR = "/home/ubuntu/ai_env/documents/AI_Training_Material"
+embedding_model = "sentence-transformers/paraphrase-MiniLM-L3-v2"
+# ============================
 
-# 读取所有txt文件内容（遇到乱码自动跳过）
-docs = []
+embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
+
+def load_txt(path: Path):
+    try:
+        return path.read_text(encoding="utf-8", errors="ignore")
+    except:
+        return ""
+
+def load_pdf(path: Path):
+    text = ""
+    try:
+        reader = PdfReader(str(path))
+        for page in reader.pages:
+            text += page.extract_text() or ""
+    except Exception as e:
+        print(f"⚠️ PDF 解析失败: {path} — {e}")
+    return text
+
+def chunk_text(text, size=800, overlap=100):
+    chunks = []
+    for i in range(0, len(text), size - overlap):
+        part = text[i:i+size]
+        if part.strip():
+            chunks.append(part)
+    return chunks
+
+
+all_chunks = []
+file_count = 0
+
 for root, _, files in os.walk(DOC_DIR):
-    for file in files:
-        if file.endswith(".txt"):
-            path = os.path.join(root, file)
-            try:
-                with open(path, encoding="utf-8", errors="ignore") as f:
-                    content = f.read()
-                    docs.append(content)
-            except Exception as e:
-                print(f"⚠️ 跳过文件 {path}: {e}")
+    for name in files:
+        path = Path(root) / name
+        suffix = path.suffix.lower()
 
-print(f"📄 加载文本文件数量: {len(docs)}")
+        file_count += 1
 
-# 简单分块处理
-chunks = []
-chunk_size = 800
-overlap = 100
-for doc in docs:
-    for start in range(0, len(doc), chunk_size - overlap):
-        end = min(start + chunk_size, len(doc))
-        chunk = doc[start:end]
-        if chunk.strip():
-            chunks.append(chunk)
+        if suffix == ".txt":
+            text = load_txt(path)
+        elif suffix == ".pdf":
+            print(f"📄 正在处理 PDF: {path}")
+            text = load_pdf(path)
+        else:
+            continue
 
-print(f"🔹 总分块数: {len(chunks)}")
+        if not text.strip():
+            continue
 
-# 构建并保存向量索引（LangChain格式）
-vectorstore = FAISS.from_texts(chunks, embeddings)
+        chunks = chunk_text(text)
+        all_chunks.extend(chunks)
+
+print(f"📚 文档数量: {file_count}")
+print(f"🧩 总分块数: {len(all_chunks)}")
+
+# Build FAISS index
+vectorstore = FAISS.from_texts(all_chunks, embeddings)
 vectorstore.save_local("/home/ubuntu/ai_env/faiss_index")
-print("✅ 用 LangChain 方式重新保存索引！")
+
+print("✅ FAISS 索引创建完成！")
