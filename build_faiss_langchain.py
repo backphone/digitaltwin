@@ -226,7 +226,7 @@ def incremental_update():
             total_new_chunks += len(ids)
             print(f"➕ 已更新文件: {path} | 分块数: {len(ids)}")
 
-    vectorstore.save_local(str(INDEX_DIR))
+    vectorstore.save_local(INDEX_DIR)
     save_metadata(existing_metadata)
 
     print(f"🧩 新增分块总数: {total_new_chunks}")
