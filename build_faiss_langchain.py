@@ -1,22 +1,20 @@
 import json
 import os
-from pathlib import Path
 from typing import Dict, List
 
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from PyPDF2 import PdfReader
 
+from pathlib import Path
+
 # ========== CONFIG ==========
 embedding_model = "sentence-transformers/paraphrase-MiniLM-L3-v2"
 
-# Allow overriding paths via environment variables to ease merging with
-# configurations that differ across deployments.
-DOC_DIR = Path(
-    os.environ.get("DOC_DIR", "/home/ubuntu/ai_env/documents/AI_Training_Material")
-)
-INDEX_DIR = Path(os.environ.get("FAISS_INDEX_DIR", "faiss_index"))
-METADATA_PATH = Path(os.environ.get("INDEXED_DOCS_PATH", "indexed_docs.json"))
+# Keep absolute paths unchanged to match existing runtime expectations.
+DOC_DIR = "/home/ubuntu/ai_env/documents/AI_Training_Material"
+INDEX_DIR = "/home/ubuntu/ai_env/faiss_index"
+METADATA_PATH = "/home/ubuntu/ai_env/indexed_docs.json"
 # ============================
 
 
@@ -48,16 +46,18 @@ def chunk_text(text: str, size: int = 800, overlap: int = 100) -> List[str]:
 
 
 def load_metadata() -> Dict[str, Dict]:
-    if METADATA_PATH.exists():
+    if os.path.exists(METADATA_PATH):
         try:
-            return json.loads(METADATA_PATH.read_text())
+            with open(METADATA_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
         except Exception as exc:
             print(f"⚠️ 无法读取元数据文件，执行全量重建: {exc}")
     return {}
 
 
 def save_metadata(metadata: Dict[str, Dict]):
-    METADATA_PATH.write_text(json.dumps(metadata, ensure_ascii=False, indent=2))
+    with open(METADATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=2)
 
 
 def collect_documents() -> Dict[str, Dict[str, float]]:
@@ -74,10 +74,10 @@ def collect_documents() -> Dict[str, Dict[str, float]]:
 
 
 def load_vectorstore():
-    if INDEX_DIR.exists():
+    if os.path.exists(INDEX_DIR):
         try:
             embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
-            return FAISS.load_local(str(INDEX_DIR), embeddings, allow_dangerous_deserialization=True)
+            return FAISS.load_local(INDEX_DIR, embeddings, allow_dangerous_deserialization=True)
         except Exception as exc:
             print(f"⚠️ 无法加载现有索引，执行全量重建: {exc}")
     return None
@@ -144,7 +144,7 @@ def rebuild_full_index():
         save_metadata({})
         return
 
-    vectorstore.save_local(str(INDEX_DIR))
+    vectorstore.save_local(INDEX_DIR)
     save_metadata(metadata)
 
     print(f"📚 文档数量: {len(documents)}")
@@ -156,7 +156,7 @@ def incremental_update():
     existing_metadata = load_metadata()
     current_docs = collect_documents()
 
-    if not existing_metadata or not INDEX_DIR.exists():
+    if not existing_metadata or not os.path.exists(INDEX_DIR):
         rebuild_full_index()
         return
 
