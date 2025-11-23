@@ -14,12 +14,17 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-
 #vectorstore = result[0]
 
 #vectorstore, *_ = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
-vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
+try:
+    vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
+except Exception as exc:
+    vectorstore = None
+    print(f"❌ Failed to load FAISS index: {exc}")
 
 # ✅ Initialize OpenAI client
 api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
     raise RuntimeError("OPENAI_API_KEY not set. Export it before running the app.")
+client = OpenAI(api_key=api_key)
 
 # ✅ Feedback log paths
 FEEDBACK_FILE = "logs/feedback.json"
@@ -76,6 +81,12 @@ def ask():
 
     if len(prompt) < 2:
         return jsonify({"response": "Please send a non-empty 'prompt' (or 'query'/'question')."}), 200
+
+    if vectorstore is None:
+        return jsonify({
+            "response": "Vector index not loaded. Run build_faiss_langchain.py before querying.",
+            "status": "error"
+        }), 503
 
     print("\n===== User Query =====")
     print(prompt)
