@@ -1,31 +1,33 @@
+# --- Project directories to ignore ---
 logs/
 faiss_index/
+
+# --- Training documents (converted files) ---
+documents/AI_Training_Material/*.txt
+documents/AI_Training_Material/*.pdf
+
+# --- Python cache ---
 __pycache__/
 *.pyc
+
+# --- LangChain / FAISS artifacts ---
 *.pkl
+*.faiss
+
+# --- misc files ---
 *.log
 *.zip
 *.msg
+*.backup
+*.metadata
+*.key
+
+# --- Virtual environments ---
 bin/
 include/
 lib/
 .venv/
-*.key
-.venv/
-__pycache__/
+venv/
+
+# --- Environment variables ---
 .env
-*.key
-*.backup
-Invoke-RestMethod
--Body
--Method
--Headers
-*.backup
-.venv/
-__pycache__/
-.env
-*.key
-Invoke-RestMethod
--Body
--Method
--Headers
