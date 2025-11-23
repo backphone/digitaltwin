@@ -8,10 +8,15 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from PyPDF2 import PdfReader
 
 # ========== CONFIG ==========
-DOC_DIR = Path("/home/ubuntu/ai_env/documents/AI_Training_Material")
-INDEX_DIR = Path("faiss_index")
-METADATA_PATH = Path("indexed_docs.json")
 embedding_model = "sentence-transformers/paraphrase-MiniLM-L3-v2"
+
+# Allow overriding paths via environment variables to ease merging with
+# configurations that differ across deployments.
+DOC_DIR = Path(
+    os.environ.get("DOC_DIR", "/home/ubuntu/ai_env/documents/AI_Training_Material")
+)
+INDEX_DIR = Path(os.environ.get("FAISS_INDEX_DIR", "faiss_index"))
+METADATA_PATH = Path(os.environ.get("INDEXED_DOCS_PATH", "indexed_docs.json"))
 # ============================
 
 
