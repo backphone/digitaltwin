@@ -1,4 +1,4 @@
-\import json
+import json
 import os
 from typing import Dict, List
 
@@ -83,11 +83,7 @@ def load_vectorstore():
     return None
 
 
-<<<<<<< HEAD
-def add_document_chunks(vectorstore: FAISS, path: str) -> List[str]:
-=======
 def load_document_chunks(path: str) -> List[str]:
->>>>>>> 148bfdc (Handle empty document sets in full FAISS rebuild)
     file_path = Path(path)
     suffix = file_path.suffix.lower()
     if suffix == ".txt":
@@ -100,12 +96,6 @@ def load_document_chunks(path: str) -> List[str]:
 
     if not text.strip():
         return []
-
-<<<<<<< HEAD
-    chunks = chunk_text(text)
-=======
-    return chunk_text(text)
-
 
 def load_document_chunks(path: str) -> List[str]:
     file_path = Path(path)
@@ -232,3 +222,5 @@ def incremental_update():
     print(f"🧩 新增分块总数: {total_new_chunks}")
     print("✅ 增量更新完成！")
 
+if __name__ == "__main__":
+    incremental_update()
