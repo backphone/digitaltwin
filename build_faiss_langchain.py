@@ -1,17 +1,20 @@
-import json
+\import json
 import os
-from pathlib import Path
 from typing import Dict, List
 
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from PyPDF2 import PdfReader
 
+from pathlib import Path
+
 # ========== CONFIG ==========
-DOC_DIR = Path("/home/ubuntu/ai_env/documents/AI_Training_Material")
-INDEX_DIR = Path("faiss_index")
-METADATA_PATH = Path("indexed_docs.json")
 embedding_model = "sentence-transformers/paraphrase-MiniLM-L3-v2"
+
+# Keep absolute paths unchanged to match existing runtime expectations.
+DOC_DIR = "/home/ubuntu/ai_env/documents/AI_Training_Material"
+INDEX_DIR = "/home/ubuntu/ai_env/faiss_index"
+METADATA_PATH = "/home/ubuntu/ai_env/indexed_docs.json"
 # ============================
 
 
@@ -43,16 +46,18 @@ def chunk_text(text: str, size: int = 800, overlap: int = 100) -> List[str]:
 
 
 def load_metadata() -> Dict[str, Dict]:
-    if METADATA_PATH.exists():
+    if os.path.exists(METADATA_PATH):
         try:
-            return json.loads(METADATA_PATH.read_text())
+            with open(METADATA_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
         except Exception as exc:
             print(f"⚠️ 无法读取元数据文件，执行全量重建: {exc}")
     return {}
 
 
 def save_metadata(metadata: Dict[str, Dict]):
-    METADATA_PATH.write_text(json.dumps(metadata, ensure_ascii=False, indent=2))
+    with open(METADATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=2)
 
 
 def collect_documents() -> Dict[str, Dict[str, float]]:
@@ -69,16 +74,20 @@ def collect_documents() -> Dict[str, Dict[str, float]]:
 
 
 def load_vectorstore():
-    if INDEX_DIR.exists():
+    if os.path.exists(INDEX_DIR):
         try:
             embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
-            return FAISS.load_local(str(INDEX_DIR), embeddings, allow_dangerous_deserialization=True)
+            return FAISS.load_local(INDEX_DIR, embeddings, allow_dangerous_deserialization=True)
         except Exception as exc:
             print(f"⚠️ 无法加载现有索引，执行全量重建: {exc}")
     return None
 
 
+<<<<<<< HEAD
 def add_document_chunks(vectorstore: FAISS, path: str) -> List[str]:
+=======
+def load_document_chunks(path: str) -> List[str]:
+>>>>>>> 148bfdc (Handle empty document sets in full FAISS rebuild)
     file_path = Path(path)
     suffix = file_path.suffix.lower()
     if suffix == ".txt":
@@ -92,7 +101,31 @@ def add_document_chunks(vectorstore: FAISS, path: str) -> List[str]:
     if not text.strip():
         return []
 
+<<<<<<< HEAD
     chunks = chunk_text(text)
+=======
+    return chunk_text(text)
+
+
+def load_document_chunks(path: str) -> List[str]:
+    file_path = Path(path)
+    suffix = file_path.suffix.lower()
+    if suffix == ".txt":
+        text = load_txt(file_path)
+    elif suffix == ".pdf":
+        print(f"📄 正在处理 PDF: {file_path}")
+        text = load_pdf(file_path)
+    else:
+        return []
+
+    if not text.strip():
+        return []
+
+    return chunk_text(text)
+
+
+def add_document_chunks(vectorstore: FAISS, path: str) -> List[str]:
+    chunks = load_document_chunks(path)
     if not chunks:
         return []
 
@@ -101,19 +134,41 @@ def add_document_chunks(vectorstore: FAISS, path: str) -> List[str]:
 
 def rebuild_full_index():
     print("🔄 未找到旧索引，开始全量构建…")
-    embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
-    vectorstore = FAISS.from_texts([], embeddings)
-    metadata: Dict[str, Dict] = {}
-
     documents = collect_documents()
+
+    if not documents:
+        print("ℹ️ 未找到可索引的文档，跳过索引构建。")
+        save_metadata({})
+        return
+
+    embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
+    vectorstore = None
+    metadata: Dict[str, Dict] = {}
     all_chunks = 0
+
     for path, meta in documents.items():
-        ids = add_document_chunks(vectorstore, path)
+        chunks = load_document_chunks(path)
+        if not chunks:
+            continue
+
+        if vectorstore is None:
+            vectorstore = FAISS.from_texts(
+                chunks, embeddings, metadatas=[{"source": path}] * len(chunks)
+            )
+            ids = [vectorstore.index_to_docstore_id[i] for i in range(len(chunks))]
+        else:
+            ids = vectorstore.add_texts(chunks, metadatas=[{"source": path}] * len(chunks))
+
         if ids:
             metadata[path] = {"mtime": meta["mtime"], "size": meta["size"], "vector_ids": ids}
             all_chunks += len(ids)
 
-    vectorstore.save_local(str(INDEX_DIR))
+    if vectorstore is None:
+        print("ℹ️ 所有文档均为空，跳过索引构建。")
+        save_metadata({})
+        return
+
+    vectorstore.save_local(INDEX_DIR)
     save_metadata(metadata)
 
     print(f"📚 文档数量: {len(documents)}")
@@ -125,7 +180,7 @@ def incremental_update():
     existing_metadata = load_metadata()
     current_docs = collect_documents()
 
-    if not existing_metadata or not INDEX_DIR.exists():
+    if not existing_metadata or not os.path.exists(INDEX_DIR):
         rebuild_full_index()
         return
 
@@ -171,14 +226,9 @@ def incremental_update():
             total_new_chunks += len(ids)
             print(f"➕ 已更新文件: {path} | 分块数: {len(ids)}")
 
-    vectorstore.save_local(str(INDEX_DIR))
+    vectorstore.save_local(INDEX_DIR)
     save_metadata(existing_metadata)
 
-    print(f"📚 当前文档数: {len(current_docs)}")
-    print(f"🧩 新增/更新分块数: {total_new_chunks}")
-    print(f"🗑️ 删除文件数: {len(removed_files)}")
+    print(f"🧩 新增分块总数: {total_new_chunks}")
     print("✅ 增量更新完成！")
 
-
-if __name__ == "__main__":
-    incremental_update()
