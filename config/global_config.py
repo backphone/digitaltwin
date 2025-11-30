@@ -6,29 +6,32 @@ from typing import Optional
 
 
 def _load_env_file(env_path: Optional[Path] = None) -> None:
-    """Load environment variables from a .env file if present.
+    """Load environment variables from a .env file, overriding existing values.
 
-    Values already present in ``os.environ`` are not overridden. This keeps the
-    execution environment in control while still allowing local development to
-    supply secrets via a ``.env`` file at the repository root.
+    This version ensures .env always takes priority, which is often preferred
+    during development or when running the application manually on servers.
     """
 
-    path = env_path
-    if path is None:
-        path = Path(__file__).resolve().parent.parent / ".env"
+    if env_path is None:
+        # Load .env located at project root (parent of /config/)
+        env_path = Path(__file__).resolve().parent.parent / ".env"
 
-    if not path.exists():
+    if not env_path.exists():
         return
 
-    for line in path.read_text().splitlines():
+    for line in env_path.read_text().splitlines():
         stripped = line.strip()
+
+        # Skip blank lines & comments
         if not stripped or stripped.startswith("#") or "=" not in stripped:
             continue
 
         key, value = stripped.split("=", 1)
         key = key.strip()
         value = value.strip()
-        os.environ.setdefault(key, value)
+
+        # OVERRIDE any existing environment variable
+        os.environ[key] = value
 
 
 def _require_env(name: str) -> str:
@@ -37,13 +40,14 @@ def _require_env(name: str) -> str:
     value = os.getenv(name)
     if not value:
         raise RuntimeError(
-            f"{name} not set. Define it in the environment or in a .env file at the repository root."
+            f"{name} is not set. Define it in a .env file at the repository root "
+            f"or in the execution environment."
         )
     return value
 
 
 def get_openai_api_key() -> str:
-    """Return the OpenAI API key from environment or .env."""
+    """Return the OpenAI API key from .env or environment variables."""
 
     _load_env_file()
     return _require_env("OPENAI_API_KEY")
