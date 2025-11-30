@@ -1,13 +1,20 @@
 import os
+import sys
+from pathlib import Path
 from PyPDF2 import PdfReader
 import openai
 import json
 
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.append(str(ROOT_DIR))
+
+from config.global_config import get_openai_api_key
+
 # ========== 基本参数 ==========
 FOLDER = os.path.expanduser("~/ai_env/documents/AI_Training_Material/convert_to_jsonl")
 OUTPUT = "qa_knowledge.jsonl"
-OPENAI_API_KEY = "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"   # 换成你自己的 KEY
-openai.api_key = OPENAI_API_KEY
+openai.api_key = get_openai_api_key()
 
 CHUNK_PAGE_SIZE = 2   # 每几页为一块生成一个 Q&A
 CHUNK_CHAR_SIZE = 1800  # TXT 文件每多少字符一块

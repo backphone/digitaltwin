@@ -1,16 +1,23 @@
 import openai
 import pickle
 import json
+import sys
 import time
+from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
 
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.append(str(ROOT_DIR))
+
+from config.global_config import get_openai_api_key
+
 # ========== 配置 ==========
-OPENAI_API_KEY = "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"  # 你的OpenAI key
 DOC_EMBEDDING_FILE = "doc_embeddings.pkl"  # 步骤1生成的文档embedding
 FAQ_FILE = "faq.txt"                      # 你的FAQ文本，每行一个问题
 OUTPUT = "qa_knowledge_faq.jsonl"             # 输出jsonl
 
-openai.api_key = OPENAI_API_KEY
+openai.api_key = get_openai_api_key()
 
 # ========== 载入文档embedding ==========
 with open(DOC_EMBEDDING_FILE, "rb") as f:
