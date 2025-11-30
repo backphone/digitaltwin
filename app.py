@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from openai import OpenAI
+from config.global_config import get_openai_api_key
 import os
 import json
 import PyPDF2
@@ -21,10 +22,7 @@ except Exception as exc:
     print(f"❌ Failed to load FAISS index: {exc}")
 
 # ✅ Initialize OpenAI client
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    raise RuntimeError("OPENAI_API_KEY not set. Export it before running the app.")
-client = OpenAI(api_key=api_key)
+client = OpenAI(api_key=get_openai_api_key())
 
 # ✅ Feedback log paths
 FEEDBACK_FILE = "logs/feedback.json"
